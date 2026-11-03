@@ -19,18 +19,22 @@ function paletteFor(seed: string): [string, string] {
   return PALETTES[h % PALETTES.length];
 }
 
-export function TextCover({ item, tall = false }: { item: HnItem; tall?: boolean }) {
+// 小红书式文字笔记封面：渐变底 + 中文点评做正文，不重复标题
+export function TextCover({ item }: { item: HnItem }) {
   const [from, to] = paletteFor(item.title);
+  const text = item.note?.trim() ? item.note : item.title;
   return (
     <div
-      className={`flex w-full flex-col justify-between p-3 ${tall ? "aspect-[4/5]" : "aspect-[3/4]"}`}
-      style={{ background: `linear-gradient(150deg, ${from}, ${to})` }}
+      className="flex aspect-[3/4] w-full flex-col p-3.5"
+      style={{ background: `linear-gradient(160deg, ${from}, ${to})` }}
     >
-      <span className="text-[10px] font-bold tracking-widest text-white/80">HACKER NEWS</span>
-      <span className="line-clamp-5 text-[15px] font-bold leading-snug text-white drop-shadow-sm">
-        {item.title}
+      <span className="self-start rounded-full bg-white/25 px-2 py-0.5 text-[10px] font-medium text-white">
+        文字笔记
       </span>
-      <span className="text-[10px] text-white/70">HN 红书 · 每日早报</span>
+      <p className="mt-3 line-clamp-[9] text-[15px] font-bold leading-relaxed text-white drop-shadow-sm">
+        {text}
+      </p>
+      <span className="mt-auto text-[10px] text-white/70">HN红书 · 每日早报</span>
     </div>
   );
 }
@@ -45,7 +49,7 @@ export default function Cover({ item }: { item: HnItem }) {
       alt={item.title}
       loading="lazy"
       onError={() => setFailed(true)}
-      className="w-full object-cover"
+      className="aspect-[3/4] w-full object-cover"
     />
   );
 }
