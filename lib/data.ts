@@ -46,7 +46,8 @@ export function getLatestDay(): DayData | undefined {
 }
 
 export function formatDateCN(date: string): string {
-  const d = new Date(date + "T00:00:00+08:00");
+  const [y, m, d] = date.split("-").map(Number);
   const weekdays = ["周日", "周一", "周二", "周三", "周四", "周五", "周六"];
-  return `${d.getMonth() + 1}月${d.getDate()}日 ${weekdays[d.getDay()]}`;
+  const weekday = weekdays[new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
+  return `${m}月${d}日 ${weekday}`;
 }
