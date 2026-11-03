@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-20",
+  "mood": "AI 模型更新小年——MiniMax M3.1 被吐槽跑分造假，DeepSeek v4.1 Flash 仍是人心所向；OpenBSD 和编程文化讨论两边都热。",
+  "items": [
+    {
+      "id": "1",
+      "title": "Timestral: Mistral's time-series foundation models",
+      "url": "https://mistral.ai/news/timestral/",
+      "hnUrl": "https://hn.algolia.com/?q=Timestral%3A%20Mistral's%20time-series%20foundation%20models",
+      "score": 537,
+      "comments": 101,
+      "by": "groar",
+      "note": "Mistral 出时间序列基础模型，评论区在争\"一个模型吃 1 万条序列\"到底靠不靠谱。",
+      "cover": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp"
+    },
+    {
+      "id": "2",
+      "title": "Wine ported to OpenBSD",
+      "url": "https://marc.info/?l=openbsd-ports&m=179236125692175",
+      "hnUrl": "https://hn.algolia.com/?q=Wine%20ported%20to%20OpenBSD",
+      "score": 489,
+      "comments": 163,
+      "by": "iamnothere",
+      "note": "Wine 移植到 OpenBSD，评论区已贴出巫师 3、死亡搁浅的实机视频。",
+      "cover": null
+    },
+    {
+      "id": "3",
+      "title": "It's still ok to enjoy programming",
+      "url": "https://chriskiehl.com/article/it-is-still-ok-to-enjoy-programming",
+      "hnUrl": "https://hn.algolia.com/?q=It's%20still%20ok%20to%20enjoy%20programming",
+      "score": 425,
+      "comments": 403,
+      "by": "goostavos",
+      "note": "AI 时代编程乐趣还成立吗？403 条评论，HN 史上最扎心的身份认同大讨论。",
+      "cover": null
+    },
+    {
+      "id": "4",
+      "title": "MiniMax M3.1 Flash",
+      "url": "https://www.minimax.io/blog/minimax-m31f",
+      "hnUrl": "https://hn.algolia.com/?q=MiniMax%20M3.1%20Flash",
+      "score": 370,
+      "comments": 161,
+      "by": "jtg",
+      "note": "国产生态位新贵，但评论区直指 benchmaxed，实测体验不如 DeepSeek Flash。",
+      "cover": "https://file.cdn.minimax.io/public/bc2536f3-7fc2-4037-93e3-256ab44c0599.jpg?x-oss-process=image/format,webp"
+    },
+    {
+      "id": "5",
+      "title": "I built a drone with only one motor [video]",
+      "url": "https://www.youtube.com/watch?v=Ndftcft6XhU",
+      "hnUrl": "https://hn.algolia.com/?q=I%20built%20a%20drone%20with%20only%20one%20motor%20%5Bvideo%5D",
+      "score": 368,
+      "comments": 77,
+      "by": "hakonjdjohnsen",
+      "note": "只用一个电机造无人机，欠驱动机器人的极限操作，值得看完整个视频。",
+      "cover": null
+    },
+    {
+      "id": "6",
+      "title": "Starcraft: Ashfall",
+      "url": "https://starcraft-shooter-2026.pages.dev/",
+      "hnUrl": "https://hn.algolia.com/?q=Starcraft%3A%20Ashfall",
+      "score": 297,
+      "comments": 102,
+      "by": "debo_",
+      "note": "粉丝自制星际 mini 游戏，\"广告里永远玩不到的那款\"成真了，作者亲自来回帖。",
+      "cover": "https://starcraft-shooter-2026.pages.dev/share-card.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Android apps running native on macOS",
+      "url": "https://github.com/kksimp/Mac.apk",
+      "hnUrl": "https://hn.algolia.com/?q=Android%20apps%20running%20native%20on%20macOS",
+      "score": 249,
+      "comments": 127,
+      "by": "flocked",
+      "note": "Apple Silicon Mac 原生跑安卓应用，无需虚拟机；评论区警告 Google Play Services 是大坑。",
+      "cover": "https://opengraph.githubassets.com/7b9ff1a82b62d36eaf335138e103dd270a2efe26728ad49c4d64c1e31de74ba4/kksimp/Mac.apk"
+    },
+    {
+      "id": "8",
+      "title": "Putting Linux on my RTX Spark laptop because I don't have a Microsoft account",
+      "url": "https://josie.lol/blog/linux-rtx-spark",
+      "hnUrl": "https://hn.algolia.com/?q=Putting%20Linux%20on%20my%20RTX%20Spark%20laptop%20because%20I%20don't%20have%20a%20Microsoft%20account",
+      "score": 168,
+      "comments": 73,
+      "by": "pfeifferj",
+      "note": "为了不用微软账号，给 6000 美元的 RTX Spark 笔记本装 Linux，评论区骂起微软登录体验。",
+      "cover": "https://josie.lol/screenshot.png?v=20261019"
+    },
+    {
+      "id": "9",
+      "title": "RuneScape Bench: MMOs for Agents [video]",
+      "url": "https://www.youtube.com/watch?v=cNm4zyUtWj0",
+      "hnUrl": "https://hn.algolia.com/?q=RuneScape%20Bench%3A%20MMOs%20for%20Agents%20%5Bvideo%5D",
+      "score": 146,
+      "comments": 59,
+      "by": "evakhoury",
+      "note": "拿 RuneScape 当 agent 基准测试，开放世界小游戏集合其实是绝佳的训练环境。",
+      "cover": null
+    },
+    {
+      "id": "10",
+      "title": "The fire retardant in the seafood chain",
+      "url": "https://insideclimatenews.org/news/14102026/ethoxyquin-fire-retardant-in-seafood-chain/",
+      "hnUrl": "https://hn.algolia.com/?q=The%20fire%20retardant%20in%20the%20seafood%20chain",
+      "score": 103,
+      "comments": 34,
+      "by": "gumby",
+      "note": "海鲜链里的阻燃剂 ethoxyquin，食品安全调查报道，评论区聊到亚麻籽油自燃。",
+      "cover": "https://insideclimatenews.org/wp-content/uploads/2026/10/fire-story-still-fire-rotterdam-tug-fights-fire-on-ss-south-america-jpg-w.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Ukraine claims first drone evacuation of wounded soldier",
+      "url": "https://www.nbcnews.com/world/ukraine/ukraine-first-drone-evacuation-wounded-soldier-frontlines-hexacopter-rcna604310",
+      "hnUrl": "https://hn.algolia.com/?q=Ukraine%20claims%20first%20drone%20evacuation%20of%20wounded%20soldier",
+      "score": 89,
+      "comments": 77,
+      "by": "yzydserd",
+      "note": "乌克兰称首次用无人机后送伤员，战场后勤的无人化又进一步。",
+      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261019-drone-rs-bd64e5.jpg"
+    },
+    {
+      "id": "12",
+      "title": "OpenBSD 8.0 release will have inteldrm/radeondrm/amdgpu drivers from Linux 6.18",
+      "url": "https://bsd.network/@brynet/117407035545900963",
+      "hnUrl": "https://hn.algolia.com/?q=OpenBSD%208.0%20release%20will%20have%20inteldrm%2Fradeondrm%2Famdgpu%20drivers%20from%20Linux%206.18",
+      "score": 74,
+      "comments": 10,
+      "by": "doener",
+      "note": "OpenBSD 8.0 跟进 Linux 6.18 显卡驱动，作者提醒 8.0 不是\"大版本\"只是半年迭代。",
+      "cover": "https://media.bsd.network/accounts/avatars/000/001/413/original/d113a02fb84e4f5a.jpg"
+    },
+    {
+      "id": "13",
+      "title": "One Hash Bloom Filters",
+      "url": "https://calabro.io/ohbf",
+      "hnUrl": "https://hn.algolia.com/?q=One%20Hash%20Bloom%20Filters",
+      "score": 42,
+      "comments": 2,
+      "by": "jcalabro",
+      "note": "一次哈希的布隆过滤器优化，省计算但费空间，小众但硬核的数据结构话题。 ##",
+      "cover": null
+    }
+  ],
+  "highlights": [
+    {
+      "text": "同时有 Claude 100 美元订阅和 DeepSeek 账号，结果发现自己一直在用 DS-flash——速度快到\"compile 摸鱼\"的空档都没了，思路不断。点评：快，是一种被低估的竞争力。",
+      "from": "MiniMax ",
+      "by": "TheArcane"
+    },
+    {
+      "text": "所有模型发布文案长得都一样，图表也几乎一样，\"除非我能独立复现，否则一律不信\"。点评：benchmaxed 时代的健康怀疑。",
+      "from": "MiniMax ",
+      "by": "Perenti"
+    },
+    {
+      "text": "冰箱本来很可靠，偏要 IoT 化，于是创造了问题还不报警——\"美味地讽刺，腐烂地悲哀\"。点评：IoT 安全的终极讽刺诗。",
+      "from": "法国超市冰柜",
+      "by": "gz5"
+    },
+    {
+      "text": "看完很想动手做机器人——\"这就是黑客精神\"。点评：HN 难得的纯粹正能量。",
+      "from": "单电机无人机",
+      "by": "nadermx"
+    }
+  ]
+}

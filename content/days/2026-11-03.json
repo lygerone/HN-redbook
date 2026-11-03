@@ -1,0 +1,193 @@
+{
+  "date": "2026-11-03",
+  "mood": "Astra 权重空间编程断层登顶，Ubuntu 迟迟不修 0day 引发众怒，陶哲轩连发两篇谈 AI 时代的数学。",
+  "items": [
+    {
+      "id": "50341174",
+      "title": "Astra can read and write weights to improve Qwen",
+      "url": "https://rikiyat.github.io/blog/weight-space-programming/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341174",
+      "score": 1840,
+      "comments": 577,
+      "note": "Astra 不用任何工具就能直接读写模型权重：能判断小网络学了什么游戏，能给小 Qwen 动手术把数学能力提升约 5 倍——权重空间编程来了。",
+      "cover": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
+      "by": "dbreunig"
+    },
+    {
+      "id": "50337608",
+      "title": "WTF Ubuntu?",
+      "url": "https://chalmovsky.com/posts/wtf-ubuntu",
+      "hnUrl": "https://news.ycombinator.com/item?id=50337608",
+      "score": 1294,
+      "comments": 579,
+      "note": "Ubuntu 对 Linux 0day 的处理引发众怒：CVE 定级只给「高」不给「严重」，补丁还躺在 proposed 仓库里不进正式更新。",
+      "cover": null,
+      "by": "chalmovsky"
+    },
+    {
+      "id": "50340088",
+      "title": "Show HN: Subvocal – Talk to your computer without making noise",
+      "url": "https://news.ycombinator.com/item?id=50340088",
+      "hnUrl": "https://news.ycombinator.com/item?id=50340088",
+      "score": 523,
+      "comments": 288,
+      "note": "不用出声就能跟电脑说话的设备，评论区：眼镜腿能不能别砍掉金属可调鼻托，大鼻子用户有话要说。",
+      "cover": null,
+      "by": "aarushyadav"
+    },
+    {
+      "id": "50336518",
+      "title": "If you love a website, back it up",
+      "url": "https://blog.mistys-internet.website/post/2026/10/29/if-you-love-a-website-back-it-up/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50336518",
+      "score": 383,
+      "comments": 93,
+      "note": "喜欢一个网站就把它备份下来——书签正在慢慢腐烂，Wayback Machine 也不是什么都爬得到。",
+      "cover": null,
+      "by": "ingve"
+    },
+    {
+      "id": "50341462",
+      "title": "Ubuntu still has not released patch for Linux 0day RCE in almost 3 weeks",
+      "url": "https://freenode.net/article/ubuntu-lts-kernels-still-unfixed-for-critical-cve-2026-98432",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341462",
+      "score": 302,
+      "comments": 69,
+      "note": "近三周了 Ubuntu 还没给 Linux 0day RCE 发补丁，评论区：以前默认装 Ubuntu，现在要重新考虑了。",
+      "cover": "https://freenode.net/media/og-default.png",
+      "by": "majorchord"
+    },
+    {
+      "id": "50339397",
+      "title": "US boy names that became girl names and vice versa",
+      "url": "https://namedaisy.com/blog/boy-names-that-became-girl-names",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339397",
+      "score": 276,
+      "comments": 296,
+      "note": "男女名字互换史：42 个名字向女性化移动，其中 34 个主要是因为女孩用得多了，而不是男孩用得少了。",
+      "cover": null,
+      "by": "xoobdev"
+    },
+    {
+      "id": "50339221",
+      "title": "Show HN: Warsaw in voxels – An interactive 3D map of the city centre",
+      "url": "https://p.migdal.pl/warsaw-vibe-voxel/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339221",
+      "score": 206,
+      "comments": 35,
+      "note": "华沙市中心的体素 3D 互动地图，评论区：布拉格也有个同款 GTA2 视角项目。",
+      "cover": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5",
+      "by": "stared"
+    },
+    {
+      "id": "50338728",
+      "title": "Ask HN: Who is hiring? (November 2026)",
+      "url": "https://news.ycombinator.com/item?id=50338728",
+      "hnUrl": "https://news.ycombinator.com/item?id=50338728",
+      "score": 168,
+      "comments": 138,
+      "note": "11 月招聘帖，找工作的直接翻评论区。",
+      "cover": null,
+      "by": "whoishiring"
+    },
+    {
+      "id": "50344919",
+      "title": "The SEC Should Block Anthropic's IPO to Protect the Public",
+      "url": "https://www.techpolicy.press/the-sec-should-block-anthropics-ipo-to-protect-the-public/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50344919",
+      "score": 143,
+      "comments": 85,
+      "note": "有人呼吁 SEC 阻止 Anthropic 上市，评论区反驳：SEC 的职责是保证信息披露，不是给政客发 IPO 否决权。",
+      "cover": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
+      "by": "cdrnsf"
+    },
+    {
+      "id": "50339913",
+      "title": "Launch HN: Momentic (YC W24) – Agents that catch bugs by using your app",
+      "url": "https://momentic.ai/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339913",
+      "score": 118,
+      "comments": 75,
+      "note": "让 agent 真正用你的 App 来抓 bug，评论区拷问：这和我直接拿 Opus 5.5 接 Playwright 有什么区别。",
+      "cover": "https://momentic.ai/images/og/home.png",
+      "by": "wuweiweiwu"
+    },
+    {
+      "id": "50341736",
+      "title": "Egoless Mathematics in the AI Era",
+      "url": "https://terrytao.wordpress.com/2026/11/02/egoless-mathematics-in-the-ai-era/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341736",
+      "score": 102,
+      "comments": 78,
+      "note": "陶哲轩再谈 AI 时代的数学：人还重要吗？评论区：这篇文章像在说「人并不重要，只有真理重要」。",
+      "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793660160",
+      "by": "smileyamp"
+    },
+    {
+      "id": "50341028",
+      "title": "Sneaking into the auditorium for the Windows 2000 launch rehearsal",
+      "url": "https://devblogs.microsoft.com/oldnewthing/20261102-00/?p=112818/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50341028",
+      "score": 98,
+      "comments": 31,
+      "note": "混进 Windows 2000 发布彩排现场的回忆，评论区怀旧：红外传文件、多人贪吃蛇的诺基亚时代。",
+      "cover": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2025/10/banner-oldnewthing-blue.webp",
+      "by": "ibobev"
+    },
+    {
+      "id": "50340619",
+      "title": "Self-Employed? Solopreneur? NIST Has a Cybersecurity Guide Just for You",
+      "url": "https://www.nist.gov/news-events/news/2026/11/self-employed-solopreneur-nist-has-cybersecurity-guide-just-you",
+      "hnUrl": "https://news.ycombinator.com/item?id=50340619",
+      "score": 74,
+      "comments": 21,
+      "note": "NIST 给个体户和单人创业者的网络安全指南，评论区：术语还是太多了，「SI」这种词就不该出现在给外行看的东西里。",
+      "cover": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG",
+      "by": "tomrod"
+    },
+    {
+      "id": "50344158",
+      "title": "The Ford Privacy Promise: You're in Control of Your Data",
+      "url": "https://www.fromtheroad.ford.com/us/en/articles/2026/introducing-the-ford-privacy-promise",
+      "hnUrl": "https://news.ycombinator.com/item?id=50344158",
+      "score": 27,
+      "comments": 27,
+      "note": "福特的隐私承诺：数据共享默认是 opt-out 而不是 opt-in，评论区：先下载 App 再说，这承诺的诚意值得怀疑。",
+      "cover": null,
+      "by": "KoftaBob"
+    },
+    {
+      "id": "50330834",
+      "title": "Why are car keys so expensive to replace?",
+      "url": "https://thehustle.co/originals/why-are-car-keys-so-expensive-to-replace",
+      "hnUrl": "https://news.ycombinator.com/item?id=50330834",
+      "score": 9,
+      "comments": 12,
+      "note": "车钥匙为什么这么贵，评论区：特斯拉是最便宜的那档，两张卡 40 美元，自己一分钟就能配。",
+      "cover": "https://thehustle.co/hubfs/undefined-Oct-29-2026-09-52-09-5189-PM.jpeg",
+      "by": "rmason"
+    }
+  ],
+  "highlights": [
+    {
+      "by": "vessenes",
+      "from": "Astra can read and write weights",
+      "text": "Astra 不用工具就能判断小网络学了什么游戏、直接改权重提升效果，「我被震住了」。点评：权重空间编程的震撼现场。"
+    },
+    {
+      "by": "geye1234",
+      "from": "If you love a website, back it up",
+      "text": "五年后，云端 LLM 可能 largely 取代开放互联网成为信息来源，还能集中改写过去——请买纸书、请存档网站。点评：带着紧迫感的呼吁。"
+    },
+    {
+      "by": "marsten",
+      "from": "The SEC Should Block Anthropic's IPO",
+      "text": "SEC 的工作不是裁定 Anthropic 是不是个好投资，而是保证投资者看得清楚，然后让开。点评：给政客 IPO 否决权会非常危险。"
+    },
+    {
+      "by": "jimrandomh",
+      "from": "Ubuntu still has not released patch",
+      "text": "以前默认装 Ubuntu，这次升级发现没补丁，信仰动摇了，以后新服务器大概不会再选它。点评：一次补丁延迟丢掉的用户信任。"
+    }
+  ]
+}

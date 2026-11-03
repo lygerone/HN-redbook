@@ -1,0 +1,169 @@
+{
+  "date": "2026-10-07",
+  "mood": "今天 AI 含量极高，模型和数学双线狂欢：Mistral Large 4 登顶、OpenAI 官宣数学进展、EmbeddingGemma 2 开源，再加诺奖物理（IceCube）和好莱坞巨型并购凑热闹。",
+  "items": [
+    {
+      "id": "1",
+      "title": "Mistral Large 4",
+      "url": "https://mistral.ai/news/mistral-large-4/",
+      "hnUrl": "https://hn.algolia.com/?q=Mistral%20Large%204",
+      "score": 1573,
+      "comments": 957,
+      "note": "欧洲自建 3800 卡 GB200 从零训练，声称对标 OpenAI/Anthropic 顶级闭源模型，评论区已开始算\"美国人修那么大数据中心到底图啥\"。",
+      "cover": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+    },
+    {
+      "id": "2",
+      "title": "Nobel Prize in Physics 2026: Francis Halzen",
+      "url": "https://www.nobelprize.org/prizes/physics/2026/",
+      "hnUrl": "https://hn.algolia.com/?q=Nobel%20Prize%20in%20Physics%202026%3A%20Francis%20Halzen",
+      "score": 520,
+      "comments": 172,
+      "note": "因构想南极 IceCube 中微子探测器获奖——在冰层里埋传感器抓\"幽灵粒子\"，评论区有人安利发布会那张可爱的示意图。",
+      "cover": "https://www.nobelprize.org/uploads/2026/10/1-2_3-6ac4a172d1e22-scaled.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Sharing AI progress in mathematics",
+      "url": "https://openai.com/index/sharing-ai-progress-in-mathematics/",
+      "hnUrl": "https://hn.algolia.com/?q=Sharing%20AI%20progress%20in%20mathematics",
+      "score": 319,
+      "comments": 284,
+      "note": "OpenAI 放出一批数学证明，号称解了顶级未解难题清单里的 90 个，包括 Barnette 猜想，评论区有人哭诉自己几个月前用 SOTA 模型啃它没啃下来。",
+      "cover": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+    },
+    {
+      "id": "4",
+      "title": "OpenTPU – An open-source AI accelerator, developed by AI",
+      "url": "https://github.com/FeSens/openTPU",
+      "hnUrl": "https://hn.algolia.com/?q=OpenTPU%20%E2%80%93%20An%20open-source%20AI%20accelerator%2C%20developed%20by%20AI",
+      "score": 219,
+      "comments": 286,
+      "by": "AI",
+      "note": "AI 设计的开源 AI 加速器，评论区神提问：\"为啥前沿实验室不把模型烧进芯片？\"",
+      "cover": "https://opengraph.githubassets.com/a8c016beafbfd474ec2fb92ab5b4b18ff9a5dc2c11a676469bc0f98841882a6d/FeSens/openTPU"
+    },
+    {
+      "id": "5",
+      "title": "EmbeddingGemma 2: An open, lightweight multimodal embedding model",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/embeddinggemma-2/",
+      "hnUrl": "https://hn.algolia.com/?q=EmbeddingGemma%202%3A%20An%20open%2C%20lightweight%20multimodal%20embedding%20model",
+      "score": 207,
+      "comments": 28,
+      "note": "270M 文本 / 440M 多模态，Apache 2.0 开源，评论区盛赞：embedding 模型开源比闭源重要得多，因为向量存下来就锁死了。",
+      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png"
+    },
+    {
+      "id": "6",
+      "title": "Paramount Skydance has completed its $111B merger with Warner Bros. Discovery",
+      "url": "https://arstechnica.com/tech-policy/2026/10/paramount-completes-111b-warner-merger-creating-skydance-behemoth/",
+      "hnUrl": "https://hn.algolia.com/?q=Paramount%20Skydance%20has%20completed%20its%20%24111B%20merger%20with%20Warner%20Bros.%20Discovery",
+      "score": 163,
+      "comments": 243,
+      "note": "1110 亿美元巨兽诞生；评论区扎心对比：YouTube 占美国人看电视 13%，Paramount+Warner 合起来只有约 6%。",
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Decisions API is in public beta",
+      "url": "https://developers.openai.com/api/docs/guides/decisions",
+      "hnUrl": "https://hn.algolia.com/?q=Decisions%20API%20is%20in%20public%20beta",
+      "score": 116,
+      "comments": 49,
+      "note": "OpenAI 也下场做\"决策分类\"小模型了，直接对打 Jev 和 Mercury Decide；评论区在吵 AI 生意是不是已经彻底商品化。",
+      "cover": "https://developers.openai.com/og/api/docs/guides/decisions.png"
+    },
+    {
+      "id": "8",
+      "title": "Claude Code's suggested message feature: I think the real customer is the model",
+      "url": "https://www.zohaib.cc/blog/smartest-claude-code-feature",
+      "hnUrl": "https://hn.algolia.com/?q=Claude%20Code's%20suggested%20message%20feature%3A%20I%20think%20the%20real%20customer%20is%20the%20model",
+      "score": 82,
+      "comments": 45,
+      "note": "Claude Code 猜你下一句话——作者认为真正的客户是模型本身（为了薅高质量训练数据），评论区有人说这叫\"light pattern\"不是 dark pattern。",
+      "cover": null
+    },
+    {
+      "id": "9",
+      "title": "Penguin Mail – open-source Rust email client for Linux with AI",
+      "url": "https://penguin-mail.com/",
+      "hnUrl": "https://hn.algolia.com/?q=Penguin%20Mail%20%E2%80%93%20open-source%20Rust%20email%20client%20for%20Linux%20with%20AI",
+      "score": 46,
+      "comments": 11,
+      "note": "Rust 写的 Linux 原生邮件客户端，颜值获赞；但最热门评论：\"我本来 100% 感兴趣，直到看到 'with AI'\"。",
+      "cover": "https://penguin-mail.com/brand/social-preview.png"
+    },
+    {
+      "id": "10",
+      "title": "AnyPS5: Port PS5 binaries to PC without emulation (87% system libraries mapped)",
+      "url": "https://github.com/boykopovar/AnyPS5",
+      "hnUrl": "https://hn.algolia.com/?q=AnyPS5%3A%20Port%20PS5%20binaries%20to%20PC%20without%20emulation%20(87%25%20system%20libraries%20mapped)",
+      "score": 39,
+      "comments": 6,
+      "note": "把 PS5 二进制搬到 PC 跑、不需要模拟器；评论区第一个问题：\"那 GTA6 首发就能玩 PC 版了吗？\"",
+      "cover": "https://opengraph.githubassets.com/4f9b175f7f4f4917b1fbdcc01395ffd486ff56bd65b08b2e16a1a4dd801d5377/boykopovar/AnyPS5"
+    },
+    {
+      "id": "11",
+      "title": "Integer multiplication below n log n",
+      "url": "https://github.com/openai/math/tree/main/preprints/Integer-multiplication-below-n-log-n-September-23-2026",
+      "hnUrl": "https://hn.algolia.com/?q=Integer%20multiplication%20below%20n%20log%20n",
+      "score": 33,
+      "comments": 18,
+      "note": "大整数乘法突破 n log n 壁垒，时间复杂度 n·lg n^(1−2^−182)——评论区既笑疯又质疑有没有机器验证证明。",
+      "cover": "https://opengraph.githubassets.com/a4e68c16dc2715e75024f4b4bc98f80bbd890b8ac5fd9617911751b0a57cd45a/openai/math"
+    },
+    {
+      "id": "12",
+      "title": "State of Devs 2026 survey results: developers are exhausted",
+      "url": "https://2026.stateofdevs.com/en-US/",
+      "hnUrl": "https://hn.algolia.com/?q=State%20of%20Devs%202026%20survey%20results%3A%20developers%20are%20exhausted",
+      "score": 31,
+      "comments": 9,
+      "note": "年度开发者调查：大家都很累；评论区：\"光看这个标题我就已经累了\"。",
+      "cover": "https://assets.devographics.com/surveys/devs2026-og.png"
+    },
+    {
+      "id": "13",
+      "title": "LLMs may have helped my RSI",
+      "url": "https://vaughanhilts.me/2026/10/05/llms-immensely-helped-my-rsi.html",
+      "hnUrl": "https://hn.algolia.com/?q=LLMs%20may%20have%20helped%20my%20RSI",
+      "score": 26,
+      "comments": 15,
+      "note": "博主自述：LLM 减少打字反而缓解了重复性劳损；评论区开始交换各种治 RSI 偏方（dvorak 键盘等）。",
+      "cover": null
+    },
+    {
+      "id": "14",
+      "title": "When random is not actually random enough",
+      "url": "https://ersc.io/blog/when-random-isnt-random-enough",
+      "hnUrl": "https://hn.algolia.com/?q=When%20random%20is%20not%20actually%20random%20enough",
+      "score": 23,
+      "comments": 5,
+      "note": "random_u64() mod 3 会让某个桶大 5×10^−20——硬核数值科普，评论区补了\"正确姿势是拒绝采样\"。 ##",
+      "cover": "https://ersc.io/og/blog/when-random-isnt-random-enough.jpg"
+    }
+  ],
+  "highlights": [
+    {
+      "text": "Mistral Large 4（评论者 abixb）：\"如果 Mistral 用 4000 张 GB 卡从零训出对标顶级闭源的模型，美国人建那么大规模数据中心到底图啥？\" —— 对比算力叙事的一句灵魂拷问。",
+      "by": "abixb"
+    },
+    {
+      "text": "Sharing AI progress in mathematics（评论者 prideout）：他几个月前用 SOTA 模型啃 Barnette 猜想失败了，OpenAI 公布的证明\"第一眼看过去还挺亲民\"——数学家与模型互相打脸现场。",
+      "by": "prideout"
+    },
+    {
+      "text": "Penguin Mail（评论者 h4kunamata）：\"我本来 100% 感兴趣，直到看到 'with AI'。\" —— 短句精准命中 Linux 老炮集体 PTSD。",
+      "by": "h4kunamata"
+    },
+    {
+      "text": "Paramount 并购（评论者 dkobia）：YouTube 占美国电视观看 13%，Paramount+Warner 合起来约 6%——数字一摆，千亿并购的气势瞬间萎了。",
+      "by": "dkobia"
+    },
+    {
+      "text": "Integer multiplication below n log n（评论者 shmoil）：\"我看到 n lg n ^ (1 - 2^{-182}) 笑出了声。\" —— 数学家的笑点果然异于常人。",
+      "by": "shmoil"
+    }
+  ]
+}

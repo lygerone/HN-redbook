@@ -1,0 +1,178 @@
+{
+  "date": "2026-10-31",
+  "mood": "安全事件扎堆的一天（Cursor 扩展后门、Northflank 泄露、Azure 跨租户），夹着一波复古计算怀旧和 AI 奇技。",
+  "items": [
+    {
+      "id": "1",
+      "title": "Backdoor in Claude Code for VS Code extension on the Cursor Marketplace",
+      "url": "https://phorion.io/blog/offical-claude-code-vsx-compromise/",
+      "hnUrl": "https://hn.algolia.com/?q=Backdoor%20in%20Claude%20Code%20for%20VS%20Code%20extension%20on%20the%20Cursor%20Marketplace",
+      "score": 754,
+      "comments": 472,
+      "note": "Cursor 应用市场上的假冒 Claude Code 扩展被植入后门，会往 SSH authorized_keys 里加攻击者公钥——用 Cursor 的先自查。",
+      "cover": "https://phorion.io/images/default-social-card.png"
+    },
+    {
+      "id": "2",
+      "title": "Northflank Breached",
+      "url": "https://status.northflank.com",
+      "hnUrl": "https://hn.algolia.com/?q=Northflank%20Breached",
+      "score": 348,
+      "comments": 271,
+      "note": "又一家 SaaS 基础设施厂商被攻破，评论区在盘点：9 月以来这已经是第六起同类事件。",
+      "cover": "https://northflank.instatus.com/api/og"
+    },
+    {
+      "id": "3",
+      "title": "Azure's Weakest Link – Five Full Cross-Tenant Compromises",
+      "url": "https://www.binarysecurity.no/posts/2026/10/one-root-case",
+      "hnUrl": "https://hn.algolia.com/?q=Azure's%20Weakest%20Link%20%E2%80%93%20Five%20Full%20Cross-Tenant%20Compromises",
+      "score": 260,
+      "comments": 50,
+      "note": "五起 Azure 跨租户完全沦陷的案例复盘，云上租户隔离的老问题又被翻出来。",
+      "cover": null
+    },
+    {
+      "id": "4",
+      "title": "My favourite PowerMac is a Nintendo Wii",
+      "url": "https://virtuallyfun.com/2026/10/29/my-favourite-powermac-is-a-nintendo-wii/",
+      "hnUrl": "https://hn.algolia.com/?q=My%20favourite%20PowerMac%20is%20a%20Nintendo%20Wii",
+      "score": 229,
+      "comments": 61,
+      "note": "在 Wii 上跑经典 Mac OS 的折腾记录，复古硬件圈的快乐就是这么朴素。",
+      "cover": null
+    },
+    {
+      "id": "5",
+      "title": "The federated code forge",
+      "url": "https://tangled.org/blog/forge/",
+      "hnUrl": "https://hn.algolia.com/?q=The%20federated%20code%20forge",
+      "score": 224,
+      "comments": 77,
+      "note": "基于 AT Protocol 的联邦制代码托管平台 Tangled 正式亮相，想用去中心化方式重做 GitHub。",
+      "cover": "https://assets.tangled.network/blog/forge/og.png"
+    },
+    {
+      "id": "6",
+      "title": "Florilegium: Procedural Flowers in LaTeX",
+      "url": "https://github.com/kevinraymond/florilegium",
+      "hnUrl": "https://hn.algolia.com/?q=Florilegium%3A%20Procedural%20Flowers%20in%20LaTeX",
+      "score": 209,
+      "comments": 36,
+      "note": "用 LaTeX 程序化生成花卉插图，TeX 社区的审美一直在线。",
+      "cover": "https://opengraph.githubassets.com/4e6fb5c2facf320db1c4883539e40d77be6e2cc9bca4ead403a97e63e6bb087d/kevinraymond/florilegium"
+    },
+    {
+      "id": "7",
+      "title": "Through Captain Jean-Luc Picard, Patrick Stewart taught us the measure of a man",
+      "url": "https://www.bostonglobe.com/2026/10/29/metro/patrick-stewart-picard-star-trek-the-next-generation/",
+      "hnUrl": "https://hn.algolia.com/?q=Through%20Captain%20Jean-Luc%20Picard%2C%20Patrick%20Stewart%20taught%20us%20the%20measure%20of%20a%20man",
+      "score": 184,
+      "comments": 105,
+      "note": "纪念帕特里克·斯图尔特的文章，聊皮卡德舰长留下的东西。",
+      "cover": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440"
+    },
+    {
+      "id": "8",
+      "title": "Breaking the open web won't stop the bad bots",
+      "url": "https://www.techpolicy.press/breaking-the-open-web-wont-stop-the-bad-bots/",
+      "hnUrl": "https://hn.algolia.com/?q=Breaking%20the%20open%20web%20won't%20stop%20the%20bad%20bots",
+      "score": 182,
+      "comments": 75,
+      "note": "反爬立法和身份 gating 挡不住恶意爬虫，只会伤到正常用户和开放网络，观点很直白。",
+      "cover": "https://cdn.sanity.io/images/3tzzh18d/production/46070e9d00c44c7690c79155723ff59e5c1280fe-1200x675.png"
+    },
+    {
+      "id": "9",
+      "title": "Show HN: A working Nintendo in ~1GB of Qwen weights",
+      "url": "https://github.com/dbreunig/nesformer",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20A%20working%20Nintendo%20in%20~1GB%20of%20Qwen%20weights",
+      "score": 181,
+      "comments": 108,
+      "note": "用约 1GB 的 Qwen 权重跑出一台能用的任天堂模拟机，纯矩阵运算模拟芯片，效率感人但脑洞拉满。",
+      "cover": "https://opengraph.githubassets.com/c29f93b3490b94907eedba1ab1a0686abfcd29c0305fc87af2296aefc79b94d9/dbreunig/nesformer"
+    },
+    {
+      "id": "10",
+      "title": "Infinite Mac: BeOS",
+      "url": "https://blog.persistent.info/2026/10/infinite-mac-beos.html",
+      "hnUrl": "https://hn.algolia.com/?q=Infinite%20Mac%3A%20BeOS",
+      "score": 101,
+      "comments": 31,
+      "note": "浏览器里直接跑 BeOS，怀旧向的 Infinite Mac 系列又添一员。",
+      "cover": "https://persistent.info/images/infinite-mac-beos-desktop.webp"
+    },
+    {
+      "id": "11",
+      "title": "The oldest ice disappears and the Stone Age emerges from it",
+      "url": "https://www.sciencenorway.no/archaeology-climate-culture/the-oldest-ice-is-disappearing-the-stone-age-is-emerging-from-the-melting-ice/2713921",
+      "hnUrl": "https://hn.algolia.com/?q=The%20oldest%20ice%20disappears%20and%20the%20Stone%20Age%20emerges%20from%20it",
+      "score": 82,
+      "comments": 23,
+      "note": "冰川融化露出石器时代遗物，气候变化的副产品竟是考古红利，黑色幽默拉满。",
+      "cover": "https://image.sciencenorway.no/2713469.jpg?imageId=2713469&x=0&y=17.9&cropw=100&croph=73.3&panox=0&panoy=17.9&panow=100&panoh=73.3&width=1200&height=683"
+    },
+    {
+      "id": "12",
+      "title": "Jules Verne's Lost Novel",
+      "url": "https://blue-continuum.com/verne-paris",
+      "hnUrl": "https://hn.algolia.com/?q=Jules%20Verne's%20Lost%20Novel",
+      "score": 73,
+      "comments": 14,
+      "note": "凡尔纳\"失落小说\"的手稿故事，评论区有人怀疑这手稿出现的时间点太巧了。",
+      "cover": "https://blue-continuum.com/__l5e/assets-v1/4c93ed3c-ba50-4d5d-a01a-8490d86ffb63/verne-paris-hero.jpeg"
+    },
+    {
+      "id": "13",
+      "title": "Cloudflare Turnstile solver library (no headless browser required)",
+      "url": "https://github.com/chris124567/cfsolve",
+      "hnUrl": "https://hn.algolia.com/?q=Cloudflare%20Turnstile%20solver%20library%20(no%20headless%20browser%20required)",
+      "score": 53,
+      "comments": 14,
+      "note": "不用无头浏览器解 Cloudflare Turnstile 的库，作者现身说法：欧洲代理和美国代理拿到的版本还不一样。",
+      "cover": "https://opengraph.githubassets.com/90529c20c8771d7f619f77d712e7e769a8d6e318779df6fefd6a822323bb0ce1/chris124567/cfsolve"
+    },
+    {
+      "id": "14",
+      "title": "sanstun: A sans-IO, parallel-friendly WireGuard implementation in Rust",
+      "url": "https://www.firezone.dev/blog/introducing-sanstun",
+      "hnUrl": "https://hn.algolia.com/?q=sanstun%3A%20A%20sans-IO%2C%20parallel-friendly%20WireGuard%20implementation%20in%20Rust",
+      "score": 49,
+      "comments": 5,
+      "note": "Firezone 出的 sans-IO 风格 Rust 版 WireGuard 实现，好测试、能复用在同步和异步两边。",
+      "cover": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5"
+    },
+    {
+      "id": "15",
+      "title": "Show HN: To Honor Sir Patrick Stewart, Enjoy the TNG Episode Guessing Game",
+      "url": "https://tng.episodle.com/",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20To%20Honor%20Sir%20Patrick%20Stewart%2C%20Enjoy%20the%20TNG%20Episode%20Guessing%20Game",
+      "score": 19,
+      "comments": 5,
+      "note": "猜《星际迷航：下一代》剧集的小游戏，给老粉的纪念品，难度据说不低。 ##",
+      "cover": null
+    }
+  ],
+  "highlights": [
+    {
+      "text": "felixrieseberg（Anthropic 员工）亲自下场澄清——这不是 Anthropic 系统被攻破，是有人利用 Cursor 应用市场的权限发布了篡改版扩展，官方渠道版本不受影响。",
+      "from": "Backdoor in Claude Code",
+      "by": "felixrieseberg"
+    },
+    {
+      "text": "jonathaneunice 盘点，9 月以来针对多租户 SaaS 厂商的闪电攻击已至少六起（PingCAP、Fireworks AI、Zeabur、OpenCode、Railway、Northflank），直言这是\"全面爆发的信息安全紧急事件\"。",
+      "from": "Northflank Breached",
+      "by": "jonathaneunice"
+    },
+    {
+      "text": "armcat 脑洞，既然 LLM 权重里能塞进一台 NES，理论上也能在权重里编译一个小型虚拟机跑 Python 解释器和 shell 工具——工具调用就不用再一 token 一 token 往外吐了。",
+      "from": "A working Nintendo in ~1GB of Qwen weights",
+      "by": "armcat"
+    },
+    {
+      "text": "thenewwazoo 吐槽 BeOS 标签式标题栏可拖拽区域太小，话锋一转扎向 macOS：现在的标题栏都快被工具栏取代、按钮也没边框了，到底哪块能拖全靠猜。",
+      "from": "Infinite Mac: BeOS",
+      "by": "thenewwazoo"
+    }
+  ]
+}

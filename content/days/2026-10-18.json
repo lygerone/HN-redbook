@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-18",
+  "mood": "AI 两条硬核刷屏，DeepSeek 新版跑分登顶话题最热，其他则是生态、字体、复古硬件一锅大杂烩。",
+  "items": [
+    {
+      "id": "1",
+      "title": "DeepSeek-v4.1-Flash-1017",
+      "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "hnUrl": "https://hn.algolia.com/?q=DeepSeek-v4.1-Flash-1017",
+      "score": 687,
+      "comments": 577,
+      "by": "theykk",
+      "note": "官方称 10/11 代码基准超过 Sol 5.6（6.1 除外），开源加量不加价的剧本又来了。",
+      "cover": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/deepseek-ai/DeepSeek-V4.1-Flash-1017.png"
+    },
+    {
+      "id": "2",
+      "title": "You could have invented transformers from memory",
+      "url": "https://alexwang.ai/posts/associative-memory/",
+      "hnUrl": "https://hn.algolia.com/?q=You%20could%20have%20invented%20transformers%20from%20memory",
+      "score": 496,
+      "comments": 117,
+      "by": "speckx",
+      "note": "从联想记忆一路推导出 Transformer 的硬核长文，ML 爱好者周末读物。",
+      "cover": "https://alexwang.ai/images/share-card_hu_ba29a66ace5a286c.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Bleached corals thrive within days when touching healthy neighbour",
+      "url": "https://www.nature.com/articles/d41586-026-03266-x",
+      "hnUrl": "https://hn.algolia.com/?q=Bleached%20corals%20thrive%20within%20days%20when%20touching%20healthy%20neighbour",
+      "score": 297,
+      "comments": 64,
+      "by": "alkyon",
+      "note": "白化珊瑚碰到健康邻居几天就能恢复，Nature 新闻，环保 optimism 拉满。",
+      "cover": "https://media.nature.com/lw1200/magazine-assets/d41586-026-03266-x/d41586-026-03266-x_53851622.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Making chicken transparent using Dorito dust",
+      "url": "https://chillphysicsenjoyer.substack.com/p/making-chicken-transparent-using",
+      "hnUrl": "https://hn.algolia.com/?q=Making%20chicken%20transparent%20using%20Dorito%20dust",
+      "score": 247,
+      "comments": 65,
+      "by": "crescit_eundo",
+      "note": "用多力多滋调料粉把鸡胸肉泡成半透明，厨房物理学の年度整活。",
+      "cover": "https://substackcdn.com/image/fetch/$s_!HeYS!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fc2335aaa-1716-4bb2-94bb-7de424fec71f_1200x669.png"
+    },
+    {
+      "id": "5",
+      "title": "Furifont, a Japanese font that shows furigana",
+      "url": "https://furifont.antfu.me/",
+      "hnUrl": "https://hn.algolia.com/?q=Furifont%2C%20a%20Japanese%20font%20that%20shows%20furigana",
+      "score": 246,
+      "comments": 52,
+      "by": "plaguna",
+      "note": "纯靠字体 ligature 显示振假名，巧妙但日语读音歧义大，评论区已经吵起来了。",
+      "cover": "https://furifont.antfu.me/og.png"
+    },
+    {
+      "id": "6",
+      "title": "Pele – Mermaid diagrams as themeable SVG",
+      "url": "https://pele.run/",
+      "hnUrl": "https://hn.algolia.com/?q=Pele%20%E2%80%93%20Mermaid%20diagrams%20as%20themeable%20SVG",
+      "score": 219,
+      "comments": 26,
+      "by": "dchest",
+      "note": "Mermaid 图表转可换肤 SVG，文档党可以看看，但布局硬伤还在。",
+      "cover": "https://pele.run/social.png"
+    },
+    {
+      "id": "7",
+      "title": "Gold is now the top U.S. export",
+      "url": "https://www.numismaticnews.net/gold-now-top-u-s-export",
+      "hnUrl": "https://hn.algolia.com/?q=Gold%20is%20now%20the%20top%20U.S.%20export",
+      "score": 218,
+      "comments": 113,
+      "by": "iamnothere",
+      "note": "黄金成美国第一大出口，评论区在聊各国央行搬金条回国。",
+      "cover": null
+    },
+    {
+      "id": "8",
+      "title": "Dam removals are bringing fish back across the northeastern United States",
+      "url": "https://www.smithsonianmag.com/science-nature/dam-removals-are-bringing-fish-back-across-the-northeastern-united-states-striking-down-one-tiny-barrier-at-a-time-180989679/",
+      "hnUrl": "https://hn.algolia.com/?q=Dam%20removals%20are%20bringing%20fish%20back%20across%20the%20northeastern%20United%20States",
+      "score": 177,
+      "comments": 49,
+      "by": "sohkamyung",
+      "note": "拆坝之后鱼群回来了，Klamath 河原住民推动的那波是教科书案例。",
+      "cover": "https://th-thumbnailer.cdn-si-edu.com/b3oqmRf3D8nwqLYWEldX1tDx0JE=/fit-in/1600x0/filters:focal(1200x800:1201x801)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/16/00/1600753a-4935-46f8-b80a-87852b71eb12/header-little-dams.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Source code of the Estonian online voting system",
+      "url": "https://github.com/valimised/ivxv",
+      "hnUrl": "https://hn.algolia.com/?q=Source%20code%20of%20the%20Estonian%20online%20voting%20system",
+      "score": 153,
+      "comments": 133,
+      "by": "theanonymousone",
+      "note": "爱沙尼亚电子投票系统源码，开源了，但评论区对\"软件能否保证选举安全\"分歧很大。",
+      "cover": "https://opengraph.githubassets.com/aa374ca01af4017c48c86bdf52a01779a0e623360fef18db2be61ef3db9efb1c/valimised/ivxv"
+    },
+    {
+      "id": "10",
+      "title": "I Became a Citizen of Japan",
+      "url": "https://www.derekwessman.com/blog-1/natural",
+      "hnUrl": "https://hn.algolia.com/?q=I%20Became%20a%20Citizen%20of%20Japan",
+      "score": 141,
+      "comments": 56,
+      "by": "luu",
+      "note": "一个老外写日本入籍全流程，评论区提醒：日本不承认双重国籍。",
+      "cover": "http://static1.squarespace.com/static/627ae49cf0cb8c63aaa53311/6381873621a66323e59b15d8/6a40903add06b257a5759eae/1783474947331/IMG_5948.jpg?format=1500w"
+    },
+    {
+      "id": "11",
+      "title": "The Commodore 64 hardware simulator: break chips and pins, see the results",
+      "url": "https://github.com/antirez/c64-hw-simulator",
+      "hnUrl": "https://hn.algolia.com/?q=The%20Commodore%2064%20hardware%20simulator%3A%20break%20chips%20and%20pins%2C%20see%20the%20results",
+      "score": 138,
+      "comments": 23,
+      "by": "antirez",
+      "note": "antirez 写的 C64 芯片级模拟器，可以掰芯片看效果，复古硬件玩家狂喜。",
+      "cover": "https://opengraph.githubassets.com/479c94d123d5276c1d039b5546be5bdf8aa3751f14cf7229fab5e879d9f3ffc2/antirez/c64-hw-simulator"
+    },
+    {
+      "id": "12",
+      "title": "Chrome and Edge are removing XSLT: what breaks and what does not",
+      "url": "https://doctor-seo.net/en/blog/news/chrome-edge-removing-xslt/",
+      "hnUrl": "https://hn.algolia.com/?q=Chrome%20and%20Edge%20are%20removing%20XSLT%3A%20what%20breaks%20and%20what%20does%20not",
+      "score": 79,
+      "comments": 76,
+      "by": "croes",
+      "note": "浏览器要移除 XSLT 了，26 年老用户在评论区现身说法，时代的眼泪。",
+      "cover": "https://doctor-seo.net/wp-content/uploads/2026/10/chrome-xslt-removal-timeline-en.png"
+    },
+    {
+      "id": "13",
+      "title": "Show HN: High-quality duck audio synthesizer",
+      "url": "https://celphase.github.io/duck-pond/",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20High-quality%20duck%20audio%20synthesizer",
+      "score": 78,
+      "comments": 23,
+      "by": "celphase",
+      "note": "高质量鸭子叫声合成器，还能往池塘里扔豌豆喂鸭，摸鱼神器。 ##",
+      "cover": null
+    }
+  ],
+  "highlights": [
+    {
+      "text": "跑分不如 Sol 和 Gemini，但\"体感\"快得多——tokens/s 和首字延迟碾压，agent 干活不用干等。点评：开源模型的真实竞争力在\"爽\"，不在榜单。",
+      "from": "DeepSeek-v4.1-Flash-1017",
+      "by": "OsrsNeedsf2P"
+    },
+    {
+      "text": "「这结果很震撼——除非你跟任何养过海水缸的人聊过。」点评：养鱼老炮的冷泼水，科学新闻的祛魅现场。",
+      "from": "珊瑚白化",
+      "by": "nomel"
+    },
+    {
+      "text": "用 `document.currentScript` 旁边的内联脚本做客户端模板，无内容闪烁，XSLT 平替方案。点评：老技术退役，民间自有野路子。",
+      "from": "XSLT 移除",
+      "by": "cousin_it"
+    },
+    {
+      "text": "「请取消 120 粒豌豆上限，我想扔更多豌豆。」点评：HN 评论区最纯粹的快乐。",
+      "from": "鸭叫合成器",
+      "by": "codeulike"
+    }
+  ]
+}

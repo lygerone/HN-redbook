@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-25",
+  "mood": "今天偏硬核 + 玩票性质混搭——新编程语言、老牌免费服务、量子科普和安全挑战齐上阵，AI 话题反而只是配角。",
+  "items": [
+    {
+      "id": "1",
+      "title": "Show HN: Steal My Bitcoin",
+      "url": "https://stealmybitcoin.com/",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20Steal%20My%20Bitcoin",
+      "score": 380,
+      "comments": 224,
+      "note": "公开放一个有漏洞的服务器、里面藏着价值约 $502 的比特币，谁先拿到就是谁的，纯纯的实战悬赏。",
+      "cover": null
+    },
+    {
+      "id": "2",
+      "title": "I don't understand quantum physics (2018)",
+      "url": "https://www.southampton.ac.uk/~doug/quantum_physics/index.html",
+      "hnUrl": "https://hn.algolia.com/?q=I%20don't%20understand%20quantum%20physics%20(2018)",
+      "score": 273,
+      "comments": 205,
+      "note": "2018 年的老科普文又翻红了，讲量子物理到底难在哪，适合一直似懂非懂的人重读一遍。",
+      "cover": null
+    },
+    {
+      "id": "3",
+      "title": "Roku developer repositories moved from GitHub to GitLab",
+      "url": "https://blog.roku.com/developer/gitlab-move",
+      "hnUrl": "https://hn.algolia.com/?q=Roku%20developer%20repositories%20moved%20from%20GitHub%20to%20GitLab",
+      "score": 251,
+      "comments": 166,
+      "note": "大厂公开从 GitHub 搬到 GitLab，评论区顺带聊起了最近 GitHub 宕机和被微软化的问题。",
+      "cover": "https://www.roku.com/assets/roku-logo-purple.png"
+    },
+    {
+      "id": "4",
+      "title": "FreeDNS",
+      "url": "https://freedns.afraid.org/",
+      "hnUrl": "https://hn.algolia.com/?q=FreeDNS",
+      "score": 245,
+      "comments": 61,
+      "note": "活了快二十年的免费 DNS 老站，有人用了近二十年，也有人提醒它不在公共后缀列表里的 cookie 风险。",
+      "cover": null
+    },
+    {
+      "id": "5",
+      "title": "The Goose Programming Language",
+      "url": "https://aardappel.github.io/goose/",
+      "hnUrl": "https://hn.algolia.com/?q=The%20Goose%20Programming%20Language",
+      "score": 218,
+      "comments": 152,
+      "note": "作者亲自下场 AMA 的新语言，主打“线程之间不共享任何东西”，没有数据竞争、锁和原子操作。",
+      "cover": null
+    },
+    {
+      "id": "6",
+      "title": "We should be more ambitious with the software we build",
+      "url": "https://danluu.com/ambitious/",
+      "hnUrl": "https://hn.algolia.com/?q=We%20should%20be%20more%20ambitious%20with%20the%20software%20we%20build",
+      "score": 126,
+      "comments": 85,
+      "note": "danluu 的老调重弹但每次都戳人：有了 AI 更应该做以前不敢想的东西，而不是只用来省事。",
+      "cover": null
+    },
+    {
+      "id": "7",
+      "title": "Listen and read USA nuclear forces Emergency Action Messages, heard on 11175 kHz",
+      "url": "https://missileer.watch",
+      "hnUrl": "https://hn.algolia.com/?q=Listen%20and%20read%20USA%20nuclear%20forces%20Emergency%20Action%20Messages%2C%20heard%20on%2011175%20kHz",
+      "score": 106,
+      "comments": 71,
+      "note": "能在线听美军核力量应急行动消息的短波电台站，猎奇和硬核拉满。",
+      "cover": "https://missileer.watch/assets/og/home.png?v=1"
+    },
+    {
+      "id": "8",
+      "title": "The St. Helena 5 pence coin shows Jonathan, a roughly 190 year old tortoise",
+      "url": "https://de.numista.com/9866",
+      "hnUrl": "https://hn.algolia.com/?q=The%20St.%20Helena%205%20pence%20coin%20shows%20Jonathan%2C%20a%20roughly%20190%20year%20old%20tortoise",
+      "score": 91,
+      "comments": 28,
+      "note": "圣赫勒拿 5 便士硬币上的主角是约 190 岁的陆龟 Jonathan，地球上最老的陆地动物，冷知识拉满。",
+      "cover": "https://en.numista.com/catalogue/photo9866.jpeg"
+    },
+    {
+      "id": "9",
+      "title": "America Has Lost 200k of Jobs in Media, Film and the Arts. How Much Is AI?",
+      "url": "https://www.apricitas.io/p/ai-and-the-fall-of-the-creative-class",
+      "hnUrl": "https://hn.algolia.com/?q=America%20Has%20Lost%20200k%20of%20Jobs%20in%20Media%2C%20Film%20and%20the%20Arts.%20How%20Much%20Is%20AI%3F",
+      "score": 76,
+      "comments": 43,
+      "note": "美国媒体影视艺术行业丢了 20 万岗位，到底多少能算到 AI 头上，数据和分析都值得一看。",
+      "cover": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png"
+    },
+    {
+      "id": "10",
+      "title": "SpeedCrunch 1.1",
+      "url": "https://www.speedcrunch.org/",
+      "hnUrl": "https://hn.algolia.com/?q=SpeedCrunch%201.1",
+      "score": 66,
+      "comments": 10,
+      "note": "老牌桌面计算器出 1.1 版，顺手修了一个多年未发的运算顺序小 bug，轻量工具爱好者的快乐。 ##",
+      "cover": "https://www.speedcrunch.org/screen1.png"
+    }
+  ],
+  "highlights": [
+    {
+      "text": "称自己这边已有可用的 RCE 能拿下这笔比特币，但为了不泄露给还没打补丁的人，拒绝公开演示。点评：有东西但不晒，是真负责还是在钓鱼，评论区自己吵起来了。",
+      "from": "Show HN: Steal My Bitcoin",
+      "by": "dguido"
+    },
+    {
+      "text": "一个小时过去了还没被攻破，说明所谓“成千上万个 AI 智能体在自动攻陷每个网站”的说法根本没发生。点评：一句话给 AI 安全焦虑降了温。",
+      "from": "Show HN: Steal My Bitcoin",
+      "by": "technion"
+    },
+    {
+      "text": "评论者 Aardappel（作者本人）：直接在帖子里说“我就是作者，AMA”。点评：新语言帖子最有价值的部分往往就是作者亲自答疑。",
+      "from": "The Goose Programming Language",
+      "by": "Aardappel"
+    },
+    {
+      "text": "GitLab 更符合普通公司/组织做开发的心智模型，而 GitHub 越来越像“开源开发者社交网络”，还被微软化了。点评：搬家理由说得比官方博客还直白。",
+      "from": "Roku developer repositories moved from GitHub to GitLab",
+      "by": "PedroBatista"
+    },
+    {
+      "text": "量子力学是学了一两个量子比特系统的线性代数后才突然通的，而不是从经典物理、波粒二象性那套老路子。点评：给想入门量子的人指了条更省力的路。",
+      "from": "I don't understand quantum physics (2018)",
+      "by": "fasterik"
+    }
+  ]
+}

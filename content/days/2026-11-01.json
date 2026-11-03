@@ -1,0 +1,176 @@
+{
+  "date": "2026-11-01",
+  "mood": "Karpathy 的 HackerTube 刷屏，安全话题较多（Linux TCP UAF、Molly 停更），另有 Jepsen 拷打数据库和一堆硬核小品。",
+  "items": [
+    {
+      "id": "1",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "hnUrl": "https://hn.algolia.com/?q=HackerTube%3A%20YouTube%20built%20from%20videos%20recommended%20by%20HN",
+      "score": 627,
+      "comments": 222,
+      "note": "Karpathy 做的 HackerTube：只放 HN 推荐过的视频，评论区感慨——不用时刻提防被算法诱饵钓走的互联网，原来可以这么清爽。",
+      "cover": "https://bearblog.dev/static/og-image.png",
+      "by": "karpathy"
+    },
+    {
+      "id": "2",
+      "title": "TCP Use-After-Free: CVE-2026-98432 / CVSS 9.8",
+      "url": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf",
+      "hnUrl": "https://hn.algolia.com/?q=TCP%20Use-After-Free%3A%20CVE-2026-98432%20/%20CVSS%209.8",
+      "score": 307,
+      "comments": 147,
+      "note": "Linux IPv4 TCP 的 UAF 漏洞，CVSS 9.8，评论区划重点：这是 Linux 专属漏洞，BSD/Mac/Windows 不受影响；互联网利用难度不大，因为多数 ISP 路由器会丢带 IP options 的包。",
+      "cover": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
+      "by": "oger"
+    },
+    {
+      "id": "3",
+      "title": "Molly (Signal fork) has not been updated since 3 months and is vulnerable",
+      "url": "https://piefed.world/post/1503394",
+      "hnUrl": "https://hn.algolia.com/?q=Molly%20%28Signal%20fork%29%20has%20not%20been%20updated%20since%203%20months%20and%20is%20vulnerable",
+      "score": 299,
+      "comments": 175,
+      "note": "Signal 分支 Molly 三个月没更新、已有漏洞，评论区：官方 Signal 现在也能一号双设备了，很多人当初用 Molly 就是为这个。",
+      "cover": "/static/images/piefed_logo_full_t_300x300.svg",
+      "by": "DeepLogin"
+    },
+    {
+      "id": "4",
+      "title": "Jepsen: ParticleDB 1.1.4",
+      "url": "https://jepsen.io/analyses/particledb-1.1.4",
+      "hnUrl": "https://hn.algolia.com/?q=Jepsen%3A%20ParticleDB%201.1.4",
+      "score": 187,
+      "comments": 98,
+      "note": "Jepsen 最新拷打：自称 Postgres 兼容的 ParticleDB，事务异常测了个遍——已提交写入丢失、脏读、更新丢失全有，号称的 TLA+ 证明也没见着。",
+      "cover": null,
+      "by": "aphyr"
+    },
+    {
+      "id": "5",
+      "title": "It's the memory latency, stupid",
+      "url": "https://pivotlake.io/blog/its-the-memory-latency-stupid/",
+      "hnUrl": "https://hn.algolia.com/?q=It%27s%20the%20memory%20latency%2C%20stupid",
+      "score": 113,
+      "comments": 34,
+      "note": "性能瓶颈不在算力在内存延迟，评论区现身说法：在 STM32MP1 这种小缓存芯片上，STL 容器和深嵌套虚方法就是灾难。",
+      "cover": null,
+      "by": "ntur1337"
+    },
+    {
+      "id": "6",
+      "title": "An Italian farmer found some unknown seeds in his attic and planted them",
+      "url": "https://www.smithsonianmag.com/science-nature/italian-farmer-found-unknown-seeds-attic-with-nothing-lose-planted-them-result-biblical-180989644/",
+      "hnUrl": "https://hn.algolia.com/?q=An%20Italian%20farmer%20found%20some%20unknown%20seeds%20in%20his%20attic%20and%20planted%20them",
+      "score": 91,
+      "comments": 37,
+      "note": "意大利农夫在阁楼发现不知名种子，种出来是失传古小麦：抗旱、不用化肥除草剂，个子高到能遮住杂草。",
+      "cover": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
+      "by": "ecares"
+    },
+    {
+      "id": "7",
+      "title": "The Duty of a Scholar",
+      "url": "https://www.daemonology.net/blog/2026-10-31-The-Duty-of-a-Scholar.html",
+      "hnUrl": "https://hn.algolia.com/?q=The%20Duty%20of%20a%20Scholar",
+      "score": 81,
+      "comments": 28,
+      "note": "学者的责任：发现公共安全隐患就该披露，评论区翻出 Intel 当年「超线程不是问题」的旧账——AI 时代，难利用的洞也不再难了。",
+      "cover": null,
+      "by": "gslin"
+    },
+    {
+      "id": "8",
+      "title": "With 86% of the words, you might understand only 38% of an anime's lines",
+      "url": "https://learnfromx.com/research/anime-word-coverage-vs-lines-understood",
+      "hnUrl": "https://hn.algolia.com/?q=With%2086%25%20of%20the%20words%2C%20you%20might%20understand%20only%2038%25%20of%20an%20anime%27s%20lines",
+      "score": 59,
+      "comments": 39,
+      "note": "认识 86% 的单词，可能只听懂 38% 的动漫台词——日语学习者的扎心数据，评论区在挑方法论的毛病。",
+      "cover": "https://learnfromx.com/static/images/og-word-coverage.png",
+      "by": "lakesare"
+    },
+    {
+      "id": "9",
+      "title": "Surviving \"The Graduate\"",
+      "url": "https://www.newyorker.com/culture/the-weekend-essay/dustin-hoffman-on-surviving-the-graduate",
+      "hnUrl": "https://hn.algolia.com/?q=Surviving%20%22The%20Graduate%22",
+      "score": 49,
+      "comments": 13,
+      "note": "达斯汀·霍夫曼谈《毕业生》之后的人生，评论区：成长中的人每天都觉得自己在失败，因为没有对照系。",
+      "cover": "https://media.newyorker.com/photos/6ae39ebeda249834dbb46a9b/16:9/w_1280,c_limit/HTG_01_final_still.jpg",
+      "by": "samizdis"
+    },
+    {
+      "id": "10",
+      "title": "Memdoor: A team of 5 Qwen3.8-27B models beats Fable 5 on LiveCodeBench Hard",
+      "url": "https://github.com/guregodevo/memdoor/tree/main/examples/workflows/team-solve",
+      "hnUrl": "https://hn.algolia.com/?q=Memdoor%3A%20A%20team%20of%205%20Qwen3.8-27B%20models%20beats%20Fable%205%20on%20LiveCodeBench%20Hard",
+      "score": 46,
+      "comments": 18,
+      "note": "5 个本地 Qwen3.8-27B 组队，在 LiveCodeBench Hard 上打赢 Fable 5——本地模型追赶超大厂的又一个证据。",
+      "cover": "https://opengraph.githubassets.com/488d4d78a44ae76400e3ccea503e292f808c07d95d03ed9522d9cbb0576fffad/guregodevo/memdoor",
+      "by": "guregodevo"
+    },
+    {
+      "id": "11",
+      "title": "Show HN: NES Contra (1987) port (ASM -> C and then C -> WebAssembly)",
+      "url": "https://epoyraz.github.io/nes-contra-us/",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20NES%20Contra%20%281987%29%20port%20%28ASM%20-%3E%20C%20and%20then%20C%20-%3E%20WebAssembly%29",
+      "score": 40,
+      "comments": 27,
+      "note": "魂斗罗 NES 版：汇编转 C 再转 WebAssembly 的移植接力，评论区：日版魂斗罗明明更好玩！",
+      "cover": null,
+      "by": "tevlon"
+    },
+    {
+      "id": "12",
+      "title": "First response from the Project Suncatcher prototype satellite",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/google-research/project-suncatcher-satellite-response/",
+      "hnUrl": "https://hn.algolia.com/?q=First%20response%20from%20the%20Project%20Suncatcher%20prototype%20satellite",
+      "score": 22,
+      "comments": 17,
+      "note": "Google 的太空 AI 原型卫星 Suncatcher 首次回传，评论区吐槽：通篇是 LLM 写的诗，真正关心的散热和抗辐射只字未提。",
+      "cover": "https://i.ytimg.com/vi_webp/epqzfAi16us/maxresdefault.webp",
+      "by": "praccu"
+    },
+    {
+      "id": "13",
+      "title": "When electric cars were for women",
+      "url": "https://spectrum.ieee.org/early-electric-vehicles",
+      "hnUrl": "https://hn.algolia.com/?q=When%20electric%20cars%20were%20for%20women",
+      "score": 21,
+      "comments": 3,
+      "note": "早期电动车是给女性设计的：不用摇把启动、安静好开，评论区：底特律电动车堪称「带花瓶的移动茶室」。",
+      "cover": "https://spectrum.ieee.org/media-library/image.jpg?id=68537019&width=1200&height=600&coordinates=0%2C300%2C0%2C301",
+      "by": "dverlaeckt80"
+    }
+  ],
+  "highlights": [
+    {
+      "by": "murm",
+      "from": "HackerTube",
+      "text": "刷 HackerTube 太清爽了，不用时刻提防被诱饵钓走——要是科技巨头不只优化参与度和成瘾，互联网本可以是这样。点评：对算法 feed 最温柔的控诉。"
+    },
+    {
+      "by": "genxy",
+      "from": "HackerTube",
+      "text": "整个站都可以 fork，附带的 DATA.md 是写给 agent 的：文件怎么组织、坑在哪、示例记录全有。点评：Karpathy 连「怎么抄」都替你想好了。"
+    },
+    {
+      "by": "asveikau",
+      "from": "TCP Use-After-Free",
+      "text": "HN 编辑把标题里的「Linux」删了，但这恰恰是最有用的信息——BSD、Mac、Windows 都不受影响。点评：标题党式编辑，删掉了关键限定词。"
+    },
+    {
+      "by": "peanut-walrus",
+      "from": "TCP Use-After-Free",
+      "text": "MPTCP 不是必要条件，这是个通用 UAF；但互联网利用不太现实，多数 ISP 路由器会丢带 IP options 的包。点评：漏洞通报里最需要的冷静剂。"
+    },
+    {
+      "by": "the_duke",
+      "from": "Jepsen: ParticleDB",
+      "text": "「Brutal!」——ParticleDB 号称 Postgres 兼容，结果测下来是「一座混乱的图书馆」，已提交的写入都能丢。点评：Jepsen 式判语，简短但致命。"
+    }
+  ]
+}

@@ -1,0 +1,160 @@
+{
+  "date": "2026-11-02",
+  "mood": "社区自产味很浓，karpathy 的 HackerTube 断层登顶，还带出个 HackerBooks；另外就是陶哲轩谈数学与 AI、AI 经济回报争议这两场大讨论。",
+  "items": [
+    {
+      "id": "1",
+      "title": "HackerTube: YouTube built from videos recommended by HN",
+      "url": "https://karpathy.bearblog.dev/hacker-tube/",
+      "hnUrl": "https://hn.algolia.com/?q=HackerTube%3A%20YouTube%20built%20from%20videos%20recommended%20by%20HN",
+      "score": 2252,
+      "comments": 538,
+      "note": "把 HN 多年推荐过的视频扒出来重建成一个 YouTube，简单粗暴但全站都在点赞。",
+      "cover": "https://bearblog.dev/static/og-image.png",
+      "by": "karpathy"
+    },
+    {
+      "id": "2",
+      "title": "Show HN: HackerBooks – HackerTube, but for books mentioned on HN",
+      "url": "https://hackerbooks.org",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20HackerBooks%20%E2%80%93%20HackerTube%2C%20but%20for%20books%20mentioned%20on%20HN",
+      "score": 874,
+      "comments": 171,
+      "note": "HackerTube 的跟风作，收录 HN 提过的所有书，每本还能回链到原评论。",
+      "cover": null
+    },
+    {
+      "id": "3",
+      "title": "Lenovo's 'encrypted' fingerprint USB is just an unencrypted SD card in a case",
+      "url": "https://www.reddit.com/r/technology/comments/1xl2pr3/lenovos_encrypted_fingerprint_usb_drive_is_just/",
+      "hnUrl": "https://hn.algolia.com/?q=Lenovo%27s%20%27encrypted%27%20fingerprint%20USB%20is%20just%20an%20unencrypted%20SD%20card%20in%20a%20case",
+      "score": 386,
+      "comments": 137,
+      "note": "号称指纹加密的 U 盘，拆开就是一块没加密的 SD 卡，离谱程度拉满。",
+      "cover": null
+    },
+    {
+      "id": "4",
+      "title": "Mathematics has changed. Let's act like it",
+      "url": "https://terrytao.wordpress.com/2026/11/01/mathematics-has-changed-lets-act-like-it/",
+      "hnUrl": "https://hn.algolia.com/?q=Mathematics%20has%20changed.%20Let%27s%20act%20like%20it",
+      "score": 212,
+      "comments": 229,
+      "note": "AI 出证明之后，数学这行该怎么算贡献、怎么教学生，陶哲轩亲自下场定调。",
+      "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793668306"
+    },
+    {
+      "id": "5",
+      "title": "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust",
+      "url": "https://github.com/ivankovic/omnidiff",
+      "hnUrl": "https://hn.algolia.com/?q=Show%20HN%3A%20OmniDiff%20%E2%80%93%20Opensource%2C%20super%20fast%2C%20content%20aware%20Git%20difftool%2C%20in%20Rust",
+      "score": 148,
+      "comments": 38,
+      "note": "Rust 写的 Git diff 工具，主打内容感知、速度快，delta 的新对手。",
+      "cover": "https://repository-images.githubusercontent.com/1078209382/05657b56-1763-4014-bae7-bb30db0db322"
+    },
+    {
+      "id": "6",
+      "title": "Copper – A minimal low-level programming language with OOP and generics",
+      "url": "https://tibleiz.net/copper/",
+      "hnUrl": "https://hn.algolia.com/?q=Copper%20%E2%80%93%20A%20minimal%20low-level%20programming%20language%20with%20OOP%20and%20generics",
+      "score": 121,
+      "comments": 72,
+      "note": "又一个极简底层语言，带 OOP 和泛型，评论区在逐条挑语法不一致。",
+      "cover": null
+    },
+    {
+      "id": "7",
+      "title": "AI delivers 'zero financial payoff' to most companies, Apollo economist says",
+      "url": "https://techcrunch.com/2026/10/25/ai-delivers-zero-financial-payoff-to-most-companies-according-to-apollo-economist/",
+      "hnUrl": "https://hn.algolia.com/?q=AI%20delivers%20%27zero%20financial%20payoff%27%20to%20most%20companies%2C%20Apollo%20economist%20says",
+      "score": 120,
+      "comments": 108,
+      "note": "Apollo 经济学家称多数公司从 AI 上赚不到钱，评论区在较真这研究到底量了什么。",
+      "cover": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800"
+    },
+    {
+      "id": "8",
+      "title": "Ask HN: Which TV do you recommend for privacy?",
+      "url": "https://news.ycombinator.com/item?id=50328896",
+      "hnUrl": "https://news.ycombinator.com/item?id=50328896",
+      "score": 111,
+      "comments": 194,
+      "note": "想买台不偷数据的电视，结论基本是：别联网，只当显示器用。",
+      "cover": null
+    },
+    {
+      "id": "9",
+      "title": "Proving and improving the Platonic Representation Hypothesis with JEPAs",
+      "url": "https://arxiv.org/abs/2610.39302",
+      "hnUrl": "https://hn.algolia.com/?q=Proving%20and%20improving%20the%20Platonic%20Representation%20Hypothesis%20with%20JEPAs",
+      "score": 105,
+      "comments": 59,
+      "note": "不同模型学到最后会收敛到同一个表示空间吗？JEPA 路线的新证据。",
+      "cover": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "id": "10",
+      "title": "Nibnib: Image compression with extreme decompression speed",
+      "url": "https://github.com/raphlinus/nibnib",
+      "hnUrl": "https://hn.algolia.com/?q=Nibnib%3A%20Image%20compression%20with%20extreme%20decompression%20speed",
+      "score": 87,
+      "comments": 10,
+      "note": "为 RP2350 这类小芯片优化的图像压缩，解压极快，但评论在质疑这算不算压缩。",
+      "cover": "https://opengraph.githubassets.com/c16c7a2411250b8329d8e505682f1f02683e71fbe9d2ad617ea5a40747299cd4/raphlinus/nibnib",
+      "by": "raphlinus"
+    },
+    {
+      "id": "11",
+      "title": "Tips for more effective fuzz testing with AFL++",
+      "url": "https://nullprogram.com/blog/2025/02/05/",
+      "hnUrl": "https://hn.algolia.com/?q=Tips%20for%20more%20effective%20fuzz%20testing%20with%20AFL%2B%2B",
+      "score": 68,
+      "comments": 12,
+      "note": "AFL++ 实战技巧帖，老手现身说法：再牛的工程师写的 C 也逃不过 fuzz。",
+      "cover": null
+    },
+    {
+      "id": "12",
+      "title": "New 3D thermal invisibility cloak makes objects disappear from infrared cameras",
+      "url": "https://www.sciencedaily.com/releases/2026/10/261025073051.htm",
+      "hnUrl": "https://hn.algolia.com/?q=New%203D%20thermal%20invisibility%20cloak%20makes%20objects%20disappear%20from%20infrared%20cameras",
+      "score": 37,
+      "comments": 20,
+      "note": "红外隐身斗篷，评论第一反应：这东西马上会出现在乌克兰。",
+      "cover": "https://www.sciencedaily.com/images/1920/3d-printed-hybrid-aluminum-and-rubber-cloaking-device.webp"
+    },
+    {
+      "id": "13",
+      "title": "Keeping Up Appearances – The women taking over the funeral industry",
+      "url": "https://lareviewofbooks.org/article/death-industry-mortuary-programs-women-andie-eisen-quarterly/",
+      "hnUrl": "https://hn.algolia.com/?q=Keeping%20Up%20Appearances%20%E2%80%93%20The%20women%20taking%20over%20the%20funeral%20industry",
+      "score": 16,
+      "comments": 2,
+      "note": "殡葬业正在女性化，顺带揭了私募股权接管殡仪馆的老底。",
+      "cover": "https://cdn.lareviewofbooks.org/unsafe/fit-in/1200x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2Fnekpokedeiaorart00gree_0345%20crop%20vert.jpg"
+    }
+  ],
+  "highlights": [
+    {
+      "by": "ma9o",
+      "from": "HackerTube",
+      "text": "「One of the most upvoted posts of the year is a static scrape with a UI? I want old HN back…」——年度最高赞之一居然是个静态爬取加个界面，怀旧派破防了。"
+    },
+    {
+      "by": "bsaul",
+      "from": "Mathematics has changed",
+      "text": "数学正从手工业时代进入工业制造时代，别哀悼马匹，要想到引擎还能带人飞。"
+    },
+    {
+      "by": "charles_f",
+      "from": "Lenovo fingerprint USB",
+      "text": "拆开把 SD 卡插电脑就行，这还需要 codex 帮忙？更离谱的是这种设计怎么通过的安全评审。"
+    },
+    {
+      "by": "realityfactchex",
+      "from": "Ask HN: Which TV",
+      "text": "拆机拔掉无线模块、永不联网、只走 HDMI，把信任交给外接盒子——最彻底的方案。"
+    }
+  ]
+}

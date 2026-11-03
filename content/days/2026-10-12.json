@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-12",
+  "mood": "今天是硬核技术 + 文化评论的混搭——IRC、即时战略复刻、陶哲轩的数学 2.0 全是高热度，Google 的数据中心争议则占了两条。",
+  "items": [
+    {
+      "id": "1",
+      "title": "IRCv3",
+      "url": "https://ircv3.net/",
+      "hnUrl": "https://hn.algolia.com/?q=IRCv3",
+      "score": 345,
+      "comments": 293,
+      "note": "老牌聊天协议在推现代化标准（持久频道历史、富文本），HN 上一大批老兵现身说法：IRC 最大的张力不在协议，而在客户端的体验。这帖的怀旧+技术讨论量是今天最大的。",
+      "cover": null
+    },
+    {
+      "id": "2",
+      "title": "Total Annihilation, rebuilt for modern computers",
+      "url": "https://nanolathe.gg",
+      "hnUrl": "https://hn.algolia.com/?q=Total%20Annihilation%2C%20rebuilt%20for%20modern%20computers",
+      "score": 339,
+      "comments": 144,
+      "note": "经典 RTS《横扫千军》被现代引擎重制，评论区都在讨论 Beyond All Reason（150 人同局、数万单位）以及各路精神续作的技术路线——看下来 BAR 仍是社区公认的最佳。",
+      "cover": null
+    },
+    {
+      "id": "3",
+      "title": "Terence Tao: Math 2.0 [pdf]",
+      "url": "https://teorth.github.io/tao-web/slides/math-2-0-caltech-2026.pdf",
+      "hnUrl": "https://hn.algolia.com/?q=Terence%20Tao%3A%20Math%202.0%20%5Bpdf%5D",
+      "score": 308,
+      "comments": 363,
+      "note": "陶哲轩 Caltech 演讲幻灯片：AI 时代的数学研究范式之变。最有争议的是几页\"AI 治愈癌症\"的设想，评论区医学从业者集中开火——但抛开那几页，内容评价很高。",
+      "cover": null
+    },
+    {
+      "id": "4",
+      "title": "So, You'd Like To Sell Your Print Issues Of The Onion?",
+      "url": "https://theonion.com/archivehunt/",
+      "hnUrl": "https://hn.algolia.com/?q=So%2C%20You'd%20Like%20To%20Sell%20Your%20Print%20Issues%20Of%20The%20Onion%3F",
+      "score": 235,
+      "comments": 32,
+      "note": "洋葱新闻官方征集遗失的纸质版期号，补全 270 年（他们的说法）档案。很洋葱式的行为艺术，评论区有人翻出了 90 年代在麦迪逊囤的旧刊。",
+      "cover": "https://theonion.com/wp-content/uploads/2026/10/onion-vol21-issue18-front-page.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The gap in shared understanding of LLM capability is widening",
+      "url": "https://twitter.com/karpathy/status/2109361546505966046",
+      "hnUrl": "https://hn.algolia.com/?q=The%20gap%20in%20shared%20understanding%20of%20LLM%20capability%20is%20widening",
+      "score": 213,
+      "comments": 344,
+      "note": "Karpathy 说人们对 LLM 能力的认知鸿沟在拉大：一边是觉得 agent 已经能包办大型项目，一边是担心代码维护、token 成本和 LLM 幻觉的人。这帖的评论撕得厉害。",
+      "cover": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Cartographers of North Korea (2019)",
+      "url": "https://cartographers-nk.wonyoung.so/",
+      "hnUrl": "https://hn.algolia.com/?q=Cartographers%20of%20North%20Korea%20(2019)",
+      "score": 169,
+      "comments": 29,
+      "note": "志愿者在 OpenStreetMap 上测绘朝鲜的纪实。评论里一位测绘者的来信很触动：他重点绘制图们江沿岸的铁丝网、道路和村庄，\"帮助朝鲜人\"，主要工作是图们江一带。",
+      "cover": "https://cartographers-nk.wonyoung.so/assets/og-img.png"
+    },
+    {
+      "id": "7",
+      "title": "Google is illegaly cutting forest to build data centers",
+      "url": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+      "hnUrl": "https://hn.algolia.com/?q=Google%20is%20illegaly%20cutting%20forest%20to%20build%20data%20centers",
+      "score": 73,
+      "comments": 6,
+      "note": "芬兰叫停 Google 数据中心砍伐林木，要求补做环境影响评估。评论区吐槽精准：罚款对 Google 来说大概只是\"轻微不便\"。",
+      "cover": "https://i.guim.co.uk/img/media/5a426a4caa58ecb7baabf8e19319bb4ee7c46a53/669_0_3162_2531/master/3162.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=dcad87901dee69ab635a10fa637a6bc3"
+    },
+    {
+      "id": "8",
+      "title": "Chapter 1 of Ways of Seeing by John Berger",
+      "url": "https://www.ways-of-seeing.com/ch1",
+      "hnUrl": "https://hn.algolia.com/?q=Chapter%201%20of%20Ways%20of%20Seeing%20by%20John%20Berger",
+      "score": 68,
+      "comments": 11,
+      "by": "John",
+      "note": "约翰·伯格《观看之道》第一章全文。冷知识：伯格本人声明书中文字不受版权保护，但图片复刻可能会惹麻烦。",
+      "cover": null
+    },
+    {
+      "id": "9",
+      "title": "Recursive self-improvement through collective intelligence",
+      "url": "https://pub.sakana.ai/mass/",
+      "hnUrl": "https://hn.algolia.com/?q=Recursive%20self-improvement%20through%20collective%20intelligence",
+      "score": 45,
+      "comments": 14,
+      "note": "Sakana AI 的新论文：让模型\"集体\"互相辩论、自我修正。看标题就很容易联想到 ai-2027.com 的剧情线。",
+      "cover": "https://pub.sakana.ai/mass/assets/figures/ogp.png"
+    },
+    {
+      "id": "10",
+      "title": "Fingerprints Are the New Cookies",
+      "url": "https://royfish.dev/fingerprints-are-the-new-cookies",
+      "hnUrl": "https://hn.algolia.com/?q=Fingerprints%20Are%20the%20New%20Cookies",
+      "score": 45,
+      "comments": 17,
+      "note": "浏览器指纹追踪取代 Cookie。关键提醒：欧盟那套同意弹窗从来就不是针对 Cookie 的，而是针对追踪本身——指纹追踪在欧盟本来就是违法的。",
+      "cover": null
+    },
+    {
+      "id": "11",
+      "title": "Google Data Centers around the world",
+      "url": "https://datacenters.google/locations/",
+      "hnUrl": "https://hn.algolia.com/?q=Google%20Data%20Centers%20around%20the%20world",
+      "score": 44,
+      "comments": 36,
+      "note": "Google 官方的数据中心分布页，被 HN 扒了皮：对\"数据中心\"的定义极窄，边缘缓存节点根本不算在内，实际足迹被刻意缩小了。",
+      "cover": "https://www.gstatic.com/marketing-cms/assets/images/c7/92/366b77ff476abc03a1b0a913e40b/wtils5-key-art-1920x1080.webp=n-w1440-h960-fcrop64=1,000022c9ffffdd37-rw"
+    },
+    {
+      "id": "12",
+      "title": "Governments are mishandling the affordability crisis",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/08/governments-are-mishandling-the-affordability-crisis",
+      "hnUrl": "https://hn.algolia.com/?q=Governments%20are%20mishandling%20the%20affordability%20crisis",
+      "score": 29,
+      "comments": 15,
+      "note": "《经济学人》：政府应对物价危机的方法错了——应该提高收入而非压制价格。评论区反驳最有力：工资涨 20%、物价涨 15%，民众不会庆祝自己富了 5%，只会愤怒于那 15% 的通胀\"偷走了\"加薪。 ##",
+      "cover": null
+    }
+  ],
+  "highlights": [
+    {
+      "text": "评论者 throwyonion： > \"Rock smart, but rock make mistake. Caveman must correct all the time. Caveman think: let rock argue with itself...\" 用穴居人寓言讲自修正模型——全场最有梗的评论，没有之一。",
+      "by": "throwyonion"
+    },
+    {
+      "text": "评论者 theshrike79： 他作为每天还在用 IRC 的人总结：IRC 大部分\"卡顿\"是客户端的问题，不是协议的问题；一个好的 bot（比如自动贴链接标题）就能让体验接近 Discord/Slack。干货浓度很高。",
+      "by": "theshrike79"
+    },
+    {
+      "text": "Math 2.0」，评论者 dekhn： 制药行业从业者回怼陶哲轩的癌症幻灯片：如果你有一种 AI 研发的药能极大改善癌症患者预后，只是因为没人懂机制就不开吗？\"这会是残忍的。\"直接把辩论拉到伦理层面。",
+      "by": "dekhn"
+    },
+    {
+      "text": "评论者 taylortbb： 通胀的心理学：人们确信加薪是靠努力挣来的，通胀是被偷走的。所以\"涨薪 20% + 涨价 15%\"等于愤怒，不是等于满意。政治家不明白这一点。",
+      "by": "taylortbb"
+    }
+  ]
+}
