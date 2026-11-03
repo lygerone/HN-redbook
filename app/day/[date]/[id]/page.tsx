@@ -34,7 +34,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
       </header>
 
       <main className="mx-auto max-w-2xl">
-        <Cover item={item} />
+        <Cover item={item} variant="detail" />
         <article className="px-4 pt-3">
           <h1 className="text-[17px] font-bold leading-snug">{item.title}</h1>
           <p className="mt-2.5 whitespace-pre-line text-[15px] leading-relaxed text-neutral-800">{item.note}</p>
