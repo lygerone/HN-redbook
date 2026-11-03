@@ -51,3 +51,30 @@ export function Footer() {
     </footer>
   );
 }
+
+export function BottomNav() {
+  return (
+    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white">
+      <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-around text-[10px] text-neutral-500">
+        <Link href="/" className="flex flex-col items-center gap-0.5 font-semibold text-[#ff2442]">
+          <span className="text-lg leading-none">🏠</span>
+          首页
+        </Link>
+        <span className="flex flex-col items-center gap-0.5">
+          <span className="text-lg leading-none">🧭</span>
+          发现
+        </span>
+        <span className="flex h-9 w-12 items-center justify-center rounded-lg bg-[#ff2442] text-xl font-bold leading-none text-white">
+          +
+        </span>
+        <span className="flex flex-col items-center gap-0.5">
+          <span className="text-lg leading-none">💬</span>
+          消息
+        </span>
+        <span className="flex flex-col items-center gap-0.5">
+          <span className="text-lg leading-none">👤</span>我
+        </span>
+      </div>
+    </nav>
+  );
+}

@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Cover from "@/components/Cover";
+import { FollowButton, LikeButton } from "@/components/Interact";
 import { formatDateCN, getAllDays, getDay } from "@/lib/data";
 
 export function generateStaticParams() {
@@ -28,9 +29,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
           {author.slice(0, 1).toUpperCase()}
         </span>
         <span className="min-w-0 flex-1 truncate text-[14px] font-medium">{author}</span>
-        <span className="shrink-0 rounded-full border border-[#ff2442] px-3.5 py-1 text-[12.5px] font-medium text-[#ff2442]">
-          关注
-        </span>
+        <FollowButton />
       </header>
 
       <main className="mx-auto max-w-2xl">
@@ -92,10 +91,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
           <span className="flex h-8 flex-1 items-center rounded-full bg-[#f6f6f6] px-3 text-[13px] text-neutral-400">
             说点什么…
           </span>
-          <span className="flex items-center gap-1 text-[13px] text-neutral-600">
-            <span className="text-lg leading-none">♡</span>
-            {item.score}
-          </span>
+          <LikeButton score={item.score} size="md" />
           <span className="flex items-center gap-1 text-[13px] text-neutral-600">
             <span className="text-lg leading-none">☆</span>
             收藏

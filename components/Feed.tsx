@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Cover from "./Cover";
-import { DateChips } from "./Chrome";
+import { BottomNav, DateChips } from "./Chrome";
+import { LikeButton } from "./Interact";
 import type { DayData, HnItem } from "@/lib/data";
 
 function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
@@ -19,10 +20,7 @@ function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
             </span>
             <span className="truncate">{item.by ?? "HN"}</span>
           </span>
-          <span className="flex shrink-0 items-center gap-0.5 pl-2">
-            <span className="text-[13px] leading-none">♡</span>
-            {item.score}
-          </span>
+          <LikeButton score={item.score} />
         </div>
       </div>
     </Link>
@@ -31,7 +29,7 @@ function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
 
 export default function Feed({ day, days }: { day: DayData; days: DayData[] }) {
   return (
-    <main className="mx-auto w-full max-w-6xl px-3 pb-4">
+    <main className="mx-auto w-full max-w-6xl px-3 pb-20">
       <DateChips days={days} current={day.date} />
       {day.mood && (
         <p className="mb-3 mt-1 flex items-start gap-2 rounded-lg bg-[#fff5f6] px-3 py-2 text-[12.5px] leading-relaxed text-neutral-600">
@@ -46,6 +44,7 @@ export default function Feed({ day, days }: { day: DayData; days: DayData[] }) {
           <FeedCard key={item.id} day={day} item={item} />
         ))}
       </div>
+      <BottomNav />
     </main>
   );
 }
