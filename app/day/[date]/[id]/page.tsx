@@ -1,8 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Cover from "@/components/Cover";
-import { FollowButton, LikeButton } from "@/components/Interact";
-import { formatDateCN, getAllDays, getDay } from "@/lib/data";
+import { ChevronLeftIcon } from "@/components/Icons";
+import { FollowButton } from "@/components/Interact";
+import { DetailBar, LiveCounts } from "@/components/Live";
+import { formatDateCN, getAllDays, getDay, titleOf, zhFromTitle } from "@/lib/data";
 
 export function generateStaticParams() {
   return getAllDays().flatMap((d) => d.items.map((i) => ({ date: d.date, id: i.id })));
@@ -20,10 +22,10 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
       <header className="sticky top-0 z-20 flex h-12 items-center gap-2 border-b border-neutral-100 bg-white/95 px-3 backdrop-blur">
         <Link
           href={date === getAllDays()[0].date ? "/" : `/day/${date}`}
-          className="px-1 text-[22px] leading-none text-neutral-700"
+          className="-ml-1 flex h-10 w-10 items-center justify-center text-neutral-700"
           aria-label="返回"
         >
-          ‹
+          <ChevronLeftIcon />
         </Link>
         <span className="flex h-8 w-8 items-center justify-center rounded-full bg-orange-500 text-[13px] font-bold text-white">
           {author.slice(0, 1).toUpperCase()}
@@ -35,7 +37,8 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
       <main className="mx-auto max-w-2xl">
         <Cover item={item} variant="detail" />
         <article className="px-4 pt-3">
-          <h1 className="text-[17px] font-bold leading-snug">{item.title}</h1>
+          <h1 className="text-[17px] font-bold leading-snug">{titleOf(item)}</h1>
+          {item.titleZh && <p className="mt-1 text-xs leading-relaxed text-neutral-400">{item.title}</p>}
           <p className="mt-2.5 whitespace-pre-line text-[15px] leading-relaxed text-neutral-800">{item.note}</p>
           <p className="mt-3 text-[13px] leading-relaxed text-[#4a6a9c]">
             #HackerNews <span className="ml-1">#每日早报</span> <span className="ml-1">#HN热帖</span>
@@ -58,8 +61,9 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
               HN 讨论串
             </a>
           </div>
-          <p className="mt-4 border-b border-neutral-100 pb-4 text-xs text-neutral-400">
-            {formatDateCN(date)} · ♥ {item.score} · 💬 {item.comments} 条评论
+          <p className="mt-4 flex items-center gap-1.5 border-b border-neutral-100 pb-4 text-xs text-neutral-500">
+            {formatDateCN(date)} ·
+            <LiveCounts id={item.id} score={item.score} comments={item.comments} />
           </p>
         </article>
 
@@ -75,7 +79,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
                   <div className="min-w-0">
                     <div className="text-xs text-neutral-400">
                       {h.by ?? "HN 网友"}
-                      {h.from ? <span> · 出自《{h.from}》</span> : null}
+                      {h.from ? <span> · 出自《{zhFromTitle(day, h.from)}》</span> : null}
                     </div>
                     <p className="mt-0.5 text-[14px] leading-relaxed text-neutral-800">{h.text}</p>
                   </div>
@@ -86,22 +90,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
         )}
       </main>
 
-      <div className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white">
-        <div className="mx-auto flex h-[52px] max-w-2xl items-center gap-4 px-4">
-          <span className="flex h-8 flex-1 items-center rounded-full bg-[#f6f6f6] px-3 text-[13px] text-neutral-400">
-            说点什么…
-          </span>
-          <LikeButton score={item.score} size="md" />
-          <span className="flex items-center gap-1 text-[13px] text-neutral-600">
-            <span className="text-lg leading-none">☆</span>
-            收藏
-          </span>
-          <span className="flex items-center gap-1 text-[13px] text-neutral-600">
-            <span className="text-lg leading-none">💬</span>
-            {item.comments}
-          </span>
-        </div>
-      </div>
+      <DetailBar id={item.id} score={item.score} comments={item.comments} />
     </div>
   );
 }

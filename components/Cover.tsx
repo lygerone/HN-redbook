@@ -52,6 +52,7 @@ export default function Cover({ item, variant = "feed" }: { item: HnItem; varian
       src={item.cover}
       alt={item.title}
       loading="lazy"
+      decoding="async"
       onError={() => setFailed(true)}
       className={variant === "feed" ? "aspect-[3/4] w-full object-cover" : "w-full"}
     />

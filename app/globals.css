@@ -7,3 +7,10 @@ body {
 
 .no-scrollbar::-webkit-scrollbar { display: none; }
 .no-scrollbar { scrollbar-width: none; }
+
+html { scroll-behavior: smooth; }
+
+:focus-visible {
+  outline: 2px solid #ff2442;
+  outline-offset: 2px;
+}

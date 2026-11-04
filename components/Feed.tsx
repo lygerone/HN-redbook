@@ -1,26 +1,26 @@
 import Link from "next/link";
 import Cover from "./Cover";
 import { BottomNav, DateChips } from "./Chrome";
-import { LikeButton } from "./Interact";
-import type { DayData, HnItem } from "@/lib/data";
+import { LiveLike } from "./Live";
+import { titleOf, type DayData, type HnItem } from "@/lib/data";
 
 function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
   return (
     <Link
       href={`/day/${day.date}/${item.id}`}
-      className="mb-2 block break-inside-avoid overflow-hidden rounded-lg bg-white"
+      className="mb-2 block break-inside-avoid overflow-hidden rounded-lg bg-white transition-opacity duration-150 active:opacity-90"
     >
       <Cover item={item} />
       <div className="px-2 pb-2 pt-1.5">
-        <h3 className="line-clamp-2 text-[13px] font-medium leading-snug text-neutral-900">{item.title}</h3>
-        <div className="mt-1.5 flex items-center justify-between text-[11px] text-neutral-400">
+        <h3 className="line-clamp-2 text-[13px] font-medium leading-snug text-neutral-900">{titleOf(item)}</h3>
+        <div className="mt-1.5 flex items-center justify-between text-[11px] text-neutral-500">
           <span className="flex min-w-0 items-center gap-1">
             <span className="flex h-[18px] w-[18px] shrink-0 items-center justify-center rounded-full bg-orange-500 text-[9px] font-bold text-white">
               {(item.by ?? "H").slice(0, 1).toUpperCase()}
             </span>
             <span className="truncate">{item.by ?? "HN"}</span>
           </span>
-          <LikeButton score={item.score} />
+          <LiveLike id={item.id} score={item.score} />
         </div>
       </div>
     </Link>

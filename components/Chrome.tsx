@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { formatDateCN, type DayData } from "@/lib/data";
+import { MenuIcon, SearchIcon } from "./Icons";
 
 export function TopBar() {
   return (
@@ -8,12 +9,12 @@ export function TopBar() {
         <Link href="/" className="shrink-0 text-[17px] font-black tracking-tight text-[#ff2442]">
           HN红书
         </Link>
-        <div className="flex h-8 flex-1 items-center gap-1.5 rounded-full bg-[#f6f6f6] px-3 text-[13px] text-neutral-400">
-          <span aria-hidden>🔍</span>
+        <div className="flex h-8 flex-1 items-center gap-1.5 rounded-full bg-[#f6f6f6] px-3 text-[13px] text-neutral-500">
+          <SearchIcon size={15} />
           <span className="truncate">搜你感兴趣的 HN 热帖</span>
         </div>
-        <span className="shrink-0 text-lg leading-none text-neutral-600" aria-hidden>
-          ☰
+        <span className="shrink-0 text-neutral-600">
+          <MenuIcon />
         </span>
       </div>
     </header>
@@ -54,26 +55,17 @@ export function Footer() {
 
 export function BottomNav() {
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white">
-      <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-around text-[10px] text-neutral-500">
-        <Link href="/" className="flex flex-col items-center gap-0.5 font-semibold text-[#ff2442]">
-          <span className="text-lg leading-none">🏠</span>
+    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white pb-[env(safe-area-inset-bottom)]">
+      <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-around">
+        <Link href="/" className="flex min-w-11 items-center justify-center text-[15px] font-bold text-[#ff2442]">
           首页
         </Link>
-        <span className="flex flex-col items-center gap-0.5">
-          <span className="text-lg leading-none">🧭</span>
-          发现
-        </span>
+        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">发现</span>
         <span className="flex h-9 w-12 items-center justify-center rounded-lg bg-[#ff2442] text-xl font-bold leading-none text-white">
           +
         </span>
-        <span className="flex flex-col items-center gap-0.5">
-          <span className="text-lg leading-none">💬</span>
-          消息
-        </span>
-        <span className="flex flex-col items-center gap-0.5">
-          <span className="text-lg leading-none">👤</span>我
-        </span>
+        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">消息</span>
+        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">我</span>
       </div>
     </nav>
   );
