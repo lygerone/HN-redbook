@@ -11,7 +11,8 @@
       "comments": 538,
       "note": "把 HN 多年推荐过的视频扒出来重建成一个 YouTube，简单粗暴但全站都在点赞。",
       "cover": "https://bearblog.dev/static/og-image.png",
-      "by": "karpathy"
+      "by": "karpathy",
+      "titleZh": "HackerTube：用 HN 推荐视频搭的 YouTube"
     },
     {
       "id": "2",
@@ -21,7 +22,8 @@
       "score": 874,
       "comments": 171,
       "note": "HackerTube 的跟风作，收录 HN 提过的所有书，每本还能回链到原评论。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Show HN：HackerBooks——HN 提到过的书"
     },
     {
       "id": "3",
@@ -31,7 +33,8 @@
       "score": 386,
       "comments": 137,
       "note": "号称指纹加密的 U 盘，拆开就是一块没加密的 SD 卡，离谱程度拉满。",
-      "cover": null
+      "cover": null,
+      "titleZh": "联想的“加密”指纹 U 盘，壳里就是张没加密的 SD 卡"
     },
     {
       "id": "4",
@@ -41,7 +44,8 @@
       "score": 212,
       "comments": 229,
       "note": "AI 出证明之后，数学这行该怎么算贡献、怎么教学生，陶哲轩亲自下场定调。",
-      "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793668306"
+      "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793668306",
+      "titleZh": "数学已经变了，我们得跟上"
     },
     {
       "id": "5",
@@ -51,7 +55,8 @@
       "score": 148,
       "comments": 38,
       "note": "Rust 写的 Git diff 工具，主打内容感知、速度快，delta 的新对手。",
-      "cover": "https://repository-images.githubusercontent.com/1078209382/05657b56-1763-4014-bae7-bb30db0db322"
+      "cover": "https://repository-images.githubusercontent.com/1078209382/05657b56-1763-4014-bae7-bb30db0db322",
+      "titleZh": "Show HN：OmniDiff——Rust 写的超快内容感知 Git 对比工具"
     },
     {
       "id": "6",
@@ -61,7 +66,8 @@
       "score": 121,
       "comments": 72,
       "note": "又一个极简底层语言，带 OOP 和泛型，评论区在逐条挑语法不一致。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Copper：带 OOP 和泛型的极简底层语言"
     },
     {
       "id": "7",
@@ -71,7 +77,8 @@
       "score": 120,
       "comments": 108,
       "note": "Apollo 经济学家称多数公司从 AI 上赚不到钱，评论区在较真这研究到底量了什么。",
-      "cover": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800"
+      "cover": "https://techcrunch.com/wp-content/uploads/2023/08/GettyImages-1308803174.jpg?resize=1200,800",
+      "titleZh": "Apollo 经济学家：AI 给多数公司带来零财务回报"
     },
     {
       "id": "8",
@@ -81,7 +88,8 @@
       "score": 111,
       "comments": 194,
       "note": "想买台不偷数据的电视，结论基本是：别联网，只当显示器用。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Ask HN：注重隐私的话推荐哪台电视？"
     },
     {
       "id": "9",
@@ -91,7 +99,8 @@
       "score": 105,
       "comments": 59,
       "note": "不同模型学到最后会收敛到同一个表示空间吗？JEPA 路线的新证据。",
-      "cover": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      "cover": "/static/browse/0.3.4/images/arxiv-logo-fb.png",
+      "titleZh": "用 JEPA 证明并改进柏拉图式表征假说"
     },
     {
       "id": "10",
@@ -102,7 +111,8 @@
       "comments": 10,
       "note": "为 RP2350 这类小芯片优化的图像压缩，解压极快，但评论在质疑这算不算压缩。",
       "cover": "https://opengraph.githubassets.com/c16c7a2411250b8329d8e505682f1f02683e71fbe9d2ad617ea5a40747299cd4/raphlinus/nibnib",
-      "by": "raphlinus"
+      "by": "raphlinus",
+      "titleZh": "Nibnib：解压速度极快的图片压缩"
     },
     {
       "id": "11",
@@ -112,7 +122,8 @@
       "score": 68,
       "comments": 12,
       "note": "AFL++ 实战技巧帖，老手现身说法：再牛的工程师写的 C 也逃不过 fuzz。",
-      "cover": null
+      "cover": null,
+      "titleZh": "用 AFL++ 做更有效的模糊测试"
     },
     {
       "id": "12",
@@ -122,7 +133,8 @@
       "score": 37,
       "comments": 20,
       "note": "红外隐身斗篷，评论第一反应：这东西马上会出现在乌克兰。",
-      "cover": "https://www.sciencedaily.com/images/1920/3d-printed-hybrid-aluminum-and-rubber-cloaking-device.webp"
+      "cover": "https://www.sciencedaily.com/images/1920/3d-printed-hybrid-aluminum-and-rubber-cloaking-device.webp",
+      "titleZh": "新型 3D 热隐形斗篷让物体在红外相机前消失"
     },
     {
       "id": "13",
@@ -132,7 +144,8 @@
       "score": 16,
       "comments": 2,
       "note": "殡葬业正在女性化，顺带揭了私募股权接管殡仪馆的老底。",
-      "cover": "https://cdn.lareviewofbooks.org/unsafe/fit-in/1200x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2Fnekpokedeiaorart00gree_0345%20crop%20vert.jpg"
+      "cover": "https://cdn.lareviewofbooks.org/unsafe/fit-in/1200x0/filters:format(jpeg):quality(75)/https%3A%2F%2Fassets.lareviewofbooks.org%2Fuploads%2Fnekpokedeiaorart00gree_0345%20crop%20vert.jpg",
+      "titleZh": "体面至上：正在接管殡葬业的女性们"
     }
   ],
   "highlights": [

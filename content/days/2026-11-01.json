@@ -11,7 +11,8 @@
       "comments": 222,
       "note": "Karpathy 做的 HackerTube：只放 HN 推荐过的视频，评论区感慨——不用时刻提防被算法诱饵钓走的互联网，原来可以这么清爽。",
       "cover": "https://bearblog.dev/static/og-image.png",
-      "by": "karpathy"
+      "by": "karpathy",
+      "titleZh": "HackerTube：用 HN 推荐视频搭的 YouTube"
     },
     {
       "id": "2",
@@ -22,7 +23,8 @@
       "comments": 147,
       "note": "Linux IPv4 TCP 的 UAF 漏洞，CVSS 9.8，评论区划重点：这是 Linux 专属漏洞，BSD/Mac/Windows 不受影响；互联网利用难度不大，因为多数 ISP 路由器会丢带 IP options 的包。",
       "cover": "https://atlasum.net/blog/cve-2026-98432-linux-ipv4-tcp-uaf/opengraph-image",
-      "by": "oger"
+      "by": "oger",
+      "titleZh": "TCP 释放后使用漏洞 CVE-2026-98432（9.8 分）"
     },
     {
       "id": "3",
@@ -33,7 +35,8 @@
       "comments": 175,
       "note": "Signal 分支 Molly 三个月没更新、已有漏洞，评论区：官方 Signal 现在也能一号双设备了，很多人当初用 Molly 就是为这个。",
       "cover": "/static/images/piefed_logo_full_t_300x300.svg",
-      "by": "DeepLogin"
+      "by": "DeepLogin",
+      "titleZh": "Molly（Signal 分支）三个月没更新，存在漏洞"
     },
     {
       "id": "4",
@@ -44,7 +47,8 @@
       "comments": 98,
       "note": "Jepsen 最新拷打：自称 Postgres 兼容的 ParticleDB，事务异常测了个遍——已提交写入丢失、脏读、更新丢失全有，号称的 TLA+ 证明也没见着。",
       "cover": null,
-      "by": "aphyr"
+      "by": "aphyr",
+      "titleZh": "Jepsen 测试：ParticleDB 1.1.4"
     },
     {
       "id": "5",
@@ -55,7 +59,8 @@
       "comments": 34,
       "note": "性能瓶颈不在算力在内存延迟，评论区现身说法：在 STM32MP1 这种小缓存芯片上，STL 容器和深嵌套虚方法就是灾难。",
       "cover": null,
-      "by": "ntur1337"
+      "by": "ntur1337",
+      "titleZh": "问题在内存延迟，笨蛋"
     },
     {
       "id": "6",
@@ -66,7 +71,8 @@
       "comments": 37,
       "note": "意大利农夫在阁楼发现不知名种子，种出来是失传古小麦：抗旱、不用化肥除草剂，个子高到能遮住杂草。",
       "cover": "https://th-thumbnailer.cdn-si-edu.com/_-X8sWyx82CD0eX5ZxIF7dcS2X8=/fit-in/1600x0/filters:focal(1181x787:1182x788)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/37/95/3795362b-64a6-4d5f-b7df-67aa18192521/l2190910.jpg",
-      "by": "ecares"
+      "by": "ecares",
+      "titleZh": "意大利农民在阁楼发现未知种子并种了下去"
     },
     {
       "id": "7",
@@ -77,7 +83,8 @@
       "comments": 28,
       "note": "学者的责任：发现公共安全隐患就该披露，评论区翻出 Intel 当年「超线程不是问题」的旧账——AI 时代，难利用的洞也不再难了。",
       "cover": null,
-      "by": "gslin"
+      "by": "gslin",
+      "titleZh": "学者的责任"
     },
     {
       "id": "8",
@@ -88,7 +95,8 @@
       "comments": 39,
       "note": "认识 86% 的单词，可能只听懂 38% 的动漫台词——日语学习者的扎心数据，评论区在挑方法论的毛病。",
       "cover": "https://learnfromx.com/static/images/og-word-coverage.png",
-      "by": "lakesare"
+      "by": "lakesare",
+      "titleZh": "掌握 86% 的词，可能只听懂 38% 的动漫台词"
     },
     {
       "id": "9",
@@ -99,7 +107,8 @@
       "comments": 13,
       "note": "达斯汀·霍夫曼谈《毕业生》之后的人生，评论区：成长中的人每天都觉得自己在失败，因为没有对照系。",
       "cover": "https://media.newyorker.com/photos/6ae39ebeda249834dbb46a9b/16:9/w_1280,c_limit/HTG_01_final_still.jpg",
-      "by": "samizdis"
+      "by": "samizdis",
+      "titleZh": "熬过《毕业生》"
     },
     {
       "id": "10",
@@ -110,7 +119,8 @@
       "comments": 18,
       "note": "5 个本地 Qwen3.8-27B 组队，在 LiveCodeBench Hard 上打赢 Fable 5——本地模型追赶超大厂的又一个证据。",
       "cover": "https://opengraph.githubassets.com/488d4d78a44ae76400e3ccea503e292f808c07d95d03ed9522d9cbb0576fffad/guregodevo/memdoor",
-      "by": "guregodevo"
+      "by": "guregodevo",
+      "titleZh": "Memdoor：5 个 Qwen3.8-27B 组队在 LiveCodeBench Hard 上击败 Fable 5"
     },
     {
       "id": "11",
@@ -121,7 +131,8 @@
       "comments": 27,
       "note": "魂斗罗 NES 版：汇编转 C 再转 WebAssembly 的移植接力，评论区：日版魂斗罗明明更好玩！",
       "cover": null,
-      "by": "tevlon"
+      "by": "tevlon",
+      "titleZh": "Show HN：把 1987 年《魂斗罗》从汇编移植到 WebAssembly"
     },
     {
       "id": "12",
@@ -132,7 +143,8 @@
       "comments": 17,
       "note": "Google 的太空 AI 原型卫星 Suncatcher 首次回传，评论区吐槽：通篇是 LLM 写的诗，真正关心的散热和抗辐射只字未提。",
       "cover": "https://i.ytimg.com/vi_webp/epqzfAi16us/maxresdefault.webp",
-      "by": "praccu"
+      "by": "praccu",
+      "titleZh": "Project Suncatcher 原型卫星传回首个响应"
     },
     {
       "id": "13",
@@ -143,7 +155,8 @@
       "comments": 3,
       "note": "早期电动车是给女性设计的：不用摇把启动、安静好开，评论区：底特律电动车堪称「带花瓶的移动茶室」。",
       "cover": "https://spectrum.ieee.org/media-library/image.jpg?id=68537019&width=1200&height=600&coordinates=0%2C300%2C0%2C301",
-      "by": "dverlaeckt80"
+      "by": "dverlaeckt80",
+      "titleZh": "电动车曾经是给女性开的"
     }
   ],
   "highlights": [

@@ -10,7 +10,8 @@
       "score": 754,
       "comments": 472,
       "note": "Cursor 应用市场上的假冒 Claude Code 扩展被植入后门，会往 SSH authorized_keys 里加攻击者公钥——用 Cursor 的先自查。",
-      "cover": "https://phorion.io/images/default-social-card.png"
+      "cover": "https://phorion.io/images/default-social-card.png",
+      "titleZh": "Cursor 市场里的 Claude Code 插件被植入后门"
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "score": 348,
       "comments": 271,
       "note": "又一家 SaaS 基础设施厂商被攻破，评论区在盘点：9 月以来这已经是第六起同类事件。",
-      "cover": "https://northflank.instatus.com/api/og"
+      "cover": "https://northflank.instatus.com/api/og",
+      "titleZh": "Northflank 被入侵"
     },
     {
       "id": "3",
@@ -30,7 +32,8 @@
       "score": 260,
       "comments": 50,
       "note": "五起 Azure 跨租户完全沦陷的案例复盘，云上租户隔离的老问题又被翻出来。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Azure 最弱一环：五次完整的跨租户沦陷"
     },
     {
       "id": "4",
@@ -40,7 +43,8 @@
       "score": 229,
       "comments": 61,
       "note": "在 Wii 上跑经典 Mac OS 的折腾记录，复古硬件圈的快乐就是这么朴素。",
-      "cover": null
+      "cover": null,
+      "titleZh": "我最喜欢的 PowerMac 是任天堂 Wii"
     },
     {
       "id": "5",
@@ -50,7 +54,8 @@
       "score": 224,
       "comments": 77,
       "note": "基于 AT Protocol 的联邦制代码托管平台 Tangled 正式亮相，想用去中心化方式重做 GitHub。",
-      "cover": "https://assets.tangled.network/blog/forge/og.png"
+      "cover": "https://assets.tangled.network/blog/forge/og.png",
+      "titleZh": "联邦化代码托管"
     },
     {
       "id": "6",
@@ -60,7 +65,8 @@
       "score": 209,
       "comments": 36,
       "note": "用 LaTeX 程序化生成花卉插图，TeX 社区的审美一直在线。",
-      "cover": "https://opengraph.githubassets.com/4e6fb5c2facf320db1c4883539e40d77be6e2cc9bca4ead403a97e63e6bb087d/kevinraymond/florilegium"
+      "cover": "https://opengraph.githubassets.com/4e6fb5c2facf320db1c4883539e40d77be6e2cc9bca4ead403a97e63e6bb087d/kevinraymond/florilegium",
+      "titleZh": "Florilegium：用 LaTeX 程序化生成花朵"
     },
     {
       "id": "7",
@@ -70,7 +76,8 @@
       "score": 184,
       "comments": 105,
       "note": "纪念帕特里克·斯图尔特的文章，聊皮卡德舰长留下的东西。",
-      "cover": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440"
+      "cover": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/CGTKMVCJ3II6DM4QQY75UQKYRQ.jpg?auth=1665db2d602a73cebcb708de2cff81cdafb1dff34e84e5e1b3f511472b91079a&width=1440",
+      "titleZh": "帕特里克·斯图尔特借皮卡德舰长教我们何以为人"
     },
     {
       "id": "8",
@@ -80,7 +87,8 @@
       "score": 182,
       "comments": 75,
       "note": "反爬立法和身份 gating 挡不住恶意爬虫，只会伤到正常用户和开放网络，观点很直白。",
-      "cover": "https://cdn.sanity.io/images/3tzzh18d/production/46070e9d00c44c7690c79155723ff59e5c1280fe-1200x675.png"
+      "cover": "https://cdn.sanity.io/images/3tzzh18d/production/46070e9d00c44c7690c79155723ff59e5c1280fe-1200x675.png",
+      "titleZh": "毁掉开放网络也挡不住坏爬虫"
     },
     {
       "id": "9",
@@ -90,7 +98,8 @@
       "score": 181,
       "comments": 108,
       "note": "用约 1GB 的 Qwen 权重跑出一台能用的任天堂模拟机，纯矩阵运算模拟芯片，效率感人但脑洞拉满。",
-      "cover": "https://opengraph.githubassets.com/c29f93b3490b94907eedba1ab1a0686abfcd29c0305fc87af2296aefc79b94d9/dbreunig/nesformer"
+      "cover": "https://opengraph.githubassets.com/c29f93b3490b94907eedba1ab1a0686abfcd29c0305fc87af2296aefc79b94d9/dbreunig/nesformer",
+      "titleZh": "Show HN：把任天堂塞进 1GB 的 Qwen 权重里"
     },
     {
       "id": "10",
@@ -100,7 +109,8 @@
       "score": 101,
       "comments": 31,
       "note": "浏览器里直接跑 BeOS，怀旧向的 Infinite Mac 系列又添一员。",
-      "cover": "https://persistent.info/images/infinite-mac-beos-desktop.webp"
+      "cover": "https://persistent.info/images/infinite-mac-beos-desktop.webp",
+      "titleZh": "Infinite Mac：在线跑 BeOS"
     },
     {
       "id": "11",
@@ -110,7 +120,8 @@
       "score": 82,
       "comments": 23,
       "note": "冰川融化露出石器时代遗物，气候变化的副产品竟是考古红利，黑色幽默拉满。",
-      "cover": "https://image.sciencenorway.no/2713469.jpg?imageId=2713469&x=0&y=17.9&cropw=100&croph=73.3&panox=0&panoy=17.9&panow=100&panoh=73.3&width=1200&height=683"
+      "cover": "https://image.sciencenorway.no/2713469.jpg?imageId=2713469&x=0&y=17.9&cropw=100&croph=73.3&panox=0&panoy=17.9&panow=100&panoh=73.3&width=1200&height=683",
+      "titleZh": "最古老的冰层消融，石器时代浮现"
     },
     {
       "id": "12",
@@ -120,7 +131,8 @@
       "score": 73,
       "comments": 14,
       "note": "凡尔纳\"失落小说\"的手稿故事，评论区有人怀疑这手稿出现的时间点太巧了。",
-      "cover": "https://blue-continuum.com/__l5e/assets-v1/4c93ed3c-ba50-4d5d-a01a-8490d86ffb63/verne-paris-hero.jpeg"
+      "cover": "https://blue-continuum.com/__l5e/assets-v1/4c93ed3c-ba50-4d5d-a01a-8490d86ffb63/verne-paris-hero.jpeg",
+      "titleZh": "凡尔纳佚失的小说"
     },
     {
       "id": "13",
@@ -130,7 +142,8 @@
       "score": 53,
       "comments": 14,
       "note": "不用无头浏览器解 Cloudflare Turnstile 的库，作者现身说法：欧洲代理和美国代理拿到的版本还不一样。",
-      "cover": "https://opengraph.githubassets.com/90529c20c8771d7f619f77d712e7e769a8d6e318779df6fefd6a822323bb0ce1/chris124567/cfsolve"
+      "cover": "https://opengraph.githubassets.com/90529c20c8771d7f619f77d712e7e769a8d6e318779df6fefd6a822323bb0ce1/chris124567/cfsolve",
+      "titleZh": "Cloudflare Turnstile 破解库（无需无头浏览器）"
     },
     {
       "id": "14",
@@ -140,7 +153,8 @@
       "score": 49,
       "comments": 5,
       "note": "Firezone 出的 sans-IO 风格 Rust 版 WireGuard 实现，好测试、能复用在同步和异步两边。",
-      "cover": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5"
+      "cover": "https://www.firezone.dev/blog/opengraph-image?dc0a4d310bb2b9d5",
+      "titleZh": "sanstun：Rust 写的并行友好 WireGuard 实现"
     },
     {
       "id": "15",
@@ -150,7 +164,8 @@
       "score": 19,
       "comments": 5,
       "note": "猜《星际迷航：下一代》剧集的小游戏，给老粉的纪念品，难度据说不低。 ##",
-      "cover": null
+      "cover": null,
+      "titleZh": "Show HN：致敬斯图尔特的《下一代》剧集竞猜游戏"
     }
   ],
   "highlights": [

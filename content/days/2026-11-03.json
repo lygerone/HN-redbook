@@ -11,7 +11,8 @@
       "comments": 577,
       "note": "Astra 不用任何工具就能直接读写模型权重：能判断小网络学了什么游戏，能给小 Qwen 动手术把数学能力提升约 5 倍——权重空间编程来了。",
       "cover": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
-      "by": "dbreunig"
+      "by": "dbreunig",
+      "titleZh": "Astra 能读写模型权重来提升 Qwen"
     },
     {
       "id": "50337608",
@@ -22,7 +23,8 @@
       "comments": 579,
       "note": "Ubuntu 对 Linux 0day 的处理引发众怒：CVE 定级只给「高」不给「严重」，补丁还躺在 proposed 仓库里不进正式更新。",
       "cover": null,
-      "by": "chalmovsky"
+      "by": "chalmovsky",
+      "titleZh": "Ubuntu 到底在搞什么？"
     },
     {
       "id": "50340088",
@@ -33,7 +35,8 @@
       "comments": 288,
       "note": "不用出声就能跟电脑说话的设备，评论区：眼镜腿能不能别砍掉金属可调鼻托，大鼻子用户有话要说。",
       "cover": null,
-      "by": "aarushyadav"
+      "by": "aarushyadav",
+      "titleZh": "Show HN：Subvocal——不出声也能跟电脑说话"
     },
     {
       "id": "50336518",
@@ -44,7 +47,8 @@
       "comments": 93,
       "note": "喜欢一个网站就把它备份下来——书签正在慢慢腐烂，Wayback Machine 也不是什么都爬得到。",
       "cover": null,
-      "by": "ingve"
+      "by": "ingve",
+      "titleZh": "喜欢一个网站，就把它备份下来"
     },
     {
       "id": "50341462",
@@ -55,7 +59,8 @@
       "comments": 69,
       "note": "近三周了 Ubuntu 还没给 Linux 0day RCE 发补丁，评论区：以前默认装 Ubuntu，现在要重新考虑了。",
       "cover": "https://freenode.net/media/og-default.png",
-      "by": "majorchord"
+      "by": "majorchord",
+      "titleZh": "快三周了，Ubuntu 还没给 Linux 0day RCE 发补丁"
     },
     {
       "id": "50339397",
@@ -66,7 +71,8 @@
       "comments": 296,
       "note": "男女名字互换史：42 个名字向女性化移动，其中 34 个主要是因为女孩用得多了，而不是男孩用得少了。",
       "cover": null,
-      "by": "xoobdev"
+      "by": "xoobdev",
+      "titleZh": "从男孩名变女孩名的那些名字，反之亦然"
     },
     {
       "id": "50339221",
@@ -77,7 +83,8 @@
       "comments": 35,
       "note": "华沙市中心的体素 3D 互动地图，评论区：布拉格也有个同款 GTA2 视角项目。",
       "cover": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5",
-      "by": "stared"
+      "by": "stared",
+      "titleZh": "Show HN：体素版华沙市中心互动 3D 地图"
     },
     {
       "id": "50338728",
@@ -88,7 +95,8 @@
       "comments": 138,
       "note": "11 月招聘帖，找工作的直接翻评论区。",
       "cover": null,
-      "by": "whoishiring"
+      "by": "whoishiring",
+      "titleZh": "Ask HN：谁在招人？（2026 年 11 月）"
     },
     {
       "id": "50344919",
@@ -99,7 +107,8 @@
       "comments": 85,
       "note": "有人呼吁 SEC 阻止 Anthropic 上市，评论区反驳：SEC 的职责是保证信息披露，不是给政客发 IPO 否决权。",
       "cover": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
-      "by": "cdrnsf"
+      "by": "cdrnsf",
+      "titleZh": "SEC 应该阻止 Anthropic 上市以保护公众"
     },
     {
       "id": "50339913",
@@ -110,7 +119,8 @@
       "comments": 75,
       "note": "让 agent 真正用你的 App 来抓 bug，评论区拷问：这和我直接拿 Opus 5.5 接 Playwright 有什么区别。",
       "cover": "https://momentic.ai/images/og/home.png",
-      "by": "wuweiweiwu"
+      "by": "wuweiweiwu",
+      "titleZh": "Launch HN：Momentic——让 Agent 真用你的 App 来抓 bug"
     },
     {
       "id": "50341736",
@@ -121,7 +131,8 @@
       "comments": 78,
       "note": "陶哲轩再谈 AI 时代的数学：人还重要吗？评论区：这篇文章像在说「人并不重要，只有真理重要」。",
       "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793660160",
-      "by": "smileyamp"
+      "by": "smileyamp",
+      "titleZh": "AI 时代无我的数学"
     },
     {
       "id": "50341028",
@@ -132,7 +143,8 @@
       "comments": 31,
       "note": "混进 Windows 2000 发布彩排现场的回忆，评论区怀旧：红外传文件、多人贪吃蛇的诺基亚时代。",
       "cover": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2025/10/banner-oldnewthing-blue.webp",
-      "by": "ibobev"
+      "by": "ibobev",
+      "titleZh": "混进 Windows 2000 发布彩排现场"
     },
     {
       "id": "50340619",
@@ -143,7 +155,8 @@
       "comments": 21,
       "note": "NIST 给个体户和单人创业者的网络安全指南，评论区：术语还是太多了，「SI」这种词就不该出现在给外行看的东西里。",
       "cover": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG",
-      "by": "tomrod"
+      "by": "tomrod",
+      "titleZh": "个体户？NIST 给你准备了网络安全指南"
     },
     {
       "id": "50344158",
@@ -154,7 +167,8 @@
       "comments": 27,
       "note": "福特的隐私承诺：数据共享默认是 opt-out 而不是 opt-in，评论区：先下载 App 再说，这承诺的诚意值得怀疑。",
       "cover": null,
-      "by": "KoftaBob"
+      "by": "KoftaBob",
+      "titleZh": "福特的隐私承诺：你的数据你做主"
     },
     {
       "id": "50330834",
@@ -165,7 +179,8 @@
       "comments": 12,
       "note": "车钥匙为什么这么贵，评论区：特斯拉是最便宜的那档，两张卡 40 美元，自己一分钟就能配。",
       "cover": "https://thehustle.co/hubfs/undefined-Oct-29-2026-09-52-09-5189-PM.jpeg",
-      "by": "rmason"
+      "by": "rmason",
+      "titleZh": "配一把车钥匙为什么这么贵？"
     }
   ],
   "highlights": [
