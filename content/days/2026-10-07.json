@@ -10,7 +10,8 @@
       "score": 1573,
       "comments": 957,
       "note": "欧洲自建 3800 卡 GB200 从零训练，声称对标 OpenAI/Anthropic 顶级闭源模型，评论区已开始算\"美国人修那么大数据中心到底图啥\"。",
-      "cover": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp"
+      "cover": "https://mistral.ai/cms-media/api/media/file/cover-mistral-sovereign%20copie.webp",
+      "titleZh": "Mistral Large 4 发布"
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "score": 520,
       "comments": 172,
       "note": "因构想南极 IceCube 中微子探测器获奖——在冰层里埋传感器抓\"幽灵粒子\"，评论区有人安利发布会那张可爱的示意图。",
-      "cover": "https://www.nobelprize.org/uploads/2026/10/1-2_3-6ac4a172d1e22-scaled.jpg"
+      "cover": "https://www.nobelprize.org/uploads/2026/10/1-2_3-6ac4a172d1e22-scaled.jpg",
+      "titleZh": "2026 诺贝尔物理学奖：Francis Halzen"
     },
     {
       "id": "3",
@@ -30,7 +32,8 @@
       "score": 319,
       "comments": 284,
       "note": "OpenAI 放出一批数学证明，号称解了顶级未解难题清单里的 90 个，包括 Barnette 猜想，评论区有人哭诉自己几个月前用 SOTA 模型啃它没啃下来。",
-      "cover": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill"
+      "cover": "https://images.ctfassets.net/kftzwdyauwt9/3430T8Aum4BAOFwLEnHQmC/bbc034e46bc5766dc6569183e87fa6df/ai-progress-in-mathematics-social.png?w=1600&h=900&fit=fill",
+      "titleZh": "分享 AI 在数学上的进展"
     },
     {
       "id": "4",
@@ -41,7 +44,8 @@
       "comments": 286,
       "by": "AI",
       "note": "AI 设计的开源 AI 加速器，评论区神提问：\"为啥前沿实验室不把模型烧进芯片？\"",
-      "cover": "https://opengraph.githubassets.com/a8c016beafbfd474ec2fb92ab5b4b18ff9a5dc2c11a676469bc0f98841882a6d/FeSens/openTPU"
+      "cover": "https://opengraph.githubassets.com/a8c016beafbfd474ec2fb92ab5b4b18ff9a5dc2c11a676469bc0f98841882a6d/FeSens/openTPU",
+      "titleZh": "OpenTPU：由 AI 开发的开源 AI 加速器"
     },
     {
       "id": "5",
@@ -51,7 +55,8 @@
       "score": 207,
       "comments": 28,
       "note": "270M 文本 / 440M 多模态，Apache 2.0 开源，评论区盛赞：embedding 模型开源比闭源重要得多，因为向量存下来就锁死了。",
-      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png"
+      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/embeddinggemma2-banner_169.width-1300.png",
+      "titleZh": "EmbeddingGemma 2：开源轻量多模态嵌入模型"
     },
     {
       "id": "6",
@@ -61,7 +66,8 @@
       "score": 163,
       "comments": 243,
       "note": "1110 亿美元巨兽诞生；评论区扎心对比：YouTube 占美国人看电视 13%，Paramount+Warner 合起来只有约 6%。",
-      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg"
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/david-ellison-1152x648-1791303833.jpg",
+      "titleZh": "派拉蒙 Skydance 完成 1110 亿美元收购华纳兄弟探索"
     },
     {
       "id": "7",
@@ -71,7 +77,8 @@
       "score": 116,
       "comments": 49,
       "note": "OpenAI 也下场做\"决策分类\"小模型了，直接对打 Jev 和 Mercury Decide；评论区在吵 AI 生意是不是已经彻底商品化。",
-      "cover": "https://developers.openai.com/og/api/docs/guides/decisions.png"
+      "cover": "https://developers.openai.com/og/api/docs/guides/decisions.png",
+      "titleZh": "Decisions API 公开测试中"
     },
     {
       "id": "8",
@@ -81,7 +88,8 @@
       "score": 82,
       "comments": 45,
       "note": "Claude Code 猜你下一句话——作者认为真正的客户是模型本身（为了薅高质量训练数据），评论区有人说这叫\"light pattern\"不是 dark pattern。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Claude Code 的建议消息功能：真正的客户其实是模型"
     },
     {
       "id": "9",
@@ -91,7 +99,8 @@
       "score": 46,
       "comments": 11,
       "note": "Rust 写的 Linux 原生邮件客户端，颜值获赞；但最热门评论：\"我本来 100% 感兴趣，直到看到 'with AI'\"。",
-      "cover": "https://penguin-mail.com/brand/social-preview.png"
+      "cover": "https://penguin-mail.com/brand/social-preview.png",
+      "titleZh": "Penguin Mail：带 AI 的开源 Rust 邮件客户端"
     },
     {
       "id": "10",
@@ -101,7 +110,8 @@
       "score": 39,
       "comments": 6,
       "note": "把 PS5 二进制搬到 PC 跑、不需要模拟器；评论区第一个问题：\"那 GTA6 首发就能玩 PC 版了吗？\"",
-      "cover": "https://opengraph.githubassets.com/4f9b175f7f4f4917b1fbdcc01395ffd486ff56bd65b08b2e16a1a4dd801d5377/boykopovar/AnyPS5"
+      "cover": "https://opengraph.githubassets.com/4f9b175f7f4f4917b1fbdcc01395ffd486ff56bd65b08b2e16a1a4dd801d5377/boykopovar/AnyPS5",
+      "titleZh": "AnyPS5：不用模拟器把 PS5 程序移植到 PC"
     },
     {
       "id": "11",
@@ -111,7 +121,8 @@
       "score": 33,
       "comments": 18,
       "note": "大整数乘法突破 n log n 壁垒，时间复杂度 n·lg n^(1−2^−182)——评论区既笑疯又质疑有没有机器验证证明。",
-      "cover": "https://opengraph.githubassets.com/a4e68c16dc2715e75024f4b4bc98f80bbd890b8ac5fd9617911751b0a57cd45a/openai/math"
+      "cover": "https://opengraph.githubassets.com/a4e68c16dc2715e75024f4b4bc98f80bbd890b8ac5fd9617911751b0a57cd45a/openai/math",
+      "titleZh": "整数乘法突破 n log n"
     },
     {
       "id": "12",
@@ -121,7 +132,8 @@
       "score": 31,
       "comments": 9,
       "note": "年度开发者调查：大家都很累；评论区：\"光看这个标题我就已经累了\"。",
-      "cover": "https://assets.devographics.com/surveys/devs2026-og.png"
+      "cover": "https://assets.devographics.com/surveys/devs2026-og.png",
+      "titleZh": "2026 开发者状态调查：大家都累坏了"
     },
     {
       "id": "13",
@@ -131,7 +143,8 @@
       "score": 26,
       "comments": 15,
       "note": "博主自述：LLM 减少打字反而缓解了重复性劳损；评论区开始交换各种治 RSI 偏方（dvorak 键盘等）。",
-      "cover": null
+      "cover": null,
+      "titleZh": "LLM 可能治好了我的重复劳损"
     },
     {
       "id": "14",
@@ -141,7 +154,8 @@
       "score": 23,
       "comments": 5,
       "note": "random_u64() mod 3 会让某个桶大 5×10^−20——硬核数值科普，评论区补了\"正确姿势是拒绝采样\"。 ##",
-      "cover": "https://ersc.io/og/blog/when-random-isnt-random-enough.jpg"
+      "cover": "https://ersc.io/og/blog/when-random-isnt-random-enough.jpg",
+      "titleZh": "当随机不够随机时"
     }
   ],
   "highlights": [

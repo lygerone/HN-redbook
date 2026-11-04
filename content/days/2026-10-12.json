@@ -10,7 +10,8 @@
       "score": 345,
       "comments": 293,
       "note": "老牌聊天协议在推现代化标准（持久频道历史、富文本），HN 上一大批老兵现身说法：IRC 最大的张力不在协议，而在客户端的体验。这帖的怀旧+技术讨论量是今天最大的。",
-      "cover": null
+      "cover": null,
+      "titleZh": "IRCv3 协议"
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "score": 339,
       "comments": 144,
       "note": "经典 RTS《横扫千军》被现代引擎重制，评论区都在讨论 Beyond All Reason（150 人同局、数万单位）以及各路精神续作的技术路线——看下来 BAR 仍是社区公认的最佳。",
-      "cover": null
+      "cover": null,
+      "titleZh": "《横扫千军》为现代电脑重制"
     },
     {
       "id": "3",
@@ -30,7 +32,8 @@
       "score": 308,
       "comments": 363,
       "note": "陶哲轩 Caltech 演讲幻灯片：AI 时代的数学研究范式之变。最有争议的是几页\"AI 治愈癌症\"的设想，评论区医学从业者集中开火——但抛开那几页，内容评价很高。",
-      "cover": null
+      "cover": null,
+      "titleZh": "陶哲轩：数学 2.0"
     },
     {
       "id": "4",
@@ -40,7 +43,8 @@
       "score": 235,
       "comments": 32,
       "note": "洋葱新闻官方征集遗失的纸质版期号，补全 270 年（他们的说法）档案。很洋葱式的行为艺术，评论区有人翻出了 90 年代在麦迪逊囤的旧刊。",
-      "cover": "https://theonion.com/wp-content/uploads/2026/10/onion-vol21-issue18-front-page.jpg"
+      "cover": "https://theonion.com/wp-content/uploads/2026/10/onion-vol21-issue18-front-page.jpg",
+      "titleZh": "想卖掉你收藏的《洋葱报》纸质刊？"
     },
     {
       "id": "5",
@@ -50,7 +54,8 @@
       "score": 213,
       "comments": 344,
       "note": "Karpathy 说人们对 LLM 能力的认知鸿沟在拉大：一边是觉得 agent 已经能包办大型项目，一边是担心代码维护、token 成本和 LLM 幻觉的人。这帖的评论撕得厉害。",
-      "cover": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg"
+      "cover": "https://pbs.twimg.com/profile_images/1296667294148382721/9Pr6XrPB_400x400.jpg",
+      "titleZh": "人们对 LLM 能力的共识差距在拉大"
     },
     {
       "id": "6",
@@ -60,7 +65,8 @@
       "score": 169,
       "comments": 29,
       "note": "志愿者在 OpenStreetMap 上测绘朝鲜的纪实。评论里一位测绘者的来信很触动：他重点绘制图们江沿岸的铁丝网、道路和村庄，\"帮助朝鲜人\"，主要工作是图们江一带。",
-      "cover": "https://cartographers-nk.wonyoung.so/assets/og-img.png"
+      "cover": "https://cartographers-nk.wonyoung.so/assets/og-img.png",
+      "titleZh": "朝鲜的地图绘制者（2019）"
     },
     {
       "id": "7",
@@ -70,7 +76,8 @@
       "score": 73,
       "comments": 6,
       "note": "芬兰叫停 Google 数据中心砍伐林木，要求补做环境影响评估。评论区吐槽精准：罚款对 Google 来说大概只是\"轻微不便\"。",
-      "cover": "https://i.guim.co.uk/img/media/5a426a4caa58ecb7baabf8e19319bb4ee7c46a53/669_0_3162_2531/master/3162.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=dcad87901dee69ab635a10fa637a6bc3"
+      "cover": "https://i.guim.co.uk/img/media/5a426a4caa58ecb7baabf8e19319bb4ee7c46a53/669_0_3162_2531/master/3162.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=dcad87901dee69ab635a10fa637a6bc3",
+      "titleZh": "谷歌被指违法砍林建数据中心"
     },
     {
       "id": "8",
@@ -81,7 +88,8 @@
       "comments": 11,
       "by": "John",
       "note": "约翰·伯格《观看之道》第一章全文。冷知识：伯格本人声明书中文字不受版权保护，但图片复刻可能会惹麻烦。",
-      "cover": null
+      "cover": null,
+      "titleZh": "约翰·伯格《观看之道》第一章"
     },
     {
       "id": "9",
@@ -91,7 +99,8 @@
       "score": 45,
       "comments": 14,
       "note": "Sakana AI 的新论文：让模型\"集体\"互相辩论、自我修正。看标题就很容易联想到 ai-2027.com 的剧情线。",
-      "cover": "https://pub.sakana.ai/mass/assets/figures/ogp.png"
+      "cover": "https://pub.sakana.ai/mass/assets/figures/ogp.png",
+      "titleZh": "通过集体智能实现递归自我改进"
     },
     {
       "id": "10",
@@ -101,7 +110,8 @@
       "score": 45,
       "comments": 17,
       "note": "浏览器指纹追踪取代 Cookie。关键提醒：欧盟那套同意弹窗从来就不是针对 Cookie 的，而是针对追踪本身——指纹追踪在欧盟本来就是违法的。",
-      "cover": null
+      "cover": null,
+      "titleZh": "浏览器指纹是新的 Cookie"
     },
     {
       "id": "11",
@@ -111,7 +121,8 @@
       "score": 44,
       "comments": 36,
       "note": "Google 官方的数据中心分布页，被 HN 扒了皮：对\"数据中心\"的定义极窄，边缘缓存节点根本不算在内，实际足迹被刻意缩小了。",
-      "cover": "https://www.gstatic.com/marketing-cms/assets/images/c7/92/366b77ff476abc03a1b0a913e40b/wtils5-key-art-1920x1080.webp=n-w1440-h960-fcrop64=1,000022c9ffffdd37-rw"
+      "cover": "https://www.gstatic.com/marketing-cms/assets/images/c7/92/366b77ff476abc03a1b0a913e40b/wtils5-key-art-1920x1080.webp=n-w1440-h960-fcrop64=1,000022c9ffffdd37-rw",
+      "titleZh": "谷歌全球数据中心一览"
     },
     {
       "id": "12",
@@ -121,7 +132,8 @@
       "score": 29,
       "comments": 15,
       "note": "《经济学人》：政府应对物价危机的方法错了——应该提高收入而非压制价格。评论区反驳最有力：工资涨 20%、物价涨 15%，民众不会庆祝自己富了 5%，只会愤怒于那 15% 的通胀\"偷走了\"加薪。 ##",
-      "cover": null
+      "cover": null,
+      "titleZh": "各国政府正在搞砸可负担危机"
     }
   ],
   "highlights": [

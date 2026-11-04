@@ -11,7 +11,8 @@
       "comments": 101,
       "by": "groar",
       "note": "Mistral 出时间序列基础模型，评论区在争\"一个模型吃 1 万条序列\"到底靠不靠谱。",
-      "cover": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp"
+      "cover": "https://mistral.ai/cms-media/api/media/file/og-timestral.webp",
+      "titleZh": "Timestral：Mistral 的时序基础模型"
     },
     {
       "id": "2",
@@ -22,7 +23,8 @@
       "comments": 163,
       "by": "iamnothere",
       "note": "Wine 移植到 OpenBSD，评论区已贴出巫师 3、死亡搁浅的实机视频。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Wine 被移植到 OpenBSD"
     },
     {
       "id": "3",
@@ -33,7 +35,8 @@
       "comments": 403,
       "by": "goostavos",
       "note": "AI 时代编程乐趣还成立吗？403 条评论，HN 史上最扎心的身份认同大讨论。",
-      "cover": null
+      "cover": null,
+      "titleZh": "享受编程，依然没问题"
     },
     {
       "id": "4",
@@ -44,7 +47,8 @@
       "comments": 161,
       "by": "jtg",
       "note": "国产生态位新贵，但评论区直指 benchmaxed，实测体验不如 DeepSeek Flash。",
-      "cover": "https://file.cdn.minimax.io/public/bc2536f3-7fc2-4037-93e3-256ab44c0599.jpg?x-oss-process=image/format,webp"
+      "cover": "https://file.cdn.minimax.io/public/bc2536f3-7fc2-4037-93e3-256ab44c0599.jpg?x-oss-process=image/format,webp",
+      "titleZh": "MiniMax M3.1 Flash"
     },
     {
       "id": "5",
@@ -55,7 +59,8 @@
       "comments": 77,
       "by": "hakonjdjohnsen",
       "note": "只用一个电机造无人机，欠驱动机器人的极限操作，值得看完整个视频。",
-      "cover": null
+      "cover": null,
+      "titleZh": "我用一个电机做出了无人机[视频]"
     },
     {
       "id": "6",
@@ -66,7 +71,8 @@
       "comments": 102,
       "by": "debo_",
       "note": "粉丝自制星际 mini 游戏，\"广告里永远玩不到的那款\"成真了，作者亲自来回帖。",
-      "cover": "https://starcraft-shooter-2026.pages.dev/share-card.jpg"
+      "cover": "https://starcraft-shooter-2026.pages.dev/share-card.jpg",
+      "titleZh": "星际争霸：Ashfall"
     },
     {
       "id": "7",
@@ -77,7 +83,8 @@
       "comments": 127,
       "by": "flocked",
       "note": "Apple Silicon Mac 原生跑安卓应用，无需虚拟机；评论区警告 Google Play Services 是大坑。",
-      "cover": "https://opengraph.githubassets.com/7b9ff1a82b62d36eaf335138e103dd270a2efe26728ad49c4d64c1e31de74ba4/kksimp/Mac.apk"
+      "cover": "https://opengraph.githubassets.com/7b9ff1a82b62d36eaf335138e103dd270a2efe26728ad49c4d64c1e31de74ba4/kksimp/Mac.apk",
+      "titleZh": "安卓应用原生跑在 macOS 上"
     },
     {
       "id": "8",
@@ -88,7 +95,8 @@
       "comments": 73,
       "by": "pfeifferj",
       "note": "为了不用微软账号，给 6000 美元的 RTX Spark 笔记本装 Linux，评论区骂起微软登录体验。",
-      "cover": "https://josie.lol/screenshot.png?v=20261019"
+      "cover": "https://josie.lol/screenshot.png?v=20261019",
+      "titleZh": "因为没有微软账户，我给 RTX Spark 笔记本装了 Linux"
     },
     {
       "id": "9",
@@ -99,7 +107,8 @@
       "comments": 59,
       "by": "evakhoury",
       "note": "拿 RuneScape 当 agent 基准测试，开放世界小游戏集合其实是绝佳的训练环境。",
-      "cover": null
+      "cover": null,
+      "titleZh": "RuneScape Bench：给 Agent 玩的 MMO 基准[视频]"
     },
     {
       "id": "10",
@@ -110,7 +119,8 @@
       "comments": 34,
       "by": "gumby",
       "note": "海鲜链里的阻燃剂 ethoxyquin，食品安全调查报道，评论区聊到亚麻籽油自燃。",
-      "cover": "https://insideclimatenews.org/wp-content/uploads/2026/10/fire-story-still-fire-rotterdam-tug-fights-fire-on-ss-south-america-jpg-w.jpg"
+      "cover": "https://insideclimatenews.org/wp-content/uploads/2026/10/fire-story-still-fire-rotterdam-tug-fights-fire-on-ss-south-america-jpg-w.jpg",
+      "titleZh": "海鲜食物链里的阻燃剂"
     },
     {
       "id": "11",
@@ -121,7 +131,8 @@
       "comments": 77,
       "by": "yzydserd",
       "note": "乌克兰称首次用无人机后送伤员，战场后勤的无人化又进一步。",
-      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261019-drone-rs-bd64e5.jpg"
+      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-10/261019-drone-rs-bd64e5.jpg",
+      "titleZh": "乌克兰称完成首次无人机撤离伤员"
     },
     {
       "id": "12",
@@ -132,7 +143,8 @@
       "comments": 10,
       "by": "doener",
       "note": "OpenBSD 8.0 跟进 Linux 6.18 显卡驱动，作者提醒 8.0 不是\"大版本\"只是半年迭代。",
-      "cover": "https://media.bsd.network/accounts/avatars/000/001/413/original/d113a02fb84e4f5a.jpg"
+      "cover": "https://media.bsd.network/accounts/avatars/000/001/413/original/d113a02fb84e4f5a.jpg",
+      "titleZh": "OpenBSD 8.0 将带 Linux 6.18 的显卡驱动"
     },
     {
       "id": "13",
@@ -143,7 +155,8 @@
       "comments": 2,
       "by": "jcalabro",
       "note": "一次哈希的布隆过滤器优化，省计算但费空间，小众但硬核的数据结构话题。 ##",
-      "cover": null
+      "cover": null,
+      "titleZh": "单哈希布隆过滤器"
     }
   ],
   "highlights": [

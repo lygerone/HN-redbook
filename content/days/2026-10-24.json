@@ -11,7 +11,8 @@
       "comments": 224,
       "by": "sohkamyung",
       "note": "只收录步行半小时范围内的维基条目，把\"附近\"变成内容过滤器，评论区已经写成行为艺术。",
-      "cover": "https://edjefferson.com/localwiki/images/share.png"
+      "cover": "https://edjefferson.com/localwiki/images/share.png",
+      "titleZh": "本地维基：只收录你步行半小时内的东西"
     },
     {
       "id": "2",
@@ -22,7 +23,8 @@
       "comments": 484,
       "by": "pavel_lishin",
       "note": "安全团队写下怎么黑掉 iPhone 的完整实录，484 条评论的硬核程度拉满。",
-      "cover": "https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM"
+      "cover": "https://substackcdn.com/image/youtube/w_728,c_limit/_GJVKVNMczM",
+      "titleZh": "今天，我们黑掉了当初立志要黑的 iPhone"
     },
     {
       "id": "3",
@@ -33,7 +35,8 @@
       "comments": 439,
       "by": "Jowsey",
       "note": "Kimi 新一代模型上线，评论区比发布本身精彩：订阅限流、模型自我认知混乱。",
-      "cover": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/managed-assets/9558f8d5-08fc-42de-8e4e-339076e03895.webp"
+      "cover": "https://kimi-img.kimi.ai/pub/slides/kimi-fs/managed-assets/9558f8d5-08fc-42de-8e4e-339076e03895.webp",
+      "titleZh": "Kimi K3.1 Pro 与高速版"
     },
     {
       "id": "4",
@@ -44,7 +47,8 @@
       "comments": 184,
       "by": "frizlab",
       "note": "Apple Music 一个 404 页面里藏了彩蛋——设置 > 关于里按住中央键 5 秒，梦回 iPod 砖块游戏。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Apple Music 的 404 页面"
     },
     {
       "id": "5",
@@ -55,7 +59,8 @@
       "comments": 158,
       "by": "hn_acker",
       "note": "EFF 喊话加拿大人：C-22 监控法案反对窗口快关了，再不动各大通讯服务可能直接退加。",
-      "cover": "https://www.eff.org/files/banner_library/OG-Encryption-DefendEncryption.png"
+      "cover": "https://www.eff.org/files/banner_library/OG-Encryption-DefendEncryption.png",
+      "titleZh": "加拿大人反对 C-22 法案的时间不多了"
     },
     {
       "id": "6",
@@ -66,7 +71,8 @@
       "comments": 130,
       "by": "JustSkyfall",
       "note": "Google 更新隐私政策：Gmail 和 Google Photos 数据可能拿去做广告定向，评论区直接甩出关闭入口。",
-      "cover": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200"
+      "cover": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK093_GOOGLE_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "titleZh": "谷歌说可能拿你的 Gmail 和相册数据投广告"
     },
     {
       "id": "7",
@@ -77,7 +83,8 @@
       "comments": 67,
       "by": "xnx",
       "note": "Pudding 可视化好莱坞人脉中心：到底谁才是\"凯文·贝肯数\"的终极答案，评论区考古 Oracle of Bacon。",
-      "cover": "https://pudding.cool/2026/10/kevin-bacon/assets/social.jpg"
+      "cover": "https://pudding.cool/2026/10/kevin-bacon/assets/social.jpg",
+      "titleZh": "真实的凯文·贝肯"
     },
     {
       "id": "8",
@@ -88,7 +95,8 @@
       "comments": 86,
       "by": "dsr12",
       "note": "Block 的全双工语音模型，号称跑在 M4 Max MacBook 上；标题党营销味太重被评论区点名。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Dessa：号称最真实的全双工语音模型"
     },
     {
       "id": "9",
@@ -99,7 +107,8 @@
       "comments": 31,
       "by": "Group_B",
       "note": "CVE 趋势可视化小站：严重级 CVE 是 2020 年的约 25 倍，评论区聊起 AI 在人类旧代码里挖漏洞。",
-      "cover": "https://cve.0xosprey.com/og.png"
+      "cover": "https://cve.0xosprey.com/og.png",
+      "titleZh": "CVE 漏洞追踪器"
     },
     {
       "id": "10",
@@ -110,7 +119,8 @@
       "comments": 8,
       "by": "cowlevel",
       "note": "brotli <= 1.2.0 的漏洞引发 Node/Python 生态 RCE，Python 侧已发 1.2.1 修复。",
-      "cover": null
+      "cover": null,
+      "titleZh": "新威胁 http2shell：横扫 Node、Python 的 RCE"
     },
     {
       "id": "11",
@@ -121,7 +131,8 @@
       "comments": 7,
       "by": "ernestrc",
       "note": "终端 IDE Rune 发 1.3：加 TypeScript、内置 Helix 编辑器、Kitty 图片协议。",
-      "cover": "https://rune.build/images/og4.png"
+      "cover": "https://rune.build/images/og4.png",
+      "titleZh": "Rune 1.3：新增 TypeScript、Helix 编辑器等"
     },
     {
       "id": "12",
@@ -132,7 +143,8 @@
       "comments": 22,
       "by": "ibobev",
       "note": "2003 年 ACM Queue 老文翻红：没源码怎么逆向，agentic coding 时代看别有味道。",
-      "cover": null
+      "cover": null,
+      "titleZh": "没有源码？没问题"
     },
     {
       "id": "13",
@@ -143,7 +155,8 @@
       "comments": 6,
       "by": "ibobev",
       "note": "systemd-nspawn 容器快速巡礼，轻量容器方案里被低估的一派。 ##",
-      "cover": null
+      "cover": null,
+      "titleZh": "systemd-nspawn 容器旋风之旅"
     }
   ],
   "highlights": [

@@ -10,7 +10,8 @@
       "score": 380,
       "comments": 224,
       "note": "公开放一个有漏洞的服务器、里面藏着价值约 $502 的比特币，谁先拿到就是谁的，纯纯的实战悬赏。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Show HN：来偷我的比特币"
     },
     {
       "id": "2",
@@ -20,7 +21,8 @@
       "score": 273,
       "comments": 205,
       "note": "2018 年的老科普文又翻红了，讲量子物理到底难在哪，适合一直似懂非懂的人重读一遍。",
-      "cover": null
+      "cover": null,
+      "titleZh": "我不懂量子物理（2018）"
     },
     {
       "id": "3",
@@ -30,7 +32,8 @@
       "score": 251,
       "comments": 166,
       "note": "大厂公开从 GitHub 搬到 GitLab，评论区顺带聊起了最近 GitHub 宕机和被微软化的问题。",
-      "cover": "https://www.roku.com/assets/roku-logo-purple.png"
+      "cover": "https://www.roku.com/assets/roku-logo-purple.png",
+      "titleZh": "Roku 开发者仓库从 GitHub 搬到 GitLab"
     },
     {
       "id": "4",
@@ -40,7 +43,8 @@
       "score": 245,
       "comments": 61,
       "note": "活了快二十年的免费 DNS 老站，有人用了近二十年，也有人提醒它不在公共后缀列表里的 cookie 风险。",
-      "cover": null
+      "cover": null,
+      "titleZh": "FreeDNS 免费域名服务"
     },
     {
       "id": "5",
@@ -50,7 +54,8 @@
       "score": 218,
       "comments": 152,
       "note": "作者亲自下场 AMA 的新语言，主打“线程之间不共享任何东西”，没有数据竞争、锁和原子操作。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Goose 编程语言"
     },
     {
       "id": "6",
@@ -60,7 +65,8 @@
       "score": 126,
       "comments": 85,
       "note": "danluu 的老调重弹但每次都戳人：有了 AI 更应该做以前不敢想的东西，而不是只用来省事。",
-      "cover": null
+      "cover": null,
+      "titleZh": "我们做软件应该更有野心一点"
     },
     {
       "id": "7",
@@ -70,7 +76,8 @@
       "score": 106,
       "comments": 71,
       "note": "能在线听美军核力量应急行动消息的短波电台站，猎奇和硬核拉满。",
-      "cover": "https://missileer.watch/assets/og/home.png?v=1"
+      "cover": "https://missileer.watch/assets/og/home.png?v=1",
+      "titleZh": "收听美国核力量紧急行动电文（11175 kHz）"
     },
     {
       "id": "8",
@@ -80,7 +87,8 @@
       "score": 91,
       "comments": 28,
       "note": "圣赫勒拿 5 便士硬币上的主角是约 190 岁的陆龟 Jonathan，地球上最老的陆地动物，冷知识拉满。",
-      "cover": "https://en.numista.com/catalogue/photo9866.jpeg"
+      "cover": "https://en.numista.com/catalogue/photo9866.jpeg",
+      "titleZh": "圣赫勒拿 5 便士硬币上的 190 岁象龟乔纳森"
     },
     {
       "id": "9",
@@ -90,7 +98,8 @@
       "score": 76,
       "comments": 43,
       "note": "美国媒体影视艺术行业丢了 20 万岗位，到底多少能算到 AI 头上，数据和分析都值得一看。",
-      "cover": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png"
+      "cover": "https://substackcdn.com/image/fetch/$s_!oz9x!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F999e3450-1df3-457d-8715-5e2e46d5121c_2886x1843.png",
+      "titleZh": "美国媒体影视艺术丢了 20 万岗位，多少是 AI 干的？"
     },
     {
       "id": "10",
@@ -100,7 +109,8 @@
       "score": 66,
       "comments": 10,
       "note": "老牌桌面计算器出 1.1 版，顺手修了一个多年未发的运算顺序小 bug，轻量工具爱好者的快乐。 ##",
-      "cover": "https://www.speedcrunch.org/screen1.png"
+      "cover": "https://www.speedcrunch.org/screen1.png",
+      "titleZh": "SpeedCrunch 计算器 1.1"
     }
   ],
   "highlights": [
