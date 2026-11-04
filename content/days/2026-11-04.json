@@ -1,0 +1,198 @@
+{
+  "date": "2026-11-04",
+  "mood": "今天 AI 与开发者工具争议偏多，夹杂硬核硬件 hack 与复古存储回潮。",
+  "items": [
+    {
+      "id": "50358582",
+      "title": "The Little Book of Generative AI Foundations: An Intuitive Mathematical Primer",
+      "url": "https://arxiv.org/abs/2605.29713",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358582",
+      "score": 192,
+      "comments": 31,
+      "by": "ibobev",
+      "note": "生成式 AI 的数学入门小册子，号称直觉友好，适合想补理论又不想啃大部头的人。",
+      "cover": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+    },
+    {
+      "id": "50358562",
+      "title": "Safari introduces Adaptive Dark Mode in 27.3",
+      "url": "https://webkit.org/blog/18541/introducing-adaptive-dark-mode/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358562",
+      "score": 256,
+      "comments": 156,
+      "by": "paddingtone",
+      "note": "Safari 27.3 让浏览器自动生成深色模式，懒人福音，也顺带引发了“HN 自己为啥还不支持深色”的吐槽。",
+      "cover": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png"
+    },
+    {
+      "id": "50358702",
+      "title": "The Internals of PostgreSQL",
+      "url": "https://www.interdb.jp/pg/index.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358702",
+      "score": 76,
+      "comments": 2,
+      "by": "ibobev",
+      "note": "PostgreSQL 内部机制的老牌详解，评论区直接点名：先看 HoT 更新路径。",
+      "cover": null
+    },
+    {
+      "id": "50339288",
+      "title": "Jailbreaking my car's navigation system just so I can change the time",
+      "url": "https://blog.nns.ee/2026/11/02/renault-hack/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50339288",
+      "score": 591,
+      "comments": 238,
+      "by": "xx_ns",
+      "note": "为了改个时间去越狱车机，荒诞又真实，堪称车企软件槽点合集。",
+      "cover": null
+    },
+    {
+      "id": "50354358",
+      "title": "Stringman, an $800 open-source room scale gripper robot",
+      "url": "https://neufangled.com/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50354358",
+      "score": 348,
+      "comments": 135,
+      "by": "nharada",
+      "note": "800 美元的开源房间级抓取机器人，作者亲自下场答疑，DIY 味很足。",
+      "cover": null
+    },
+    {
+      "id": "50346755",
+      "title": "Show HN: HackerTV – HN's most-recommended Youtube videos as 24/7 TV channels",
+      "url": "https://hackertv.org",
+      "hnUrl": "https://news.ycombinator.com/item?id=50346755",
+      "score": 153,
+      "comments": 34,
+      "by": "dsalzman",
+      "note": "把 HN 高赞 YouTube 视频做成 24 小时电视频道，反算法的怀旧玩法。",
+      "cover": null
+    },
+    {
+      "id": "50333131",
+      "title": "Japan's Jimi 'Mundane' Halloween Costumes of 2026",
+      "url": "https://spoon-tamago.com/japan-jimi-mundane-halloween-costumes-2026/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50333131",
+      "score": 90,
+      "comments": 15,
+      "by": "zdw",
+      "note": "日本“地味万圣节”2026 合集：扮路人、扮洗涤剂补货员，幽默全靠细节。",
+      "cover": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg"
+    },
+    {
+      "id": "50355251",
+      "title": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "url": "https://simonwillison.net/2026/Nov/3/qwen-can-interpret-model-weights/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50355251",
+      "score": 470,
+      "comments": 149,
+      "by": "theanonymousone",
+      "note": "本地 27B 模型也能解读模型权重，但“解读是否可信”的争论比帖子本身还有意思。",
+      "cover": null
+    },
+    {
+      "id": "50336918",
+      "title": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "url": "https://arstechnica.com/gadgets/2026/10/fujifilm-to-boost-tape-production-5x-as-ai-fuels-archiving-demand/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50336918",
+      "score": 366,
+      "comments": 152,
+      "by": "bookofjoe",
+      "note": "AI 存档需求把磁带产能推高 5 倍，老技术回潮，评论区全是磁带血泪经验。",
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-2560x1440.jpg"
+    },
+    {
+      "id": "50358314",
+      "title": "Show HN: Kairos – Open-source risk and fraud decisioning platform",
+      "url": "https://github.com/finic-ai/kairos",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358314",
+      "score": 47,
+      "comments": 5,
+      "by": "ayanb9440",
+      "note": "开源实时风控/反欺诈决策平台，带实时流程可视化，适合做风控的开发者围观。",
+      "cover": "https://opengraph.githubassets.com/5d064b74d039ef6e65c7f0f01692c1d08dcd76874a4835bd0674f15811583263/finic-ai/kairos"
+    },
+    {
+      "id": "50354960",
+      "title": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "url": "https://github.com/postmanlabs/postman-app-support/issues/14370",
+      "hnUrl": "https://news.ycombinator.com/item?id=50354960",
+      "score": 993,
+      "comments": 329,
+      "by": "sidgarimella",
+      "note": "Postman 被指静默安装 AI 插件并试图分享全部 API 数据，全场最高热度，争议拉满。",
+      "cover": "https://opengraph.githubassets.com/97d5b50e2807f23d8ad41e26328283589fcc092bb3d5a0a330b493ac193aeb58/postmanlabs/postman-app-support/issues/14370"
+    },
+    {
+      "id": "50356944",
+      "title": "macOS 27 does not support CoreStorage volumes",
+      "url": "https://wadetregaskis.com/macos-27-golden-gate-does-not-actually-support-corestorage-or-hfs-volumes/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50356944",
+      "score": 94,
+      "comments": 57,
+      "by": "colejohnson66",
+      "note": "macOS 27 不再支持 CoreStorage/HFS 卷，老备份用户要提前找替代方案。",
+      "cover": null
+    },
+    {
+      "id": "50322603",
+      "title": "We're Training a Figma-Fluent Editing Model",
+      "url": "https://www.figma.com/blog/training-a-figma-fluent-editing-model/",
+      "hnUrl": "https://news.ycombinator.com/item?id=50322603",
+      "score": 61,
+      "comments": 30,
+      "by": "gmays",
+      "note": "Figma 在训练“懂 Figma”的编辑模型，设计工具 AI 战场的又一步。",
+      "cover": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200&q=70&fit=max&auto=format"
+    },
+    {
+      "id": "50358422",
+      "title": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/us-tech-giants-hidden-ai-debt-swells-90-to-3.2tn-in-6-months",
+      "hnUrl": "https://news.ycombinator.com/item?id=50358422",
+      "score": 194,
+      "comments": 67,
+      "by": "angry_impala",
+      "note": "美巨头“隐性 AI 负债”半年涨 90% 至 3.2 万亿美元，但评论区先吵起来：这到底算不算债。",
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630"
+    },
+    {
+      "id": "50356913",
+      "title": "Introduction to Programming in ATS",
+      "url": "https://ats-lang.sourceforge.net/DOCUMENT/INT2PROGINATS/HTML/book1.html",
+      "hnUrl": "https://news.ycombinator.com/item?id=50356913",
+      "score": 50,
+      "comments": 7,
+      "by": "ibobev",
+      "note": "冷门但硬核的 ATS 语言入门教材，适合想挑战类型系统极限的人。",
+      "cover": null
+    }
+  ],
+  "highlights": [
+    {
+      "text": "有斯巴鲁车型在驾驶员视线里有 3 个时钟，全走 CAN 总线却互不同步，其中一个甚至没有 32.768kHz 晶振引脚、靠 15MHz CPU 时钟计时，只能一路漂移。",
+      "from": "Jailbreaking my car's navigation system just so I can change the time",
+      "by": "numpad0"
+    },
+    {
+      "text": "Postman 本是出色的小工具，融了 4 亿多美元、招了 1500 多人之后，不得不靠强制登录、收集数据和 AI 功能来证明估值。",
+      "from": "Postman silently auto-installs AI plugins and attempts to share all API data",
+      "by": "pants2"
+    },
+    {
+      "text": "做磁带归档千万别跳过回读验证：光是系统说可读不够，要真从磁带上恢复一次——他就遇到过写端确认可读、读端却读不出来的磁带。",
+      "from": "Fujifilm to boost tape production 5x as AI fuels archiving demand",
+      "by": "dylan604"
+    },
+    {
+      "text": "这根本不是债：债是先给你钱花、再还本付息，而这些只是未来支出的签约承诺，且很多合同提前 3 个月就能退出，所以 3.2 万亿这个数字很可疑。",
+      "from": "US tech giants' hidden AI debt swells 90% to $3.2T in 6 months",
+      "by": "freediddy"
+    },
+    {
+      "text": "借莎士比亚《亨利四世》的台词回敬“模型能解读权重”：我也能从深渊召唤灵魂，但它们被召唤时真的会来吗？解读和解读正确是两回事。",
+      "from": "Qwen 3.8 27B on my laptop can interpret model weights, too",
+      "by": "variaga"
+    }
+  ]
+}
