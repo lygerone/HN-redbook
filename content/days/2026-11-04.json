@@ -11,7 +11,8 @@
       "comments": 31,
       "by": "ibobev",
       "note": "生成式 AI 的数学入门小册子，号称直觉友好，适合想补理论又不想啃大部头的人。",
-      "cover": "/static/browse/0.3.4/images/arxiv-logo-fb.png"
+      "cover": null,
+      "titleZh": "生成式 AI 基础小册子：直觉版数学入门"
     },
     {
       "id": "50358562",
@@ -22,7 +23,8 @@
       "comments": 156,
       "by": "paddingtone",
       "note": "Safari 27.3 让浏览器自动生成深色模式，懒人福音，也顺带引发了“HN 自己为啥还不支持深色”的吐槽。",
-      "cover": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png"
+      "cover": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
+      "titleZh": "Safari 27.3 引入自适应深色模式"
     },
     {
       "id": "50358702",
@@ -33,7 +35,8 @@
       "comments": 2,
       "by": "ibobev",
       "note": "PostgreSQL 内部机制的老牌详解，评论区直接点名：先看 HoT 更新路径。",
-      "cover": null
+      "cover": null,
+      "titleZh": "PostgreSQL 内幕"
     },
     {
       "id": "50339288",
@@ -44,7 +47,8 @@
       "comments": 238,
       "by": "xx_ns",
       "note": "为了改个时间去越狱车机，荒诞又真实，堪称车企软件槽点合集。",
-      "cover": null
+      "cover": null,
+      "titleZh": "就为了改个时间，我越狱了车机导航"
     },
     {
       "id": "50354358",
@@ -55,7 +59,8 @@
       "comments": 135,
       "by": "nharada",
       "note": "800 美元的开源房间级抓取机器人，作者亲自下场答疑，DIY 味很足。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Stringman：800 美元的开源房间级抓取机器人"
     },
     {
       "id": "50346755",
@@ -66,7 +71,8 @@
       "comments": 34,
       "by": "dsalzman",
       "note": "把 HN 高赞 YouTube 视频做成 24 小时电视频道，反算法的怀旧玩法。",
-      "cover": null
+      "cover": null,
+      "titleZh": "Show HN：HackerTV——把 HN 最推荐的 YouTube 视频做成 24 小时频道"
     },
     {
       "id": "50333131",
@@ -77,7 +83,8 @@
       "comments": 15,
       "by": "zdw",
       "note": "日本“地味万圣节”2026 合集：扮路人、扮洗涤剂补货员，幽默全靠细节。",
-      "cover": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg"
+      "cover": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
+      "titleZh": "日本 2026“地味万圣节”服装合集"
     },
     {
       "id": "50355251",
@@ -88,7 +95,8 @@
       "comments": 149,
       "by": "theanonymousone",
       "note": "本地 27B 模型也能解读模型权重，但“解读是否可信”的争论比帖子本身还有意思。",
-      "cover": null
+      "cover": null,
+      "titleZh": "我笔记本上的 Qwen 3.8 27B 也能解读模型权重"
     },
     {
       "id": "50336918",
@@ -99,7 +107,8 @@
       "comments": 152,
       "by": "bookofjoe",
       "note": "AI 存档需求把磁带产能推高 5 倍，老技术回潮，评论区全是磁带血泪经验。",
-      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-2560x1440.jpg"
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-2560x1440.jpg",
+      "titleZh": "AI 存档需求暴涨，富士胶片把磁带产能提 5 倍"
     },
     {
       "id": "50358314",
@@ -110,7 +119,8 @@
       "comments": 5,
       "by": "ayanb9440",
       "note": "开源实时风控/反欺诈决策平台，带实时流程可视化，适合做风控的开发者围观。",
-      "cover": "https://opengraph.githubassets.com/5d064b74d039ef6e65c7f0f01692c1d08dcd76874a4835bd0674f15811583263/finic-ai/kairos"
+      "cover": "https://opengraph.githubassets.com/5d064b74d039ef6e65c7f0f01692c1d08dcd76874a4835bd0674f15811583263/finic-ai/kairos",
+      "titleZh": "Show HN：Kairos——开源风控与反欺诈决策平台"
     },
     {
       "id": "50354960",
@@ -121,7 +131,8 @@
       "comments": 329,
       "by": "sidgarimella",
       "note": "Postman 被指静默安装 AI 插件并试图分享全部 API 数据，全场最高热度，争议拉满。",
-      "cover": "https://opengraph.githubassets.com/97d5b50e2807f23d8ad41e26328283589fcc092bb3d5a0a330b493ac193aeb58/postmanlabs/postman-app-support/issues/14370"
+      "cover": "https://opengraph.githubassets.com/97d5b50e2807f23d8ad41e26328283589fcc092bb3d5a0a330b493ac193aeb58/postmanlabs/postman-app-support/issues/14370",
+      "titleZh": "Postman 被指静默装 AI 插件并试图分享全部 API 数据"
     },
     {
       "id": "50356944",
@@ -132,7 +143,8 @@
       "comments": 57,
       "by": "colejohnson66",
       "note": "macOS 27 不再支持 CoreStorage/HFS 卷，老备份用户要提前找替代方案。",
-      "cover": null
+      "cover": null,
+      "titleZh": "macOS 27 不再支持 CoreStorage 卷"
     },
     {
       "id": "50322603",
@@ -143,7 +155,8 @@
       "comments": 30,
       "by": "gmays",
       "note": "Figma 在训练“懂 Figma”的编辑模型，设计工具 AI 战场的又一步。",
-      "cover": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200&q=70&fit=max&auto=format"
+      "cover": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
+      "titleZh": "我们在训练一个精通 Figma 的编辑模型"
     },
     {
       "id": "50358422",
@@ -154,7 +167,8 @@
       "comments": 67,
       "by": "angry_impala",
       "note": "美巨头“隐性 AI 负债”半年涨 90% 至 3.2 万亿美元，但评论区先吵起来：这到底算不算债。",
-      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630"
+      "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
+      "titleZh": "美科技巨头隐性 AI 负债半年涨 90%，达 3.2 万亿美元"
     },
     {
       "id": "50356913",
@@ -165,7 +179,8 @@
       "comments": 7,
       "by": "ibobev",
       "note": "冷门但硬核的 ATS 语言入门教材，适合想挑战类型系统极限的人。",
-      "cover": null
+      "cover": null,
+      "titleZh": "ATS 语言编程入门"
     }
   ],
   "highlights": [
