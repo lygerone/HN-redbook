@@ -1,0 +1,208 @@
+{
+  "date": "2026-11-05",
+  "highlights": [
+    {
+      "by": "dhosek",
+      "from": "Residential proxies detected on White House network",
+      "text": "活动集中在美东晚 5 点到午夜、凌晨几乎没有，这不像公共 Wi-Fi，更像某个人深夜还在白宫网络上的设备中了招——而候选人其实没几个。"
+    },
+    {
+      "by": "advael",
+      "from": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "text": "SOTA 这个词已经被切分到没法看了：是某类基准的 SOTA？某尺寸的？能本地跑的？还是美国产的某尺寸开源模型？"
+    },
+    {
+      "by": "nonethewiser",
+      "from": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "text": "先读正文再喷：这不是英伟达故意锁 Linux，而是给 Windows 笔记本设计的固件在 Linux 下缺驱动，类似的 Dynamic Boost 晚了两年才上 Linux。"
+    },
+    {
+      "by": "daniel_rh",
+      "from": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+      "text": "2015 年玩 DOSBox 时突然意识到整个游戏状态塞得进 64K 数据段，十年间和兄弟一点点摸清内存、注入调用、同步状态，终于能一起飞剧情任务了。"
+    }
+  ],
+  "items": [
+    {
+      "by": "Rasbora",
+      "comments": 175,
+      "cover": "https://layer3intel.com/eop_proxy_activity.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50371246",
+      "id": "50371246",
+      "note": "白宫网络里居然有设备被植入代理 SDK、深夜还在对外出口流量，安全八卦拉满。",
+      "score": 572,
+      "title": "Residential proxies detected on White House network",
+      "titleZh": "白宫网络上检测到住宅代理",
+      "url": "https://layer3intel.com/blog/residential-proxies-white-house-network"
+    },
+    {
+      "by": "davidbarker",
+      "comments": 30,
+      "cover": "https://images.ctfassets.net/kftzwdyauwt9/6EYvL2y5CLXFr8E1pqoVUK/064e0d73b10087e20967b69ef0a06678/images-2-6-social.png?w=1600&h=900&fit=fill",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372945",
+      "id": "50372945",
+      "note": "OpenAI 新一代生图模型上线，评论区已经在吐槽实际效果和上线节奏对不上。",
+      "score": 49,
+      "title": "Introducing Images 2.6",
+      "titleZh": "OpenAI 发布 Images 2.6",
+      "url": "https://openai.com/index/introducing-images-2-6/"
+    },
+    {
+      "by": "pseudolus",
+      "comments": 621,
+      "cover": "https://spectrum.ieee.org/media-library/image.jpg?id=68544156&width=1200&height=600&coordinates=0%2C312%2C0%2C313",
+      "hnUrl": "https://news.ycombinator.com/item?id=50364336",
+      "id": "50364336",
+      "note": "今日热度最高：AI 扫漏洞像照妖镜，把几十年攒下的老代码问题全翻出来了。",
+      "score": 1041,
+      "title": "AI is forcing us to pay off 40 years of technical debt",
+      "titleZh": "AI 正逼我们偿还 40 年的技术债",
+      "url": "https://spectrum.ieee.org/ai-in-cybersecurity-php2shell-vulnerability"
+    },
+    {
+      "by": "Philpax",
+      "comments": 74,
+      "cover": "https://framerusercontent.com/images/u4OXzV0utwAtaPgcVxQtTXmkg.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369925",
+      "id": "50369925",
+      "note": "美国开源权重模型又添一员，专攻智能体编程，但 65B 稠密模型本地跑起来并不轻松。",
+      "score": 209,
+      "title": "Ripple-65B Preview: U.S. Open-Weight SOTA on Agentic Coding",
+      "titleZh": "Ripple-65B 预览：美国开源权重在智能体编程上的 SOTA",
+      "url": "https://www.ricursive.com/ripple"
+    },
+    {
+      "by": "dangelosaurus",
+      "comments": 30,
+      "cover": "https://images.ctfassets.net/kftzwdyauwt9/400PQ4WTCOvXwwvk1OMOHv/03970ddeafd22fdbc9832669deacc59c/a-thousand-fewer-paths-to-root-social.png?w=1600&h=900&fit=fill",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372929",
+      "id": "50372929",
+      "note": "OpenAI 团队披露了上千条 Linux 本地提权路径，作者本人还在评论区答疑招人。",
+      "score": 42,
+      "title": "Local privilege escalation vulnerabilities in Linux",
+      "titleZh": "Linux 本地提权漏洞",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root/"
+    },
+    {
+      "by": "speckx",
+      "comments": 91,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50370610",
+      "id": "50370610",
+      "note": "反常识小品：LED 灯并没有传说中那么招虫，评论区一堆人用自家拖拉机和相机现身说法反驳。",
+      "score": 154,
+      "title": "Insects don't swarm at LED lights",
+      "titleZh": "昆虫并不会成群扑向 LED 灯",
+      "url": "https://www.birdsoutsidemywindow.org/2026/11/03/insects-dont-swarm-at-led-lights/"
+    },
+    {
+      "by": "muricula",
+      "comments": 2,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50372164",
+      "id": "50372164",
+      "note": "老主机破解系列更新，刚淘到二手 360 的玩家表示时机刚刚好。",
+      "score": 48,
+      "title": "Hacking the Xbox 360 Hypervisor Part 3: Bad Update Improvements",
+      "titleZh": "破解 Xbox 360 Hypervisor 第三部分：Bad Update 改进",
+      "url": "https://icode4.coffee/?p=1746"
+    },
+    {
+      "by": "abrarthought",
+      "comments": 92,
+      "cover": "https://cdn-thumbnails.huggingface.co/social-thumbnails/models/moonshotai/Kimi-K3.1-Pro.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50366999",
+      "id": "50366999",
+      "note": "Kimi K3.1 Pro 权重开源了，评论区在争它是真强还是刷榜，以及普通人根本跑不起。",
+      "score": 351,
+      "title": "Kimi K3.1 Pro model weights are out",
+      "titleZh": "Kimi K3.1 Pro 模型权重已发布",
+      "url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+    },
+    {
+      "by": "olexsmir",
+      "comments": 90,
+      "cover": "https://go.dev/doc/gopher/runningsquare.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369106",
+      "id": "50369106",
+      "note": "Go 官方终于推 JSON v2，顺带引发一波「以后 Go 代码都让 AI 写了」的感慨。",
+      "score": 213,
+      "title": "A new Go API for JSON",
+      "titleZh": "Go 全新 JSON API",
+      "url": "https://go.dev/blog/jsonv2"
+    },
+    {
+      "by": "peter_d_sherman",
+      "comments": 41,
+      "cover": "https://s7d1.scene7.com/is/image/dmqualcommprod/cloudai100_announcement",
+      "hnUrl": "https://news.ycombinator.com/item?id=50370654",
+      "id": "50370654",
+      "note": "高通的数据中心推理卡参数看着能打，评论区第一问就是：多少钱？",
+      "score": 93,
+      "title": "Qualcomm Cloud AI 100 Ultra – 150W AI Accelerator Card with 128GB at 548GB/s",
+      "titleZh": "高通 Cloud AI 100 Ultra：150W AI 加速卡，128GB 显存、548GB/s 带宽",
+      "url": "https://www.qualcomm.com/data-center/products/cloud-ai-100-ultra"
+    },
+    {
+      "by": "kenrose",
+      "comments": 133,
+      "cover": "https://www.conductor.build/farewell/og.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50369503",
+      "id": "50369503",
+      "note": "昨天刚准备 All in 的用户今天就办退款，收购消息配上关停时间表，味道很真实。",
+      "score": 95,
+      "title": "Conductor is joining Meta",
+      "titleZh": "Conductor 加入 Meta",
+      "url": "https://www.conductor.build/announcement"
+    },
+    {
+      "by": "lukeigel",
+      "comments": 26,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50368804",
+      "id": "50368804",
+      "note": "YC 出身的 AI 视频剪辑工具，瞄准的就是没时间剪片的家长和旅行博主。",
+      "score": 68,
+      "title": "Launch HN: Kino AI (YC S23) – AI media manager and video editor",
+      "titleZh": "Launch HN：Kino AI（YC S23）——AI 媒体管理器与视频编辑器",
+      "url": "https://news.ycombinator.com/item?id=50368804"
+    },
+    {
+      "by": "ltononro",
+      "comments": 84,
+      "cover": "https://www-cdn.anthropic.com/images/4zrzovbb/website/2eba335a28661a8253187053fa36add230af728b-2000x1125.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368626",
+      "id": "50368626",
+      "note": "Anthropic 想证明模型跑的真是宣称的权重，代价是 90-100 倍算力，评论区还在争署名问题。",
+      "score": 171,
+      "title": "Progress on provable inference for large language models",
+      "titleZh": "大语言模型可证明推理的进展",
+      "url": "https://www.anthropic.com/research/provable-inference"
+    },
+    {
+      "by": "daniel_rh",
+      "comments": 11,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50369895",
+      "id": "50369895",
+      "note": "十年逆向换来老游戏联机，作者最爱的彩蛋是摄像头藏在 0x3D 号实体槽——疑似致敬 3D。",
+      "score": 100,
+      "title": "Show HN: After a decade of reversing, I got co-op working in DOS Wing Commander",
+      "titleZh": "Show HN：逆向十年后，我让 DOS 版 Wing Commander 支持了联机合作",
+      "url": "https://fireflyk64.github.io/wcmulti/"
+    },
+    {
+      "by": "novaRom",
+      "comments": 271,
+      "cover": "https://i.mscdn.ai/o/iZl0kkZU2R9KXyy7/a/3V2ICO3oSq2QZPii/_published/generated-images/0d8c9668-cbfe-4ecf-bb31-1a7fff7102be.png?fm=auto&w=1200&h=630&fit=crop",
+      "hnUrl": "https://news.ycombinator.com/item?id=50362905",
+      "id": "50362905",
+      "note": "Linux 下 RTX Spark 笔记本推理只剩 35% 速度，评论区先吵起来：到底是加密固件的锅，还是缺驱动。",
+      "score": 586,
+      "title": "Nvidia RTX Spark encrypted firmware slows inference speed to 35% on Linux",
+      "titleZh": "英伟达 RTX Spark 加密固件让 Linux 下推理速度降至 35%",
+      "url": "https://www.mindstudio.ai/blog/linux-nvidia-rtx-spark-laptop"
+    }
+  ],
+  "mood": "今天偏硬核安全与开源模型，AI 话题仍占大头。"
+}
