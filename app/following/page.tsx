@@ -9,7 +9,7 @@ export default function FollowingPage() {
   return (
     <>
       <TopBar />
-      <main className="mx-auto w-full max-w-6xl px-3 pb-20">
+      <main className="mx-auto w-full max-w-6xl px-3 pb-28">
         <FollowingFeed days={days} />
         <BottomNav />
       </main>

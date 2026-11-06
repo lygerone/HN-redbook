@@ -29,7 +29,7 @@ export function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
 
 export default function Feed({ day, days }: { day: DayData; days: DayData[] }) {
   return (
-    <main className="mx-auto w-full max-w-6xl px-3 pb-20">
+    <main className="mx-auto w-full max-w-6xl px-3 pb-28">
       <DateChips days={days} current={day.date} />
       {day.mood && (
         <p className="mb-3 mt-1 flex items-start gap-2 rounded-lg bg-[#fff5f6] px-3 py-2 text-[12.5px] leading-relaxed text-neutral-600">

@@ -60,11 +60,11 @@ export function BottomNav() {
   const onFollowing = pathname.startsWith("/following");
   const onHome = !onFollowing;
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white pb-[env(safe-area-inset-bottom)]">
-      <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-around">
+    <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white pb-[calc(env(safe-area-inset-bottom)+10px)]">
+      <div className="mx-auto flex h-[52px] max-w-6xl items-stretch">
         <Link
           href="/"
-          className={`flex min-w-11 items-center justify-center text-[15px] ${
+          className={`flex flex-1 items-center justify-center text-[15px] ${
             onHome ? "font-bold text-[#ff2442]" : "text-neutral-600"
           }`}
         >
@@ -72,17 +72,19 @@ export function BottomNav() {
         </Link>
         <Link
           href="/following"
-          className={`flex min-w-11 items-center justify-center text-[15px] ${
+          className={`flex flex-1 items-center justify-center text-[15px] ${
             onFollowing ? "font-bold text-[#ff2442]" : "text-neutral-600"
           }`}
         >
           关注
         </Link>
-        <span className="flex h-9 w-12 items-center justify-center rounded-lg bg-[#ff2442] text-xl font-bold leading-none text-white">
-          +
+        <span className="flex flex-1 items-center justify-center">
+          <span className="flex h-9 w-12 items-center justify-center rounded-lg bg-[#ff2442] text-xl font-bold leading-none text-white">
+            +
+          </span>
         </span>
-        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">消息</span>
-        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">我</span>
+        <span className="flex flex-1 items-center justify-center text-[15px] text-neutral-600">消息</span>
+        <span className="flex flex-1 items-center justify-center text-[15px] text-neutral-600">我</span>
       </div>
     </nav>
   );
