@@ -1,10 +1,11 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ArticleComments from "@/components/Comments";
 import Cover from "@/components/Cover";
 import { ChevronLeftIcon } from "@/components/Icons";
 import { FollowButton } from "@/components/Interact";
 import { DetailBar, LiveCounts } from "@/components/Live";
-import { formatDateCN, getAllDays, getDay, titleOf, zhFromTitle } from "@/lib/data";
+import { formatDateCN, getAllDays, getDay, titleOf } from "@/lib/data";
 
 export function generateStaticParams() {
   return getAllDays().flatMap((d) => d.items.map((i) => ({ date: d.date, id: i.id })));
@@ -67,27 +68,12 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
           </p>
         </article>
 
-        {day.highlights.length > 0 && (
-          <section className="px-4 pt-4">
-            <h2 className="text-[13px] text-neutral-500">评论区亮点 · 共 {day.highlights.length} 条</h2>
-            <ul className="mt-4 space-y-5">
-              {day.highlights.map((h, i) => (
-                <li key={i} className="flex gap-2.5">
-                  <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-neutral-200 text-xs font-bold text-neutral-600">
-                    {(h.by ?? "路").slice(0, 1).toUpperCase()}
-                  </span>
-                  <div className="min-w-0">
-                    <div className="text-xs text-neutral-400">
-                      {h.by ?? "HN 网友"}
-                      {h.from ? <span> · 出自《{zhFromTitle(day, h.from)}》</span> : null}
-                    </div>
-                    <p className="mt-0.5 text-[14px] leading-relaxed text-neutral-800">{h.text}</p>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
+        <ArticleComments
+          id={item.id}
+          fallback={day.highlights.filter(
+            (h) => h.from && (item.title === h.from || item.title.startsWith(h.from) || h.from.startsWith(item.title)),
+          )}
+        />
       </main>
 
       <DetailBar id={item.id} score={item.score} comments={item.comments} />
