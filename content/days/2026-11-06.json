@@ -1,0 +1,201 @@
+{
+  "date": "2026-11-06",
+  "highlights": [
+    {
+      "by": "NewJazz",
+      "from": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "text": "musl 的 crypt() 在密钥超长时返回 \"*\" 表示出错，而这恰好就是无密码账户在系统里存的标记，于是哈希比对直接通过，登录成功。"
+    },
+    {
+      "by": "llama052",
+      "from": "Claude Code sends your email address to websites",
+      "text": "子 agent 发 curl 请求时会把能抓到的标识符都塞进 UA 头，连所在项目的仓库地址都泄露出去了。"
+    },
+    {
+      "by": "xlayn",
+      "from": "MS Paint Remote Code Execution Vulnerability",
+      "text": "画图工具为什么会远程代码执行？发个特制数据包就能让画图帮攻击者干活，这 WHY 越想越大。"
+    },
+    {
+      "by": "mk89",
+      "from": "Claude Code sends your email address to websites",
+      "text": "换用 Claude 后工作邮箱每天收到大量垃圾邮件，还是带我姓名的个性化定制，我还以为公司数据库被黑了。"
+    },
+    {
+      "by": "legitster",
+      "from": "Goodbye from Salon",
+      "text": "新闻岗位 2008 到 2020 年间少了 60%，丢掉的大多是驻外、驻华盛顿和地方条线记者，如今很多新闻其实只来自少数几家通讯社或公关稿。"
+    }
+  ],
+  "items": [
+    {
+      "by": "motoroco",
+      "comments": 138,
+      "cover": "https://opengraph.githubassets.com/1d13ad41f259a9b5f4c91f98f9d0721cff09c40c221af608a5ede56a6b955328/anthropics/claude-code/issues/107757",
+      "hnUrl": "https://news.ycombinator.com/item?id=50385272",
+      "id": "50385272",
+      "note": "子 agent 用 curl 时会把用户姓名、公司甚至项目仓库塞进 UA 头，官方已在 2.1.317 加了隐私插件拦截，用 Claude Code 的值得看一眼。",
+      "score": 404,
+      "title": "Claude Code sends your email address to websites",
+      "titleZh": "Claude Code 会把你的邮箱地址发给网站",
+      "url": "https://github.com/anthropics/claude-code/issues/107757"
+    },
+    {
+      "by": "elashri",
+      "comments": 230,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50383740",
+      "id": "50383740",
+      "note": "付费搜索引擎 Kagi 开放免账号搜索，对 Google 越来越失望的人可以试试水。",
+      "score": 470,
+      "title": "Search for everyone",
+      "titleZh": "人人都能用的搜索",
+      "url": "https://kagi.com/changelog#11820"
+    },
+    {
+      "by": "kuberwastaken",
+      "comments": 87,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50384233",
+      "id": "50384233",
+      "note": "画图工具都能 RCE 了，评论区都在问同一个问题：为什么画图需要联网。",
+      "score": 278,
+      "title": "MS Paint Remote Code Execution Vulnerability",
+      "titleZh": "MS Paint 远程代码执行漏洞",
+      "url": "https://www.cve.org/CVERecord?id=CVE-2026-83844"
+    },
+    {
+      "by": "josemrb",
+      "comments": 564,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50378228",
+      "id": "50378228",
+      "note": "今日榜首。musl 的 crypt() 出错返回 \"*\"，恰好撞上无密码账户的标记，OpenSSH 直接放行——技术细节写得非常清楚。",
+      "score": 2270,
+      "title": "sshole",
+      "titleZh": "sshole：OpenSSH 密码绕过漏洞解析",
+      "url": "https://sshhole.com"
+    },
+    {
+      "by": "pantalaimon",
+      "comments": 122,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50379704",
+      "id": "50379704",
+      "note": "上面那个漏洞的官方公告。Alpine 遍布 Docker 镜像，影响面很大，跑 Alpine 的赶紧升级。",
+      "score": 574,
+      "title": "Alpine Linux Security Advisory: OpenSSH-server password authentication bypass",
+      "titleZh": "Alpine Linux 安全公告：OpenSSH 服务器密码认证绕过",
+      "url": "https://alpinelinux.org/posts/2026-11-05-openssh-password-authentication-bypass/"
+    },
+    {
+      "by": "rubatuga",
+      "comments": 80,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50383057",
+      "id": "50383057",
+      "note": "AI 工具让折腾黑苹果又活过来了，老玩家怀旧、新玩家入坑都能看。",
+      "score": 184,
+      "title": "The Hackintosh Reborn",
+      "titleZh": "黑苹果重生",
+      "url": "https://www.naut.ca/blog/2026/11/05/the-hackintosh-reborn-with-ai/"
+    },
+    {
+      "by": "Philpax",
+      "comments": 4,
+      "cover": "https://thinkingmachines.ai/news/inkling-2-small/images/cover-social.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50386338",
+      "id": "50386338",
+      "note": "Thinking Machines 发布小尺寸开源模型，评论说这可能是第一个“够用”的美国开源模型，刚上榜热度还在涨。",
+      "score": 19,
+      "title": "Inkling 2 Small",
+      "titleZh": "Inkling 2 Small",
+      "url": "https://thinkingmachines.ai/news/inkling-2-small/"
+    },
+    {
+      "by": "gmays",
+      "comments": 2,
+      "cover": "https://www.tencent.com/wp-content/uploads/2026/11/H4_thumbnail_4x3-1.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50383963",
+      "id": "50383963",
+      "note": "腾讯新一代开源模型 Hy4 上线，关注开源模型进展的可以留意后续评测。",
+      "score": 74,
+      "title": "Tencent Launches Hy4, One of the Leading Open-Source AI Models",
+      "titleZh": "腾讯发布 Hy4，跻身领先开源大模型之列",
+      "url": "https://www.tencent.com/tencent-launches-hy4-joining-the-ranks-of-the-worlds-leading-open-source-ai-models/"
+    },
+    {
+      "by": "nickswalker",
+      "comments": 78,
+      "cover": "https://repository-images.githubusercontent.com/1370747786/3a594398-957d-455e-a8cd-65e13e23e4b4",
+      "hnUrl": "https://news.ycombinator.com/item?id=50381383",
+      "id": "50381383",
+      "note": "给 macOS 窗口穿上毛衣的小玩意儿，作者本人现身评论区，纯图一乐的开心项目。",
+      "score": 229,
+      "title": "Window Sweaters",
+      "titleZh": "Window Sweaters：给窗口穿毛衣",
+      "url": "https://github.com/saragordic/window-sweaters"
+    },
+    {
+      "by": "NathanFlurry",
+      "comments": 39,
+      "cover": "https://repository-images.githubusercontent.com/654560183/d4b2fdae-1a15-4420-a2a3-17256a51ae24",
+      "hnUrl": "https://news.ycombinator.com/item?id=50381687",
+      "id": "50381687",
+      "note": "把 agent 的状态机跑在 S3 上，写路径不经过 S3 降延迟，搞 agent infra 的可以看看思路。",
+      "score": 71,
+      "title": "Launch HN: Rivet (YC W23) – Scale and Orchestrate Agents on S3",
+      "titleZh": "Launch HN：Rivet（YC W23）——在 S3 上扩展和编排 Agent",
+      "url": "https://github.com/rivet-dev/rivet"
+    },
+    {
+      "by": "mkeeter",
+      "comments": 141,
+      "cover": "https://www.salon.com/app/uploads/2026/11/Salon-Logos-Background-2.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50383739",
+      "id": "50383739",
+      "note": "1995 年创刊的老牌网络杂志 Salon 停刊，评论区聊的是整个新闻业的空心化，值得读。",
+      "score": 392,
+      "title": "Goodbye from Salon",
+      "titleZh": "Salon 告别信",
+      "url": "https://www.salon.com/2026/11/05/goodbye-from-salon/"
+    },
+    {
+      "by": "schopra909",
+      "comments": 14,
+      "cover": "https://linum.ai/field-notes/pjit-21k/opengraph-image/card?26d65478f85b1e16",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368208",
+      "id": "50368208",
+      "note": "两万美元训出一个能打的文生图模型还开源权重，小团队效率路线的代表作。",
+      "score": 140,
+      "title": "Show HN: A decent text-to-image model trained for ~$20K (Apache 2.0 Weights)",
+      "titleZh": "Show HN：约 2 万美元训出的文生图模型（Apache 2.0 权重开源）",
+      "url": "https://www.linum.ai/field-notes/pjit-21k"
+    },
+    {
+      "by": "monneyboi",
+      "comments": 292,
+      "cover": "https://media.motorolanews.fiestic.com/2026/11/04151018/29260918_MOTOROLA_SIGNATURE_1047-768x1151.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50380810",
+      "id": "50380810",
+      "note": "1599 美元起的高端机官方支持 GrapheneOS，隐私党终于有了 Pixel 之外的旗舰选择，争议也不少。",
+      "score": 389,
+      "title": "Motorola Signature 27 with GrapheneOS support",
+      "titleZh": "Motorola Signature 27 支持 GrapheneOS",
+      "url": "https://motorolanews.com/motorola-signature-27-2/"
+    },
+    {
+      "by": "iamnothere",
+      "comments": 45,
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50379576",
+      "id": "50379576",
+      "note": "Rust 写的浏览器引擎 Servo 月报，连 <progress> 标签都是刚支持的，独立浏览器引擎的长跑实况。",
+      "score": 180,
+      "title": "September in Servo: <progress>, rounded rectangles, and more",
+      "titleZh": "Servo 九月进展：<progress>、圆角矩形等",
+      "url": "https://servo.org/blog/2026/11/05/september-in-servo/"
+    }
+  ],
+  "mood": "今天安全话题炸了——OpenSSH 密码绕过、画图工具 RCE，Claude Code 还被曝往外发用户邮箱；AI 新模型也不少。"
+}
