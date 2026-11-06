@@ -24,21 +24,6 @@ export function LikeButton({ score, size = "sm" }: { score: number; size?: "sm" 
   );
 }
 
-export function FollowButton() {
-  const [on, setOn] = useState(false);
-  return (
-    <button
-      type="button"
-      onClick={() => setOn((v) => !v)}
-      className={`shrink-0 cursor-pointer rounded-full px-3.5 py-1 text-[12.5px] font-medium transition-colors duration-200 ${
-        on ? "bg-neutral-100 text-neutral-500" : "border border-[#ff2442] text-[#ff2442]"
-      }`}
-    >
-      {on ? "已关注" : "关注"}
-    </button>
-  );
-}
-
 export function CollectButton() {
   const [on, setOn] = useState(false);
   return (

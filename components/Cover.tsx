@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import type { HnItem } from "@/lib/data";
+import type { HnItem } from "@/lib/shared";
 
 const PALETTES: [string, string][] = [
   ["#ff5f6d", "#ffc371"],

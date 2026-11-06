@@ -2,8 +2,8 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import ArticleComments from "@/components/Comments";
 import Cover from "@/components/Cover";
+import { FollowButton } from "@/components/Follow";
 import { ChevronLeftIcon } from "@/components/Icons";
-import { FollowButton } from "@/components/Interact";
 import { DetailBar, LiveCounts } from "@/components/Live";
 import { formatDateCN, getAllDays, getDay, titleOf } from "@/lib/data";
 
@@ -32,7 +32,7 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
           {author.slice(0, 1).toUpperCase()}
         </span>
         <span className="min-w-0 flex-1 truncate text-[14px] font-medium">{author}</span>
-        <FollowButton />
+        <FollowButton author={author} />
       </header>
 
       <main className="mx-auto max-w-2xl">

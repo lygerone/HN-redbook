@@ -2,9 +2,9 @@ import Link from "next/link";
 import Cover from "./Cover";
 import { BottomNav, DateChips } from "./Chrome";
 import { LiveLike } from "./Live";
-import { titleOf, type DayData, type HnItem } from "@/lib/data";
+import { titleOf, type DayData, type HnItem } from "@/lib/shared";
 
-function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
+export function FeedCard({ day, item }: { day: DayData; item: HnItem }) {
   return (
     <Link
       href={`/day/${day.date}/${item.id}`}

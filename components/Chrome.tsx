@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
-import { formatDateCN, type DayData } from "@/lib/data";
+import { usePathname } from "next/navigation";
+import { formatDateCN, type DayData } from "@/lib/shared";
 import { MenuIcon, SearchIcon } from "./Icons";
 
 export function TopBar() {
@@ -54,13 +56,28 @@ export function Footer() {
 }
 
 export function BottomNav() {
+  const pathname = usePathname() ?? "/";
+  const onFollowing = pathname.startsWith("/following");
+  const onHome = !onFollowing;
   return (
     <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-neutral-100 bg-white pb-[env(safe-area-inset-bottom)]">
       <div className="mx-auto flex h-[52px] max-w-6xl items-center justify-around">
-        <Link href="/" className="flex min-w-11 items-center justify-center text-[15px] font-bold text-[#ff2442]">
+        <Link
+          href="/"
+          className={`flex min-w-11 items-center justify-center text-[15px] ${
+            onHome ? "font-bold text-[#ff2442]" : "text-neutral-600"
+          }`}
+        >
           首页
         </Link>
-        <span className="flex min-w-11 items-center justify-center text-[15px] text-neutral-600">发现</span>
+        <Link
+          href="/following"
+          className={`flex min-w-11 items-center justify-center text-[15px] ${
+            onFollowing ? "font-bold text-[#ff2442]" : "text-neutral-600"
+          }`}
+        >
+          关注
+        </Link>
         <span className="flex h-9 w-12 items-center justify-center rounded-lg bg-[#ff2442] text-xl font-bold leading-none text-white">
           +
         </span>

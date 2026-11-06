@@ -1,6 +1,6 @@
 "use client";
 import { useEffect, useState } from "react";
-import type { Highlight } from "@/lib/data";
+import type { Highlight } from "@/lib/shared";
 
 // HN 评论原文是带标签的 HTML，转成纯文本展示（<p> 还原成段落）
 function htmlToText(html: string): string {
