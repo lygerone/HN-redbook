@@ -70,6 +70,8 @@ export default async function ItemPage({ params }: { params: Promise<{ date: str
 
         <ArticleComments
           id={item.id}
+          total={item.comments}
+          commentsList={item.commentsList}
           fallback={day.highlights.filter(
             (h) => h.from && (item.title === h.from || item.title.startsWith(h.from) || h.from.startsWith(item.title)),
           )}

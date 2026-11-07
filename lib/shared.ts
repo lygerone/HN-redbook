@@ -1,4 +1,9 @@
 // 纯类型与纯函数（不碰 node:fs），客户端组件也可以安全 import
+export interface ItemComment {
+  by: string;
+  text: string;
+}
+
 export interface HnItem {
   id: string;
   title: string;
@@ -10,6 +15,7 @@ export interface HnItem {
   by?: string;
   note: string;
   cover?: string | null;
+  commentsList?: ItemComment[];
 }
 
 export interface Highlight {
