@@ -12,7 +12,21 @@
       "by": "ibobev",
       "note": "生成式 AI 的数学入门小册子，号称直觉友好，适合想补理论又不想啃大部头的人。",
       "cover": null,
-      "titleZh": "生成式 AI 基础小册子：直觉版数学入门"
+      "titleZh": "生成式 AI 基础小册子：直觉版数学入门",
+      "commentsList": [
+        {
+          "by": "nh23423fefe",
+          "text": "我不喜欢这一点：> 改变坐标。给定一个用标准基表示的向量 x，我们通过应用 x_eig = V^−1 x 来改变坐标。> 这个操作不改变向量本身；它只改变向量的表示方式，将其转换为特征向量坐标。我确信作者知道向量与给定基下的坐标向量之间的区别。我只是不喜欢这种措辞。说应用一个函数不会产生改变，这很奇怪。"
+        },
+        {
+          "by": "SwtCyber",
+          "text": "如果你刚开始接触生成式 ML，我建议你把这本书和 Fleuret 的《Little Book of Deep Learning》一起读。这本书会帮你覆盖所有的概率与连续数学，而 Fleuret 的书会补齐神经网络架构的部分"
+        },
+        {
+          "by": "hasteg",
+          "text": "另一本我强烈推荐的、用来学习机器学习/transformers 背后的数学（或者至少非常好地理解它是如何工作的）的书，是 Anil Ananthaswamy 的《Why Machines Learn: The Elegant Math Behind Modern AI》。我去年读了它，发现它在节奏把控和逐步建立直觉方面做得极好，能让你理解 ML 中大多数重要数学概念和发现的「如何与为什么」，正是它们把我们带到了今天的位置。对于那些对线性代数、统计学和多元微积分还没有相当深入理解的人来说，这本书将会是一本远为"
+        }
+      ]
     },
     {
       "id": "50358562",
@@ -24,7 +38,21 @@
       "by": "paddingtone",
       "note": "Safari 27.3 让浏览器自动生成深色模式，懒人福音，也顺带引发了“HN 自己为啥还不支持深色”的吐槽。",
       "cover": "https://webkit.org/wp-content/uploads/Demo-of-Adaptive-Dark-Mode_light.png",
-      "titleZh": "Safari 27.3 引入自适应深色模式"
+      "titleZh": "Safari 27.3 引入自适应深色模式",
+      "commentsList": [
+        {
+          "by": "kickingvegas",
+          "text": "补充一下：CSS 里现在有 light-dark() 这个东西了。https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/V..."
+        },
+        {
+          "by": "nsoam",
+          "text": "我想要的恰恰相反。我有散光，这让我很难看清黑底白字。我希望 Safari 能把深色模式的网站变成浅色模式的网站。"
+        },
+        {
+          "by": "ksec",
+          "text": "我敢打赌，Safari 团队在 HN 上潜水很久了，等了 10 年的深色模式之后，他们终于决定一劳永逸地把这事修好。我想我们应该为这个功能感谢 Dang！:) 希望 Safari 团队能继续获得资源来修复和改进 Safari。最后的 10% 要花很长时间慢慢磨，我有点担心他们的新 CEO 会削减资源。"
+        }
+      ]
     },
     {
       "id": "50358702",
@@ -36,7 +64,21 @@
       "by": "ibobev",
       "note": "PostgreSQL 内部机制的老牌详解，评论区直接点名：先看 HoT 更新路径。",
       "cover": null,
-      "titleZh": "PostgreSQL 内幕"
+      "titleZh": "PostgreSQL 内幕",
+      "commentsList": [
+        {
+          "by": "dang",
+          "text": "相关讨论：The Internals of PostgreSQL - https://news.ycombinator.com/item?id=43241404 - 2025 年 3 月（40 条评论）The Internals of PostgreSQL - https://news.ycombinator.com/item?id=30372750 - 2022 年 2 月（19 条评论）The Internals of PostgreSQL - https://news.ycombinator.com/item?id=30086374 - 2022 年 1 月（39 条评论）Internals of PostgreSQL - https://news.ycombinator.com/item?id=18950460 - 2019 年 1 月（25 条评论）The internals of PostgreSQL - https://news.ycombinator.com/item?id=13488315 - 2017 年 1 月（53 条评论）The Internals"
+        },
+        {
+          "by": "gopalv",
+          "text": "最新的一份关于 particledb 的 Jepsen 报告，重新勾起了我对 postgres 中 SSI 实现的兴趣。如果你只是快速浏览这份文档，HoT 更新路径是我会直接跳过去看的那一节。理解了 HoT，然后再读 zHeap 的实现说明（以及 TOAST 的），就能对 postgres 会做什么、不会做什么建立一个很好的心智模型。"
+        },
+        {
+          "by": "weitendorf",
+          "text": "没看到任何地方提到对齐填充，所以我就在这里补充一下：你知道吗，表的列顺序会影响一条记录占用多少空间？bigint, bigint, bool, bool：18 字节（8+8+1+1），对齐后补到 24 bool, bigint, bool, bigint：32 字节（1 + 7（对齐填充）+ 8 + 1 + 7 + 8）但是等等！还有每行约 30 字节的开销。你的 18 字节行实际上要占 54 字节的空间。嗯，具体是 54 的多少倍取决于你更新/vacuum 它的频率。但也别把行做得太大，否则你就要 TOAST 了"
+        }
+      ]
     },
     {
       "id": "50339288",
@@ -48,7 +90,21 @@
       "by": "xx_ns",
       "note": "为了改个时间去越狱车机，荒诞又真实，堪称车企软件槽点合集。",
       "cover": null,
-      "titleZh": "就为了改个时间，我越狱了车机导航"
+      "titleZh": "就为了改个时间，我越狱了车机导航",
+      "commentsList": [
+        {
+          "by": "bambax",
+          "text": "> 我拒绝相信竟然没有修改时间的选项（……）我决定把固件取出来好好研究一番 这一定是有史以来最具代表性的 HN 句子之一了。"
+        },
+        {
+          "by": "strenholme",
+          "text": "我的车配了一个便宜、低质量的后装车载音响和 GPS 一体机。它只能播放光盘里的音乐（不支持 USB），连可变比特率的 MP3 都不支持，GPS 有一半时间不知道车在哪。我最后把主机拆掉，换成一个塑料支架加一套标准的老式嵌入式音响系统。配置顺眼多了。让我担心的是那些主机没法简单换成普通音响的车。"
+        },
+        {
+          "by": "somehnguy",
+          "text": "我那辆 2014 年的车几年前就停止自动更新时间了。我猜是某种蜂窝技术被淘汰了，或者通用汽车给车辆联网签的蜂窝合同到期了。不管怎样，我现在一年手动设置两次时间——我还挺庆幸它至少还有这个选项。我摆弄我女朋友车上的收音机时发现，它的时钟界面上根本没有手动设置的选项。不允许手动设置，看起来是个相当短视的做法。"
+        }
+      ]
     },
     {
       "id": "50354358",
@@ -60,7 +116,21 @@
       "by": "nharada",
       "note": "800 美元的开源房间级抓取机器人，作者亲自下场答疑，DIY 味很足。",
       "cover": null,
-      "titleZh": "Stringman：800 美元的开源房间级抓取机器人"
+      "titleZh": "Stringman：800 美元的开源房间级抓取机器人",
+      "commentsList": [
+        {
+          "by": "histk_garden",
+          "text": "我给我的花园做了一个大的。就像《亲爱的，我把孩子缩小了》里 Rick Moranis 躺在那个悬臂飞行吊床里的场景，不过我用的是 2 个高速绞车和一些加工过的铝件，缆索的控制方式有点像魔术画板。我用和那艘内爆的泰坦号潜水器同款的 USB 手柄来控制它。我可以把自己升降大约 4 英尺，钻进作物行间。它玩起来也挺有意思。我还想造一个机器人放进去，然后远程操控整个系统。它基本上和 NFL 的蜘蛛摄像机是同一样东西，只不过载重更大，因为我是个胖子"
+        },
+        {
+          "by": "nhnifong",
+          "text": "大家好，我是 Nathaniel，这个机器人的创造者。谢谢发帖 :) 有任何问题尽管问。它能弄死你吗？大概不能。张力到达上限时它会放线，你拉得太用力线就会松出去。它能在有吊扇的房间里工作吗？通常没问题，因为你可以把工作区域的顶部降下来，把风扇排除在外。它会让我的孩子们学会不收拾东西吗？反正他们永远也学不会。"
+        },
+        {
+          "by": "barbazoo",
+          "text": "> Tension is all you need 很少有产品发布能让我笑出声 :)（https://en.wikipedia.org/wiki/Attention_Is_All_You_Need）"
+        }
+      ]
     },
     {
       "id": "50346755",
@@ -72,7 +142,21 @@
       "by": "dsalzman",
       "note": "把 HN 高赞 YouTube 视频做成 24 小时电视频道，反算法的怀旧玩法。",
       "cover": null,
-      "titleZh": "Show HN：HackerTV——把 HN 最推荐的 YouTube 视频做成 24 小时频道"
+      "titleZh": "Show HN：HackerTV——把 HN 最推荐的 YouTube 视频做成 24 小时频道",
+      "commentsList": [
+        {
+          "by": "spditner",
+          "text": "对于那些不太可能再更新的 vibe coding 新奇应用，我想看到的是「提示词即源码」。举个例子，我一次性生成了一个用来播放 HackerTube 列表的 Roku 应用，效果足够好：Build a sideloadable Roku channel/app for browsing and playing videos from https://hackertube.org/. Inspect HackerTube's API or video pages and use Roku BrightScript/SceneGraph. Deliver a complete zipped Roku channel with source, setup instructions, and any necessary metadata/proxy details. Aim for Roku Developer Mode sideloading."
+        },
+        {
+          "by": "5555watch",
+          "text": "哦靠，这比我预想的酷多了！不知道为什么，随便翻翻频道比点开一个我可能根本不会点的视频要有意思得多"
+        },
+        {
+          "by": "richardw",
+          "text": "太喜欢这一大堆点子了！已顶。我几天前也发了几个 repo：https://news.ycombinator.com/item?id=50342272 点进去到处看看，里面有些很酷的东西。非常欢迎反馈！"
+        }
+      ]
     },
     {
       "id": "50333131",
@@ -84,7 +168,21 @@
       "by": "zdw",
       "note": "日本“地味万圣节”2026 合集：扮路人、扮洗涤剂补货员，幽默全靠细节。",
       "cover": "https://spoon-tamago.com/wp-content/uploads/2026/10/jimi-halloween-2026-top.jpg",
-      "titleZh": "日本 2026“地味万圣节”服装合集"
+      "titleZh": "日本 2026“地味万圣节”服装合集",
+      "commentsList": [
+        {
+          "by": "numpad0",
+          "text": "最后一张补充洗涤剂的那幅，恶搞的是约翰内斯·维米尔的《倒牛奶的女仆》；这幅画大家都在教科书上见过，近几年成了日本 Twitter 上的梗图模板。1：https://en.wikipedia.org/wiki/The_Milkmaid_(Vermeer)"
+        },
+        {
+          "by": "happytoexplain",
+          "text": "其中有些作品因为文化上的错位而特别好笑（作为一个美国人，我从来没经历过有人问能不能把座椅靠背放倒）。「An expert on a very niche subject」让我笑出声笑得最厉害，因为它是里面最「就是个普通人」的一幅，但又和它的描述分毫不差。"
+        },
+        {
+          "by": "Waterluvian",
+          "text": "在我看来，这些都是杰作。当你能用的素材这么少时，想把氛围拿捏得恰到好处是很困难的。可以，一千遍，可以——你尽管把座椅靠背放倒吧，温柔的人。"
+        }
+      ]
     },
     {
       "id": "50355251",
@@ -96,7 +194,21 @@
       "by": "theanonymousone",
       "note": "本地 27B 模型也能解读模型权重，但“解读是否可信”的争论比帖子本身还有意思。",
       "cover": null,
-      "titleZh": "我笔记本上的 Qwen 3.8 27B 也能解读模型权重"
+      "titleZh": "我笔记本上的 Qwen 3.8 27B 也能解读模型权重",
+      "commentsList": [
+        {
+          "by": "zkmon",
+          "text": "Qwen-3.8-27B——迄今为止 AI 领域发生的最好的事。只要你愿意扮演更高层级的架构师或决策者，这个东西能做到和前沿模型一样的结果。像技术负责人一样在旁指点一二，你想要的就都能完成。你付给前沿模型的钱，恰恰就是把这种高层级的方向把控工作外包给 agent 的费用。"
+        },
+        {
+          "by": "data-ottawa",
+          "text": "也许是我漏看了，但 Qwen 3.8 能修改 Qwen 3.8 自己的权重吗？老款 Qwen 模型里有很多已知的神经元，长期以来就知道它们会引发行为改变（比如改动一个权重就能得到 evil Qwen）。我的问题归结起来是：它对权重有多少是训练出来的理解、又有多少是真正理解了权重？想必同代的模型并没有在剖析这一代模型的资料上训练过。还有，像 steering vectors、J spaces、LoRA 这些早就为人所知的概念在其中起了多大作用？不过这解释不了游戏训练的那些案例，那些确实让我印象深刻。"
+        },
+        {
+          "by": "athrowaway3z",
+          "text": "希望我们能有一个新基准：模型能把一组权重调整到什么程度，才能生成一只骑自行车的鹈鹕？"
+        }
+      ]
     },
     {
       "id": "50336918",
@@ -108,7 +220,21 @@
       "by": "bookofjoe",
       "note": "AI 存档需求把磁带产能推高 5 倍，老技术回潮，评论区全是磁带血泪经验。",
       "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/10/GettyImages-2202649793-2560x1440.jpg",
-      "titleZh": "AI 存档需求暴涨，富士胶片把磁带产能提 5 倍"
+      "titleZh": "AI 存档需求暴涨，富士胶片把磁带产能提 5 倍",
+      "commentsList": [
+        {
+          "by": "dylan604",
+          "text": "没尝过跟磁带打交道这种（不）愉快滋味的人注意了：在归档然后把它忘掉之前，有几个坑得先知道。创建归档时，千万别跳过回读验证这一步。我说的不是让系统确认它可读而已。我指的是真的把数据从磁带里恢复出来。我遇到过这种情况：写入程序确认磁带可读，但数据就是从磁带上取不出来。磁带机读别的磁带机写的数据可能会出问题。磁带机读它自己写的数据也可能会出问题。既然写一份也是写，为什么不写两份，花两倍"
+        },
+        {
+          "by": "pmw",
+          "text": "如果你想利用磁带每 TB 成本低的优势来备份自己的数据，又不想在磁带硬件上投入大笔前期成本，我强烈推荐 rustic 对 Amazon S3 Glacier Deep Archive 的冷存储支持。最终成本是 $1/TB/月，前提是你不打算从它那里恢复。（把它用作二级备份，恢复时走你的主备份。）我用 rustic+GDA 已经大约一年了，还给这个软件生态贡献了一些改进，让其他人也能顺畅地走这条路。有了这个方案，我再也不想买自己的磁带硬件了！[1]：https:&"
+        },
+        {
+          "by": "doughnutstracks",
+          "text": "我偶然发现一个提供 LTO 磁带价格参考的网站（我和这个网站没有任何关联）。LTO-10 30TB：每盘 $259–$300（约 $8.63–$10/TB）LTO-10 40TB：每盘 $491–$555（约 $12.28–$13.88/TB）LTO-9 18TB：每盘 $92–$129（约 $5.14–$7.17/TB）https://tapebackup.org/lto-tape-price-trend/lto10-price 有一点值得注意：磁带盘本身不一定是最大的开销。独立的 LTO-10 磁带机目前标价约 $25,000。"
+        }
+      ]
     },
     {
       "id": "50358314",
@@ -120,7 +246,21 @@
       "by": "ayanb9440",
       "note": "开源实时风控/反欺诈决策平台，带实时流程可视化，适合做风控的开发者围观。",
       "cover": "https://opengraph.githubassets.com/5d064b74d039ef6e65c7f0f01692c1d08dcd76874a4835bd0674f15811583263/finic-ai/kairos",
-      "titleZh": "Show HN：Kairos——开源风控与反欺诈决策平台"
+      "titleZh": "Show HN：Kairos——开源风控与反欺诈决策平台",
+      "commentsList": [
+        {
+          "by": "factotvm",
+          "text": "我喜欢它是开源的，谢谢。我不喜欢在这个解决方案领域用 Node 上的 TypeScript。对于一个支付网关，我想要的是一个无法从外部来源修改自身的程序。这个运行时里的程序可以在运行时重写自己，而 Dockerfile 也没有把它锁死。所以就目前的情况而言，运行时层面没有任何东西能阻止原型污染。而配置缺陷正是那种会不断带来新问题的 bug。"
+        },
+        {
+          "by": "bradknowles",
+          "text": "这其实不是什么新问题。早在 1995 年，我是 AOL 的高级互联网邮件管理员。我们竭尽全力对付垃圾邮件发送者。我们发现，我们花几周或几个月研究出一种新技术，然后他们在一个周末之内就能找到绕过办法。周而复始。唯一变了的是：骗子的市场转移了，而且他们适应你的防护技术的速度快了很多、水平高了很多。"
+        },
+        {
+          "by": "edude03",
+          "text": "不是我需要用的东西，但它既开源、又能展示实时流程，超级酷。"
+        }
+      ]
     },
     {
       "id": "50354960",
@@ -132,7 +272,21 @@
       "by": "sidgarimella",
       "note": "Postman 被指静默安装 AI 插件并试图分享全部 API 数据，全场最高热度，争议拉满。",
       "cover": "https://opengraph.githubassets.com/97d5b50e2807f23d8ad41e26328283589fcc092bb3d5a0a330b493ac193aeb58/postmanlabs/postman-app-support/issues/14370",
-      "titleZh": "Postman 被指静默装 AI 插件并试图分享全部 API 数据"
+      "titleZh": "Postman 被指静默装 AI 插件并试图分享全部 API 数据",
+      "commentsList": [
+        {
+          "by": "pants2",
+          "text": "Postman 落到今天这个地步真是可惜。它起初是一个非常出色的小巧开发者工具，用来测试 API。然后不知为什么，他们融了 4 亿多美元，雇了 1500 多名员工——而这本该是一个像 curl 或 Little Snitch 那样小小的开源/兴趣项目。结果现在他们不得不靠强制登录、收集数据、按月订阅、AI 功能等等来证明自己的估值是合理的。我至今不明白他们凭什么估值 50 多亿美元，因为我认识的开发者里没有一个还在真正用它"
+        },
+        {
+          "by": "primitivesuave",
+          "text": "Postman 会详细记录你通过它的工具发出的每一个 API 请求，包括查询参数。如果你用模板语法 `{{some_secret}}` 来填充一个查询参数，它会把 `some_secret` 的实际秘密内容发送到 Postman 的服务器。如果你屏蔽发往这个日志端点的出站网络流量，整个应用就无法正常工作。我是在调查 Postman 是否符合 HIPAA 时发现这一点的（它不符合）。"
+        },
+        {
+          "by": "dham",
+          "text": "我们几年前就换到 bruno 了，用着一直不错。能把请求定义存进 git 很好。不过说实话，现在这些工具哪个都不太需要了。"
+        }
+      ]
     },
     {
       "id": "50356944",
@@ -144,7 +298,21 @@
       "by": "colejohnson66",
       "note": "macOS 27 不再支持 CoreStorage/HFS 卷，老备份用户要提前找替代方案。",
       "cover": null,
-      "titleZh": "macOS 27 不再支持 CoreStorage 卷"
+      "titleZh": "macOS 27 不再支持 CoreStorage 卷",
+      "commentsList": [
+        {
+          "by": "Marsymars",
+          "text": "好吧，唉。我大约 7 个月前发帖说过我决定用 HFS+ 做备份，当时有几条回复表示怀疑。（https://news.ycombinator.com/item?id=47317123）看来我高估了 Apple 长期支持 HFS+ 的决心。现在看起来，在 macOS 上已经没有真正原生的方式把加密备份做到 HDD 上了（APFS 并不太推荐用于 HDD）……选项要么是把加密的 Time Machine 备份到网络位置，要么是用第三方工具。看来我得去研究 SuperDuper 或 Carbon Copy 了。"
+        },
+        {
+          "by": "someonehere",
+          "text": "到了 macOS 27，我不知道 Apple 是想把谁比下去。27 对我和我家里的配置来说简直是一场灾难。以前微软和 Apple 之间还有点竞争的时候，Apple 会想出一些非常酷的东西来展示操作系统、让生活更轻松。现在，我不知道他们想用这个操作系统证明什么。我也讨厌他们把整个操作系统都套在了一个失败硬件产品的皮上这个事实。"
+        },
+        {
+          "by": "AceJohnny2",
+          "text": "FWIW，这在发行说明里被列为已弃用：https://developer.apple.com/documentation/macos-release-note...（搜 CoreStorage；他们的锚点链接坏得可笑）顶尖的第三方技术博客 Eclectic Light 在 6 月聊过这事：https://eclecticlight.co/2026/06/17/what-to-do-with-your-enc... 我暂时找不到此前关于这件事即将发生的警告。7 月 22 日的下面这份技术说明说加密的 HFS+ 卷在 macOS *28* 里将不再受支持，所以这看起来来得有点早……https://su"
+        }
+      ]
     },
     {
       "id": "50322603",
@@ -156,7 +324,21 @@
       "by": "gmays",
       "note": "Figma 在训练“懂 Figma”的编辑模型，设计工具 AI 战场的又一步。",
       "cover": "https://cdn.sanity.io/images/599r6htc/regionalized/fb5d45c15530cb8862429e9c6a70c004ee6f76e4-3264x1836.jpg?w=1200&q=70&fit=max&auto=format",
-      "titleZh": "我们在训练一个精通 Figma 的编辑模型"
+      "titleZh": "我们在训练一个精通 Figma 的编辑模型",
+      "commentsList": [
+        {
+          "by": "jjcm",
+          "text": "前 Figma 员工。补充个背景：这篇博文发布的同一天，Canva 刚宣布了 Brush，看起来他们在这个领域走得更远：https://www.canva.com/newsroom/news/canva-brush/ 很高兴 Figma 在往这个方向推进。我的确认为 Figma 拥有全世界最好的 UI 数据集之一，而在很大程度上，他们一直守着它、让它闲置不用。很期待看他们把这件事带到哪里，不过我确实认为，除了基于 LLM 的编辑模型之外，他们也应该看看图像模型（这话我有私心，因为我离开 Figma 就是为了创办一家基于图像模式的 U"
+        },
+        {
+          "by": "miguel-muniz",
+          "text": "我用过 Codex、Claude Code、GitHub Copilot、Figma 的 MCP、Figma Agent、Pen.dev 和 Paper.design 的各种组合来做产品设计。我以前做过前端开发，所以比一般的产品设计师更懂技术。以我的经验，Figma Agent 和 Figma 的 MCP 都有不尽如人意之处。我相信 Figma Agent 对没用过 Claude Code 或类似工具的人来说很有用，但要让它发挥得好，基本上需要你产品的上下文都存在于 Figma 里。一旦你产品的上下文跑到了 Figma 之外，它就开始跑偏并产生幻觉了"
+        },
+        {
+          "by": "priyadarshy",
+          "text": "我已经彻底不用 Figma 了，只是保留一个 `/design/{project}` 路由，每个路由模拟一个 Figma 文档，然后让 agent 直接用 html/css/react/等等把东西做出来。现在再让我在 Figma 里画任何东西，我都觉得是个巨大的干扰"
+        }
+      ]
     },
     {
       "id": "50358422",
@@ -168,7 +350,21 @@
       "by": "angry_impala",
       "note": "美巨头“隐性 AI 负债”半年涨 90% 至 3.2 万亿美元，但评论区先吵起来：这到底算不算债。",
       "cover": "https://images.ft.com/v3/image/raw/https%3A%2F%2Fcms-image-bucket-productionv3-ap-northeast-1-a7d2.s3.ap-northeast-1.amazonaws.com%2Fimages%2F9%2F1%2F3%2F4%2F13394319-2-eng-GB%2Faad3b104a912-photo_SXM2026103100004660.jpg?fit=cover&gravity=faces&dpr=2&quality=medium&source=nar-cms&format=jpg&width=1260&height=630",
-      "titleZh": "美科技巨头隐性 AI 负债半年涨 90%，达 3.2 万亿美元"
+      "titleZh": "美科技巨头隐性 AI 负债半年涨 90%，达 3.2 万亿美元",
+      "commentsList": [
+        {
+          "by": "ggm",
+          "text": "我非常希望这篇文章、以及其他讨论科技行业财务上疯狂行为的帖子能获得更多关注。我认为让这类内容沉在「new」里默默无闻没有好处，因为这些东西——商业如何看待资产负债表、如何决定什么是和什么不是理性的商业投资的规范——这些东西 -> 很重要 <-。它们在市场中占了相当大的比例。让这么多钱不被理解，是有害的。"
+        },
+        {
+          "by": "freediddy",
+          "text": "这不是债务。债务是：别人给你钱花，然后你要付一段时间的利息，最后把花掉的钱全部还回去。这些是为未来支出签下的合同。然而，我们不知道这些合同的条款是什么，也不知道退出它们有多容易。比如，Anthropic 和 Google 与 xAI 算力签的合同，签的是长期合同，但他们提前 3 个月通知就可以退出。这并不是未来支出的好指标。其他所有这些 3.2 万亿美元的数字也一样，所以这些数字充其量很可疑。"
+        },
+        {
+          "by": "whatever1",
+          "text": "企业的预算撑不起这个。像 Google 和 Amazon 这样拥有疯狂资产负债表的巨头，如今都跪着求贷款了。我们（作为一个国家）应该控制自己对这种疯狂的敞口。如果企业想破产，就让它们破产，但我们不能为了喂饱这少数几家公司的野心而扼杀整个市场的流动性。"
+        }
+      ]
     },
     {
       "id": "50356913",
@@ -180,7 +376,21 @@
       "by": "ibobev",
       "note": "冷门但硬核的 ATS 语言入门教材，适合想挑战类型系统极限的人。",
       "cover": null,
-      "titleZh": "ATS 语言编程入门"
+      "titleZh": "ATS 语言编程入门",
+      "commentsList": [
+        {
+          "by": "srean",
+          "text": "ATS 以前在 HN 上讨论得相当多 https://hn.algolia.com/?query=The%20ATS%20Programming%20Lang... MLton 和 Felix 是另外两种受 ML 启发的语言，它们通过全程序优化来生成快速代码。http://www.mlton.org/ https://felix.readthedocs.io/en/latest/"
+        },
+        {
+          "by": "ddellacosta",
+          "text": "这里有一个关于这门语言的有趣演讲：https://www.youtube.com/watch?v=zt0OQb1DBko（《A (Not So Gentle) Introduction To Systems Programming In ATS》，Aditya Siram 主讲）"
+        },
+        {
+          "by": "esafak",
+          "text": "看起来很有意思。还在积极开发：https://github.com/githwxi/ATS-Postiats 编辑：你是对的，我不知道还有第三个版本。这东西要是有发布说明就好了。我完全不知道这门语言目前的状态。Hongwei，如果你在听的话！这门语言要想成气候，需要社区一起来开发。"
+        }
+      ]
     }
   ],
   "highlights": [

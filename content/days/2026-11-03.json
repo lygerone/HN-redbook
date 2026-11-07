@@ -12,7 +12,21 @@
       "note": "Astra 不用任何工具就能直接读写模型权重：能判断小网络学了什么游戏，能给小 Qwen 动手术把数学能力提升约 5 倍——权重空间编程来了。",
       "cover": "https://rikiyat.github.io/images/blog/weight-space-programming.png",
       "by": "dbreunig",
-      "titleZh": "Astra 能读写模型权重来提升 Qwen"
+      "titleZh": "Astra 能读写模型权重来提升 Qwen",
+      "commentsList": [
+        {
+          "by": "yurimo",
+          "text": "我恭敬地对作者们和在场的各位说，请在抓狂之前先真正读一下这篇论文，或者至少把它输入 Claude。这是一个很酷的项目，但并没有人们说的那么疯狂。我认为博客文章以及随后发布的帖子夸大了结果。我的部分研究内容就是权重空间学习。首先，我们很早就已经具备编辑权重、生成新权重、识别权重的能力。这里有一个早在 2023 年就针对更大模型的例子：https://rome.baulab.info/ 权重空间可解释性与学习是一个活跃的"
+        },
+        {
+          "by": "vessenes",
+          "text": "这太疯狂了。Astra 在不使用任何工具的情况下，就能判断小型网络是在哪些游戏上训练的，还能直接编辑网络的权重来改善结果，甚至能手动编辑一个小型 qwen 模型，把它的数学能力提升到大约 5 倍。我震惊了。如果你今天早上问我，LLM 对其权重的原生理解，是低于人类对神经元的理解、相同，还是高于它，我会说“取决于定义，相同到略低”。没有哪个人能通过编辑大脑让自己变得更擅长数学。这件事真的、真的让我非常惊讶，而且极其有趣"
+        },
+        {
+          "by": "xg15",
+          "text": "我就知道会这样……正如其他人所说，虽然这件事仍然绝对疯狂，但我并不觉得它完全出乎意料、凭空出现。当前一代 LLM 似乎反复展现出一种能力：它们能够迅速掌握非常复杂的系统，而人类需要数月或数年才能达到同样的专业水平。你可以从编程 agent 能在几秒内“理解”并解释庞大的遗留代码库中看到这一点。你也可以从那些利用它们逆向工程专有 IoT 协议或电脑游戏的项目中看到这一点。但那些都是我们掌握了详细知"
+        }
+      ]
     },
     {
       "id": "50337608",
@@ -24,7 +38,21 @@
       "note": "Ubuntu 对 Linux 0day 的处理引发众怒：CVE 定级只给「高」不给「严重」，补丁还躺在 proposed 仓库里不进正式更新。",
       "cover": null,
       "by": "chalmovsky",
-      "titleZh": "Ubuntu 到底在搞什么？"
+      "titleZh": "Ubuntu 到底在搞什么？",
+      "commentsList": [
+        {
+          "by": "BoppreH",
+          "text": "更糟糕的是，Ubuntu 安全事件页面[0]把“Ubuntu 优先级”列为“高”（而不是“严重”，后者会触发计划外补丁）。页面上有一个“为什么是这个优先级？”链接，点开只写着：> 为什么这个 CVE 是高优先级？> 见 Ubuntu 的 CVSS 评分 就这样，连句号都没有，这句话就像没写完一样。后面的通用链接解释了什么是“Ubuntu 优先级”，但该页面与他们的选择自相矛盾。需要注意的是，它也没有提供任何缓解办法，而且连那段（糟糕得语焉不详的）描述也是从 NIST 页面复制来的，所以这里实际上没有任何真正的信息 fro"
+        },
+        {
+          "by": "throw0101c",
+          "text": "需要说明的是，修复后的内核已经在各个 LTS 版本的“proposed”仓库中：* https://launchpad.net/ubuntu/+source/linux 你可以在 apt-get 后加上 “-t” 来拉取它们（但默认不会显示）。26LTS 已在 10 月 28 日把新内核送入 updates/security 仓库。"
+        },
+        {
+          "by": "paxy",
+          "text": "批评是可以的，但至少要建设性一点。这种“叫你们经理来”的气势不应该带进开源社区。这篇文章没有提供任何细节：这个漏洞是什么、有多严重、它对发帖者个人有什么影响、他的服务器有多脆弱、他正在如何绕过。只有一个为了最大限度煽动愤怒而设计的标题，后面跟着几行毫无意义的话。"
+        }
+      ]
     },
     {
       "id": "50340088",
@@ -36,7 +64,21 @@
       "note": "不用出声就能跟电脑说话的设备，评论区：眼镜腿能不能别砍掉金属可调鼻托，大鼻子用户有话要说。",
       "cover": null,
       "by": "aarushyadav",
-      "titleZh": "Show HN：Subvocal——不出声也能跟电脑说话"
+      "titleZh": "Show HN：Subvocal——不出声也能跟电脑说话",
+      "commentsList": [
+        {
+          "by": "vessenes",
+          "text": "刚预订了——关于眼镜有个请求：这话没法说得委婉，我的鼻子很大，鼻梁也很高。很多眼镜真的很难摆正；能不能请求你们不要放弃产品照片里的那种鼻托 w/金属调节件？别让设计师把它们拿掉，我们这些鼻子偏离“正常”不止一个标准差的人会感谢你们的。第二，这种信号处理到底有多难？它会在眼镜端完成，还是通过一个 app 完成？第三，这类东西的“唤醒词”等价物是什么？这让我想起 Apple Vision Pro 的雷达，用来看你的手指是否正"
+        },
+        {
+          "by": "sourpanda",
+          "text": "我觉得这太酷了，简直像从科幻小说里走出来的！我认为这对无障碍功能，以及总体上的免手持计算来说都非常了不起。我也同意其他评论的看法：网站应该更详细地说明它是如何工作的，就像你在正文中写到的那样。太棒了，各位！"
+        },
+        {
+          "by": "growt",
+          "text": "如果这项技术主要在眼镜腿里，我更希望能有一种东西，可以装到我现有的眼镜上。我戴处方眼镜，头也大，试过 Even G2 智能眼镜，现有的镜架对我来说实在太小了"
+        }
+      ]
     },
     {
       "id": "50336518",
@@ -48,7 +90,21 @@
       "note": "喜欢一个网站就把它备份下来——书签正在慢慢腐烂，Wayback Machine 也不是什么都爬得到。",
       "cover": null,
       "by": "ingve",
-      "titleZh": "喜欢一个网站，就把它备份下来"
+      "titleZh": "喜欢一个网站，就把它备份下来",
+      "commentsList": [
+        {
+          "by": "drpfenderson",
+          "text": "完全同意。看着我的书签慢慢腐烂，心里很难过：想打开几年前的重要资源或媒体，结果只剩 404 或域名停放页。而且很多时候 Archive.org 之类的网站上也没有。那款 ArchiveWeb 扩展看起来非常适合自定义抓取；抓取时可以挑选想要的页面和元素，这个功能很棒。对于更快捷的一次性需求，SingleFile 可以给你一个包含页面全部媒体的单个 HTML 文件：https://www.getsinglefile.com 如果你想把归档变成工作流程中更重要的一部分，我非常推荐"
+        },
+        {
+          "by": "geye1234",
+          "text": "5 年后，云端 LLM 可能会在很大程度上取代开放互联网，成为信息来源，并带来集中化控制以及改写过去的能力。请务必买书并妥善保存，也请归档包含重要信息的网页（前提是在你所在的司法辖区这样做合法）。现在仍然有许多 2000 年代甚至更早的优秀网站和博客，但它们不会永远存在。讽刺的是，编程 agent 让归档变得容易多了——我以前使用现成工具总会遇到各种问题，但 Claude 或 Qwen 让下载变得轻而易举，"
+        },
+        {
+          "by": "ceroxylon",
+          "text": "我是吃过亏才学会这一课的：我太随意了，让 Angelfire 把一个我早已停止更新的旧网站又维持了 20 年。网站上有许多我用印刷胶片手工扫描的照片，在那个年代，手动扫描照片需要花不少时间。这个网站一直是个玩笑，我会打开它向别人展示它居然还存在……直到它不存在了，而我也找不到所有照片的备份。归档网站有这个网站的“骨架”，却没有照片。这本来很容易避免，所以才特别痛心。"
+        }
+      ]
     },
     {
       "id": "50341462",
@@ -60,7 +116,21 @@
       "note": "近三周了 Ubuntu 还没给 Linux 0day RCE 发补丁，评论区：以前默认装 Ubuntu，现在要重新考虑了。",
       "cover": "https://freenode.net/media/og-default.png",
       "by": "majorchord",
-      "titleZh": "快三周了，Ubuntu 还没给 Linux 0day RCE 发补丁"
+      "titleZh": "快三周了，Ubuntu 还没给 Linux 0day RCE 发补丁",
+      "commentsList": [
+        {
+          "by": "debinguy",
+          "text": "我觉得很奇怪，没有任何公开讨论强调 iptables 或 nftables 可以在内核 CVE 被利用之前，用 raw PREROUTING 中的一条 U32 丢弃规则把这个挡掉…… sudo iptables -t raw -I PREROUTING -p tcp -m u32 ! --u32 \"0>>24&0x0F=5\" -j DROP"
+        },
+        {
+          "by": "superkuh",
+          "text": "给不知道的人说明一下：Freenode.net 并不是我们从 2000 年代初到 2021 年所熟知和喜爱的那个 Freenode。对 Freenode LLC 的一次恶意接管导致域名和部分公司资产丢失。而那个恶意接管者 Andrew Lee 删除了 Freenode 数据库。它已经不存在了。2026 年的 “Freenode” 是一个积极敌视开源软件的实体，他们在这里说的话也许是真的，但他们说这些只是因为它符合他们的偏见。他们不是真正的信息来源。我应对缺乏补丁的办法一直是使用 iptables。iptables -A I"
+        },
+        {
+          "by": "lambdaone",
+          "text": "到了这个地步，光是没有修补这一个漏洞，就足以让我放弃把 Ubuntu 视为一个可行的发行版。由志愿者运行的发行版都能修复这个，为什么一家资源充足的公司不行？并不是他们没有时间修复，也不是说把修复移植到他们当前的内核会特别困难。"
+        }
+      ]
     },
     {
       "id": "50339397",
@@ -72,7 +142,21 @@
       "note": "男女名字互换史：42 个名字向女性化移动，其中 34 个主要是因为女孩用得多了，而不是男孩用得少了。",
       "cover": null,
       "by": "xoobdev",
-      "titleZh": "从男孩名变女孩名的那些名字，反之亦然"
+      "titleZh": "从男孩名变女孩名的那些名字，反之亦然",
+      "commentsList": [
+        {
+          "by": "billyp-rva",
+          "text": "> 在向女孩名字方向移动的 42 个名字中，有 34 个主要是由女孩人数增加推动的，而不是男孩人数减少。> 令人惊讶的是，反方向也出现了同样的模式。在向男孩名字方向移动的 12 个名字中，有 9 个主要是因为用这个名字的女孩减少了，而不是男孩增加了。换句话说，无论名字朝哪个方向变化，最大的改变通常都来自女孩。这一点与“女孩的名字更具动态性”的观察一致。"
+        },
+        {
+          "by": "ecshafer",
+          "text": "有几个名字似乎被混淆了。Jan 作为 Janice 的简称时是女性名字，但 Jan 在中欧/东欧作为 John 的一种形式时是男性名字。女性名字 Jean 和法语男性名字 Jean 也是不同的。"
+        },
+        {
+          "by": "Fnoord",
+          "text": "作为外国人，我在这件事上最大的 WTF 是已故的 Lindsey Graham。我一直以为 Lindsey/Lindsay 是女性名字。不管怎样，扫一眼这份列表，我感觉以元音结尾的名字通常是女性名字。不过，有一个注意事项：名字会被缩短，随着时间的推移，缩短后的名字还会继续被缩短。‘Brit’、‘Britney’ 来自 ‘Brittany’。‘Gerry’ 或 ‘Geri’ 或 ‘Ger’ 来自 ‘Gareth’（荷兰语变体：‘Gerrit’），‘Pat’、‘Patty’ 来自 ‘Patrick’、‘Patricia’。‘Pen’、‘Penny’ 来自 ‘Penelope’，‘Ash’ 来自 ‘Ashley’。‘Tash’ 或 ‘Tasha’ 来自 ‘Natasha’，‘Nata(s)cha’（是 Nathan/Nathaniel 的变体吗？）‘Toni’、‘"
+        }
+      ]
     },
     {
       "id": "50339221",
@@ -84,7 +168,21 @@
       "note": "华沙市中心的体素 3D 互动地图，评论区：布拉格也有个同款 GTA2 视角项目。",
       "cover": "https://p.migdal.pl/warsaw-vibe-voxel/preview.jpg?v=5",
       "by": "stared",
-      "titleZh": "Show HN：体素版华沙市中心互动 3D 地图"
+      "titleZh": "Show HN：体素版华沙市中心互动 3D 地图",
+      "commentsList": [
+        {
+          "by": "theneverendingp",
+          "text": "太棒了！谢谢。你觉得这个的性能还能再稍微优化一下吗？"
+        },
+        {
+          "by": "stared",
+          "text": "类似的项目还有不少，例如 Streets of Prague（https://beta.streetsofprague.com/），可以在里面像 GTA2 一样以俯瞰视角探索布拉格，数据来自真实资料。"
+        },
+        {
+          "by": "MisterTea",
+          "text": "项目超级棒，但我在 Linux 上的 FF 里帧率只有不到 1 FPS。诚然，这是一台较旧的 AMD 电脑，算不上性能强劲，但它以前运行正版 Minecraft 完全没问题。"
+        }
+      ]
     },
     {
       "id": "50338728",
@@ -96,7 +194,21 @@
       "note": "11 月招聘帖，找工作的直接翻评论区。",
       "cover": null,
       "by": "whoishiring",
-      "titleZh": "Ask HN：谁在招人？（2026 年 11 月）"
+      "titleZh": "Ask HN：谁在招人？（2026 年 11 月）",
+      "commentsList": [
+        {
+          "by": "grimre4p",
+          "text": "iCallidus | Azure Intune Engineer | Denver, US | Remote | $130,000 - 160,000 | Full-Time 使用技术：AI、Azure、Firmware、Support、Microsoft Intune、Security、VPN、Incident Management 我们是 iCallidus, Inc.，一家小型企业联邦 IT 承包商，正在招聘一名 Azure Intune Engineer，加入某机构的 IT 支持团队。该职位在美国境内完全远程，使用安全的政府 VPN 和政府提供的设备。更多详情和申请方式：https://devitjobs.com/jobs/iCallidus-Azure-Intune-Engineer"
+        },
+        {
+          "by": "phw",
+          "text": "Fly.io | REMOTE（多个国家）| Full time | $190k USD + equity 大家好，Fly.io 是一个面向开发者的公共云。我们目前正在招聘三个职位：* Networking Engineer：Proxy 和 Corrosion - https://fly.io/jobs/networking-engineer/ * Infrastructure Operations Engineer - https://fly.io/jobs/infra-engineer/ * Fullstack Engineer - https://fly.io/jobs/fullstack-engineer/ 我们的招聘方式如下：https://docs.fly.io/hiring"
+        },
+        {
+          "by": "zefr-sre",
+          "text": "Zefr | Los Angeles, CA (Marina del Rey) | Site Reliability Engineer | Full-time | 每周 On-site 2-3 次 | $100,000 - $130,000 | https://zefr.com 公司介绍：Zefr 是领先的全球科技公司，致力于在围墙花园式社交环境中实现负责任的营销。Zefr 的解决方案让品牌能够管理其在 YouTube、Meta、TikTok 和 Snap 等规模化平台上的内容邻近关系。凭借其专利 AI 技术，Zefr 为品牌和代理机构提供更准确、透明的社交围墙花园解决方案。职位：Site Reliability Engineer（1 - 3 年经验）You"
+        }
+      ]
     },
     {
       "id": "50344919",
@@ -108,7 +220,21 @@
       "note": "有人呼吁 SEC 阻止 Anthropic 上市，评论区反驳：SEC 的职责是保证信息披露，不是给政客发 IPO 否决权。",
       "cover": "https://cdn.sanity.io/images/3tzzh18d/production/07bfadd5db5c963aa461d36b3f5bfa4a34c6f335-1200x675.png",
       "by": "cdrnsf",
-      "titleZh": "SEC 应该阻止 Anthropic 上市以保护公众"
+      "titleZh": "SEC 应该阻止 Anthropic 上市以保护公众",
+      "commentsList": [
+        {
+          "by": "marsten",
+          "text": "SEC 的职责不是判定 Anthropic 对投资者而言是个好赌注还是坏赌注。它的职责是确保投资者有足够的可见性，然后退到一边。如果我们赋予政客任意否决谁可以 IPO、谁不可以的权力，那将是非常糟糕的。腐败的危险显而易见。"
+        },
+        {
+          "by": "titanomachy",
+          "text": "> 在工作中使用 AI 的美国人数量，在 2025 年夏天（46%）和 2026 年夏天（33%）之间显著下降。令人惊讶。我找不到他们引用的研究，他们也没有附上链接。就我的个人观察而言，我在各个行业的朋友（科技、金融、医学、科学研究）随着时间推移都在更频繁地使用 AI。"
+        },
+        {
+          "by": "stingraycharles",
+          "text": "如果 SEC 允许了 SpaceX 的 IPO，那它几乎肯定也会允许 Anthropic 的 IPO。在我看来，Anthropic 的 IPO 比 SpaceX 搞的那些小动作要真诚得多，然而我们也都通过 ETF 在投资它。此外，一些 ETF 内置了保护机制，会排除尚未盈利的企业（比如 SpaceX 和 Anthropic），我认为这是一个很好的规则。"
+        }
+      ]
     },
     {
       "id": "50339913",
@@ -120,7 +246,21 @@
       "note": "让 agent 真正用你的 App 来抓 bug，评论区拷问：这和我直接拿 Opus 5.5 接 Playwright 有什么区别。",
       "cover": "https://momentic.ai/images/og/home.png",
       "by": "wuweiweiwu",
-      "titleZh": "Launch HN：Momentic——让 Agent 真用你的 App 来抓 bug"
+      "titleZh": "Launch HN：Momentic——让 Agent 真用你的 App 来抓 bug",
+      "commentsList": [
+        {
+          "by": "JulianPaul",
+          "text": "这为什么比直接把 Opus 5.5 用在我的应用上、配合我自己订阅下的一套自定义 Playwright 测试框架更好？"
+        },
+        {
+          "by": "podoman",
+          "text": "> Mo 是一个用来抓 bug 的自定义 agent 框架，它建立在 Momentic 过去 3 年的工作，以及来自复杂真实应用的数百万条测试轨迹之上。Mo 的设计目标是召回率：它能找到最多的真实 bug，不过 Codex 的精确度略高，是 86% 对 84%。代价在于成本：Mo 每找到一个 bug 要花 $2.67，而 Codex 是 $0.80，比 Claude Code 和 Devin 都低。这是好事吗？这么说 Mo 每个 bug 花的钱反而更多？我有点困惑。"
+        },
+        {
+          "by": "vfosnar",
+          "text": "> Momentic 邀请你一起工作，所以显然他们会在登录时自动把你的邮箱交给 Slack 来联系你，尽管我完全不记得这件事在任何地方被提到过。我去 Momentic 的设置里看了一下，那里有个通知区域，Slack 是关着的……我用的是公开邮箱，所以无所谓，但其他人可能会"
+        }
+      ]
     },
     {
       "id": "50341736",
@@ -132,7 +272,21 @@
       "note": "陶哲轩再谈 AI 时代的数学：人还重要吗？评论区：这篇文章像在说「人并不重要，只有真理重要」。",
       "cover": "https://secure.gravatar.com/blavatar/bd4bda4207561b6998f10dec44b570f04ff4072b20f89162d525b186dfca3e49?s=200&#038;ts=1793660160",
       "by": "smileyamp",
-      "titleZh": "AI 时代无我的数学"
+      "titleZh": "AI 时代无我的数学",
+      "commentsList": [
+        {
+          "by": "GMoromisato",
+          "text": "应该使用的视角是由以下三者组成的维恩图：1. 你喜欢做的事情 2. 你擅长做的事情 3. 人们愿意付钱让你做的事情 对于数学而言，如果你的目标是证明某个无人证明过的东西，那么这三点都会受到冲击。我认为“无我”的道路，是站在 50,000 英尺高空俯瞰数学，忽略上述视角。当然，数学会借助 AI 继续存在，甚至繁荣，但数学家呢？随着时间推移，数学这个职业会演化，使一项新任务成为这张图的中心——也许它会是向人们解释数学成果，或者给未来的"
+        },
+        {
+          "by": "kzz102",
+          "text": "人类的追求无法与追求它的人分开。在追求知识的过程中，最终驱动人们的，是他们自己能够理解的东西，以及这些理解带来的意义，两者都基于他们自己的经历，以及他们重视其意见的人。人类并不为了柏拉图式的知识本身而追求它；那些声称这样做的人，往往是在用另一种方式满足自己的自我。"
+        },
+        {
+          "by": "abstractbill",
+          "text": "这是我一段时间以来在这个话题上见过的最好的帖子之一。我在完成数学博士学位后，决定离开学术界进入创业公司。从那以后，我年纪越大，就越成为一个柏拉图主义者，尤其是现在，我教了女儿们很多数学（我是她们的家庭学校数学+科学老师）。而我越是成为柏拉图主义者，就越不在乎某个具体的发现是谁作出的。谁在乎呢？！现在在我看来，很明显（而且相当美好），同样的发现必定在整个宇宙中被外星数学家一次又一次地重复作出，并且最终也会由 t"
+        }
+      ]
     },
     {
       "id": "50341028",
@@ -144,7 +298,21 @@
       "note": "混进 Windows 2000 发布彩排现场的回忆，评论区怀旧：红外传文件、多人贪吃蛇的诺基亚时代。",
       "cover": "https://devblogs.microsoft.com/oldnewthing/wp-content/uploads/sites/38/2025/10/banner-oldnewthing-blue.webp",
       "by": "ibobev",
-      "titleZh": "混进 Windows 2000 发布彩排现场"
+      "titleZh": "混进 Windows 2000 发布彩排现场",
+      "commentsList": [
+        {
+          "by": "olyjohn",
+          "text": "说到进入 Microsoft 的活动，我和几个朋友在上高中时把自己注册成了 Microsoft 的 OEM 系统装配商。我们会开车到 Redmond，参加那些讨论各种新硬件和软件的活动，离开时拎着满满几袋赠品；他们的抽奖也很棒，会送昂贵又闪亮的新硬件，而且很意外，我们经常能中奖。最后，我们听说校园里有一家 Microsoft 商店，也听说那里的软件折扣大得离谱。结果发现你必须是员工。我们很受打击，因为 Win2k 的零售版很贵"
+        },
+        {
+          "by": "criemen",
+          "text": "> 还记得红外文件共享吗？你当然不记得了。嘿，我大约 8 岁时就玩过这个！还有：通过红外无线打印，不用那些粗大的并口打印机线缆。"
+        },
+        {
+          "by": "kalleboo",
+          "text": "> 还记得红外文件共享吗？你当然不记得了。前几年我在日本的一家卡拉 OK 吧注意到，卡拉 OK 系统的遥控器上有一个红外端口。下一次我带上了我的 Sony Clie，果然，它仍然可以让我发送照片，并在照片上涂鸦，然后显示到卡拉 OK 屏幕上。我查了一下这个系统，它来自 2012 年（但歌曲一直保持更新）。https://kalleboo.com/microblog/posts/113510755577334826.html"
+        }
+      ]
     },
     {
       "id": "50340619",
@@ -156,7 +324,21 @@
       "note": "NIST 给个体户和单人创业者的网络安全指南，评论区：术语还是太多了，「SI」这种词就不该出现在给外行看的东西里。",
       "cover": "https://www.nist.gov/sites/default/files/styles/social/public/images/2026/04/29/shutterstock_2477030163.jpg?itok=7zzPE_fG",
       "by": "tomrod",
-      "titleZh": "个体户？NIST 给你准备了网络安全指南"
+      "titleZh": "个体户？NIST 给你准备了网络安全指南",
+      "commentsList": [
+        {
+          "by": "xvxvx",
+          "text": "“一份通俗语言资源”。恕我直言，这没有抓住重点。是的，这是一次不错的网络安全简化尝试，但如果它的目标是入门级、非技术人员，那它不会奏效。我最早的一份工作之一，就是为一家全球最大的公司重新设计培训资料。我把培训内容精简到核心，也就是最基础的部分，然后从那里开始。结果非常显著。我很想对这份文档做同样的事情……"
+        },
+        {
+          "by": "nomilk",
+          "text": "> 说是用通俗语言写的，可它的标题是：> Small Business Cybersecurity: Non-Employer Firms（NIST 网络安全白皮书 50）小企业不会把自己认作 ‘Non-Employer Firms’，也不知道 ‘NIST’ 是什么，大多数人不会知道白皮书是什么，更别说 50 号了。改成 ‘A Crash Course in Cybersecurity for Small Businesses’ 会有所改善。"
+        },
+        {
+          "by": "lbriner",
+          "text": "这类指南虽然出发点很好，却几乎无一例外地效果极差。这就像让一个技术人员来制作网络安全指南，结果得到的是一份满是文字和表格的 PDF 文档，而不是先退一步思考问题。如果你想获得市场渗透率，反而应该这样做：1) 在自己的网站上把它塑造成一个人们能认出来的品牌，比如 “Cyber Basics”，或者“来自保护美国基础设施的那些人的简单指南集”之类。给它品牌颜色和一个 logo，并投放到媒体上，让人们认识它。2) 思考用户体验。You"
+        }
+      ]
     },
     {
       "id": "50344158",
@@ -168,7 +350,21 @@
       "note": "福特的隐私承诺：数据共享默认是 opt-out 而不是 opt-in，评论区：先下载 App 再说，这承诺的诚意值得怀疑。",
       "cover": null,
       "by": "KoftaBob",
-      "titleZh": "福特的隐私承诺：你的数据你做主"
+      "titleZh": "福特的隐私承诺：你的数据你做主",
+      "commentsList": [
+        {
+          "by": "Animats",
+          "text": "如果你跟着链接点进去，它首先告诉你的就是“下载 app”。[1] Vehicle Data Sharing 似乎是默认共享、可选择退出，而不是选择加入。他们确实说：“如果您想确保您没有共享数据，请在车内设置菜单中查看 Vehicle Connectivity，并将其关闭。”做完这一步之后，应该有人检查一下无线调制解调器是否仍在发射信号。[1] https://www.ford.com/data-and-privacy/manage-your-settings/c..."
+        },
+        {
+          "by": "QDwQ1",
+          "text": "就个人而言，我想要一辆从一开始就完全不产生任何“数据”的汽车。"
+        },
+        {
+          "by": "midtake",
+          "text": "我从这个标题中只能读出一种双重话术：退出是你的责任；如果你不退出，那就是你的问题。"
+        }
+      ]
     },
     {
       "id": "50330834",
@@ -180,7 +376,21 @@
       "note": "车钥匙为什么这么贵，评论区：特斯拉是最便宜的那档，两张卡 40 美元，自己一分钟就能配。",
       "cover": "https://thehustle.co/hubfs/undefined-Oct-29-2026-09-52-09-5189-PM.jpeg",
       "by": "rmason",
-      "titleZh": "配一把车钥匙为什么这么贵？"
+      "titleZh": "配一把车钥匙为什么这么贵？",
+      "commentsList": [
+        {
+          "by": "Grombobulous",
+          "text": "这篇文章太高看汽车厂商了。先进的防盗技术并不等同于高制造成本，特别是车钥匙属于产量很大的产品，通常一辆车配两把。你的 iPhone 里的安全措施比这更先进，里面还有一台完整的电脑，能玩相对较新的 3A 游戏，价格却比其中一些钥匙还便宜。真正的答案是：经销商靠售后服务赚钱，他们要求厂商把这种好处丢给他们。"
+        },
+        {
+          "by": "Polizeiposaune",
+          "text": "文章没有提到的另一个办法：换掉钥匙外壳，把旧钥匙的内部部件移过来。如果钥匙丢了，这个办法当然行不通；但当我的丰田钥匙遥控器磨损得很厉害（按键膜破裂，露出底下的微动开关）时，我发现买个替换外壳、把旧钥匙的电路板移过去，就能省下重新编程钥匙的麻烦和/或费用。难度并不比换钥匙遥控器电池大。"
+        },
+        {
+          "by": "josephcsible",
+          "text": "Tesla 完全处在简单又便宜的那一端。40 美元能买两张新钥匙卡，或者 175 美元买一个新的钥匙遥控器；只要你没有把现有钥匙全部同时弄丢，你自己就能在一分钟左右配好新钥匙并停用丢失的钥匙，不需要任何额外的工具或软件。把他们的手机 app 当作蓝牙钥匙使用则永远免费。"
+        }
+      ]
     }
   ],
   "highlights": [
