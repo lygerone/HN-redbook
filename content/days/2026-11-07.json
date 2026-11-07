@@ -1,0 +1,362 @@
+{
+  "date": "2026-11-07",
+  "highlights": [
+    {
+      "by": "jonstewart",
+      "from": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "text": "「赏金可不会产生欲望。」一句话怼穿「赏金猎人图钱才举报」的论调。"
+    },
+    {
+      "by": "brightball",
+      "from": "Tesla to wind down Cybertruck production",
+      "text": "朋友用 Cybertruck 给断电 14 天的房子供电，电池约等于 9 个 Powerwall，丑归丑，应急神器实锤。"
+    },
+    {
+      "by": "nsilvestri",
+      "from": "AI is dramatically accelerating AI research",
+      "text": "AI 确实在加速我的工作……但我的工作本身就是因为 AI 才存在的，退一步看，我改变世界的速度并没有变快。"
+    },
+    {
+      "by": "jonhohle",
+      "from": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "text": "如果 FAA 能靠 1.44MB 软盘跑关键系统，你大概也能给自己的应用减减肥、延长硬件寿命。"
+    }
+  ],
+  "items": [
+    {
+      "by": "PLenz",
+      "comments": 1661,
+      "commentsList": [
+        {
+          "by": "kraig911",
+          "text": "先声明：我在特斯拉的竞品公司工作，所以有点偏见。Cybertruck 起初我觉得还挺新奇，但真把它当卡车用，你很快就会发现一堆买卡车的人在乎的问题：用电动车拖车体验很糟糕；货斗除了割草机装不下什么正经东西；坐进去感觉像轿车；脏了也不好看。我觉得他们就是冲着《光环》里的疣猪号去的，以为其余部分自然会水到渠成。"
+        },
+        {
+          "by": "brightball",
+          "text": "飓风海伦让我家附近部分地区断电 14 天多，我听说一个朋友用他的 Cybertruck 给整栋房子供电，撑过了全程。他先让房子靠车供电几天，然后开车去超充站充满电，再开回家重新接上。那些车的电池容量差不多相当于 9 个 Tesla Powerwall。它们可能很丑，但听了这事之后，我这个应急准备爱好者一直想要一辆。以前我总想装 Powerwall……但从来没认真考虑过。"
+        },
+        {
+          "by": "paxy",
+          "text": "联邦电动车税收抵免结束了；排放积分市场（特斯拉大部分利润的来源）因为标准放宽而死了；制造成本没有降下来；美国电动车销量份额跌到 6%，而且每个季度都在下滑；中国电动车正在主导美国之外的每个市场；所有被过度炒作的宏大目标（3 万美元以下的车、无人监督自动驾驶、自动驾驶机器人）一个都没兑现。很难看出特斯拉作为一家公司接下来要往哪走。股价还靠着马斯克的炒作撑着，但已经停滞 5 年了。他哪天觉得无聊决定辞职那天就是……"
+        }
+      ],
+      "cover": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-02/250213-Cybertruck-aa-1045-dd55f3.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50391456",
+      "id": "50391456",
+      "note": "卖不动的标志性产品终于收场，1661 条评论创今日之最，争议拉满。",
+      "score": 817,
+      "title": "Tesla to wind down Cybertruck production",
+      "titleZh": "特斯拉将逐步停产 Cybertruck",
+      "url": "https://www.nbcnews.com/tech/tech-news/tesla-wind-cybertruck-production-years-poor-sales-markets-rcna607817"
+    },
+    {
+      "by": "theanomaly",
+      "comments": 66,
+      "commentsList": [
+        {
+          "by": "ezotony",
+          "text": "他们的成本数字其实已经给出了难题集的升级率，哪怕他们没直接列出来：(2.94 - 0.06) / 5.39 ≈ 53% 的请求会升级到 Opus，简单集约 22%，阈值相同。"
+        },
+        {
+          "by": "xlayn",
+          "text": "如果你用 Qwen3 27B 来管理、编排、做浅层研究，然后让它去问 Claude，你会发现 Qwen 能从 Haiku、Sonnet 和 Opus 手里榨出几乎同样好的答案……我一直在研究模型回答得有多好，除了 Fable 我什么都用不起来，但 Qwen 能让任何一个模型都给出好结果。我的理论是：如果你让 Qwen 理解你，Qwen 就能补充足够多的细节，让任何一个模型都给出好结果，因为它在填补细节。所以用 Qwen 指挥 Claude 也能以便宜得多的方式拿到惊人的结果……"
+        },
+        {
+          "by": "nico",
+          "text": "这很酷。但也要说清楚：这只是一个非常具体的实验/任务（身份解析）上的基准/结果。尽管标题这么写，这篇文章并没有声称或证明通用场景的改进或通用编码 agent 的改进。"
+        }
+      ],
+      "cover": "https://cdn.sanity.io/images/pwmfmi47/production/9a5d7191d614c824c822ec90672adaf424699d3d-2400x1256.png?w=1200",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397429",
+      "id": "50397429",
+      "note": "小模型主导、大模型兜底的「升级」思路，实测在身份解析任务上拿到 Opus 级精度。",
+      "score": 304,
+      "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
+      "titleZh": "让小模型在需要时求助 Opus，成本降 4 倍、精度不变",
+      "url": "https://hightouch.com/blog/llm-judges-identity-resolution"
+    },
+    {
+      "by": "ChrisArchitect",
+      "comments": 212,
+      "commentsList": [
+        {
+          "by": "bargl",
+          "text": "我曾在 FAA 参与 NOTAM 数字化的现代化工作。我想提醒大家，别用你们熟悉的视角来看待这次现代化——你们可能习惯了前沿技术，觉得工程师推进变革时不够谨慎。但 FAA 的安全风险管理建立在一套非常严谨的流程之上，而这同时也是合理进度被大幅拖慢的原因。我共事过的一位工程师 80 多岁了，就是不肯退休，完全不懂现代系统，而我们评估的风险在我看来并不现实……"
+        },
+        {
+          "by": "jonhohle",
+          "text": "需要更多信息。这是靠人肉搬盘吗？没人想过用软盘模拟器加 SD 卡替代吗？所有数据真能塞进 1.44MB？如果最后一点是真的，开发者们注意了：如果 FAA 能靠这么慢、这么小的存储跑关键安全应用，你大概也可以降低自己应用的资源需求、改善用户体验、延长硬件寿命。"
+        },
+        {
+          "by": "driverdan",
+          "text": "这种政治作秀很恶心。据我所知，E-IDS 至少从 2020 年就开始开发了，原计划 2025 年开始推广。可惜现在网上搜索变得太糟糕，很难找到过去的信息。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50388001",
+      "id": "50388001",
+      "note": "2028 年才淘汰软盘，评论区一边怀旧一边吐槽：这进度也是没谁了。",
+      "score": 269,
+      "title": "US FAA says it will phase out floppy disks from air traffic control by 2028",
+      "titleZh": "美国 FAA 称 2028 年前让空管系统告别软盘",
+      "url": "https://www.reuters.com/world/us/us-faa-says-it-will-phase-out-floppy-disks-air-traffic-control-by-2028-2026-11-05/"
+    },
+    {
+      "by": "yurivish",
+      "comments": 137,
+      "commentsList": [
+        {
+          "by": "chr15m",
+          "text": "这些图表里的每个点都是多个基准拼凑出来的。基准本质上是一组可测量、可评估的事物的精选集，而可测量、可评估的东西就可以（花大价钱）拿去训练。我们观察到的进步，来自于搞清楚如何测量和评估智能的特定方面，然后针对这些测量本身建立反馈循环进行昂贵的训练，再加上代表更多测量的合成数据（说白了就是刷榜）。这些图表没有显示的是智能中那些测不出来的部分……"
+        },
+        {
+          "by": "nsilvestri",
+          "text": "AI 确实在加速我的工作……而我的工作本身就是因为 AI 才存在的。如果让我不用 AI 做这些具体的任务，我会更慢。但退一步看，我改变世界的速度并没有比以前更快。"
+        },
+        {
+          "by": "cronin101",
+          "text": "不是想否定这个前提，但我想知道这里面有多少来自模型权重本身的智能纵向提升，又有多少来自砸进训练的巨额资本和 agent 集群的横向扩展等。凭经验看，持续提升的大头似乎来自模型做得更多、探索的搜索空间更大，以及我们越来越擅长给它们喂那种可以无限花 token 去啃的、高度可并行的问题。"
+        }
+      ],
+      "cover": "https://substackcdn.com/image/fetch/$s_!u_X_!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fdd74ff70-df26-4e1a-be31-4fc3543bada8_2048x1072.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397994",
+      "id": "50397994",
+      "note": "自我加速的飞轮转起来了，但评论区提醒：别把「刷榜进步」当成真正的智能进步。",
+      "score": 182,
+      "title": "AI is dramatically accelerating AI research",
+      "titleZh": "AI 正在大幅加速 AI 研究本身",
+      "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai"
+    },
+    {
+      "by": "LaSombra",
+      "comments": 31,
+      "commentsList": [
+        {
+          "by": "the_panopticon",
+          "text": "针对「习惯没有 C 标准库」这一点，可以用天工开源的 edk2-libc。至于「当心 EFI 的 Windows 味」这个说法，EFI 与 Windows 编程风格的相似并非巧合。我们在从最初的 Intel Boot Initiative 演进到 EFI 再到 UEFI 代码和规范的过程中，就是一路沿用这套编码方法论。"
+        },
+        {
+          "by": "kevin_thibedeau",
+          "text": "链接器不会抱怨你调用了不存在的函数——它只会把它们标记为外部符号，等着别的代码来提供。但根本没人提供，程序调用时就会直接崩溃。可以用 nm -D --undefined-only 检查链接后是否还有未定义符号，把它写进构建脚本里验证二进制有效性。"
+        },
+        {
+          "by": "edoceo",
+          "text": "这份指南非常适合入门 UEFI 领域。我用 Zig 写引导程序时就参考过它。也有自己的问题，尤其是 16 位字符那块，一旦深入会发现一堆坑，或者说 EFI 环境跟普通 Linux 系统或应用开发比起来就是这么怪。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50394855",
+      "id": "50394855",
+      "note": "一份手把手带你写引导程序的硬核教程，适合想摸底层的人周末啃。",
+      "score": 177,
+      "title": "First steps in bare-metal programming using UEFI",
+      "titleZh": "用 UEFI 从零开始裸机编程的第一步",
+      "url": "https://kevinboone.me/efitest_index.html"
+    },
+    {
+      "by": "SerCe",
+      "comments": 71,
+      "commentsList": [
+        {
+          "by": "scoodah",
+          "text": "我真希望他们能把文章里的这段再展开讲讲：这里用的配置没有 jailer。Firecracker 的生产级隔离包括降权、通过命名空间和 seccomp 限制进程。用了这些控制的部署，需要另外评估攻破 VMM 之后还能拿到什么权限和资源。如果我理解没错，正确配置 jail 的 Firecracker 实例能大幅缩小这次逃逸的影响范围，文章本该讲清楚这一点。"
+        },
+        {
+          "by": "lrvick",
+          "text": "我越来越确信 Nova 微内核那条路是对的：用一个小而形式化验证过的微内核做虚拟化，让 Linux 这样复杂的大内核跑在下面，而不是让庞大、复杂又脆弱的 Linux 内核和虚拟机生态去控制 hypervisor 层。"
+        },
+        {
+          "by": "zX41ZdbW",
+          "text": "我的演示服务完全依赖 Firecracker 虚拟机：ClickBench playground，托管了几百个数据库引擎，其中很多都有漏洞，有些比如 Pandas 基本就是开箱即用的远程代码执行。我们可以在这个服务上复现 Firecracker 虚拟机逃逸。"
+        }
+      ],
+      "cover": "https://api.pwn.ai/api/blog/images/photo-2026-11-04-22-55-56-b01dcd719e0c.jpeg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397219",
+      "id": "50397219",
+      "note": "AWS 开源微虚拟机的逃逸细节，云厂商和沙箱玩家必读。",
+      "score": 156,
+      "title": "Firecracker VM Escape: PwnEscape Part 2",
+      "titleZh": "Firecracker 虚拟机逃逸：PwnEscape 第二部分",
+      "url": "https://pwn.ai/blog/firecracker-escape"
+    },
+    {
+      "by": "luispa",
+      "comments": 47,
+      "commentsList": [
+        {
+          "by": "photonios",
+          "text": "我老看到这类项目冒出来，但没有一个真正做对。我需要隔离，也需要让我的 agent 安全访问内部包仓库、日志、内部基础设施、设计、模拟器、浏览器、文档等等。在大公司，工作能横跨几十个仓库，而且我需要几十个这样的环境。我在公司内部自己搭过一套，工程师用 krunkit 虚拟机，内存气球、GPU 加速、Retina RDP、凭证注入代理一应俱全。这东西对单项目开发来说是个好玩的玩具，但离企业级需求差得远。"
+        },
+        {
+          "by": "mnahkies",
+          "text": "见鬼，我过去几周也在做非常类似的东西——还没公开发布。我的基于 libvirt，用 cloud-init 做镜像，跨项目共享黄金镜像。粗看文档没太搞清你们的镜像是按项目构建，还是从共享工具链 COW 出来的。不过有几个功能我可能会借鉴，比如代理那块。好笑的是现在这么多人都在解同一个问题。"
+        },
+        {
+          "by": "crawshaw",
+          "text": "这也是 exe.dev 背后的理念，我们已经做了超过一年。虚拟机就该多多益善。"
+        }
+      ],
+      "cover": "https://devvm.dev/images/social-card.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50395450",
+      "id": "50395450",
+      "note": "给 AI agent 配专属开发虚拟机的工具又来了，评论区现身说法：这赛道人人都在做。",
+      "score": 104,
+      "title": "Devvm.dev: One VM for every project",
+      "titleZh": "Devvm.dev：每个项目一个虚拟机",
+      "url": "https://devvm.dev/"
+    },
+    {
+      "by": "doener",
+      "comments": 42,
+      "commentsList": [
+        {
+          "by": "EwanToo",
+          "text": "另一个还能打开的来源：pv-magazine 的报道链接。"
+        },
+        {
+          "by": "syntaxing",
+          "text": "我太想给家里装钠电池储能了。更安全、能工作的温度更低。能量密度低我不在乎，家用储能无所谓。"
+        },
+        {
+          "by": "hbarka",
+          "text": "我把电动车上的 12V 铅酸电池换成了 OHMMU 的 12V 锂电池，是我做过最值的升级。最近看到他们也出了 12V 钠电池，钠电池质保从 1 年涨到了 3 年，还有了新的耐用性数据。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50399657",
+      "id": "50399657",
+      "note": "钠电池成本终于追上 LFP，家庭储能玩家已经等不及了。",
+      "score": 98,
+      "title": "CATL Sodium Battery Hits LFP Cost Parity in 2026: 15,000 Cycles, 30-Year Life",
+      "titleZh": "宁德时代钠电池 2026 年成本追平磷酸铁锂：1.5 万次循环、30 年寿命",
+      "url": "https://ievchina.com/energy-storage/catl-sodium-battery-cost-parity-lfp-2026-15000-cycles/"
+    },
+    {
+      "by": "fiej",
+      "comments": 33,
+      "commentsList": [
+        {
+          "by": "ModernTimes",
+          "text": "没有 Google AdSense 放任诈骗广告上系统，这一切都行不通。可他们就是放，每天几百万条（我自己的网站天天都在处理，Google 根本不在乎）。"
+        },
+        {
+          "by": "mlmonkey",
+          "text": "原网站主就不能看看日志，瞧瞧大部分请求是从哪来的吗？referrer 也会露出马脚吧？当然，前提是有人偶尔看一眼 access.log。"
+        },
+        {
+          "by": "pixl97",
+          "text": "这要怎么防？把整个网站重写一遍会让情况难得多，什么都能自己掌控。"
+        }
+      ],
+      "cover": "https://www.infohawk.com/_app/immutable/assets/2026-11-05-scamwich-restaurant-skimming.CsokS_Fm.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397017",
+      "id": "50397017",
+      "note": "点外卖也可能被盗刷：攻击者劫持餐厅网站的支付页面，评论区直指广告平台难辞其咎。",
+      "score": 80,
+      "title": "Restaurant Delivery Payment-Skimming Campaign",
+      "titleZh": "外卖支付「扒皮」骗局：餐厅网站被植入盗刷代码",
+      "url": "https://www.infohawk.com/news/2026-11-05-scamwich-restaurant-skimming"
+    },
+    {
+      "by": "handfuloflight",
+      "comments": 6,
+      "commentsList": [
+        {
+          "by": "jkingsman",
+          "text": "如果我理解没错，这基本是一种专门的 RAG 嵌入：中间有个模型接收 agent 的查询，把回答以直接注入主模型输入 token 流的形式返回，跳过实际文本。注入格式的 token 效率极高，有点像注入一种「感觉」而不是可引用的文本。他们「概念上好、精确引用上差」的结果也符合直觉。"
+        },
+        {
+          "by": "bob1029",
+          "text": "我发现当你手里有个前沿模型在驱动时，语义和词法差不多。用全文搜索引擎处理大型文档集仍然是最有说服力的做法。当我们有能逆向工程 Mario 64 ROM 转储、跑在烤面包机上的生成模型时，我实在很难为语义/嵌入那套操心。这些模型很会组合 Lucene 和其他全文检索查询字符串，实际上就是在纯词法系统上实现语义搜索。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50395919",
+      "id": "50395919",
+      "note": "把记忆直接「注入」模型 token 流、跳过文本，概念很酷，但对精确引用的效果一般。",
+      "score": 80,
+      "title": "Memorilla: Latent Semantic Memory for LLMs",
+      "titleZh": "Memorilla：给大模型的潜空间语义记忆",
+      "url": "https://arxiv.org/abs/2610.21375"
+    },
+    {
+      "by": "Aldipower",
+      "comments": 23,
+      "commentsList": [
+        {
+          "by": "simonw",
+          "text": "我原以为要身份证是制裁合规的要求——OpenAI 不能合法地给朝鲜之类地方的人打钱。但 Bugcrowd 的文档说：为提升平台完整性、减少大量低质量提交，现在提交报告前必须先完成身份验证，适用于所有托管赏金项目（公开和私有，不含按需项目）。"
+        },
+        {
+          "by": "jonstewart",
+          "text": "赏金可不会产生欲望。"
+        },
+        {
+          "by": "kristjansson",
+          "text": "这似乎是对 OAI 和 MCP 能提供的保证的根本误解/高估。如果「确认」是另一次独立的工具调用……那它就是一次独立的工具调用。不存在作用域、不存在「绑定」，什么都没有。一旦把控制权交还给模型，就是交还给模型了。"
+        }
+      ],
+      "cover": "https://us1.discourse-cdn.com/openai1/original/4X/0/4/c/04c8546833f0824a49d21f50e2b08dd44bfd3d05.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50399569",
+      "id": "50399569",
+      "note": "安全研究员曝出工具调用被悄悄路由到别的连接器，漏洞赏金平台还要先实名，评论区金句频出。",
+      "score": 61,
+      "title": "ChatGPT silently passes data between connectors and the bounty wants an ID card",
+      "titleZh": "ChatGPT 在连接器之间悄悄传数据，赏金却要先交身份证",
+      "url": "https://community.openai.com/t/security-follow-up-tool-call-silently-routed-to-a-different-connector/1413053"
+    },
+    {
+      "by": "gaplong",
+      "comments": 16,
+      "commentsList": [
+        {
+          "by": "ghshephard",
+          "text": "Replit 让我很好奇。除了 Paul Graham 在 Twitter 上老提它，我一次都没听人说用过它，在我们内部 Slack 频道里也没见过任何讨论。其他 AI 公司我走到哪都被轰炸——哪怕是 antigravity、gemini carbon、argon、models 这些也没人用，但至少我到处都听说过它们。我想知道 Replit 到底活在哪个生态里，好像跟其他 AI 技术完全没有交集……"
+        },
+        {
+          "by": "schainks",
+          "text": "我的理解是，他们重新发明了 OTP 监督树、进程隔离、休眠和 actor 间消息传递，但因为他们的「actor」在主动尝试越狱 hypervisor，不得不把隔离边界一路下推到 Ring -1（KVM/Cloud Hypervisor）和定制的 Linux tinyconfig 内核。这样理解对吗？"
+        },
+        {
+          "by": "clhodapp",
+          "text": "跟文章只有一点关系，但我想问问大家怎么看微虚拟机提供的硬件隔离，对比 gvisor 这种强软件隔离技术？现在我们对「硬件隔离」寄予厚望。如果它开始被 agent 大规模攻破，我想我们会不会转向可打补丁的软件隔离，类似当年软件 RAID 兴起那样。"
+        }
+      ],
+      "cover": "https://frontier.replit.com/article-images/replit-sandbox-engine-microvms-part-1/hero.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50396834",
+      "id": "50396834",
+      "note": "Agent 时代沙箱隔离升级到硬件层，评论区有人灵魂发问：Replit 到底谁在用？",
+      "score": 57,
+      "title": "Replit rebuilt its sandbox engine with microVMs",
+      "titleZh": "Replit 用微虚拟机重建了沙箱引擎",
+      "url": "https://frontier.replit.com/sandbox-engine-microvms-part-1/"
+    },
+    {
+      "by": "rexbee",
+      "comments": 7,
+      "commentsList": [
+        {
+          "by": "tristanj",
+          "text": "谷歌昨天宣布将向这个怀俄明数据中心项目投资 170 亿美元。据知情人士透露，数据中心新贵 Crusoe 在未能锁定包括 Alphabet 旗下谷歌在内的客户后，正在被挤出它在怀俄明开发的 AI 园区。Crusoe 的问题早在 6 月就开始发酵：这家以巨型 AI 建设闻名的开发商当时宣布已「暂停」……"
+        },
+        {
+          "by": "simonw",
+          "text": "可以想见，那些（1）已经建成、（2）已经谈妥能源（和用水）供应的数据中心的价值即将飙升。"
+        },
+        {
+          "by": "zerozerotwo",
+          "text": "这说的不是那个跨性别的 meta crusoe 吧？"
+        }
+      ],
+      "cover": "https://cdn.prod.website-files.com/6863cc86499b79ce3ab28f8b/6aee19ec970f4b7e8614bcdb_6abaa3170b66e6fbd57379d2_Crusoe%20X%20Google-p-1080.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50397711",
+      "id": "50397711",
+      "note": "170 亿美元砸向怀俄明，AI 算力基建的抢地游戏还在加码。",
+      "score": 35,
+      "title": "Google has acquired Crusoe's data center site in southeast Wyoming",
+      "titleZh": "谷歌接手 Crusoe 在怀俄明州东南部的数据中心园区",
+      "url": "https://www.crusoe.ai/resources/newsroom/crusoe-wyoming-data-center-campus-update"
+    }
+  ],
+  "mood": "今天 AI 话题偏多，但硬核也不少：虚拟机逃逸、UEFI 裸机、钠电池、软盘退役全来了，Cybertruck 停产则是今日最热。"
+}
