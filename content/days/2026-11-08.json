@@ -1,0 +1,328 @@
+{
+  "date": "2026-11-08",
+  "highlights": [
+    {
+      "by": "birdsongs",
+      "from": "Need for Speed Underground 2 online in the browser",
+      "text": "几百辆车同时刷出来，在地图上到处跑，全在烧胎、按喇叭，场面彻底失控，2006 年的我玩得超开心。"
+    },
+    {
+      "by": "Aurornis",
+      "from": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "text": "标题容易误导：“不再询问”本身不会泄露密码，真正的问题是有人把本地设置文件提交到了公开仓库。"
+    },
+    {
+      "by": "hedgerow-dev",
+      "from": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "text": "超市没有安全团队，冰柜控制器要打补丁、配 VPN、设强密码，这些工作只能默认由厂商或安装方来做。"
+    },
+    {
+      "by": "Nevermark",
+      "from": "The end of Microsoft Research's AI Frontiers group",
+      "text": "开放研究和商业创新之间其实有三个阶段，中间还缺一个筛选、验证、放大的环节。"
+    }
+  ],
+  "items": [
+    {
+      "by": "fluxusars",
+      "comments": 224,
+      "commentsList": [
+        {
+          "by": "macNchz",
+          "text": "这游戏刚出那会儿，我轮流跟朋友在他那台游戏 PC 上玩。如今在手机上重温，居然完美运行。废弃游戏的处境真让人唏嘘，明明有那么多好东西，AI 逆向工程又解锁了这么多可能。这里的联机功能让我想到，其他老游戏是不是也能联网：比如《模拟城市 2000》，邻城都是真人玩家在运营……"
+        },
+        {
+          "by": "popcar2",
+          "text": "这几天一直在玩，还跟朋友跑了几局，居然真的能实现，太疯狂了。唯一的缺点是这个网站并不合法，现在火了大概很快会被下架。但 NFSU2 是已经买不到的废弃游戏，希望他们别管。另提醒 Linux 用户，需要开启不安全的 WebGPU 特性才能运行，Chromium 命令：chromium --enable-unsafe-webgpu --ozone-platform=x11 --use-angle=vulkan --enable-features=Vulkan,VulkanFromANGLE"
+        },
+        {
+          "by": "birdsongs",
+          "text": "笑死我了。几百辆车同时刷出来，在地图上到处跑，全在烧胎、按喇叭，场面彻底失控，2006 年的我玩得超开心。原版游戏在现代 PC 上基本没法玩了。真心感谢这波怀旧暴击，我当年在初代 Xbox 上花了无数小时在这游戏上。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50403052",
+      "id": "50403052",
+      "note": "20 年前的极品飞车直接在浏览器里联机，还能几百辆车同屏狂欢，怀旧暴击拉满；不过网站本身版权存疑，火了之后随时可能被下架。",
+      "score": 791,
+      "title": "Need for Speed Underground 2 online in the browser",
+      "titleZh": "极品飞车：地下狂飙 2 在浏览器里联机了",
+      "url": "https://nfsu2.xyz/"
+    },
+    {
+      "by": "srean",
+      "comments": 205,
+      "commentsList": [
+        {
+          "by": "AnotherGoodName",
+          "text": "现在每家大公司都这样。基于 Transformer 的路线被视为一条必须全力冲刺的高速公路，训练和搭建更好的模型是头等大事，不允许有太多组织上的干扰；探索其他 AI 方法的研究目前备受冷落。各家都在鼓励沿着 Transformer 规模化、迭代这条路走到底。举个例子，Meta 直接开掉了之前那位认为 Transformer 无法扩展的 AI 负责人，他想偏离这条高速路、大力资助其他方向。"
+        },
+        {
+          "by": "smokel",
+          "text": "这里特指微软研究院内部专注 AI 基础进展的“AI Frontiers”研究小组。真正的 AI 前沿远没有走到尽头。标题写成《微软研究院 AI Frontiers 小组的终结》歧义会少一些。"
+        },
+        {
+          "by": "Nevermark",
+          "text": "我觉得开放研究和商业驱动创新之间的二分法可以协调成三个阶段，而不是两个：1. 开放研究：创作自由度极大，但资源极其有限。想法很多，尝试很多，相对商业工作成本微不足道。2. 成果筛选、验证、规范化：从第一阶段挑出看起来成功的工作，逐步放大规模做试验性测试。最好的想法会拿到中等预算来验证收益，改造兼容后再交给第三阶段。3. 商业……"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50406563",
+      "id": "50406563",
+      "note": "微软砍掉基础 AI 探索小组，全员押注 Transformer 规模化；评论区在争论开放研究和商业创新到底该怎么分工，值得一看。",
+      "score": 352,
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "titleZh": "微软研究院 AI Frontiers 小组的终结",
+      "url": "https://hunch.net/?p=13764006"
+    },
+    {
+      "by": "user_7832",
+      "comments": 224,
+      "commentsList": [
+        {
+          "by": "tavavex",
+          "text": "真想知道当时开会是什么场面。不管结果如何，我不信开发者当初提出这个功能的理由是审查。更让我震惊的是，这里居然有这么多人替它辩护，或者解释说这只影响滑动输入、好像这样就没问题了：软性强制依然是强制。如果我做一把实体键盘，在你快打出我不喜欢的东西时让按键失灵，哪怕你还能绕过去，我做的依然是一把审查键盘。这就是时代的缩影，科技公司已经习惯了这样“温和地”管控。"
+        },
+        {
+          "by": "Someone1234",
+          "text": "而这还只是 iOS 键盘问题的冰山一角。他们尝试修过好几次，虽然比最糟的时候确实好多了，但跟 Pixel 上 Google 自家的键盘比起来还是差得离谱。滑动输入实在太痛苦了，微软的 SwiftKey 也半死不活。考虑到键盘可以说是 iOS 上最常用的“触摸界面”之一，这种被忽视的程度和整体质量之差实在惊人。如果苹果内部没人负责把这块做到最好，那激励机制肯定出了大问题。"
+        },
+        {
+          "by": "scosman",
+          "text": "预测输入时不联想有争议的词组，这不算审查。你仍然可以打出任何这些词。当你手指在屏幕上乱划时，它只是在做最佳猜测；不跳出一个可能让你丢脸、甚至在某些国家让你被抓的词组，这个设计选择并不糟糕。"
+        }
+      ],
+      "cover": "https://i.guim.co.uk/img/media/28e97d03d0abcd9f1e2eb53b873f17079a1a7f82/998_270_3911_3129/master/3911.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ae2dd9194072b73ebb69c7269d955ba3",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406111",
+      "id": "50406111",
+      "note": "iPhone 输入法对“男权主义猪”这类词不给联想，到底是贴心防尴尬还是软性审查，评论区吵得很热闹。",
+      "score": 336,
+      "title": "Apple’s grey list: Words and phrases your iPhone won’t help you spell",
+      "titleZh": "苹果的灰名单：你的 iPhone 不会帮你拼这些词",
+      "url": "https://www.theguardian.com/technology/2026/nov/06/struggling-to-spell-male-chauvinist-pig-apple-grey-list-means-your-iphone-wont-help-you"
+    },
+    {
+      "by": "LaurensBER",
+      "comments": 79,
+      "commentsList": [
+        {
+          "by": "LaurensBER",
+          "text": "我用这个小玩意儿玩得很开心，挑对软件的话，这么便宜的小设备能托管的东西多得惊人！鉴于现在内存这么贵，我觉得这对想入门自托管的人来说可能是个不错的选择！欢迎提问，也欢迎推荐还可以加什么软件！"
+        },
+        {
+          "by": "a1o",
+          "text": "Zero Claw 是怎么做到报告 200 万 token、零成本的？你是在别的硬件上自托管大模型吗？"
+        },
+        {
+          "by": "rbanffy",
+          "text": "它比我集群里用的树莓派 Zero 还强，差不多相当于 Zero 2。我特别想要一种能插进带 PoE 的以太网交换机的棒子，节点直接插上去就能组集群。要实现这点，最好的形态是竖直的板子，一侧带公头以太网接口，这样能插进交换机横向的 RJ45 口，不受 RJ45 宽度的限制。"
+        }
+      ],
+      "cover": "https://blog.bosscher.ch/posts/openstick/index.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406670",
+      "id": "50406670",
+      "note": "10 美元的随身棒子能跑一整套自托管服务，内存涨价的今天，这种丐版 homelab 思路很香。",
+      "score": 312,
+      "title": "What I run on my $10 USD OpenStick homelab",
+      "titleZh": "我在 10 美元的 OpenStick 上跑了些什么",
+      "url": "https://blog.bosscher.ch/posts/openstick/"
+    },
+    {
+      "by": "antiuniverse",
+      "comments": 55,
+      "commentsList": [
+        {
+          "by": "peri-cl",
+          "text": "图里最大的趋势是小模型塌得最厉害。所有名字带“-flash”的模型，外加 OpenAI Luna。尤其对比 GPT 5.6-Sol 和 GPT 5.6-Luna。（GLM 那对不该按这个规律看，因为名字起错了：GLM-5.3 和 GLM-5.3-flash 是不同的 lineage，-flash 是新架构、新预训练的早期版本。）如果这确实是主要因素，我预计 Kimi K3.1 和 Gemini Carbon 在这个测试里也会表现不错（不像 Gemini-flash）；而 Haiku 6 会塌掉（打破其他近期 Claude 模型的趋势）。"
+        },
+        {
+          "by": "rao-v",
+          "text": "我的理解是，这与其说是各家直接在基准上作弊，不如说是他们在搭建 RL 环境时不够严谨，没能真实反映基准任务。他们应该像这个测试做的那样，把训练环境大幅泛化、显著多样化（并确保其中一些出乎意料地复杂、一些出乎意料地简单）。而且我怀疑小模型尤其容易在这种更简单的 RL 环境上过拟合（基准往往比今天最难的 RL 环境简单得多），因为它们的成功率更可能落在 20-40% 这个区间……"
+        },
+        {
+          "by": "Systemerror7A69",
+          "text": "学术上非常有意思的一篇文章，印证了我一直以来对 LLM 基准的怀疑（可能这就是我这么喜欢它的原因）。另一件引起我注意的事是 DeepSWE 里居然有一堆 bug。越了解这些基准，我就越怀疑。真没想到这么主流的基准到现在还没把这些 bug 修掉。不过实际收获也挺有意思：“别用 max 模式”。关于 DeepSeek API 的那段也很能说明问题：一旦用 high 模式，表现几乎直接归零。还有，就我个人而言，Opus……"
+        }
+      ],
+      "cover": "https://maxxbench.unlap.ai/social-card.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406222",
+      "id": "50406222",
+      "note": "质疑 DeepSWE 等基准分数的水分：小模型塌得最厉害，顺带提醒别迷信排行榜。",
+      "score": 185,
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "titleZh": "MaxxBench——“DeepSWE 分数不错，但这是真的吗？”",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/"
+    },
+    {
+      "by": "hedgerow-dev",
+      "comments": 39,
+      "commentsList": [
+        {
+          "by": "supriyo-biswas",
+          "text": "我对任何依赖 Shodan 数据的做法都会非常怀疑。有段时间我自己尝试写蜜罐，复刻 Wi-Fi 摄像头，但我在网上找到的几乎全是某种蜜罐，不是的那些也早已被黑、页面被替换。回想起来，还不如自己买一台有漏洞的设备来探测。如果是你，我可能会确保用的冰柜部署在住宅或商业（也就是非数据中心）IP 上。也许 Shodan 就是用这些数据来打“蜜罐”标签的，我当时的经验是……"
+        },
+        {
+          "by": "hedgerow-dev",
+          "text": "补充一个信息：之前还有新闻说“血库”也被盯上了。这可能是个更狠（更让人难受）的目标，会打击献血者的积极性。https://www.independent.co.uk/tech/security/blood-hack-fridg..."
+        },
+        {
+          "by": "hedgerow-dev",
+          "text": "有一点一直在我脑子里转（这也是那些把安全和打补丁当事后想法的行业的通病）：超市没有安全团队。如果冰柜控制器需要打补丁、配 VPN、设强密码才安全，这项工作默认就得由厂商或安装方来做。最好这些都默认自带，或者作为功能提供，甚至可以当成卖点，而不是昂贵的维护合同的一部分。不能指望超市经理来做这件事。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/529fdf23c18c95ee274b4898c36bbe9228d3ce800a9f7fd6966b0d2a692dccfe/hedgerow-dev/coldframe",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406292",
+      "id": "50406292",
+      "note": "伪装成超市冰柜控制器的蜜罐，专钓扫描物联网设备的攻击者，脑洞和实用性都有。",
+      "score": 185,
+      "title": "Show HN: Coldframe, a honeypot that poses as a supermarket fridge controller",
+      "titleZh": "Show HN：Coldframe，一个伪装成超市冰柜控制器的蜜罐",
+      "url": "https://github.com/hedgerow-dev/coldframe"
+    },
+    {
+      "by": "shmulc",
+      "comments": 100,
+      "commentsList": [
+        {
+          "by": "bcherny",
+          "text": "我是 Claude Code 团队的 Boris。历史上 Claude Code 一直没有做密钥擦除（有很多好工具专门做这个），但我们正在研究能做些什么来预防。不过有几点想法：1. .claude/settings.local.json 本来就应该留在本地，这个文件不应该提交进版本控制。Claude 创建该文件时会自动把它加进 gitignore，所以这些案例里的文件是手动创建并提交的（文档：https://code.claude.com/docs/en/settings）。2. 权限规则已经是老办法了，大家应该改用自动模式，它更安全，而且……"
+        },
+        {
+          "by": "Aurornis",
+          "text": "标题容易误导。他们扫描的是那些把 .claude/ 文件夹和本地设置提交进仓库的项目，再扫描这些文件里包含密钥或密码的命令。所以单按“不再询问”本身并不会暴露密码。真正的问题是：如果你在本地 Claude 设置里手动批准过命令、命令里直接写了密钥，然后你又把仓库公开了，那才会泄露。"
+        },
+        {
+          "by": "binarymax",
+          "text": "我把所有凭证都放在密码管理器里（我用的是 1Password），Claude 看不到它们——需要凭证时，它会运行一个调用 op CLI 的脚本，我再按一下指纹授权。复杂任务有时要按好多次，但值得。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50407882",
+      "id": "50407882",
+      "note": "1122 个公开仓库里躺着密码，根源是有人把本地设置文件 commit 上去了，Claude Code 官方也亲自出来回应了。",
+      "score": 140,
+      "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
+      "titleZh": "Claude Code 的“不再询问”功能让密码暴露在 1122 个公开 GitHub 文件中",
+      "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again"
+    },
+    {
+      "by": "andsoitis",
+      "comments": 51,
+      "commentsList": [
+        {
+          "by": "rbanffy",
+          "text": "对我来说，Adele Goldberg 那本蓝色的 Smalltalk 书影响至深。那是从第一性原理出发、把计算做对了的典范。另外两次 formative 的经历是：在 3278 终端上用 Cincom 的 Mantis，以及 Dataflex 2。这两者都让我明白，有了合适的抽象层次，从界面到持久化数据、CRUD、应用逻辑和报表可以多快完成。后来我把 Dataflex 形容为“VT100 时代的 Rails”。可惜的是，Cincom 不肯给业余爱好者授权在模拟的 4381 上跑，也不肯免费给手册，Dataflex 背后的公司（我不记得……"
+        },
+        {
+          "by": "so-cal-schemer",
+          "text": "Mark Jason Dominus 的《Higher-Order Perl》怎么样？https://hop.perl.plover.com/ 其他一些不太出名但很好的书：Gary William Flake 的《The Computational Beauty of Nature》https://mitpress.mit.edu/9780262561273/the-computational-bea...；Cristopher Moore 和 Stephan Mertens 的《The Nature of Computation》https://nature-of-computation.org/；S. Dasgupta、C.H. Papadimitriou 和 U.V. Vazirani 的《Algorithms》https://cseweb.ucsd.edu/~dasgupta/book/index.html；当然还有《On Lisp》：https://www.paulgraham.com/onlisp.html"
+        },
+        {
+          "by": "jrmg",
+          "text": "《Programmers at Work》：我买过一本二手的，大概就是第一次读到这篇文章之后。好书，如果能找到的话。Charles Petzold 的《Code》应该在每个程序员的书单上，也应该在每个对现代世界好奇的人的书单上。它神奇地做到了既让新手读得下去，又处处藏着让老手也有收获的 nugget。写得实在太好了。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50406319",
+      "id": "50406319",
+      "note": "2008 年的老文重温，书单之外评论区补了一堆冷门好书，适合周末慢慢翻。",
+      "score": 80,
+      "title": "Five memorable books about programming (2008)",
+      "titleZh": "五本值得记住的编程书（2008）",
+      "url": "https://prog21.dadgum.com/19.html"
+    },
+    {
+      "by": "rbanffy",
+      "comments": 12,
+      "commentsList": [
+        {
+          "by": "leonidasrup",
+          "text": "石墨里的硼污染也拖慢了曼哈顿计划：“费米写道：‘这次实验的结果[原文如此]多少让人沮丧’，大概是因为某种未知杂质吸收了中子。于是 1940 年 12 月，费米和西拉德与 National Carbon 的 Herbert G. MacPherson 和 V. C. Hamister 会面，讨论石墨中是否存在杂质。这次谈话中大家意识到，微量硼杂质就是问题的根源。”https://en.wikipedia.org/wiki/Nuclear_graphite"
+        },
+        {
+          "by": "thisisauserid",
+          "text": "这正是《D：重水》的核心情节，尼尔·斯蒂芬森《炸弹之光三部曲》的第二部。"
+        },
+        {
+          "by": "AndrewKemendo",
+          "text": "好文章，很有意思，看到海森堡算错也挺有意思。这对美国来说真的是天时地利，因为我们获取所有放射性材料都没什么阻碍。再次提醒：后勤就是一切。还有个彩蛋，作者嫁给了 Sean Carroll。"
+        }
+      ],
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/cube1-1152x648-1793713257.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50377661",
+      "id": "50377661",
+      "note": "德国核计划失败的真相藏在几块铀立方里，石墨里的硼杂质坏了大事，历史加科学都好看。",
+      "score": 52,
+      "title": "Uranium cubes reveal why the German nuclear project failed",
+      "titleZh": "铀立方揭示了德国核计划失败的原因",
+      "url": "https://arstechnica.com/science/2026/11/uranium-cubes-reveal-why-the-german-nuclear-project-failed/"
+    },
+    {
+      "by": "germanrabbit",
+      "comments": 8,
+      "commentsList": [
+        {
+          "by": "gnabgib",
+          "text": "去年很火（368 分，165 评论）https://news.ycombinator.com/item?id=43145753"
+        },
+        {
+          "by": "adas0693",
+          "text": "还有个相关问题（灵感来自 ITA Software 的一道面试题，如今它是 Google 的一部分）：找出最小的正整数，它无法用某个数字 K（取 2 到 9 之间）重复 N 次、配合四则运算和括号 +, -, *, /, (, ) 表达出来。为了让问题更有意思，运算列表还可以扩展，加入乘方和拼接。例如，只用四则运算、N=4、K 取 2 到 9 时：7 不能用 4 个 2 算出来；11 不能用 4 个 3 算出来；10 不能用 4 个……"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50408713",
+      "id": "50408713",
+      "note": "用四个 2 拼出任意整数的数学游戏，脑筋急转弯爱好者会喜欢。",
+      "score": 43,
+      "title": "Making any integer with four 2s (2025)",
+      "titleZh": "用四个 2 拼出任意整数（2025）",
+      "url": "https://eli.thegreenplace.net/2025/making-any-integer-with-four-2s/"
+    },
+    {
+      "by": "xiaoyu2006",
+      "comments": 25,
+      "commentsList": [
+        {
+          "by": "capevace",
+          "text": "我们一直在自建 Review Pipeline，包括自动评审指南、风险检测等等。代码评审这块还有太多事可做，真没想到 GitHub 居然做得这么少。他们明明已经有覆盖面了，有多年真实评审数据。然而，PR 本身却没有用上任何新出现的方法来提高评审效率。Agent 们左右开弓地往外吐 PR，我却还在这里盯着 35 个 PR 的原始 diff，最后被人说我是瓶颈。"
+        },
+        {
+          "by": "gz09",
+          "text": "我倒希望他们先修 PR 的回归 bug……比如最近引入了一个很讨厌的 bug：你点了“准备好就合并”，但它实际进入合并队列的概率大概只有 60-70%。通常都是第二天发现还没合并才知道出问题了。他们的客服一个多月前就承认了这个问题，到现在还没修。"
+        },
+        {
+          "by": "verst",
+          "text": "我用了几周了，但不太喜欢，点进 PR 讨论/评论要多点好几下，不合我意。"
+        }
+      ],
+      "cover": "https://github.blog/wp-content/themes/github-2021-child/dist/img/social-v3-new-releases.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50408931",
+      "id": "50408931",
+      "note": "PR 总览页公测，评论区却在吐槽合并队列的 bug 迟迟不修，新功能和老问题两边看。",
+      "score": 39,
+      "title": "GitHub New pull request overview page in public preview",
+      "titleZh": "GitHub 全新 PR 总览页公开预览",
+      "url": "https://github.blog/changelog/2026-11-05-new-pull-request-overview-page-in-public-preview/"
+    },
+    {
+      "by": "hentrep",
+      "comments": 9,
+      "commentsList": [
+        {
+          "by": "bmalicoat",
+          "text": "嘿！这是我的项目，谢谢！我正在做 Retro Song Bird，一个能播放经典 Game Boy 和 Game Boy Color 游戏原声带的音箱。为了让原型机能即插即播、有酷炫功能、又不惹上 IP 官司，我攻克了一大堆独特的技术难题！我也因此发现了早期游戏音乐作曲家的艺术造诣和技术限制，还在收集测试 150 多张卡带的过程中发现了一大堆隐藏神曲。我最期待的是看大家怎么用经典游戏的音轨分轨来创作音乐……"
+        }
+      ],
+      "cover": "https://www.retrosongbird.com/og-image.png?v=2",
+      "hnUrl": "https://news.ycombinator.com/item?id=50405172",
+      "id": "50405172",
+      "note": "插上 Game Boy 卡带就能听原声带的小音箱，作者已实测 150 多张卡带，情怀拉满。",
+      "score": 31,
+      "title": "Retro Song Bird: Plug in any Game Boy cartridge to hear the soundtrack",
+      "titleZh": "Retro Song Bird：插上任何 Game Boy 卡带就能听原声带",
+      "url": "https://www.retrosongbird.com/"
+    }
+  ],
+  "mood": "今天怀旧味很浓：20 年前的极品飞车在浏览器里复活、Game Boy 音箱、老书单轮番上阵；另一边是 AI 研究路线的争论和基准分数的水分，硬核与情怀对半开。"
+}
