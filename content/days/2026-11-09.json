@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-09",
+  "highlights": [
+    {
+      "by": "gavinray",
+      "from": "Declarative Dragging",
+      "text": "非技术 PM 在白板上写下“拖放”就让工程师估工期，工程师说至少一周，PM 觉得荒谬——一屋子工程师花了十几分钟才解释清拖放有多难。"
+    },
+    {
+      "by": "lukebuehler",
+      "from": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "text": "半自动的 coding agent 跑在能接触客户、交易信息的机器上，又连内网又连外网，一次提示注入就可能酿成大泄漏——银行收回权限一点不奇怪。"
+    },
+    {
+      "by": "kennywinker",
+      "from": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "text": "不到 800 美元的老工作站就能跑出可用的本地大模型速度，他反问：谁还愿意为 Claude 订阅付费？"
+    },
+    {
+      "by": "billypilgrim",
+      "from": "Writing as a thinking tool",
+      "text": "读博时才发现，写论文不是总结成果，而是写作本身帮他想明白了到底在研究什么——AI 代写绕过了这个过程。"
+    },
+    {
+      "by": "jeffnash",
+      "from": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "text": "用 DMS + Niri 快一年没换过桌面环境，对一个常年换壳的人来说，这相当于“安定下来结婚生子”了。"
+    }
+  ],
+  "items": [
+    {
+      "by": "TheWiggles",
+      "comments": 343,
+      "commentsList": [
+        {
+          "by": "lukebuehler",
+          "text": "大家给了各种解释，却都没说到文章暗含的关键：让半自动的编程 agent 跑在金融从业者的主力机上，正好撞上致命三连——这些机器能接触客户、交易和自营信息，还能发邮件、连内网、连外网，太危险了，一次小失误或提示注入就可能造成重大泄漏。银行不傻，想明白了就关掉它。"
+        },
+        {
+          "by": "legitster",
+          "text": "我们公司也在收回 Claude 的访问权限，原因是账单长期超支。预算吃紧，到处都在压制按量计费模式。Anthropic 的销售给不出统一的计费标准。Gemini 正在趁虚而入，因为它提供固定计费，超量就降级限流。对 90% 的非工程人员来说，体验差别不大。"
+        },
+        {
+          "by": "steveBK123",
+          "text": "不管用什么技术工具，非技术人员硬把概念验证推上生产都是老故事了。LLM 只是让人更快、更不懂行地走到那一步。而真正的问题是：银行有大量的法律、合规、声誉方面的顾虑——应用访问权限、数据隐私、数据许可、细粒度授权、数据访问（可审计）、审批链（可审计），以及实实在在的金融风险。"
+        }
+      ],
+      "cover": "https://www.thestateofai.com/media/uploads/33f913ce812c4074d207c01b6df1858a692e6bc3229dadbfcd4f56b61722a538.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50415628",
+      "id": "50415628",
+      "note": "高盛以安全合规为由收回交易员和银行家的 Claude Code，AI 编程工具进大行先撞上风控墙。",
+      "score": 571,
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
+      "titleZh": "高盛正在让银行家和交易员停用 Claude Code",
+      "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers"
+    },
+    {
+      "by": "joshcsimmons",
+      "comments": 147,
+      "commentsList": [
+        {
+          "by": "kennywinker",
+          "text": "能用的本地 AI 系统的门槛还在不断降低，尽管内存和 GPU 价格还在涨。一台多线程的 E5 工作站，加 300 美元内存、100 美元以上的显卡，就能做到每秒 100+ token 的提示处理、约 20 token/s 的输出（Qwen3.8-flash-next:IQ3_S）。再加一块 500 美元的显卡，就从勉强能用变成相当好用。不到 800 美元，你就能拥有不到一年前还是最前沿水平的性能。我实在想不出还有什么理由为 Claude 订阅付费。你愿意租用你赖以谋生的工具吗？"
+        },
+        {
+          "by": "armcat",
+          "text": "要注意一点，激进量化已经被实验证明：(1) 量化对性能的影响是非线性的；(2) 尺寸与性能比的峰值一般出现在 4-bit，低于这个位数性能会明显下降。另外，我玩语音模型两年了，对我来说低于 8-bit 质量会大幅下滑。所以 LLM 的量化和其它模态模型的量化不是一回事。[1]《Reliability Scaling Laws for Quantized Large Language Models》，慕尼黑工业大学，https://arxiv.org/pdf/2607.108"
+        },
+        {
+          "by": "antirez",
+          "text": "换个角度看：用 128GB 统一内存的话，它跑起来甚至很快：https://x.com/antirez/status/2119392658661749175，编码 agent 的速度可以接受。后面回复里有预填充约 300 t/s，大批量预填充还能更快。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/ad8168dfa8d98b9cc41d6d89dc5e7beed7e11dd87b360dd6aeb9a339a0da9869/synchopate/llama-modchip",
+      "hnUrl": "https://news.ycombinator.com/item?id=50411961",
+      "id": "50411961",
+      "note": "不用 GPU、64GB 内存就能跑 284B 的 DeepSeek，本地大模型的门槛又被往下压了一截。",
+      "score": 351,
+      "title": "Llama-modchip: 284B DeepSeek on 64GB RAM, no GPU",
+      "titleZh": "Llama-modchip：64GB 内存、无 GPU 跑 284B DeepSeek",
+      "url": "https://github.com/synchopate/llama-modchip"
+    },
+    {
+      "by": "smusamashah",
+      "comments": 37,
+      "commentsList": [
+        {
+          "by": "gavinray",
+          "text": "说个拖放的趣事：我第一份工作，每周开会分任务、估工期。非技术 PM 在白板上写下“拖放”，然后写了我的名字。“Gavin，你觉得这要多久？”“至少一周，也许更久。”PM 笑了，然后发现我不是在开玩笑。“什么意思，一周？这也太离谱了，要不要换个人做？”“可以换人，但我不保证能更快。”他惊呼：“这不就是拖放吗！”然后一屋子工程师花了 10 到 15 分钟试图解释……"
+        },
+        {
+          "by": "btown",
+          "text": "哦，这非常非常酷，而且非常非常及时！论文在这里：https://declarative-dragging.github.io/D2.pdf。我认为 agent 编程剩下的缺口之一是，即使多模态 LLM 也很难检查交互动效的正确性和“手感”。当然，它们可以截几张静态快照，但当底层节点移动并（可能）重排时，东西如何实时反应？答案是让你根本不需要检查：你有一个（近乎可证明）正确的基础……"
+        },
+        {
+          "by": "codedokode",
+          "text": "想法有意思，但对我来说看起来太复杂了。如果有 1000 个可以放置元素的位置怎么办？如果一次选中拖动多个元素怎么办？而且这个方法似乎引入了“composables”甚至 DSL 这样的新复杂概念。写自定义拖放代码可能比搞懂这个怎么工作更容易。我读了页面，没太看懂。比如这句话就很难理解：“与其直接编写所有视觉行为，不如对每个想拖动的元素，只说明它未来处于什么状态……”"
+        }
+      ],
+      "cover": "https://declarative-dragging.github.io/link-preview.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50368481",
+      "id": "50368481",
+      "note": "拖拽不用手写一堆事件回调了，声明式写法让交互逻辑像搭积木。",
+      "score": 318,
+      "title": "Declarative Dragging",
+      "titleZh": "声明式拖拽",
+      "url": "https://declarative-dragging.github.io/"
+    },
+    {
+      "by": "karimf",
+      "comments": 296,
+      "commentsList": [
+        {
+          "by": "cladopa",
+          "text": "如果你是地球上最有权势的人之一，你就会成为所有强国情报机构的目标。就这样。这是他们的工作。你做的决定价值数十亿，你影响的人做的决定价值数十亿，影响他们的国家。他们会研究你很多年。你的人格类型，还有你身边人的人格类型。你的弱点。你和家人的问题。他们会派出最甜美、最愉悦、最漂亮的“蜜糖”，设下完美的蜜罐陷阱。普通人……"
+        },
+        {
+          "by": "DeepLogin",
+          "text": "原文在这里：https://nvidianews.nvidia.com/news/a-message-to-our-company"
+        },
+        {
+          "by": "ilaksh",
+          "text": "存疑，仅是我的猜测，但董事会某种程度上会认为他表现太出色了，只要不造成太大公关损害或让交易惹上政府麻烦，就会尽量留住他。我猜董事会很多人希望他尽可能多地向中国或间接渠道卖货。所以无论涉及这位女士的交易是什么，他们大概都希望他能设法推进（虽然他们不会承认）。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50418016",
+      "id": "50418016",
+      "note": "黄仁勋就绯闻传闻给全员写信，评论区比正文还热闹。",
+      "score": 296,
+      "title": "Nvidia CEO Jensen Huang's letter to staff about affair",
+      "titleZh": "英伟达 CEO 黄仁勋致员工信回应绯闻",
+      "url": "https://www.axios.com/2026/11/08/nvidia-ceo-jensen-huang-affair-email-to-company"
+    },
+    {
+      "by": "jruohonen",
+      "comments": 80,
+      "commentsList": [
+        {
+          "by": "billypilgrim",
+          "text": "我读博刚开始时，以为写论文只是最后一步——把结果总结一下，像个无聊的尾声。让我惊讶的是，科学过程有多么依赖我向别人讲清想法的能力。要做到这一点，你需要头脑清晰，需要经过多轮草稿才能尽可能高效地讲到点子上。很多时候，我只有在写作的过程中才发现自己到底在研究什么。AI 写作的问题在于，它让……"
+        },
+        {
+          "by": "drewbeck",
+          "text": "设计也是如此。我看到很多人说 Figma 已死，因为可以直接做原型；但对于新颖的 UX 问题，设计的行为——把想法组合起来、组装组件、甚至把真实数据放进去——正是很多思考和洞见产生的地方。脑力劳动加手艺活，两者之间的紧密循环对我来说至关重要，而用提示词我还没有找到同样的感觉。在写作和设计中，我们常常先有一种想法-感觉：某种还无法言说的、混沌的东西。把它写出来……"
+        },
+        {
+          "by": "lilerjee",
+          "text": "写代码（编程）也是一种思考工具。当你手动写代码时，你实际上在思考自己在做什么、到底要构建什么、你或用户的真实需求是什么，等等。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50412067",
+      "id": "50412067",
+      "note": "写作不是记录想法，而是想清楚的过程，AI 代笔时代的老话题又翻红了。",
+      "score": 265,
+      "title": "Writing as a thinking tool",
+      "titleZh": "写作是一种思考工具",
+      "url": "http://muratbuffalo.blogspot.com/2026/11/writing-as-thinking-tool.html"
+    },
+    {
+      "by": "xmddmx",
+      "comments": 177,
+      "commentsList": [
+        {
+          "by": "Neikius",
+          "text": "Outlook.com 还会根据不公开的黑名单拒收邮件，你基本没办法把自己弄出来。我的 VPS 提供商几乎整个都被屏蔽了，而他们常规的黑名单检查流程却说我们没问题，没什么可解封的。Outlook.com 这类服务是邮件的祸害。这就是为什么他们告诉你不要自己跑邮件服务器。另一方面，拒收没有 DMARC 的域名没问题。只是不该悄悄地拒收。"
+        },
+        {
+          "by": "Grimeton",
+          "text": "人们唯一犯的错误是，即使微软已经接收了邮件又悄悄丢弃了，他们还以为问题出在自己这边。这让客户以为是自己的错，而不是微软的错。当我在日志里看到邮件已成功投递到他们的 MTA，我这边就没有问题。"
+        },
+        {
+          "by": "stephbook",
+          "text": "听起来每个发件人都早该这么做了。对微软的客户是好事，我一点也不在乎那些现在才匆忙打补丁的懒人。"
+        }
+      ],
+      "cover": "https://mailroute.net/og-default.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416158",
+      "id": "50416158",
+      "note": "没配 DMARC 的域名发往 Outlook 会被悄悄拒收，自建邮件的又一个坑。",
+      "score": 218,
+      "title": "Outlook.com Is Quietly Rejecting Email from Domains Without DMARC",
+      "titleZh": "Outlook.com 正在悄悄拒收没有 DMARC 的域名的邮件",
+      "url": "https://mailroute.net/blog/outlook-rejecting-email-without-dmarc"
+    },
+    {
+      "by": "indigodaddy",
+      "comments": 58,
+      "commentsList": [
+        {
+          "by": "shortformblog",
+          "text": "用了快一年了（它还叫 Dank Material Shell 的时候我就写过它：https://tedium.co/2026/01/29/niri-danklinux-scrolling-window...）；它顺滑得没话说，我觉得已经好到能帮 Niri 走向主流了。它还刚加了对 Bazzite 这类原子发行版的官方支持；以前这是个挺烦人的缺口，毕竟这些发行版很受欢迎。"
+        },
+        {
+          "by": "jeffnash",
+          "text": "我一开始愣了一下，原来 DMS 几周前把“Dank”改名成了“Dux”[1]。我用 DMS + Niri 快一年了，完全没有换的打算。考虑到我以前换桌面环境/壳有多频繁，这相当于“收心”里“安定下来、结婚生子”的级别了。[1] https://duxlabs.dev/blog/v2-0-release"
+        },
+        {
+          "by": "drnick1",
+          "text": "这看起来很像 Android。我不太确定对 curl | sh 安装方式的感觉。这类项目应该成为 Linux 发行版的一部分，经过彻底审查，才能无条件信任。"
+        }
+      ],
+      "cover": "https://duxlabs.dev/preview-images/8695bf88f0423ca0736bf25344b0082cffedcca7.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416053",
+      "id": "50416053",
+      "note": "免费开源的 Wayland 桌面外壳，自带文件管理器和主题，Linux 桌面爱好者狂喜。",
+      "score": 184,
+      "title": "Dux: Free, open-source Wayland desktop shell with file manager and theming",
+      "titleZh": "Dux：免费开源的 Wayland 桌面外壳，带文件管理器和主题",
+      "url": "https://duxlabs.dev/"
+    },
+    {
+      "by": "dcoulmbe",
+      "comments": 22,
+      "commentsList": [
+        {
+          "by": "nico",
+          "text": "太棒了。同时我在想，我们是不是正在进入一个“自己造工具”的时代。需要一个 3D 建模器？先用 Claude 或 Codex 把 3D 模型建出来，然后围绕它迭代，做出你想要的建模器。很多次我花了几个小时学习一个软件、读文档、看教程，结果最后只能做出一开始那个小小的基础想法。现在我只需要为我真正需要的东西造软件（或者像 REA 那样，修改或逆向现有的软件……"
+        },
+        {
+          "by": "elxr",
+          "text": "让你的 agent 在落地页上加一些功能展示。Rust UI 在浏览器里的感觉好得惊人，连文字渲染都很出色。也许 Rust 真的是跨平台 Web+移动应用的未来。"
+        },
+        {
+          "by": "4ff618",
+          "text": "我喜欢。我把 3D 打印当爱好，但真的很讨厌设计阶段。我通常只需要简单的形状：盒子或电子设备的外壳。大部分能在 Thingiverse 之类的地方找到，但总有 20% 的东西需要我自己设计来适配具体需求。SketchUp 8 是我学起来最容易的软件，用起来就是顺手。我真的很想学 FreeCAD，但它的工作方式我就是处不来，所以一直用回 SketchUp。后来我试了所有替代品：Onshape、Fusion、Tinke……"
+        }
+      ],
+      "cover": "https://ketchup3d.github.io/app/assets/screenshots/ketchup.jpg?v=0.6.5-r2",
+      "hnUrl": "https://news.ycombinator.com/item?id=50418176",
+      "id": "50418176",
+      "note": "Rust + WebGPU 写的开源 SketchUp 平替，直接在浏览器里建模。",
+      "score": 125,
+      "title": "KetchUp – Open-source SketchUp alternative built with Rust and WebGPU",
+      "titleZh": "KetchUp：用 Rust 和 WebGPU 打造的开源 SketchUp 平替",
+      "url": "https://ketchup3d.github.io/app/"
+    },
+    {
+      "by": "david927",
+      "comments": 399,
+      "commentsList": [
+        {
+          "by": "mickael-kerjean",
+          "text": "正在做一个给 agent 用的共享文件夹同步工具，你挂载已有数据、设置权限控制，还能实时监控发生了什么：https://www.filestash.app/agents/，代码在这里：https://github.com/mickael-kerjean/fdrive"
+        },
+        {
+          "by": "ramigb",
+          "text": "我一直在做 Epoptes，一个开源工具，让我可以长时间自主运行 coding agent（Claude、Codex、Pi、Antigravity），同时还能监控和引导它们的工作。起因是我想重拾做游戏这个爱好，多年来一直抽不出时间。我想给 agent 一个目标，让它工作几个小时，回来就能试玩并给出反馈。后来我也用它做游戏开发、研究和构建其他工具，有些运行持续了 20 多个小时。现在还很早期、很粗糙……"
+        },
+        {
+          "by": "jzig",
+          "text": "几周前我被裁员了。然后我发现我爸的地毯清洁公司一直在挣扎，于是我开始学习 Google 本地服务广告来帮他。接着我发现他那台旧 Windows 桌面 CRM 已经停产，再来一次系统更新就没法用了。我想追踪每一美元的广告支出回报，但 Google LSA 的后台差强人意，现有的 SaaS CRM 和 Google Ads API 的集成也不好。于是我做了 Crewbird，一个面向服务型企业的现场服务管理和 CRM，集成了 Google LSA……"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50417407",
+      "id": "50417407",
+      "note": "每月一次的“在做什么”大集会，独立开发者的灵感集散地。",
+      "score": 101,
+      "title": "Ask HN: What are you working on? (November 2026)",
+      "titleZh": "Ask HN：你们在做什么？（2026 年 11 月）",
+      "url": "https://news.ycombinator.com/item?id=50417407"
+    },
+    {
+      "by": "nmstoker",
+      "comments": 10,
+      "commentsList": [
+        {
+          "by": "ykl",
+          "text": "Twitter 上有不少大家用 Chimera 玩的有趣例子：https://x.com/jamesonhodge/status/2118733265372860826 https://x.com/klausbrave/status/2119372853502177323 https://x.com/CupOJoseph/status/2119260104641900595 https://x.com/jamesonhodge/status/2119085825509954042 https://x.com/klausbrave/status/2119319095275671582"
+        },
+        {
+          "by": "nmstoker",
+          "text": "之前有帖子发过这条推文，我还发现了这个软件的 GitHub 仓库和在线运行链接！早期的推文：https://news.ycombinator.com/item?id=50410728 GitHub 仓库：https://github.com/jamesondh/chimera-vocal-synth"
+        },
+        {
+          "by": "starshadowx2",
+          "text": "我猜这像是现代版的 pink trombone——https://dood.al/pinktrombone/。还有，这个名字是致敬 Teto 吗？"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50418182",
+      "id": "50418182",
+      "note": "浏览器里就能玩的歌声合成器，开源可玩。",
+      "score": 67,
+      "title": "Chimera Vocal Synth",
+      "titleZh": "Chimera 歌声合成器",
+      "url": "https://chimera-vocal-synth.vercel.app/"
+    },
+    {
+      "by": "prismatic",
+      "comments": 23,
+      "commentsList": [
+        {
+          "by": "chasil",
+          "text": "这幅画在芝加哥艺术学院。他们馆藏的另外两幅标志性画作是：格兰特·伍德的《美国哥特式》https://en.wikipedia.org/wiki/American_Gothic，乔治·修拉的《大碗岛的星期天下午》https://en.wikipedia.org/wiki/A_Sunday_Afternoon_on_the_Isla...。这些画当年都是以现在价值的一小部分买入的（霍普 3000 美元；修拉 20000 美元）。https://ladykflo.com/a-sunday-on-la-grande-jatte-by-georges-... https://en.wikipedia.org/wiki/Art_Institute_of_Chicago"
+        },
+        {
+          "by": "thih9",
+          "text": "https://en.wikipedia.org/wiki/Nighthawks_(Hopper) 维基百科上有这幅画更高清的版本，点击文章里的图片就能看到。"
+        },
+        {
+          "by": "delichon",
+          "text": "> “他花了一个半月画它——一直很投入，太忙了，没空为公众的愤慨而激动。所以我们远离争吵。” 我在想，公众的愤慨是让更多艺术家远离艺术，还是驱使更多人把艺术当作避难所或宣泄口。"
+        }
+      ],
+      "cover": "https://s26162.pcdn.co/wp-content/uploads/2026/10/Nighthawks-by-Edward-Hopper-painting.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50372838",
+      "id": "50372838",
+      "note": "讲讲《夜鹰》这幅画背后的故事，今天榜单里唯一的艺术调剂。",
+      "score": 66,
+      "title": "Edward Hopper's Iconic Painting, \"Nighthawks\"",
+      "titleZh": "爱德华·霍普的标志性画作《夜鹰》",
+      "url": "https://lithub.com/the-story-behind-edward-hoppers-iconic-painting-nighthawks/"
+    },
+    {
+      "by": "edward",
+      "comments": 33,
+      "commentsList": [
+        {
+          "by": "simonw",
+          "text": "我喜欢这句话：> 浏览器是非常、非常、非常强大的应用软件，而获得这种能力的成本似乎每天都在下降。如今构建利用 Web 技术的东西容易得惊人。我现在每周都要好几次用到 three.js、离线存储、SSE、WebAudio 和 WebAssembly 这些技术来做功能。以前我一年也就摆弄其中某个一两次。"
+        },
+        {
+          "by": "the__alchemist",
+          "text": "如果你觉得评论或这种心态难理解：几周前有位 HN 评论者的一番话帮我理清了思路：Web（尤其是 SaaS）开发者占了 HN 用户的很大一部分。他们使用并热爱前端框架、Node、NPM，把 Web 技术作为很多任务的首选工具。"
+        },
+        {
+          "by": "palata",
+          "text": "我知道这可能是不受欢迎的观点，但对我来说 Web 已经太多了。很多人（包括我）喜欢抱怨 systemd 想接管一切，但浏览器比它更严重。虽然今天我确实能自由选择操作系统，但大多数应用都得在浏览器里跑。而浏览器领域的自由度并不好：谷歌通过 Chromium 控制它，苹果强迫用户用 WebKit，Firefox……则边缘化了。更重要的是：我现实中能自己组装一个操作系统，这其实是可行的。唯一棘手的部分是……"
+        }
+      ],
+      "cover": "https://ftrain.com/art/uploads/aboard-newsletter/the-web-is-more-than-enough-header.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416456",
+      "id": "50416456",
+      "note": "别急着上原生 App，Web 能做的事比你想的多得多。",
+      "score": 60,
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "titleZh": "Web 绰绰有余，作者 Paul Ford",
+      "url": "https://ftrain.com/aboard-the-web-is-more-than-enough"
+    },
+    {
+      "by": "acossta",
+      "comments": 9,
+      "commentsList": [
+        {
+          "by": "kikoreis",
+          "text": "顺便说一句，Sutter 不仅在这件事上是对的，他还是我认为对硬件性能进步和向并发执行转变影响最大的那篇论文的作者：https://www.cs.utexas.edu/~lin/cs380p/Free_Lunch.pdf"
+        },
+        {
+          "by": "StellarScience",
+          "text": "这是 Herb Sutter 写得很好、也很外交辞令的一份总结。我了解得不够深，不能确定他说的“Stroustrup 的反对是 C++26 投票失败的主要原因”是否正确，但听起来合理。里面还列出了 C++26 的 6 条可能出路及各自的利弊。我认为大致是：A. 跳过正式的 C++26 标准，把这些功能放进 C++29。B. 从 C++26 中移除 contracts 然后通过。C. 说声“拜托”再投一次。D. 调整 contracts 在虚函数方面的规定再投一次。E. 把 C++26 作为各国自己的国家标准通过……"
+        },
+        {
+          "by": "Routine8502",
+          "text": "作为一个花了几周尝试学 C++（在 LLM 之前，所以现在也许好点了）最后因困惑而放弃的人，我真的觉得有多种做事方式很难处理。我是说，该用哪种指针？该怎么迭代？我相信有答案，但我发现回 Python 更容易，需要时再用 Rust。看来部分担忧是这个功能必须第一次就发布正确，因为它会永远存在。也许允许功能先被弃用再移除会有所帮助？但我……"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50418818",
+      "id": "50418818",
+      "note": "C++ 之父和标准委员会吵起来了，Herb Sutter 写长文讲 C++26 投票失败的内情。",
+      "score": 32,
+      "title": "Herb Sutter: When a language's creator and its owners strongly disagree [pdf]",
+      "titleZh": "Herb Sutter：当语言创造者与语言拥有者强烈分歧时 [pdf]",
+      "url": "https://isocpp.org/files/papers/P4454R0.pdf"
+    }
+  ],
+  "mood": "今天大厂收紧 AI 的消息占了头条：高盛撤 Claude Code、英伟达 CEO 写信回应绯闻；另一边本地跑 284B 大模型、开源 SketchUp 平替齐上榜，硬核味很足。"
+}
