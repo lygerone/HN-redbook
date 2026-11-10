@@ -1,0 +1,393 @@
+{
+  "date": "2026-11-10",
+  "highlights": [
+    {
+      "by": "rgbrenner",
+      "from": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "text": "别看分数，看单任务成本：5.1 已是最贵，5.2 直接翻倍，输出 token 从 11.8 万暴涨到 27.4 万。"
+    },
+    {
+      "by": "SwellJoe",
+      "from": "USPS now offers official ZIP Code boundary polygons",
+      "text": "最低档一万美元？联邦数据本该免费，复制成本都快归零了，凭什么还收钱。"
+    },
+    {
+      "by": "rustyhancock",
+      "from": "Google Gemini routes personal Drive files and emails to human annotators",
+      "text": "隐私被侵蚀到大家觉得这都合理了……但这解释了为什么 Gemini 有时会莫名其妙聊到我邮件里的事。"
+    },
+    {
+      "by": "simonw",
+      "from": "Our Smallest, Most Efficient Model: Muse Ember",
+      "text": "六档推理画六只鹈鹕，结果“推理越多画得越好”的相关性第一次断了。"
+    },
+    {
+      "by": "literallyanythi",
+      "from": "Foldable Flight: The Best Paper Airplanes",
+      "text": "本来没打算真折，结果顺手抽了张 A4 纸——人生最好飞的纸飞机就这么出来了。"
+    }
+  ],
+  "items": [
+    {
+      "by": "meetpateltech",
+      "comments": 544,
+      "commentsList": [
+        {
+          "by": "skeledrew",
+          "text": "大家说得没错，5.5 就是为了给新版本让路才被削弱的。这吃相真不好看。- https://news.ycombinator.com/item?id=50422069"
+        },
+        {
+          "by": "yewenjie",
+          "text": "> 我们首次形式化费马大定理时，用的是一个未发布的 Claude 研究版本，花了 11 天，靠的是专用 harness 加一位人类研究员的指导。相比之下，1000 个 Fable 5.2 agent 只用了 30 小时就完整形式化了这条定理，人类干预极少。Fable 5.2 从极简提示出发，自己搭建协作方式，不查任何数学参考文献，只用一份中间定理陈述清单来衡量进度。只用了首次形式化三分之一的 action token。"
+        },
+        {
+          "by": "postalcoder",
+          "text": "我已经用上 Fable 5.2 了，说几点感受：- Anthropic 的模型线终于均衡了。Opus 5.5 太强了，不像 Fable 5/5.1 对 Opus 4.8/5 那会儿，我完全没有 Fable FOMO；Sonnet 5.5 有时甚至让我忘了 Opus。- Fable 确实好，但你得把提示的野心推得够大，才能看出它和 Opus 5.5 的真正差距。日常写代码，我很难分清 Fable 5.2 和 Opus 5.5。- 它快得多也稳得多：Fable 5.1 最糟糕的一点就是慢。"
+        }
+      ],
+      "cover": "https://www-cdn.anthropic.com/images/4zrzovbb/website/b2dab182c77b4ccfd36423470106915b20f676ae-1200x630.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429906",
+      "id": "50429906",
+      "note": "Anthropic 一天连发两款重磅模型，1000 个 agent 30 小时形式化了费马大定理，评论区却在吵 5.5 是不是被故意削弱了。",
+      "score": 896,
+      "title": "Claude Fable 5.2 and Mythos 5.2",
+      "titleZh": "Claude Fable 5.2 与 Mythos 5.2 发布",
+      "url": "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+    },
+    {
+      "by": "munro",
+      "comments": 216,
+      "commentsList": [
+        {
+          "by": "SwellJoe",
+          "text": "价格也太离谱了，最低档就要一万美元？我以为联邦数据应该是免费的。大多数和监管相关的联邦数据（比如 FCC 的频谱覆盖图、联邦管理的土地地图等）都是免费的，而且本就该免费——这是问责和透明的核心。过去复制还有成本（得有人打印到纸、CD/DVD/磁带上），可以理解；但现在每多复制一份的边际成本几乎为零，那就该收用户零成本价。"
+        },
+        {
+          "by": "wills_forward",
+          "text": "正好借机推一下我的无聊小项目：https://www.rickwills.com/lab/zip —— 一个邮编可视化小工具，输入数字就能在地图上高亮对应的邮编。顶多算有点意思，也许有人喜欢。"
+        },
+        {
+          "by": "showerst",
+          "text": "我还以为这些会是免费的，白激动一场。顺便说一句，如果你能接受一点“模糊”、偶尔缺个商用邮编，人口普查局的 ZCTA shapefile 是免费的，对很多用途来说已经够接近了：https://www.census.gov/programs-surveys/geography/guidance/g..."
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50431058",
+      "id": "50431058",
+      "note": "美国邮政终于放出官方邮编边界数据，但最低一万美元的标价让大家直呼“联邦数据本该免费”。",
+      "score": 429,
+      "title": "USPS now offers official ZIP Code boundary polygons",
+      "titleZh": "USPS 推出官方邮编边界多边形数据",
+      "url": "https://postalpro.usps.com/zcb"
+    },
+    {
+      "by": "_benx_",
+      "comments": 32,
+      "commentsList": [
+        {
+          "by": "_kst_",
+          "text": "这篇文章提了 79 次“TPU”，却一次都没解释这个词是什么意思。（是 Tensor Processing Unit，张量处理单元。）"
+        },
+        {
+          "by": "mekpro",
+          "text": "希望 Google Colab 能上新 TPU，现在 Colab 里最强的还是 v6e-1，认真干活根本不够用。"
+        },
+        {
+          "by": "gnabgib",
+          "text": "标题：《我们最新的 TPU：8tx 与 8i Max，为智能体时代而生》。之前有过一次小讨论（16 分，4 条评论）：https://news.ycombinator.com/item?id=50425018"
+        }
+      ],
+      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/TPU-8tx_and_8i-Max.width-1300.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50432831",
+      "id": "50432831",
+      "note": "Google 新一代 TPU，为智能体时代而生；评论区吐槽全文 79 次提到 TPU 却从不解释缩写。",
+      "score": 180,
+      "title": "TPU 8tx and TPU 8i Max",
+      "titleZh": "TPU 8tx 与 TPU 8i Max",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/tpu-8i-max-and-8tx/"
+    },
+    {
+      "by": "gf74918",
+      "comments": 91,
+      "commentsList": [
+        {
+          "by": "bri3d",
+          "text": "注意，这 specifically 指的是开了 Connected Apps 的个人版 Gemini；Workspace 版 Gemini（以及 Workspace Intelligence 那个企业级 RAG）仍声称不受人工审核。也就是说，如果你用个人版 Gemini，并且专门授权了 Gmail 应用，它有时会用 Gmail 工具去读你的邮件，而这些数据（和个人版 Gemini 的所有数据一样）就可能进入人工标注流程。从 Google 的角度看，这整件事蠢透了……"
+        },
+        {
+          "by": "rustyhancock",
+          "text": "真让人沮丧，隐私被侵蚀到了大家觉得这都合理的地步。不过这倒是解释了，为什么有时和 Gemini 聊天，它会莫名其妙聊到一些很贴合我邮件内容的事。比如我问它公园改造的咨询流程，它给出的回答诡异地贴合了我收到的那封相关邮件，却只字不提“我刚读了你的邮件”。"
+        },
+        {
+          "by": "EMM_386",
+          "text": "比这还糟：> Google Photos 的数据会被用来推断你的兴趣、照片里人物的关系、你去过哪里，包括把你的脸和对应的位置数据、时间戳关联起来。这些数据还会被用来替你办事，比如查你的信息、往购物清单里加东西，以及改进 Google 服务，包括训练生成式 AI。这到底怎么运作的？如果那些图片根本不是真的、而是 AI 生成的呢？当 Google 把这些照片吸走去训练 AI，AI 就会按照片里描绘的样子建立关联。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/c2bbc76d93fe822c83969ff86f615a8cef1f8f3f17646242105dcda9c14ca3a5/thisisme6598/gemini_files",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429426",
+      "id": "50429426",
+      "note": "个人版 Gemini 连上 Gmail/Drive 后，你的邮件和文件可能被送去人工标注；Workspace 版据称不受影响。",
+      "score": 359,
+      "title": "Google Gemini routes personal Drive files and emails to human annotators",
+      "titleZh": "Google Gemini 把个人 Drive 文件和邮件送去人工标注",
+      "url": "https://github.com/thisisme6598/gemini_files/"
+    },
+    {
+      "by": "lexandstuff",
+      "comments": 30,
+      "commentsList": [
+        {
+          "by": "vunderba",
+          "text": "这里的 one-shot 是什么意思？主角 Aiden 的走路循环有点乱，而且走路动画是玩家最常看到的。看起来是八帧，但仔细看发现帧与帧之间似乎并不连贯[1]。用 ControlNet 之类的策略，你确实能做出一个“名义上能接受”的走路循环[2]，但还是得手工修一下。[1] - https://aidens-revenge.pages.dev/assets/characters/aiden/ani... [2] - https://mordenstar.com/other/hobbes-animation"
+        },
+        {
+          "by": "goyozi",
+          "text": "我爸最近问我，AI 是不是已经好到能做出 DX Ball 那样的打砖块游戏了——我们以前常一起玩。Opus 5.5 版：https://claude.ai/artifact/UuT7P936dU1XoPByYZ7xyD；Fable 5.2 版：https://claude.ai/artifact/UszKFvuonWAT5psjMttAEg。有些方面 Fable 明显更好，但主观上 Opus 5.5 的版本玩起来更有趣。两个都是一次生成，Opus 5.5 是几周前做的，那时还没加“复刻游戏”的护栏。Fable 5.2 尽管我要求玩法和原版一致，还是改了些游戏机制。"
+        },
+        {
+          "by": "simonw",
+          "text": "我最近在 Opus 5.5 上也注意到了：你告诉它“让这个游戏更好玩一点”，它就真的……让游戏更好玩了。Fable 5.2 也有这本事，这点（倒也不意外）挺 neat 的。我的粗略测试显示，其他模型在这方面还没这么好。提示词是“做一个手机友好的 three.js 游戏：一只老鼠要躲着猫”，Opus 5.5 Extra 版 - https://claude.ai/artifact/RRyEndXLSPQbcig3BgzgCZ - GPT-6 Extra High 版：https://squeak-and-seek-mouse-1027.simonw.chatgpt.site/ —— Claude 那个是更好的游戏，虽然第一眼看上去很像。"
+        }
+      ],
+      "cover": "https://notesbylex.com/_media/aidens-revenge/title.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50433659",
+      "id": "50433659",
+      "note": "外甥的梦想游戏，Fable 5.2 一次生成搞定；评论区开始较真主角走路循环的八帧动画。",
+      "score": 62,
+      "title": "Fable 5.2 one-shotted my nephew's dream game",
+      "titleZh": "Fable 5.2 一次生成了我外甥的梦想游戏",
+      "url": "https://notesbylex.com/fable-5-2-one-shotted-my-nephews-dream-game"
+    },
+    {
+      "by": "ocd",
+      "comments": 255,
+      "commentsList": [
+        {
+          "by": "ttul",
+          "text": "说实话，如果你要创业，在加拿大注册公司可能不是个坏主意。加拿大有联邦注册，此外各省也有自己的公司登记。联邦公司可以在任何省份运营，所有申报都在一个地方办。最近宣布的新 mega-deduction 让实际公司税率降到 6%，在全世界都算最低之列，在 G7 里肯定是最低。RTR 这类事只是加拿大正在引入的高效基础设施的一个例子，着眼的是很长期的产品……"
+        },
+        {
+          "by": "QGQBGdeZREunxLe",
+          "text": "难以置信，2026 年了美国还没有实时支付网络。FedNow 存在，但只有少数银行支持，还要收费。> 对外转账收交易金额的 0.75%（最低 1 美元，最高 30 美元）。SoFi 对入账不收费。> SoFi Plus 会员省一半：按 0.375% 收，最高 15 美元（最低仍为 1 美元）。https://www.sofi.com/banking/instant-money-transfer"
+        },
+        {
+          "by": "mlekoszek",
+          "text": "作为加拿大人，我挺喜欢这个。听起来他们像是把 Interac 专有的 e-Transfer 系统拿出来，变成任何银行都能用的公共品。这很酷。而且他们选择拉 Interac 一起做、而不是绕开它，这也很明智。和所有政府项目一样——看落地怎么样吧。但我谨慎乐观。"
+        }
+      ],
+      "cover": "https://www.payments.ca/sites/default/files/2026-11/CanadaLightsUp.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50427362",
+      "id": "50427362",
+      "note": "加拿大上线 24/7 实时支付系统，评论区顺带聊起在加拿大注册公司的 6% 实际税率。",
+      "score": 452,
+      "title": "Payments Canada announces launch of Canada's Real-Time Rail (RTR) payment system",
+      "titleZh": "加拿大支付公司推出实时支付系统 Real-Time Rail（RTR）",
+      "url": "https://www.payments.ca/canada-launches-real-time-rail-bringing-247-payment-infrastructure-national-economy"
+    },
+    {
+      "by": "porridgeraisin",
+      "comments": 17,
+      "commentsList": [
+        {
+          "by": "jlhawn",
+          "text": "不知道这能不能替代 Lloyd 算法用在别处。我有个业余项目，用 Lloyd 算法在球面上“松弛”一个二十面体等面积网格[1]。我打算换成这个方法的改编版试试，看会不会好得多，或者能不能多跑几轮迭代。补充：试过了，这个场景下确实没更好。e-means 的赢法是减少对海量数据集的遍历次数，但球面网格松弛没有数据集：每个 Voronoi 单元的质心可以直接从几何算出来。"
+        },
+        {
+          "by": "Luke2642",
+          "text": "这是个很好的例子，说明为什么 P=NP 有时是问错了问题。对这个 NP 难问题，近似解就够好了，如果还快 45 倍，那就更好了！"
+        },
+        {
+          "by": "real_faxenoff",
+          "text": "我把这个方法用到自己的 IVF 索引上（code-daemon 项目），GPU 上提速了 146 倍。太惊人了！"
+        }
+      ],
+      "cover": "https://e-means.github.io/assets/emeans_vs_lloyd_readme_v9.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429734",
+      "id": "50429734",
+      "note": "k-means 的新打法，十分之一的轮次就能打平；有人实测自己的索引提速 146 倍。",
+      "score": 256,
+      "title": "E-means: Outperforming k-means in one-tenth the epochs",
+      "titleZh": "E-means：用十分之一的轮次超越 k-means",
+      "url": "https://e-means.github.io/"
+    },
+    {
+      "by": "theanonymousone",
+      "comments": 189,
+      "commentsList": [
+        {
+          "by": "rgbrenner",
+          "text": "别看分数……看单任务成本。Fable 5.1 本来就已经是贵得最离谱的那个，现在 5.2 直接翻倍！这还是降价之后的价格。每个任务的输出 token 直接爆炸了：从 5.1 的 11.8 万 token（4.6 万回答 / 7.1 万推理）涨到 5.2 的 27.4 万 token（8.1 万回答 / 19.2 万推理）。"
+        },
+        {
+          "by": "brachkow",
+          "text": "Anthropic 的模型比相当能打的 DeepSeek-Flash 贵这么多，真是疯了。他们确实做出了最好的模型，但为了好几个百分点收 100 倍的价格，完全是凭空定价，我觉得最后会出问题。"
+        },
+        {
+          "by": "oliwary",
+          "text": "酷！Fable 5.2（尤其是 low 和 medium 档）看起来也处在时间/任务与智能的帕累托前沿上：https://artificialanalysis.ai/models?speed=output-speed-over... 我一直很关注这个对比，因为它同时反映了来回交互的速度——既有每任务 token 数，也有每秒 token 数。新模型在这方面确实进步明显。"
+        }
+      ],
+      "cover": "https://artificialanalysis.ai/en/models/claude-fable-5-2/opengraph-image?65781a17af1a7936",
+      "hnUrl": "https://news.ycombinator.com/item?id=50431144",
+      "id": "50431144",
+      "note": "分数是史上最高，但评论区只关心一件事：单任务成本翻倍了，token 从 11.8 万涨到 27.4 万。",
+      "score": 269,
+      "title": "Claude Fable 5.2 Scores 65 on Artificial Analysis, Highest So Far",
+      "titleZh": "Claude Fable 5.2 在 Artificial Analysis 拿下 65 分，史上最高",
+      "url": "https://artificialanalysis.ai/models/claude-fable-5-2"
+    },
+    {
+      "by": "dvaplima",
+      "comments": 98,
+      "commentsList": [
+        {
+          "by": "simonw",
+          "text": "六档 effort（minimal、low、medium、high、xhigh、max），所以这里是六只鹈鹕（其实是五只，“high”那档没返回完整的 SVG）：https://tools.simonwillison.net/markdown-svg-renderer?url=ht... 通常推理量和鹈鹕画质之间有相当强的正相关。这是我第一次看到这种相关性断掉——更多的推理 token 似乎并没有画出明显更好的 SVG。"
+        },
+        {
+          "by": "doodlesdev",
+          "text": "有意思的是，这个模型最好的成绩不是在 Meta 自己的 agent 评测集上，而是在 mini-swe-agent 上：> 1. 所有模型都以最大推理 effort 运行。Artificial Analysis 的结果来自 2026 年 11 月 9 日发布的 Intelligence Index v5，单任务成本用各模型的官方定价。内部结果来自 Meta 的评估套件。个人超级智能指数（PSI）是八项评估的内部综合：Agents' Last Exam、AutomationBench、FocusBench、JobBench、OfficeQA Pro、GDP.pdf、GDP.xlsx 和 VBT。"
+        },
+        {
+          "by": "sourcecodeplz",
+          "text": "更聪明、token 效率更高，而且比 DeepSeek v4-flash 还便宜一点。"
+        }
+      ],
+      "cover": "https://research.meta.ai/articles/muse-glint/hero/blog-header-light-v1.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50429024",
+      "id": "50429024",
+      "note": "Meta 最小最省的模型，号称比 DeepSeek v4-flash 更聪明更便宜；Simon Willison 的六只鹈鹕测试却发现推理量和画质的相关性断了。",
+      "score": 236,
+      "title": "Our Smallest, Most Efficient Model: Muse Ember",
+      "titleZh": "我们最小、最高效的模型：Muse Ember",
+      "url": "https://research.meta.ai/blog/muse-ember"
+    },
+    {
+      "by": "vismit2000",
+      "comments": 134,
+      "commentsList": [
+        {
+          "by": "literallyanythi",
+          "text": "往下翻，看到一架“非常简单”、1 分钟就能折好的飞机：https://www.foldableflight.com/planes/mystic。本来没打算真动手，看视频时发现只要一张 A4 纸，就顺手从桌上抽了一张跟着折。那个口袋结构真是个“啊哈！”时刻。作为一个只会“naive 式”折法的人，这是我这辈子折过飞得最稳、也最好看的纸飞机！它在空中飞得那么直，简直不像真的，和我小时候的纸飞机完全不一样。"
+        },
+        {
+          "by": "HelloUsername",
+          "text": "相关：“https://www.foldnfly.com/” 2023 年 7 月 21 日 https://news.ycombinator.com/item?id=36784032 25 条评论；2023 年 5 月 26 日 https://news.ycombinator.com/item?id=36087442 76 条评论；2022 年 7 月 18 日 https://news.ycombinator.com/item?id=32134691 96 条评论；2021 年 12 月 6 日 https://news.ycombinator.com/item?id=29466325 8 条评论；2020 年 6 月 16 日 https://news.ycombinator.com/item?id=23545860 8 条评论；2018 年 10 月 18 日 https://news.ycombinator.com/item?id=18249755 206 条评论。"
+        },
+        {
+          "by": "intrasight",
+          "text": "分享个故事。1978 年，我还是个十来岁的孩子，妈妈让我学钢琴。天佑她的一片苦心。总之，在音乐学校大厅等上课时，我经常折纸飞机。有一天，一位老先生走过来，说想送我一件东西。他给我的，是他那本《The great international paper airplane book》（《伟大的国际纸飞机之书》）。它至今仍是我最珍视的书、真的也是最珍视的 possessions 之一。但我年纪大了，觉得是时候找一个值得托付的 13 岁孩子了。不过无论如何，这都是一次需要勇气的托付。"
+        }
+      ],
+      "cover": "https://static.wixstatic.com/media/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg/v1/fit/w_2500,h_1330,al_c/0641fb_4ff6a49def494e379b4f3b585c4ac4a8%7Emv2_d_2482_1412_s_2.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50424581",
+      "id": "50424581",
+      "note": "今天最治愈的一条：一个纸飞机折法大全，评论区有人当场抽了张 A4 纸就折上了。",
+      "score": 832,
+      "title": "Foldable Flight: The Best Paper Airplanes",
+      "titleZh": "Foldable Flight：最好的纸飞机折法大全",
+      "url": "https://www.foldableflight.com"
+    },
+    {
+      "by": "sshah03",
+      "comments": 59,
+      "commentsList": [
+        {
+          "by": "BrandiATMuhkuh",
+          "text": "让我意外的是，英飞凌似乎没在搞 LLM 芯片。尤其是在林茨，英飞凌、苹果 5G 调制解调器的设计团队、还有 LSTM 发明人 Sepp Hochreiter 所在的约翰内斯·开普勒大学全都挨在一起。我最近刚看了一段英飞凌 AI 负责人的采访，本来很期待听到什么酷炫的硬件，结果他全程只是在讲自己怎么用 LLM。"
+        },
+        {
+          "by": "bradknowles",
+          "text": "页面顶部的摘要是：英飞凌达成创新里程碑，推出全球首款 300 毫米功率碳化硅（SiC）晶圆。商业与财经媒体 2026 年 11 月 9 日。英飞凌发布业界首款基于 300 毫米碳化硅晶圆加工的功能功率器件。这项技术突破彰显了英飞凌在功率半导体和宽禁带技术领域的创新实力与领导地位。300 毫米 SiC 工艺可行性为汽车、可再生能源、工业和 AI 数据中心客户提供安全、面向未来的 SiC 供应奠定了基础。"
+        },
+        {
+          "by": "johntb86",
+          "text": "有人知道为什么转 300mm 花了这么久吗？如文章所说，他们主要用的是现成的 300mm 硅设备，硅早几年就转过去了。我猜有些工艺步骤不一样（主要是长出更大的晶锭，但可能还有其他步骤），但感觉不应该是巨大的障碍。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50429430",
+      "id": "50429430",
+      "note": "全球首片 300mm 功率碳化硅晶圆，电动车和 AI 数据中心供应的关键一步。",
+      "score": 94,
+      "title": "Infineon marks innovation milestone with 300mm power silicon carbide wafer",
+      "titleZh": "英飞凌实现 300mm 功率碳化硅晶圆里程碑",
+      "url": "https://www.infineon.com/press-release/2026/infpr202611-028"
+    },
+    {
+      "by": "speckx",
+      "comments": 167,
+      "commentsList": [
+        {
+          "by": "efields",
+          "text": "我是个种切花的专业种植户，规模是后院级别，但我们是盈利的，还拿过一些补助，所以和 USDA 打了几年交道。和我关系最近的那位 USDA 代表对农光互补持怀疑态度，因为以前和太阳能公司打过交道（不太清楚她指的是什么）。目前似乎没有足够可靠的公开数据，让它看起来像大家想要的三赢。在他们看来，你是在往土地上加一个非农业产业，往后一代人可能产生连带后果。也许你是在盘算着把土地重新划为轻工业用地……"
+        },
+        {
+          "by": "declan_roberts",
+          "text": "HN 上住高密度城市的人可能过多了，这也许解释了为什么这类技术以及垂直农业在这里这么受欢迎。但美国的农田几乎没有维度上的限制，我们有大量的农田，“叠加”根本没什么可 gains 的。这些“解决方案”往往带来比解决的更多的问题。举个例子，一个设计给羊群放牧的太阳能农场，面板离地太低，羊走了之后农民没法开拖拉机进来割草。"
+        },
+        {
+          "by": "foolfoolz",
+          "text": "如果你第一反应是“我们有的是空地，为什么要在农场上建太阳能板？”——这不是个二选一的问题。农场主可能想靠发电增加一点收入，就像医院可能想给停车场盖顶棚来抵消成本。从巨型规模来看，这些选址能把土地利用优化到最便宜的发电吗？不能。但在小规模上，对这些个体业主来说是说得通的。https://electrek.co/2026/10/05/six-flags-has-installed-one-o..."
+        }
+      ],
+      "cover": "https://www.anthropocenemagazine.org/wp-content/uploads/2026/10/rose-colored-agrivoltaics.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50426175",
+      "id": "50426175",
+      "note": "彩色半透明太阳能板盖在农田上：发电种地两不误，还是华而不实？种花农户现身说法。",
+      "score": 268,
+      "title": "Semi-transparent, colored cadmium telluride photovoltaic panels in agrivoltaics",
+      "titleZh": "半透明彩色碲化镉光伏板用于农光互补",
+      "url": "https://www.anthropocenemagazine.org/2026/10/magenta-solar-panels-may-be-agrivoltaics-cleverest-trick-yet/"
+    },
+    {
+      "by": "nomi_uw",
+      "comments": 3,
+      "commentsList": [
+        {
+          "by": "augment_me",
+          "text": "居然一个字都没提 kernel 的基准测试/评估，这也太疯狂了。在我看来，在这个所有高性能 GPU kernel 都是生成式/爬山式调出来的时代，这是我们看到的最大误差来源。实际中 kernel 应该用热缓存还是冷缓存跑？kernel 应该和参考实现按位等价吗？和参考实现比，误差容限该是多少？为了避免热噪声，要跑多少次？为了避免过拟合当前硬件，要不要在不同的 GPU 上跑？能不能用 cudagraph 编译 kernel 来消除启动开销？要不要 A/B、B/A 交错地跑你的 kernel 和参考实现？"
+        },
+        {
+          "by": "kollegekid",
+          "text": "写得太清楚了。你是用 LLM 写的吗？"
+        }
+      ],
+      "cover": "https://www.nabo.dev/images/kernel-primer-preview.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50386246",
+      "id": "50386246",
+      "note": "写给想搞懂 GPU kernel 优化的人的入门指南，写得极清楚；但评论区追问：怎么一个字都没提基准测试？",
+      "score": 82,
+      "title": "A primer on GPUs and kernel optimization",
+      "titleZh": "GPU 与 kernel 优化入门指南",
+      "url": "https://www.nabo.dev/blogs/kernel-primer"
+    },
+    {
+      "by": "a585gupt",
+      "comments": 42,
+      "commentsList": [
+        {
+          "by": "anonymous908213",
+          "text": "那些为了让更多人以为文本是真人写的、故意让 LLM 生成不规范大小写的人，活该下地狱。还总带着那种虚假的反馈 CTA。这应该因为公然违反 HN 反 LLM 生成文本的规则而被 HN 封掉，可大家还在拼命点赞。"
+        },
+        {
+          "by": "HoldOnAMinute",
+          "text": "我毫不夸张地说：这可能是我见过的风格与内容结合得最好的一次。"
+        },
+        {
+          "by": "award_",
+          "text": "这不仅是个非常酷的想法，执行得也很出色！干得漂亮，太 neat 了！"
+        }
+      ],
+      "cover": "https://www.watched.earth/og-default.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50428907",
+      "id": "50428907",
+      "note": "查任意地点这周头顶飞过的所有卫星，还附照片；有人说这是风格与内容结合得最好的一次。",
+      "score": 216,
+      "title": "Show HN: Every satellite that passed over any place this week, and its photos",
+      "titleZh": "Show HN：本周飞过任意地点的每颗卫星及其照片",
+      "url": "https://www.watched.earth"
+    }
+  ],
+  "mood": "今天 AI 模型日：Anthropic 一天连发 Fable 5.2 与 Mythos 5.2，Meta 也跟上 Muse Ember；但评论区最热的不是分数，是代价——Fable 的 token 账单、Gemini 的隐私、USPS 数据的一万美元标价。好在还有一架纸飞机负责治愈。"
+}
