@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-11",
+  "highlights": [
+    {
+      "by": "nticompass",
+      "from": ".name Grandfathered",
+      "text": "我因为关停在即让自己的 first.last.name 过期了，结果域名在关停日之后还照常工作——换邮箱白折腾了，气得想笑。"
+    },
+    {
+      "by": "delichon",
+      "from": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "text": "37966 比 217：AI 找出的疑似漏洞和确认的漏洞之比——找漏洞容易修漏洞难，这比例让人有点慌。"
+    },
+    {
+      "by": "AdmiralAsshat",
+      "from": "Synaptics patent claims stop work on DisplayLink drivers",
+      "text": "Synaptics 要求开源作者赔 2.5 万美元，理由是“制作侵权证明文件花了钱”——举证责任还能这么反着算？"
+    },
+    {
+      "by": "rmm",
+      "from": "Starlink Mini 2",
+      "text": "以前钻探结果要等好几天才能传回，现在星链一装就是即时直播，改钻探计划变得轻而易举。"
+    },
+    {
+      "by": "Mizza",
+      "from": "AlphaProof Code",
+      "text": "两三年内，跑任何未经验证的软件都会像今天看 Telnet 一样疯狂。"
+    }
+  ],
+  "items": [
+    {
+      "by": "panic",
+      "comments": 52,
+      "commentsList": [
+        {
+          "by": "snowwrestler",
+          "text": "PHP2Shell 这个漏洞反而让人安心：前沿模型在 PHP 里翻了个底朝天，找到的最大漏洞却基于一个早已知晓、极难利用的逻辑缺陷。这也合理：正因如此才需要前沿模型。而在现实中，虽然有过多次尝试和几次简单的演示成功，实际影响看起来很小，似乎受限于攻击链的长度和 PHP 配置的多样性。简言之，这确实是个重大漏洞，但不是什么魔法（克拉克意义上的）。"
+        },
+        {
+          "by": "dfee",
+          "text": "关于 curl 有个轶事，但仅凭这些还不足以下结论。20% 的漏洞已经公开，其中很多被标记为“撤回”或“重复”。但剩下的 80% 没公开，是因为没修好、还是不真实，完全不清楚。换句话说，这是对幸存者（已公开者）的分析，对仍在 embargo 下的那些，基本什么都说不了。"
+        },
+        {
+          "by": "delichon",
+          "text": "如果这指向一个普遍规律——AI 更擅长找漏洞而不是修漏洞——那就麻烦了。两者差距越大，守住所有东西就越难。这次实验的数据是 37966 比 217。误报很多，但不足以改变大局。希望他们没有给两边投对等的 token，不然 AI 可能更擅长拆而不是建。"
+        }
+      ],
+      "cover": "https://www.vulncheck.com/_og/s/o_6eba28d38c5a4083.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50447074",
+      "id": "50447074",
+      "note": "Anthropic 的 AI 挖洞项目 Glasswing 七个月复盘：找出的疑似漏洞海量，确认的却寥寥，维护者先被误报淹没了。",
+      "score": 142,
+      "title": "After 7 months, Glasswing overwelms maintainers with underwhelming findings",
+      "titleZh": "七个月过去，Glasswing 以乏善可陈的发现淹没了维护者",
+      "url": "https://www.vulncheck.com/blog/anthropic-glasswing-november-update"
+    },
+    {
+      "by": "NaOH",
+      "comments": 224,
+      "commentsList": [
+        {
+          "by": "freetime2",
+          "text": "我用 kei truck 种地。它们是非常务实的小车。在土路、碎石农用路上开着四驱非常能干，而且便宜耐造，可以放心当工具往死里用。维修和配件到处都有又便宜。货箱侧板能放下来也很实用。开着一点也不舒服（不过大热天在地里干活，有空调就已经是天赐了），长途我也不想开——虽然急用时当然也能开。"
+        },
+        {
+          "by": "throwaway81523",
+          "text": "一年前我差点花 5000 美元买了一辆二手电动的，那是在伊朗入侵和油价飙升之前。当时正好要搬家，确实能派上用场，现在后悔没买——当时觉得搬完家就是多一件累赘。但它肯定保值。现在供应肯定更紧张了。它们很适合本地拉货或短途通勤，但作为通用车辆就不实用了，续航和速度都有限（至少我看的那款是这样）。极速 40 英里/小时，只能在限速 35 英里/小时及以下的路上开。"
+        },
+        {
+          "by": "ilamont",
+          "text": "25 英里/小时的速度适合高尔夫球场、度假村或岛上使用。在大陆的农村地区，连接城镇的道路限速常常是 45 或 55 英里/小时，所以除非你打算一直待在农场里，否则去购物、倒垃圾、拉货都不太实际。至于进口车，几个月前我在停车场看到一辆 90 年代的右舵 kei truck，跟车主聊了聊。他是个住在波士顿的年轻人，说停车超级方便。极速 70 英里/小时，本地跑跑没问题，长途上高速可能不太行。"
+        }
+      ],
+      "cover": "https://images-stag.jazelc.com/uploads/theautopian-m2en/20261110110448/ScionByToyota_Family_TS3.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50445401",
+      "id": "50445401",
+      "note": "Scion 品牌复活，在美国卖日本 kei truck（轻型小货车）。评论区农场主现身说法：便宜耐造，拿来当工具往死里用。",
+      "score": 305,
+      "title": "Scion is back and is going to sell a kei truck in America",
+      "titleZh": "Scion 回来了，要在美国卖轻型卡车",
+      "url": "https://www.theautopian.com/scion-is-back-and-its-going-to-sell-a-freaking-kei-truck-in-america/"
+    },
+    {
+      "by": "p4bl0",
+      "comments": 155,
+      "commentsList": [
+        {
+          "by": "giancarlostoro",
+          "text": "经过漫长而昂贵的斗争，消息刚出：Verisign 撤回了终止 22000 个域名和邮件转发的计划。虽然不再接受新的三级 .name 域名注册，但所有现有域名（包括这个网站）和邮件转发将无限期保留。这正是我当初觉得应该发生的事：允许现有客户继续续费，不再接受新注册；如果某个顶级域随时间空出来，再彻底收回卖掉。他们原本的提议简直应该算违法……"
+        },
+        {
+          "by": "nticompass",
+          "text": "什么？！我因为关停在即，让自己的“first.last.name”注册过期了！我确实注意到域名在所谓关停日期之后还继续工作，但还是让它过期了。现在气死了！我估计没办法把域名和邮件转发拿回来了吧 :( 我想可以试着问问注册商，但我非常怀疑他们能做什么……（编辑：我其实没真生气，只是不得不把 first@last.name 邮箱换到别的账号上，很烦）"
+        },
+        {
+          "by": "soupbowl",
+          "text": "最好还是坚持用主流顶级域名。我买过多个“新”域名，大多都出了问题。有几个后来涨价涨得离谱，跟刚买时比简直天价。迁移到别的服务商之间也很困难。不幸的是，我在其中几个上还有承诺，只能硬吃涨价，剩下的都迁到了 .com/.net。.consulting 是最坑的一个。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50442736",
+      "id": "50442736",
+      "note": "Verisign 撤回了终止 2.2 万个 .name 三级域名和邮件转发的计划，现有域名可无限续用——一场漫长昂贵的维权赢了。",
+      "score": 667,
+      "title": ".name Grandfathered",
+      "titleZh": ".name 域名：祖父条款保住了",
+      "url": "https://neil.fraser.name/news/2026/11/10/"
+    },
+    {
+      "by": "skittleson",
+      "comments": 244,
+      "commentsList": [
+        {
+          "by": "mountain_peak",
+          "text": "我们快 20 年前买下这房子，前房主（显然）经营过一家如今已倒闭的家庭自动化公司。好处是全屋 100% 的 X10/Insteon 电源和灯光控制、顶级报警面板、环境控制等等，都跑在一块壁挂式“SmartLinc”触摸屏上。后来我用 Axis 摄像头和一台跑 Indigo 与 SecuritySpy（无订阅）的 Mac 服务器扩展了系统，实现了远程监控和控制，但一切都在本地运行。有一次我一时冲动，买了个 D-Link 无线（Wi-Fi）水位探测器装在集水坑里（清仓价 30 美元）；它依赖 D-Link Home 云服务（免费），几年前被关停了。"
+        },
+        {
+          "by": "scosman",
+          "text": "Home Assistant 会给每个集成标注“IoT Class”，从“Local Push”（本地推送）到“Cloud Polling”（云端轮询）不等：https://www.home-assistant.io/blog/2016/02/12/classifying-th... 我只用“Local Polling”（本地轮询）或更好的，强烈偏好“Local Push”。"
+        },
+        {
+          "by": "reasonabl_human",
+          "text": "我现在的新规矩是：买能完成任务的最便宜硬件；忽略软件方面的差评；收到设备后，让 Claude 帮忙刷本地优先的固件；花几个小时当个“人肉代理”折腾一下；好了，便宜的纯本地智能家居就搞定了。用单板机或 NAS 跑 Home Assistant。这套流程在我这儿对开关、恒温器、空气质量监测仪、温度计和窗扇都管用。如果买开箱即带本地优先能力的硬件，得多花约 2.5 倍的钱。"
+        }
+      ],
+      "cover": "https://docodethatmatters.com/images/home-automation/t1-07.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50441707",
+      "id": "50441707",
+      "note": "断网就变砖的智能家居之痛，今日最高分帖。评论区都在晒自己的本地化方案，Home Assistant 是标配答案。",
+      "score": 677,
+      "title": "Smart home devices should work without the internet",
+      "titleZh": "智能家居设备应该不需要联网也能工作",
+      "url": "https://docodethatmatters.com/home-automation-overnight-success/"
+    },
+    {
+      "by": "digital55",
+      "comments": 23,
+      "commentsList": [
+        {
+          "by": "flowerlad",
+          "text": "亚马逊预览 [1] 甚至连目录页都不展示。我要怎么判断自己会不会感兴趣？[1] https://www.amazon.com/dp/0374621799?tag=macmillan-20"
+        },
+        {
+          "by": "tveita",
+          "text": "我挺喜欢这篇访谈：陶哲轩讲解 6 个重要的数学概念：https://www.youtube.com/watch?v=OOMx2BHHWtE"
+        },
+        {
+          "by": "prideout",
+          "text": "我听说他在写一本关于宇宙距离阶梯的书，一直很期待，希望不是演变成了这本。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50446246",
+      "id": "50446246",
+      "note": "陶哲轩的新书/讲座，六个核心数学概念。评论区在聊亚马逊预览连目录都不给看，以及他那本宇宙距离阶梯的书。",
+      "score": 111,
+      "title": "Six Math Essentials by Terence Tao",
+      "titleZh": "陶哲轩：六个数学要点",
+      "url": "https://teorth.github.io/tao-web/six-math-essentials.html"
+    },
+    {
+      "by": "speckx",
+      "comments": 139,
+      "commentsList": [
+        {
+          "by": "AdmiralAsshat",
+          "text": "“如果你们在规定期限前不按要求行事，Synaptics 将向你们索要 25000 美元的金钱赔偿，以弥补制作所附侵权行为证明文件所花费的成本和精力。”这显然是恐吓战术，但这在法庭上怎么可能成立？举证责任肯定在专利权人一方，要证明别人的工作侵权才行，凭什么反过来让被告出钱证明你们的案子成立？"
+        },
+        {
+          "by": "hnlmorg",
+          "text": "“我们还将向你们索要巨额金钱赔偿，以弥补制作此类侵权行为证明文件所花费的成本和精力。”这在任何宇宙里都不是合理的回应。"
+        },
+        {
+          "by": "kieranl",
+          "text": "DisplayLink 正因 DDR 价格高企而走向消亡。扩展坞厂商因经济性不佳正在取消 DisplayLink 产品线。如果 Synaptics 就是这么对待开源的，那它死了也好。最新的雷电扩展坞和 USB4 扩展坞显示支持都很好，主机不支持 TBT4 时还会回退到 DisplayPort Alt Mode。这比 Type-C 好得多。Intel 和 AMD 的上游主机支持也很好。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50443824",
+      "id": "50443824",
+      "note": "开源 DisplayLink 驱动作者收到 Synaptics 律师函，还索要 2.5 万美元“取证费”，评论区群嘲这操作。",
+      "score": 281,
+      "title": "Synaptics patent claims stop work on DisplayLink drivers",
+      "titleZh": "Synaptics 的专利主张叫停了 DisplayLink 驱动开发",
+      "url": "https://lwn.net/SubscriberLink/1102549/acbc92e00cee3a3f/"
+    },
+    {
+      "by": "robertjfclarke",
+      "comments": 227,
+      "commentsList": [
+        {
+          "by": "rmm",
+          "text": "这彻底改变了我的行业（硬岩采矿）。以前钻探人员经常在荒无人烟的地方找矿，有时要等上好几天才能提供结果（这也导致了很多可疑情况，钻探人员比市场更早知道结果……）现在是即时直播。修改钻探计划变得轻而易举。太酷了"
+        },
+        {
+          "by": "noodlesUK",
+          "text": "我非常希望 Starlink 能提供一个定价合理、可自助的 B2B 方案，带 fleet 管理功能。任何目前用 SIM 卡的固定高带宽物联网设备都能轻松用上 Starlink。就现状而言，想用的中小企业只能折腾住宅版 Starlink，还得整天担心被封号。"
+        },
+        {
+          "by": "asats",
+          "text": "而且它现在似乎有个正常的 USB-C 口了！太好了，以前那个奇怪的专用线缆订起来真麻烦，尤其是在野外坏了一根的时候。"
+        }
+      ],
+      "cover": "https://starlink.com/assets-new/images/landing/field/v4_night_sky.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50444129",
+      "id": "50444129",
+      "note": "第二代迷你星链，改用正常 USB-C 口。评论区有矿业从业者现身说法：它彻底改变了野外勘探的工作方式。",
+      "score": 213,
+      "title": "Starlink Mini 2",
+      "titleZh": "Starlink Mini 2",
+      "url": "https://starlink.com/mini-2"
+    },
+    {
+      "by": "tosh",
+      "comments": 76,
+      "commentsList": [
+        {
+          "by": "cmontella",
+          "text": "我从 Eve 时代就认识 Steve，他是那个社区的一员，一直是终端用户编程的大力倡导者。看到他在做这个项目我很高兴，但对它关停并不意外，跟 Val Town 的质量无关，而是这个领域做生意真的、真的很难。没有融几百万你根本起不了步（Eve 融了 200 万美元，Darklang 融了 350 万，Val Town 融了 700 万），但在投资者想看到回报的时间内，把概念验证做大规模又很难。在我看来，种子轮的跑道也就 2-3 年。"
+        },
+        {
+          "by": "jrmann100",
+          "text": "博客里没直接提到，但 Val Town 从根本上是围绕 Deno 运行时组织的，而 Deno 团队明年加入 Cloudflare 后将停止维护它。[0] https://deno.com/blog/cloudflare"
+        },
+        {
+          "by": "yakkomajuri",
+          "text": "这很令人难过。我们处在和 Val Town 类似的领域（从技术上讲我们是竞争对手），但我一直很欣赏他们对手艺的用心和推动的价值观，比如他们的透明度（甚至连投资人更新都是公开的）。Steve 和 Tom 个人也有网上最好的博客。我祝他们未来一切顺利。我很确定他们都会有很好的发展。"
+        }
+      ],
+      "cover": "https://valdottown--01a1c636170f75bd955ad39917dccd9e.web.val.run/images/winding-down-bird-24619313141.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443427",
+      "id": "50443427",
+      "note": "曾融 700 万美元的“代码片段即服务”平台宣布关停。评论区一片惋惜，顺带聊起 Deno 团队并入 Cloudflare 的连锁反应。",
+      "score": 297,
+      "title": "Val Town is winding down",
+      "titleZh": "Val Town 正在关停",
+      "url": "https://blog.val.town/winding-down"
+    },
+    {
+      "by": "axiomdata316",
+      "comments": 2,
+      "commentsList": [
+        {
+          "by": "comrade1234",
+          "text": "只要里面没有乙二醇，我就没问题。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50410587",
+      "id": "50410587",
+      "note": "经济学人调查：假黑皮诺背后的犯罪网络。评论区只有一条，乙二醇梗。",
+      "score": 23,
+      "title": "Pinot Noir: inside the criminal gangs making fake wine",
+      "titleZh": "黑皮诺：潜入制售假酒的犯罪团伙",
+      "url": "https://www.economist.com/interactive/2026/11/06/pinot-noir-inside-the-criminal-gangs-making-fake-wine"
+    },
+    {
+      "by": "ilreb",
+      "comments": 175,
+      "commentsList": [
+        {
+          "by": "hedora",
+          "text": "这里好像有什么不对劲。他们拿了一段人类写的、过去出过 bug 的非平凡代码，把整个库做了形式化验证，结果零 bug？我相信让 LLM 写证明是可能的，但我不相信被验证的系统里真的零 bug。我怀疑是定理写错了，或者只证明了系统的狭窄性质。我让 Claude 形式化验证过加密和数据存储格式，它写的定理看起来没问题，形式化验证也通过了，但结果代码里还是有大量 bug。"
+        },
+        {
+          "by": "thibsrn",
+          "text": "太好了，AI 的绝佳用例。我觉得在 AI 系统的有用贡献和管控方面，Google 一直是几大玩家里最干净的。这个新的证明 agent 似乎并没有挑战规约本身，只是挑战实现，如果我理解没错的话。我想知道这个 agent 和经典编码 agent 到底有什么不同，到头来它似乎工作方式相同，一边遍历代码库一边写 Lean 或 Rocq 代码并运行。"
+        },
+        {
+          "by": "Mizza",
+          "text": "我预计很快，也许两三年内，在我们的系统上运行任何未经验证的软件都会显得疯狂，就像现在回看 Telnet 或明文 HTTP 觉得疯狂一样。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50439193",
+      "id": "50439193",
+      "note": "DeepMind 的形式化验证 AI：让 LLM 写 Lean/Rocq 证明来验证代码。评论区最大的疑问是——验证了整个库却零 bug，定理本身是不是写窄了。",
+      "score": 571,
+      "title": "AlphaProof Code",
+      "titleZh": "AlphaProof Code",
+      "url": "https://deepmind.google/blog/introducing-alphaproof-code/"
+    },
+    {
+      "by": "paulirish",
+      "comments": 71,
+      "commentsList": [
+        {
+          "by": "surround",
+          "text": "以下是这些技能会让你的 agent 使用的浏览器功能，它们在 Chrome 里是稳定的，但 Firefox 和 Safari 不支持：CSS @function、CSS calc-size()、CSS interpolate-size、CSS corner-shape、CSS border-shape、CSS flex-wrap: balance、CSS text-fit、CSS text-decoration-skip-spaces、CSS scroll-axis-lock、CSS scroll-target-group、CSS :target-current、CSS scroll-initial-target、CSS container scroll-state queries、scrollsnapchange 事件、scrollsnapchanging 事件、HTML focusgroup、Element.startViewTransition()、CSS view-transition-scope、Interest Invokers（interestfor）、LanguageModel（Prompt API）……"
+        },
+        {
+          "by": "simonw",
+          "text": "发行建议：除了现在的 npm 包之外，再搭个 GitHub Pages，发布一份 skills 的 Markdown 索引文档，地址是 https://googlechrome.github.io/modern-web-guidance-src/skill...（目前是 404）。那个索引页应该链接到所有文档的纯 Markdown 版本，并且要方便用 grep 搜索。这样我什么都不用装——只要我的 agent 能发起 HTTP 请求，我就可以告诉它“去 https://googlechrome.github.io/modern-web-guidance-src/skill... 上看看提示”。"
+        },
+        {
+          "by": "advisedwang",
+          "text": "Chrome 在浏览器标准世界里已经权力太大了。我们最不需要的就是让所有人的 LLM 都跟着 Chrome 团队的指导来做 Web 开发。这条路通向“请使用[主流浏览器]查看本站”。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/c2ea2bc9b3d4c316189b1838136d3631aec3ba5adccbe5e241c9f2b51288175f/GoogleChrome/modern-web-guidance",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443812",
+      "id": "50443812",
+      "note": "Chrome 团队出品的 agent 技能包，教编码 agent 用现代 Web API 写代码。评论区火药味不小：有人列了一长串仅 Chrome 支持的特性，有人担心这是新一轮浏览器霸权。",
+      "score": 250,
+      "title": "Show HN: Get your coding agent off ~2019 JavaScript, onto modern web primitives",
+      "titleZh": "Show HN：让你的编码 agent 告别 ~2019 年的 JavaScript，用上现代 Web 原语",
+      "url": "https://github.com/GoogleChrome/modern-web-guidance"
+    },
+    {
+      "by": "moooooky",
+      "comments": 6,
+      "commentsList": [
+        {
+          "by": "mzajc",
+          "text": "这是一篇非常 neat、通俗易懂的文章，但最终结果真的算 hack 吗？据我理解，你是在自己拥有、并已和手机配对的设备上拿到一个无特权 shell；这差不多相当于在手机上装个终端模拟器，只不过这次是智能眼镜。拥有自己设备的权利，真的应该被当作漏洞报告给安全团队吗？"
+        },
+        {
+          "by": "RobMurray",
+          "text": "真可悲，现在在自己拥有的设备上拿到 shell 竟然被当成漏洞。"
+        },
+        {
+          "by": "frenchsalmon",
+          "text": "不错。不过软件升级后还稳吗？另外看起来是在应用沙箱里任意代码执行，所以没有持久化？"
+        }
+      ],
+      "cover": "https://p0pcycle.com/wp-content/uploads/2026/11/image-3.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50406224",
+      "id": "50406224",
+      "note": "在自己拥有的眼镜上拿到 shell 就算“黑客行为”？评论区在争：拥有设备的人拿 shell，到底算漏洞还是算权利。",
+      "score": 25,
+      "title": "Hacking the meta ray-ban smartglasses",
+      "titleZh": "黑掉 Meta Ray-Ban 智能眼镜",
+      "url": "https://p0pcycle.com/2026/11/06/hacking-the-meta-ray-ban-smartglasses/"
+    },
+    {
+      "by": "pixelpoet",
+      "comments": 65,
+      "commentsList": [
+        {
+          "by": "bmenrigh",
+          "text": "消费级（AM5）Zen4 和 Zen5 最糟糕的地方就是 I/O 芯片和上面的内存控制器。我听说他们终于要在 Zen6 上用小得多的制程做新的 I/O 芯片了。他们现有的 AM5 Zen4/5 内存控制器在双通道下简直糟糕，超过 3600 MT/s 极其困难甚至不可能。在我对 Zen6 的期待里，改进的内存控制器排第一。"
+        },
+        {
+          "by": "joebonrichie",
+          "text": "2-ahead 分支预测里的指令级并行真的很酷，我知道 Zen5 也有这个功能，但内存相对核心实在太慢了，这种复杂设计居然还值得做，真是疯狂。"
+        },
+        {
+          "by": "Aardwolf",
+          "text": "“AMD 把整数乘法单元从 3 个减到 2 个，PDEP 和 PEXT 的吞吐量也从每周期 3 条指令降到 2 条。”PDEP 和 PEXT 是不是和乘法共用（部分）电路（它们是非常不同的操作……），还是说这只是两处独立的电路缩减，措辞有点不清楚？"
+        }
+      ],
+      "cover": "https://substackcdn.com/image/fetch/$s_!R25V!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2Fff0ea2d4-ea2d-440b-ad51-1bc99a695511_2022x1382.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50443090",
+      "id": "50443090",
+      "note": "Chips and Cheese 深度解析 Zen 6 架构，重点在内存子系统。评论区最期待的是新 I/O 芯片终于能解决 AM5 内存控制器拉胯的问题。",
+      "score": 178,
+      "title": "AMD's Zen 6 Family: Feeding the Beast",
+      "titleZh": "AMD Zen 6 家族：喂饱这头巨兽",
+      "url": "https://chipsandcheese.com/p/amds-zen-6-family-feeding-the-beast"
+    },
+    {
+      "by": "gmays",
+      "comments": 42,
+      "commentsList": [
+        {
+          "by": "htrp",
+          "text": "我是一名常驻旧金山的研究者。我喜欢想象世界将走向何方，以及抵达那里需要什么。我在斯坦福读了计算机科学博士，设计长上下文架构用于序列建模和记忆。在此之前，我在康奈尔学习数学和物理。最近，我是 Cartesia 的研究科学家，从事上下文内分词和新型架构（HNets）的工作。不是 MSL 的那个 Alex Wang"
+        },
+        {
+          "by": "derefr",
+          "text": "它解决的问题，和“思维链”（内心独白）在人脑中解决的问题是一样的：你有很多东西“知道”，它们是以你听过、读过的词的情景记忆形式存在的，但还没通过练习内化成反射反应。获得一段词的记忆，比获得一整项新技能要快得多、便宜得多，所以从给定的训练语料里，你最终获得的词的记忆远多于具体技能。推理（也就是把那些记住的词冒泡到你的心理上下文中，然后用一种特殊的触发机制把它们有效地……）"
+        },
+        {
+          "by": "vova_hn2",
+          "text": "我很确定，把链式思考推理烘焙进权重里这种当前做法不是终点。这看起来太偶然、太临时了。附言：那只动画小鸟真的太神奇了！"
+        }
+      ],
+      "cover": "https://alexwang.ai/images/share-card_hu_829bd88f1595308b.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50445013",
+      "id": "50445013",
+      "note": "一篇思辨长文：把推理比作寻路。评论区有人用“内心独白”类比——链式思考就是把零散的记忆调进上下文的便宜办法。",
+      "score": 94,
+      "title": "What objective is reasoning solving?",
+      "titleZh": "推理到底在解决什么目标？",
+      "url": "https://alexwang.ai/posts/reasoning-as-pathfinding/"
+    },
+    {
+      "by": "ingve",
+      "comments": 45,
+      "commentsList": [
+        {
+          "by": "jollyllama",
+          "text": "和 Objective-See 的 TaskExplorer 比怎么样？[0] [0] https://objective-see.org/products/taskexplorer.html"
+        },
+        {
+          "by": "mzs",
+          "text": "https://github.com/microsoft/Procexp-Mac/issues/1 这个仓库缺一个 LICENSE 文件 #1 Open 描述 @microsoft-github-policy-service bot 于 7 月 9 日开启"
+        },
+        {
+          "by": "teh_klev",
+          "text": "有一期“Scott and Mark Learn”，Mark Russinovich（原版 Process Explorer 和其他 Sysinternals 工具的作者）和 Scott Hanselman 聊了他是怎么为 macOS 做 Process Explorer 的：https://youtu.be/U-_Y9PX_ESI"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/9ad8e34c2030b6b6187333724c07b0e80db78addc021921e02d84f41d3257ff2/microsoft/Procexp-Mac",
+      "hnUrl": "https://news.ycombinator.com/item?id=50433216",
+      "id": "50433216",
+      "note": "微软把 Sysinternals 的 Process Explorer 移植到了 macOS。评论区在问和 Objective-See 的 TaskExplorer 比如何，顺带挖出仓库缺 LICENSE 的 issue。",
+      "score": 132,
+      "title": "Process Explorer for macOS",
+      "titleZh": "macOS 版 Process Explorer",
+      "url": "https://github.com/microsoft/Procexp-Mac"
+    }
+  ],
+  "mood": "今天偏硬核系统话题：芯片、专利、域名、智能家居轮番上阵，AI 安全和形式化验证也来凑热闹。"
+}
