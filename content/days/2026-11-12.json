@@ -1,0 +1,367 @@
+{
+  "date": "2026-11-12",
+  "highlights": [
+    {
+      "by": "doctoboggan",
+      "from": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "text": "“你有产品，我有钱，为什么非要搞得这么复杂？”——吐槽美联航与商家的敌对关系，只想做一笔简单买卖。"
+    },
+    {
+      "by": "wg0",
+      "from": "AWS emulator",
+      "text": "没有 AI 和 agent，AWS 内部没人会想到做这个模拟器——服务实在太多，人力做成本高得离谱，AI 时代的护城河变了。"
+    },
+    {
+      "by": "w-m",
+      "from": "Tim Peters has died",
+      "text": "贴出完整版 Python 之禅致敬 Tim Peters：优美胜于丑陋，明了胜于隐晦……"
+    },
+    {
+      "by": "reticulates",
+      "from": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "text": "桑迪飓风时，数据中心的超人们把 55 加仑柴油桶扛上 17 层楼给发电机续命，撑到电力恢复。"
+    },
+    {
+      "by": "irthomasthomas",
+      "from": "Nvidia is preparing to oust Jensen Huang",
+      "text": "英伟达是美国最关键的战略资产之一，创始人 CEO 在这个节骨眼出局，对美国战略姿态是重击、对中国是意外之喜，真正的故事是保护罩怎么破的。"
+    }
+  ],
+  "items": [
+    {
+      "by": "super_linear",
+      "comments": 210,
+      "commentsList": [
+        {
+          "by": "CharlieDigital",
+          "text": "不太敢用，因为不清楚这到底只是个练手项目，还是 AWS 真打算长期维护的产品。Floci 一直很好用，我也用 Testcontainers，附赠：GCP 和 Azure 也支持（不过目前只浅度用过）。https://floci.io/ https://testcontainers.com/modules/floci/"
+        },
+        {
+          "by": "scriptsmith",
+          "text": "安全页上写着：别用模拟器测试以下内容：IAM 策略与权限边界、基于资源的策略（如桶策略）、AWS KMS 密钥策略、跨账号或跨区域访问，以及任何其他安全控制。模拟器对你创建的 IAM 用户和角色会评估部分 IAM 策略，但方式与 AWS 不同；它从不拒绝用自己的密钥签名的请求，也不检查 KMS 密钥策略或 S3 桶策略，也不支持跨账号调用。"
+        },
+        {
+          "by": "wg0",
+          "text": "说实话，没有 AI 和 agent，AWS 内部没人会想到做这个——服务实在太多了，人力做成本高得离谱。不是说以前没人做过，但 fakecloud、localstack 这些……护城河没了。说真的我很震惊，这就是新常态。Agent 用一门极其难用的语言写代码，而且还丑，说实话辣眼睛。主观评价我知道，但这语言对人类太不友好了。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/795762ca028d0cf0a97974f5bf0f64cea83cd47aa0386c57f805b39d16b6c1df/aws/aws-emulator",
+      "hnUrl": "https://news.ycombinator.com/item?id=50456631",
+      "id": "50456631",
+      "note": "AWS 官方出品的本地模拟器，终于不用再折腾 LocalStack 了；评论区在争论它到底是真产品还是练手项目，以及 AI 帮 AWS 干了件人力干不起的活。",
+      "score": 633,
+      "title": "AWS emulator",
+      "titleZh": "AWS 模拟器",
+      "url": "https://github.com/aws/aws-emulator"
+    },
+    {
+      "by": "zenincognito",
+      "comments": 18,
+      "commentsList": [
+        {
+          "by": "snitty",
+          "text": "SIGBOVIK 的论文几乎篇篇都是乐子。补充：2026 年那篇写着：允许为个人使用复制本作品的部分内容；为课堂使用复制也允许，但似乎不太明智。"
+        },
+        {
+          "by": "layer8",
+          "text": "顺带一提，Java properties 文件唯一写错的方式，是出现非法的 Unicode 转义序列（“\\u” 后面没跟四个数字，且前面没有奇数个“\\”）。解析完 Unicode 转义后，任何字符序列都是合法的 properties 文件。"
+        },
+        {
+          "by": "gnabgib",
+          "text": "上榜记录：2024 年（515 分，125 条评论）https://news.ycombinator.com/item?id=40197013 2021 年（431 分，165 条评论）https://news.ycombinator.com/item?id=27929730"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50459745",
+      "id": "50459745",
+      "note": "SIGBOVIK 的经典整活论文重回榜单，顺带科普了一个冷知识：Java properties 文件几乎不可能写错。",
+      "score": 90,
+      "title": "93% of Paint Splatters Are Valid Perl Programs (2019)",
+      "titleZh": "93% 的颜料飞溅都是合法的 Perl 程序（2019）",
+      "url": "https://www.mcmillen.dev/sigbovik/"
+    },
+    {
+      "by": "ayhanfuat",
+      "comments": 86,
+      "commentsList": [
+        {
+          "by": "w-m",
+          "text": "$ python -c \"import this\" ——Python 之禅，作者 Tim Peters：优美胜于丑陋，明了胜于隐晦，简单胜于复杂，复杂胜于凌乱，扁平胜于嵌套，稀疏胜于稠密，可读性很重要……特殊情况不足以打破规则，虽然实用胜过纯粹。错误绝不应该悄悄溜走，除非明确地静默。面对模棱两可，拒绝猜测的诱惑。应该有一种——最好只有一种——显而易见的办法来做一件事，虽然这种办法一开始可能并不显而易见……"
+        },
+        {
+          "by": "leoc",
+          "text": "在他众多作品之外，正是 Tim Peters 与 Gary Robinson 把 pg 的《A Plan for Spam》一文变成了成功的 SpamBayes 程序：https://www.linuxjournal.com/article/6467 （补充：Robert Woodhead 似乎也有功劳：https://www.ceas.cc/papers-2004/136.pdf https://ceas.cc/papers-2004.html Rob Hooft 似乎也是实现者之一？不过我找不到可靠来源。）"
+        },
+        {
+          "by": "lumpa",
+          "text": "我以前会读遍 python-dev 的帖子和 bugs.python.org 上的 issue，所以能近距离围观这些我仰慕的人一起工作、讨论。Tim 一直是我最喜欢的。让我觉得和他亲近的还有一件事：他在《Python Cookbook》第二版里（和其他大牛一起）带着读者一步步拆解编程的精妙之处，“我们读 Knuth，所以你不用读”。看 Tim 干活是一种享受，他能把很深的技术剖析讲得尽可能平易近人。"
+        }
+      ],
+      "cover": "https://us1.discourse-cdn.com/flex002/uploads/python1/original/1X/f93ff97c4f381b5e8add5a0c163b4ded29f20ed7.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50450488",
+      "id": "50450488",
+      "note": "Python 之禅的作者走了，评论区贴满了 import this，向这位 Python 元老致敬。",
+      "score": 822,
+      "title": "Tim Peters has died",
+      "titleZh": "Tim Peters 去世了",
+      "url": "https://discuss.python.org/t/in-memoriam-tim-peters-1952-2026/110028"
+    },
+    {
+      "by": "herpderperator",
+      "comments": 295,
+      "commentsList": [
+        {
+          "by": "doctoboggan",
+          "text": "他们打算怎么阻止我用 Claude Code 加 Chrome 插件或其他 computer use agent？现在我感觉自己和很多商家是敌对关系。我只想要简单的“你有产品，我有钱”的关系，不想参与你们那套人类行为优化大工程。你有产品我有钱，为什么非要搞得这么复杂？不过现实是我知道这不可能实现，我会继续用我喜欢的方式访问在线商家，并尽力……"
+        },
+        {
+          "by": "cmpolis",
+          "text": "题外话：“订机票/酒店/演唱会门票”一直是 agent 自动化任务的经典示例，但这些任务其实：已经高度优化（Google Flights、SeatGeek 上两分钟搞定），不像早期网页那样卡；我希望对结果有 100% 的掌控，否则得写一长串偏好和规则（中间座、转机等）才敢信任自动化；还涉及大额付款，agent 别想随便刷我的卡；而且自己订还有点成就感……"
+        },
+        {
+          "by": "andix",
+          "text": "有人说过，航司订票页面本身就是最精密的验证码之一。不知道是不是真的，但他们显然不想让客户轻易找到最便宜的票。最好的办法是用提供 API/MCP 预订和管理的靠谱代理/旅行社。找最便宜的票仍可用 agent，预订本身手动更好，还能避免 agent 干蠢事。补充：他们可能会尝试屏蔽 agent，但用 browser use 是挡不住的。"
+        }
+      ],
+      "cover": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/11/11/abfecdbe-5571-42df-95f8-6c22131067aa/thumbnail/1200x630/526b47f241e8e11c31cb47bc82f1f68c/gettyimages-2296986024-1.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50458900",
+      "id": "50458900",
+      "note": "航司正式向 AI 代理宣战，评论区吐槽：订票页面本身就是最难的验证码，挡是挡不住的。",
+      "score": 316,
+      "title": "United Airlines bans AI agents from booking flights on behalf of travelers",
+      "titleZh": "美联航禁止 AI 代理替旅客订票",
+      "url": "https://www.cbsnews.com/news/united-airlines-bans-ai-agents-booking-flights/"
+    },
+    {
+      "by": "gslin",
+      "comments": 19,
+      "commentsList": [
+        {
+          "by": "woodruffw",
+          "text": "这篇建议真的很好（Hugo 一贯水准），但作为 zizmor 的维护者，我想提醒当前 workflow lockfile 的几个注意事项：它们只锁定普通的 action 调用；如果你的 workflow 调用了其他可复用 workflow，目前仍需手动 hash 锁定；复合 action 本身不被锁定，而是通过调用它们的 workflow 间接锁定。这让每个使用 lockfile 的调用方都是安全的，但也让当前 gh actions-lock 的默认行为不安全（因为它会移除 hash-……）"
+        },
+        {
+          "by": "ashishb",
+          "text": "GitHub Actions 默认配置还有不少其他坑，顺便修了吧：缺少 timeout、默认权限过宽、缺少缓存。https://ashishb.net/programming/common-pitfalls-of-github-ac..."
+        },
+        {
+          "by": "Already__Taken",
+          "text": "引用一句忘了出处的博客：你把对仓库所有者不移动 tag 的信任，换成了对合并 commit hash 的人的信任——他得确认那是你要的仓库里的一个 release，而不是某个 fork 的 commit。GitHub 上所有 fork 都是同一个仓库，你可以 pin 任意 commit，不管有没有合并到上游。我认为 GitHub 应该强制要求 Marketplace 发布必须使用不可变 tag。"
+        }
+      ],
+      "cover": "https://hugovk.dev/blog/2026/lock-github-actions/feature.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50459485",
+      "id": "50459485",
+      "note": "讲怎么把 Actions 依赖钉死防供应链攻击，zizmor 作者亲自来评论区补充了几个注意事项。",
+      "score": 98,
+      "title": "Lock Your GitHub Actions",
+      "titleZh": "锁定你的 GitHub Actions",
+      "url": "https://hugovk.dev/blog/2026/lock-github-actions/"
+    },
+    {
+      "by": "mbac32768",
+      "comments": 196,
+      "commentsList": [
+        {
+          "by": "reticulates",
+          "text": "这篇文章让我想起桑迪飓风冲垮纽约一批数据中心、人们扛着柴油上楼给发电机续命的时候。“数据中心的超人们正把 55 加仑的柴油桶扛上 17 层楼。假设转运速度能超过消耗速度，数据中心就能撑到电力恢复。Con Edison 对曼哈顿下城的最新估计是 4 天。（纽约证券交易所明天照常开市，同样靠发电机供电。）”https://news.ycom"
+        },
+        {
+          "by": "hackermailman",
+          "text": "文章里他说自己住得离公司只有几分钟路程，还到处跟人讲，结果就成了紧急值班员。我也一样，蠢到跟所有人说“从我家能看到办公室”，于是每逢节假日、收到即将爆出的漏洞风声、又没法远程处理时，就会接到惊慌失措的电话，让我跑去关服务器。其他人都住在要坐轮渡或通勤火车的地方。"
+        },
+        {
+          "by": "rdl",
+          "text": "奇怪的是他们居然连最基本的都没有：1）在数据中心内部设一个物理紧急断电（EPO）按钮，一键断掉所有设备的电——按建筑规范这通常是数据中心的必备项……2）把 EPO 与烟雾报警联动，检测到烟雾时自动断电（可以带延时）。"
+        }
+      ],
+      "cover": "https://michael.bacarella.com/assets/mbacface.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50455394",
+      "id": "50455394",
+      "note": "灭火系统差点把机房泡了的惊险实录，评论区顺带回忆起桑迪飓风时人工搬柴油上楼的往事。",
+      "score": 397,
+      "title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+      "titleZh": "一次误报的烟雾报警差点淹了 Jane Street 在纽约唯一的数据中心",
+      "url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/"
+    },
+    {
+      "by": "iamdelirium",
+      "comments": 76,
+      "commentsList": [
+        {
+          "by": "eminence32",
+          "text": "有点惊讶大家花了这么久才意识到“哦对，这东西应该放进产品线”。但也许这就是那种事后看才显而易见的东西？我确信几年前就有人尝试过类似的东西，比如用语法约束输出（例如只输出简单的 JSON 结构），但那样拿不到模型的概率。这让我好奇：这些模型是怎么算出概率的？"
+        },
+        {
+          "by": "kodoman",
+          "text": "我还没用过决策模型，现在大家都是怎么用的？有人在 Pi 这样的编程 harness 里用吗？"
+        },
+        {
+          "by": "2001zhaozhao",
+          "text": "我们差不多到了 AI 便宜到离谱的地步：传 10 万 token 的上下文，再问几百个各 100 token 的问题，成本大概相当于一次 Google 搜索 API 调用。几百个问题里大多数甚至可以是同一问题的不同变体，以捕捉单次多选题无法呈现的细微差别。"
+        }
+      ],
+      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini__decisions__blog-header_2784x1566.width-1300.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50456791",
+      "id": "50456791",
+      "note": "Google 新推的决策模型 API，能直接输出带概率的判断，评论区在算这玩意便宜到什么程度。",
+      "score": 242,
+      "title": "Gemini Decisions API",
+      "titleZh": "Gemini Decisions API",
+      "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/"
+    },
+    {
+      "by": "ggcr",
+      "comments": 48,
+      "commentsList": [
+        {
+          "by": "jefurii",
+          "text": "“[我们]在此声明，打算使用和开发一个不含 LLM 生成贡献的 Emacs 版本，无论 GNU 最终决定什么政策。我们请他们权衡利弊、做出正确的决定，那样我们会继续支持他们。但如果他们不愿意，我们还是会继续使用和开发无 LLM 的 Emacs 版本，哪怕它不是 GNU Emacs。”https://human-emacs.org/"
+        },
+        {
+          "by": "vhantz",
+          "text": "“我相信，一个足够有兴趣的 Emacs 开发者，拿着 100 美元的套餐和一个长周末，就能做出相当不错的第一版。至今没人做出来，恰恰说明没人真的那么想要这些东西，他们只是想聊聊而已。扯皮的消失看起来不是明显的损失，但其实损失巨大。想象一下，如果每个科学家都只去翻已经写好的书、关起门来做研究、不再和同行讨论……”"
+        },
+        {
+          "by": "russfink",
+          "text": "“AI 把 Stallman 的软件自由目标整个颠倒了过来：让你的电脑做你想象中的任何事——这才是真正的自由。唯一的代价是你完全不知道它是怎么运作的。没人知道。”"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50458208",
+      "id": "50458208",
+      "note": "关于 Emacs 社区分裂与 LLM 贡献之争的长文，评论区金句不少。",
+      "score": 134,
+      "title": "Emacs in the Age of Magic",
+      "titleZh": "魔法时代的 Emacs",
+      "url": "https://commandlinesystems.com/magic.txt"
+    },
+    {
+      "by": "iceboundrock",
+      "comments": 10,
+      "commentsList": [
+        {
+          "by": "jamesy0ung",
+          "text": "我注意到 Golden Gate 仍自带 x86_64 内核（不是 kernelcache），不知道有没有用……（贴了 sw_vers 与 file 命令输出，显示 Darwin 内核版本 27.2.0，x86_64 架构）"
+        },
+        {
+          "by": "yjftsjthsd-h",
+          "text": "所以，基本上就是一个不需要宿主操作系统的模拟层？（我对跑 Darwin 本身没什么兴趣，但这个概念很酷）"
+        },
+        {
+          "by": "schmeichel",
+          "text": "太棒了，我一直在找这样的项目，想用它跑 https://github.com/seedds/nxnative，在 iOS 上玩我的 BOTW 备份。谢谢分享，今晚就试试。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/f5bce919719af392c7f876436ed71ebe17e80a4fde0fd39a9c5d39b63f7a0a16/tylertms/Stela",
+      "hnUrl": "https://news.ycombinator.com/item?id=50460154",
+      "id": "50460154",
+      "note": "想在 x86 机器上跑 Apple Silicon 生态的实验性项目，刚起步但想法很大胆。",
+      "score": 27,
+      "title": "A general purpose Apple Silicon layer for x86-64 PCs",
+      "titleZh": "面向 x86-64 PC 的通用 Apple Silicon 层",
+      "url": "https://github.com/tylertms/Stela"
+    },
+    {
+      "by": "bolau",
+      "comments": 72,
+      "commentsList": [
+        {
+          "by": "smlavine",
+          "text": "网站里完全没提原作者？"
+        },
+        {
+          "by": "tiborsaas",
+          "text": "我觉得文件管理太让人困惑了，没有清晰的游戏循环，我有点懵：签名是什么意思、其他文件是干嘛的、怎样算成功。《请出示文件》的思维模型要简单得多。"
+        },
+        {
+          "by": "Fraterkes",
+          "text": "要是有个统计，画出历年来登上 Show HN 首页的作品平均花了多少制作时间，那就很有意思了。"
+        }
+      ],
+      "cover": "https://termsheetplease.com/assets/social-preview.png?v=title-only-20261110",
+      "hnUrl": "https://news.ycombinator.com/item?id=50457230",
+      "id": "50457230",
+      "note": "玩梗小游戏：当 YC 投资人批文件，评论区吐槽游戏规则太绕、原作也没署名。",
+      "score": 159,
+      "title": "Show HN: I recreated Papers Please but you're deciding which YC startups to fund",
+      "titleZh": "Show HN：我复刻了《请出示文件》，但这次你要决定资助哪些 YC 创业公司",
+      "url": "https://termsheetplease.com/"
+    },
+    {
+      "by": "thefox96",
+      "comments": 18,
+      "commentsList": [
+        {
+          "by": "lukasc-ch",
+          "text": "已经有人在复现并制作 GGUF 了 https://www.reddit.com/r/LocalLLaMA/s/36atJ2nNjh"
+        },
+        {
+          "by": "Rabbit504030201",
+          "text": "https://huawei-csl.com/blog/macaq/ 为什么有些 HN 用户似乎更喜欢 GitHub 页面，哪怕有官方网站？我是说，华为还在制裁名单上，他们在海外托管的任何东西随时可能消失。"
+        },
+        {
+          "by": "mocchibird",
+          "text": "他们发布模型了吗？看起来对 Strata 不错"
+        }
+      ],
+      "cover": "https://repository-images.githubusercontent.com/1452417816/74bc9106-306c-4e93-96da-77dcff2e0d77",
+      "hnUrl": "https://news.ycombinator.com/item?id=50458166",
+      "id": "50458166",
+      "note": "华为放出了自家量化工具，已有人在复现并做 GGUF，适合本地跑模型的人关注。",
+      "score": 52,
+      "title": "Huawei releases MACaQ, its internal quantizer for local inference",
+      "titleZh": "华为开源 MACaQ，内部用的本地推理量化器",
+      "url": "https://github.com/huawei-csl/MACaQ"
+    },
+    {
+      "by": "cobbal",
+      "comments": 14,
+      "commentsList": [
+        {
+          "by": "dang",
+          "text": "相关链接：原版犹他茶壶（1.4L）有现货 https://news.ycombinator.com/item?id=31178947 ——2022 年 4 月（7 条评论）；计算机历史博物馆为什么收藏一把传奇茶壶 https://news.ycombinator.com/item?id=29259548 ——2021 年 11 月（1 条评论）；Show HN：Teapong——给 Pong 和犹他茶壶粉丝的双人游戏 https://news.ycombinator.com/item?id=22137758 ——2020 年 1 月（12 条评论）；贝塞尔曲线与曲面：犹他茶壶 https://news.ycombinator.com/item?id=19690575 ——2019 年 4 月（7 条评论）；犹他茶壶：计算机图形学史上最重要的物体……"
+        },
+        {
+          "by": "apitman",
+          "text": "我在犹他大学工作。几年前他们办过一场非常棒的图形学研讨会，我拿到一张茶壶渲染图，上面有几位演讲者的签名，是我的珍藏。还有个人带了一把真正的茶壶复制品来签名，我挺嫉妒的。可惜 Alan Kay 没能来，所以没见到他。https://www.youtube.com/watch?v=ui3R1Dlmsk0"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50457618",
+      "id": "50457618",
+      "note": "计算机图形学最著名的茶壶，犹他大学官网的专题页，怀旧向。",
+      "score": 62,
+      "title": "The Utah Teapot",
+      "titleZh": "犹他茶壶",
+      "url": "https://graphics.cs.utah.edu/teapot/"
+    },
+    {
+      "by": "jbredeche",
+      "comments": 374,
+      "commentsList": [
+        {
+          "by": "irthomasthomas",
+          "text": "英伟达是当今美国最关键的战略资产之一，支撑着经济主导地位和国防。到了这个层级，领导层通常有一层隐性保护罩，正常做法是掩盖。创始人兼 CEO 在这个节骨眼上突然出局，对美国的战略姿态是一记重击，对中国则是意外之喜。我认为真正的故事不是绯闻（亚洲媒体 2024 年就报过），而是到底是什么催化剂打破了那层保护罩，让继续掩盖变得不可持续。"
+        },
+        {
+          "by": "at1as",
+          "text": "如果这发生在更新近的创始人主导型科技公司，董事会的实际独立性会弱得多。双层股权结构已成为创始人主导公司的事实标准，赋予创始人不成比例（甚至多数）的投票权。像扎克伯格这样的人实际上控制着董事会，除非有特殊的法律干预或他自己决定让位，否则极难违背他的意愿赶他下台。"
+        },
+        {
+          "by": "threecheese",
+          "text": "这事相当大；以我外行的看法，黄仁勋负责的是长期技术战略，这需要对业务之外的很多领域有深刻理解。我对他们“吃掉世界”的做法并不感冒（比如收购 hf 就让我很不爽），但他们确实执行了一些长期复杂的大事。谁能接替他？"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50459703",
+      "id": "50459703",
+      "note": "WSJ 爆料：英伟达董事会准备换掉黄仁勋，评论区在讨论创始人与董事会权力的老问题。",
+      "score": 373,
+      "title": "Nvidia is preparing to oust Jensen Huang",
+      "titleZh": "英伟达正准备赶走黄仁勋",
+      "url": "https://www.wsj.com/business/nvidia-is-preparing-to-oust-nvidia-ceo-jensen-huang-30f421ad"
+    }
+  ],
+  "mood": "今天偏沉重又偏热闹：Python 之禅作者 Tim Peters 去世、英伟达换帅传闻、美联航向 AI 代理宣战，AI 与 infra 仍是主角。"
+}
