@@ -1,0 +1,371 @@
+{
+  "date": "2026-11-13",
+  "highlights": [
+    {
+      "by": "keeda",
+      "from": "Jensen Huang resigns",
+      "text": "别急着定罪“走私芯片”：按报道这是美国政府抽成的合法操作，该骂的是政府不是公司。"
+    },
+    {
+      "by": "wds",
+      "from": "Gemini 4 Hydrogen",
+      "text": "一觉醒来默认模型变成“氢”，元素周期表命名法根本分不清谁强谁弱。"
+    },
+    {
+      "by": "spdustin",
+      "from": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "text": "这是 LLM 最好的样子——让普通人自己动手，解决厂商的订阅绑架。"
+    },
+    {
+      "by": "faresahmed",
+      "from": "Relax: JIT compiler for Rust to reduce build times",
+      "text": "缩短“写代码到运行”的间隔，从 Lisp 到 Bret Victor，几十年了大家还在重新发现这件事。"
+    },
+    {
+      "by": "logophobia",
+      "from": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "text": "都得先有数据库账号才能利用，叫 RCE 有点夸张，更像是提权。"
+    }
+  ],
+  "items": [
+    {
+      "by": "lldb",
+      "comments": 2718,
+      "commentsList": [
+        {
+          "by": "keeda",
+          "text": "别急着认定英伟达绕过出口禁令、叛国卖芯片给中国——按报道这是合法操作，美国政府还从中抽成。英伟达就是一家利润最大化的公司，处在一个利润最大化的经济里，该批评的是美国政府。"
+        },
+        {
+          "by": "irishloop",
+          "text": "很多人低估了 CEO 的工作有多少是“形象管理”。他是全球最受关注行业里最受关注的 CEO 之一，整个 AI 经济都依赖英伟达，“稳定”的形象极其重要。光是“与和中国政府关系密切的人有染”这种说法，碰上出口管制，就是巨大的公关问题。"
+        },
+        {
+          "by": "duplessitous",
+          "text": "希望大家明白，绯闻不是他被解雇的原因——据报道英伟达涉嫌绕过上届政府为国家安全设立的出口禁令。不管你认不认同这项禁令，它确实存在，如果属实，英伟达麻烦大了。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50467087",
+      "id": "50467087",
+      "note": "榜首大新闻：辞职背后牵出出口管制与绯闻传闻，评论区在争论到底是“绕过禁令”还是“政府合法抽成”。",
+      "score": 2868,
+      "title": "Jensen Huang resigns",
+      "titleZh": "黄仁勋辞职",
+      "url": "https://apnews.com/article/nvidia-megaspeed-china-singapore-huang-5403f152a601cf82ce939f1d24fffa0f"
+    },
+    {
+      "by": "dkpk",
+      "comments": 431,
+      "commentsList": [
+        {
+          "by": "beowulfey",
+          "text": "状态页不太好用，不过我订阅了 RSS 源，它会定期推送更新。UTC 时间 21:02：我们已在部分受影响基础设施上验证了替代健康检查方法，让这部分服务器恢复服务，现正推广到更大范围。同时还在准备自动恢复流程，持续检测并重启无响应的服务器。"
+        },
+        {
+          "by": "tatersolid",
+          "text": "我上一封收到的邮件是 5.5 小时前。Teams 聊天和会议是唯一还能用的东西。Azure 基础设施似乎都没事，所以这是 365 特有的问题。偶尔宕机谁都有，但这是我们 2019 年开始用 M365 以来最严重的一次。"
+        },
+        {
+          "by": "soundworlds",
+          "text": "微软更新：“我们已在部分受影响基础设施上验证了替代健康检查方法，让这部分服务器恢复服务，现正推广到更大范围。”同时还在准备自动恢复流程，持续检测并重启无响应的服务器。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50471731",
+      "id": "50471731",
+      "note": "微软 365 大面积故障，邮件停了 5.5 小时，有用户称是 2019 年用上 M365 以来最严重的一次宕机。",
+      "score": 464,
+      "title": "Service degradation on Microsoft 365",
+      "titleZh": "Microsoft 365 服务降级",
+      "url": "https://status.cloud.microsoft/"
+    },
+    {
+      "by": "dvaplima",
+      "comments": 292,
+      "commentsList": [
+        {
+          "by": "wds",
+          "text": "这次是立刻就上线了——我刚去用 Gemini，发现 3.8 Flash 被换成了“4 Hydrogen”，第一反应不是兴奋而是“这啥？”，然后跑来这里搞明白。用元素、分子给需要互相比较的产品命名，实在没什么帮助。直觉上我会觉得氢比氩强……真不喜欢这种命名趋势。"
+        },
+        {
+          "by": "ComputerGuru",
+          "text": "既然它 a）在搜索里提供，b）号称比 3.8 Flash 快 2.5 倍，c）是原子量最小的元素，我推断：虽然比 3.8 Flash 更强，但它现在是取代 3.5 Flash Lite 的“入门级”模型。可它的定价和未打折的 3.8 Flash 一样，远高于现在大家实际付的 3.8 Flash 或 3.5 Flash Lite 价格。这是怎么回事？Google 是要放弃“又快又便宜”这一档吗？"
+        },
+        {
+          "by": "tobias2014",
+          "text": "还有人因为在命令行用 agy 就被封号吗？“该服务已因违反服务条款在你的账号上被停用……”客服说无能为力，连原因都看不到，只给了个表单，连个文本框都没有，只有一个“我理解服务条款，请复查”的复选框。我申诉了，几分钟内似乎自动处理通过了，agy 又能用了一个 prompt，然后又被封了。"
+        }
+      ],
+      "cover": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-4-hydrogen__key-art__lockup__16-9.width-1300.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471431",
+      "id": "50471431",
+      "note": "Google 发布 Gemini 4 Hydrogen，号称比 3.8 Flash 快 2.5 倍，已直接替换搜索里的默认模型；但元素周期表命名被吐槽分不清强弱。",
+      "score": 451,
+      "title": "Gemini 4 Hydrogen",
+      "titleZh": "Gemini 4 Hydrogen 发布",
+      "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+    },
+    {
+      "by": "mbStavola",
+      "comments": 159,
+      "commentsList": [
+        {
+          "by": "nirinor",
+          "text": "好耶，这次发布真大！我个人最喜欢的：never type 稳定、自定义分配器稳定、引入最低发布年龄配置（也叫依赖冷却期）：设置后解析器会忽略近期发布的版本，除非已在 Cargo.lock 里（RFC 3923）。cargo install 现在默认使用 .crate 包里已有的 lockfile，--locked 成了空操作。"
+        },
+        {
+          "by": "n_u",
+          "text": "Cargo 现在会向用户报告未使用的依赖，例如：warning: unused dependency `tracing-subscriber`……太好了。"
+        },
+        {
+          "by": "ammar_az",
+          "text": "这版大到好多有用的稳定 API 博客里都没提，比如 bool::toggle()、Box::map()、str::trim_prefix()、str::trim_suffix()、Path::trim_prefix()。"
+        }
+      ],
+      "cover": "https://www.rust-lang.org/static/images/rust-social-wide.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472038",
+      "id": "50472038",
+      "note": "never type 稳定、自定义分配器、依赖冷却期等，评论说这版大到博客都没写全，还有一堆没提到的稳定 API。",
+      "score": 379,
+      "title": "Rust 1.100",
+      "titleZh": "Rust 1.100 发布",
+      "url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/"
+    },
+    {
+      "by": "simpsoka",
+      "comments": 128,
+      "commentsList": [
+        {
+          "by": "spdustin",
+          "text": "我默认是 Claude 干了大部分活（都 2026 年第四季度了，概率站在我这边），如果是这样：这是 LLM 如何赋能用户、让他们自己动手解决问题的最佳例子之一。看到这样的项目，我想的不是后续维护或会不会被抛弃，而是“哇，我没想到还能这样，现在我也要试试”。"
+        },
+        {
+          "by": "gregsadetsky",
+          "text": "这正好是我的领域。我那位极其天才的朋友 Owen Trueblood 逆向了 Brother PE-150，还做了块替代主板，通过 USB 控制它。PE-150 是绣花圈子荒诞/悲哀的典型：如今 eBay 上 100 美元就能买到功能完好的机器，却因为专用卡带里存着专有数据、没人想折腾而被抛弃。就连现在带 USB 接口的新款 Brother 机器，也还逼你用难用的 App 并锁定你。"
+        },
+        {
+          "by": "rocmcd",
+          "text": "对这个领域感兴趣的话，也推荐看看 InkStitch，一个 Inkscape 插件，可以把 SVG 导出成绣花机能用的文件格式。它也不是没有毛病——设计转针迹需要相当多的讲究（针迹位置、大小、类型、分层等），但把 SVG 变成实物是很有趣的体验。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/42f0380d88ba7f710b122716b8de994bc7e525d0d677c8180f9cf6902f80cb6b/simpsoka/zigzag",
+      "hnUrl": "https://news.ycombinator.com/item?id=50470488",
+      "id": "50470488",
+      "note": "绣花机要订阅才能用，他自己写了个开源替代；LLM 时代“自己动手解决厂商绑架”的典型样本。",
+      "score": 307,
+      "title": "Show HN: My $300 embroidery machine needed a subscription, so I built my own app",
+      "titleZh": "Show HN：300 美元绣花机要订阅，我自己写了个 App",
+      "url": "https://github.com/simpsoka/zigzag"
+    },
+    {
+      "by": "jonbaer",
+      "comments": 62,
+      "commentsList": [
+        {
+          "by": "artdigital",
+          "text": "之前 Carbon 发布后，“Gemini Hydrogen”的梗图满天飞，结果他们真发布了一个叫 Hydrogen 的模型，还挺好笑的。不过新的 Flash 模型很受欢迎，Argon 和 Carbon 都太慢了，等它们完成一个任务的时间，Opus 已经完成了好几个。所以我开始用 3.8 Flash 代替它们。（也有很大一部分原因是 agy 太难用了，做个简单任务前，Gemini 总要先把一大堆文件塞进上下文。）"
+        },
+        {
+          "by": "vegardx",
+          "text": "这本质上就是 Anthropic 的 advisor mode 和 GitHub 用 HydraFusion 模型做的多模型流水线干的事——用一组各有长短的不同模型串联起来产出答案。我不理解的是它们怎么处理缓存：看 Claude 的 advisor mode 运作方式，你似乎只按输出 token 和整个会话的缓存命中付费，比全程跑昂贵模型便宜得多。"
+        },
+        {
+          "by": "fmind-dev",
+          "text": "太棒了！不用再不停切换模型和强度了。"
+        }
+      ],
+      "cover": "https://antigravity.google/assets/image/blog/4-Hydrogen---Wide.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472260",
+      "id": "50472260",
+      "note": "Antigravity 里的多模型编排模式，不用手动切换模型和强度，有点像 Claude 的 advisor mode；但评论吐槽 Gemini 慢、agy 难用。",
+      "score": 281,
+      "title": "Gemini 4 Hydrogen and Orchestrator",
+      "titleZh": "Gemini 4 Hydrogen 与 Orchestrator（Antigravity）",
+      "url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/"
+    },
+    {
+      "by": "mrashad74",
+      "comments": 92,
+      "commentsList": [
+        {
+          "by": "Farmadupe2",
+          "text": "过去五个月左右，Opus 和 Fable 都能用一条 prompt 一次性完成这种任务。推理引擎几乎就是纯计算，粗略地说，硬件要支持 LLM 推理唯一需要的操作就是乘法（其余只是“一些三角函数”）。所以要让任何模型在旧硬件上跑，最难的部分现在是找到硬件本身、给 agent 开 SSH 权限——现代 agent 能自己找编译器、写实现、优化、在 QEMU 里测试并推送。"
+        },
+        {
+          "by": "mrashad74",
+          "text": "最近我在自己的 AI 公司启动了这个开源项目，尝试让 LLM 在小而旧的设备上工作。现在已经让 16B 模型跑在第一代 iPad Air 和小米电视盒上，两者可用内存都不到 1GB，速度在给定硬件下还不错。我正在开源所做的努力、开发的内核和结果，供大家复现和推进，改过的模型也在 Hugging Face 上。"
+        },
+        {
+          "by": "nico",
+          "text": "这太酷了，很喜欢优化小模型的趋势。我一直在做本地小模型，技术进步快得惊人。一年前，我用微调的 Qwen 2.5 0.5B 做对话角色，效果还不错，但没有推理和数学能力，还需要不错的配置；但现在，我有一个本地训练的 6.5M 参数模型，能推理、解多步数学题、做简单的物理模拟、工具调用、RAG 和对话。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/fd38264ae07b398f9022282a52079a4a47562fd7332252e249375f9e8515c5fe/hyperionaidev/smolmaxxing",
+      "hnUrl": "https://news.ycombinator.com/item?id=50468888",
+      "id": "50468888",
+      "note": "16B 模型跑在一代 iPad Air 和小米电视盒上，不到 1GB 可用内存也有不错的速度，全部开源。",
+      "score": 275,
+      "title": "I'm making LLMs work on small and old devices",
+      "titleZh": "让 LLM 在又小又旧的设备上跑起来",
+      "url": "https://github.com/hyperionaidev/smolmaxxing/"
+    },
+    {
+      "by": "klaussilveira",
+      "comments": 81,
+      "commentsList": [
+        {
+          "by": "lavendermon",
+          "text": "Quake 3 试玩版是我少年时代最喜欢的游戏之一，虽然那时不被允许玩。最喜欢用火箭筒把人炸飞、用轨道炮激光扫射。我不在乎是不是 AI 做完的，只享受怀旧变得比以前更容易、更便宜这个事实。顺便说一句，魔兽世界刚推出了“WoW Forever”，怀旧服回归香草时代，第一天有几百万人尝试游玩，而且有史以来第一次大型发布会上线一切顺利，玩家登录游玩毫无卡顿。"
+        },
+        {
+          "by": "tlhunter",
+          "text": "Quake 4 还不错，就是 Doom 3 引擎套在 Quake 2 的世界观里。Quake 1 和 Quake 2 我重玩了几十次，但 Quake 4 我再也不会碰了。"
+        },
+        {
+          "by": "imbusy111",
+          "text": "不过这游戏并不好玩。几年前我试过，感觉非常迟钝，绝对不是现在值得玩的经典。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50467618",
+      "id": "50467618",
+      "note": "被放弃的 Quake 4 资料片被 modder 做完放出来了，怀旧与 AI 补完的双重话题。",
+      "score": 235,
+      "title": "Abandoned Quake 4 expansion finished by modders and now playable",
+      "titleZh": "被放弃的 Quake 4 资料片被 Modder 做完，现已可玩",
+      "url": "https://www.moddb.com/mods/openq4/downloads/openq4-0141-windows-x64"
+    },
+    {
+      "by": "cybermango",
+      "comments": 92,
+      "commentsList": [
+        {
+          "by": "ddahlen",
+          "text": "有兴趣的话，这里有它的轨道——我以前的工作就是计算小行星和彗星的轨道。（用 wasm，适合桌面端，会下载约 65MB 的小行星星表，提醒一下）这是个大家伙。"
+        },
+        {
+          "by": "ecshafer",
+          "text": "当年把冥王星“降级”有很多负面报道和评论，但显然那是正确的决定，设立“矮行星”这个类别也是对的。当 Ceres 存在时，很难再说冥王星是行星，而 Eris、Haumea、Makemake 和所有这些可能的矮行星更是钉死了棺材板。"
+        },
+        {
+          "by": "christophilus",
+          "text": "他们甚至在 1937 年的照相底片里就找到了它。太酷了。"
+        }
+      ],
+      "cover": "https://th-thumbnailer.cdn-si-edu.com/4eu4Cs6lY_bS29DXaQHZWCxQBrs=/fit-in/1600x0/filters:focal(1024x770:1025x771)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ab/21/ab21fe86-4d88-46f9-bcc2-d385adaa2ceb/noirlab2626c.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50472490",
+      "id": "50472490",
+      "note": "冥王星之外可能又发现一颗矮行星，绕太阳一圈要 280 年，1937 年的老照片里就有它。",
+      "score": 188,
+      "title": "Dwarf planet candidate appears which takes roughly 280 years to orbit our sun",
+      "titleZh": "疑似新矮行星现身，绕太阳一圈约 280 年",
+      "url": "https://www.smithsonianmag.com/smart-news/astronomers-found-a-mysterious-object-orbiting-far-beyond-pluto-it-could-be-a-new-dwarf-planet-hidden-in-our-solar-system-180989857/"
+    },
+    {
+      "by": "ozirus",
+      "comments": 17,
+      "commentsList": [
+        {
+          "by": "logophobia",
+          "text": "如果我没理解错，这些看起来都是 SQL 注入利用，本身就已经需要某种经过认证的远程访问。它们是安全问题，但叫远程代码执行会让人觉得比实际更危险。这些更像是提权：你通过数据库账号获得访问权限，再用它拿到整台服务器的完整访问权。所以主要是多租户数据库的问题。"
+        },
+        {
+          "by": "jmuguy",
+          "text": "我更愿意称之为提权攻击，而不是 RCE。"
+        },
+        {
+          "by": "amluto",
+          "text": "哇，在我看来这已经超出“代码异味”，进入“代码恶臭”了！据文章说，Postgres 内部有个 Datum，可能是指针也可能不是指针。好吧，这本身就有点冒险。Datum 还带一个小整数类型 id，这个 id 是分开存的，大概是为了效率？可能你有很多 Datum 共用一个 id，为了效率这样做也行。只要有明确的说法保证 id 始终正确绑定到 datum 就好。但“内部”那个地方，伪造的 AST 会导致类型混淆，让我觉得这个说法不太站得住。"
+        }
+      ],
+      "cover": "https://mehmetince.net/wp-content/uploads/2026/11/postgresql-composite-type-confusion-primitive-rce-cve-2026-6460.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471761",
+      "id": "50471761",
+      "note": "22 年的老类型混淆 bug 被做成 RCE（CVE-2026-6460），但评论区不少人认为更像提权而非远程执行。",
+      "score": 138,
+      "title": "22-Year-Old PostgreSQL Bug Turned into Remote Code Execution",
+      "titleZh": "22 年历史的 PostgreSQL Bug 被做成远程代码执行",
+      "url": "https://mehmetince.net/part-3-6-how-i-ended-up-turning-a-22-year-old-postgresql-type-confusion-primitive-into-rce-cve-2026-6460/"
+    },
+    {
+      "by": "adamnemecek",
+      "comments": 46,
+      "commentsList": [
+        {
+          "by": "_cart",
+          "text": "在我看来很神奇，AI 让最棘手的工程问题之一变得商品化了。短短一个月内，我们已经有了三个“可用”的 AI 驱动、面向快速迭代的 Rust 编译器。"
+        },
+        {
+          "by": "faresahmed",
+          "text": "不知为何，总有人在某个地方重新发现：缩短写代码和代码运行之间的时间，能让我们的生活更轻松，甚至在某种程度上写出更好的程序。也许最早也是最好的尝试是 Lisp 的计算模型。从那以后，这个想法一次又一次以不同形式出现：Bret Victor 的《Inventing on Principle》、Stuart Halloway 的《REPL-Driven Development》、LIVE 研讨会。"
+        },
+        {
+          "by": "jkelleyrtp",
+          "text": "我做过类似的东西——还不确定要不要维护——但我让 Rust Analyzer 输出代码并在网页里运行。这种新的 Rust 编译守护进程概念太酷了，可以在浏览器里构建和迭代 Rust！"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50458849",
+      "id": "50458849",
+      "note": "给 Rust 加 JIT 编译器缩短构建时间，一个月内已经是第三个同类 AI 驱动项目。",
+      "score": 110,
+      "title": "Relax: JIT compiler for Rust to reduce build times",
+      "titleZh": "Relax：给 Rust 加 JIT 编译器，缩短构建时间",
+      "url": "https://makepad.github.io/relax/"
+    },
+    {
+      "by": "kermatt",
+      "comments": 13,
+      "commentsList": [
+        {
+          "by": "albertgoeswoof",
+          "text": "我一直在终端里用这些来纠正错误和建议命令。出乎意料地能打，在 M1 8GB 上（在我看来这是本地 AI 需要的最小机器）。"
+        },
+        {
+          "by": "_pdp_",
+          "text": "我已经在 Noodle 里用 Foundation Models 一段时间了，很喜欢。有一部分我还没探索，就是 Apple Private Cloud Compute，但它在我的清单上。我想可能需要特殊权限，目前只有 Siri 桌面应用才有——需要确认一下。如果你感兴趣，这是仓库。"
+        },
+        {
+          "by": "mcemilg",
+          "text": "我刚意识到 Claude 也支持 App Attest 好几个月了。不确定用得广不广。Firebase 是最实际的选择，可以直接从 iOS 应用调用 LLM，而不需要搞复杂的设置。很惊讶 Anthropic 没有更多地推广这一点。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50474361",
+      "id": "50474361",
+      "note": "苹果的端侧模型框架，有人在 M1 8GB 的终端里用它纠错、补命令，意外地能打。",
+      "score": 110,
+      "title": "Foundation Models framework",
+      "titleZh": "Foundation Models 框架（Apple）",
+      "url": "https://developer.apple.com/foundation-models-framework/"
+    },
+    {
+      "by": "anigbrowl",
+      "comments": 68,
+      "commentsList": [
+        {
+          "by": "Juvination",
+          "text": "我的应用上一次审核我等了大约两周，中间被拒了一次，那次花了 20 天。有点郁闷，但我也没办法。"
+        },
+        {
+          "by": "JodieBenitez",
+          "text": "iOS 对虚拟乐器来说简直是梦想：比桌面版便宜、便携、选择多。但网页也在变得越来越好，那里也有很多优秀的音乐应用。App Store 不是未来，想到这点感觉真好。"
+        },
+        {
+          "by": "billyp-rva",
+          "text": "我不确定苹果能做什么，潘多拉的盒子已经打开，不会再关上了。2010 年代初淘金热时应用发布就已经泛滥，我无法想象现在是什么样子。"
+        }
+      ],
+      "cover": "https://synthanatomy.com/wp-content/uploads/2026/11/AI-Apple-App-review.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50474311",
+      "id": "50474311",
+      "note": "AI 生成应用泛滥，App Store 审核排队两周起，合成器开发者叫苦；有人说潘多拉盒子已经打开，关不上了。",
+      "score": 71,
+      "title": "AI is turning Apple's app review process into a nightmare for synth developers",
+      "titleZh": "AI 让苹果的应用审核成了合成器开发者的噩梦",
+      "url": "https://synthanatomy.com/2026/11/ai-is-turning-apples-app-review-process-into-a-nightmare-for-developers.html"
+    }
+  ],
+  "mood": "今天是超级大新闻日：黄仁勋辞职刷爆榜首，微软 365 大面积宕机，Google 同日发布 Gemini 4，AI 与硬核系统话题各占半壁。"
+}
