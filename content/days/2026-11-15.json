@@ -1,0 +1,415 @@
+{
+  "date": "2026-11-15",
+  "highlights": [
+    {
+      "by": "GMoromisato",
+      "from": "SpaceX catches the Starship to end Flight 15",
+      "text": "星舰本质上是做对了的航天飞机：全复用助推器不用固体助推器（避开挑战者号悲剧），轨道器叠在顶部而非侧面（避开哥伦比亚号悲剧）。更革命的是，星舰是流水线生产的，每 4 周造一枚助推器，每 2 周造一艘飞船——这是 1970 年代向我们许诺过的未来。"
+    },
+    {
+      "by": "igorandri",
+      "from": "Lovable apps expose passport details and more than 200K private messages",
+      "text": "Lovable 安全负责人亲自现身认领：根本原因是行级安全策略不足，而这正是自家扫描工具要抓的问题——发布前自动扫描、严重问题直接阻止发布。"
+    },
+    {
+      "by": "deng",
+      "from": "Why get an expensive Pi when I have an old phone?",
+      "text": "现在我直接收坏屏的旧笔记本拆主板，又便宜、常带 16GB 内存，装 Linux 比树莓派快得多——就是比直接买树莓派麻烦点。"
+    },
+    {
+      "by": "blinkingled",
+      "from": "KDE: The documentary [video]",
+      "text": "看完 KDE 纪录片当场决定注册每月捐款，也鼓励大家这么做——三十年开源桌面，靠的就是这群文化背景各不相同的人每天把它做得更好一点。"
+    },
+    {
+      "by": "schiffern",
+      "from": "Testing a trash can Faraday cage",
+      "text": "三层锡纸加密封袋裹起来，能做到 90dB 以上的衰减，还附带防潮和机械保护——垃圾桶法拉第笼的平价替代方案。"
+    }
+  ],
+  "items": [
+    {
+      "by": "ls612",
+      "comments": 407,
+      "commentsList": [
+        {
+          "by": "GMoromisato",
+          "text": "星舰本质上是做对了的航天飞机：全复用助推器不用固体助推器（避开挑战者号悲剧），轨道器叠在顶部而非侧面（避开哥伦比亚号悲剧）。航天飞机最初的设计是让带翼助推器飞回发射场，但同时造两款新载人飞行器成本太高，才缩水成那个折中版。比航天飞机更革命的是，星舰是流水线生产的，每 4 周能造一枚助推器，每 2 周造一艘飞船。这是 1970 年代向我们许诺过的未来。"
+        },
+        {
+          "by": "small_model",
+          "text": "如果隔热罩撑得住，这将改变一切。下一步是双回收、同一艘飞船重复飞行并再次回收，那时入轨载荷成本会大幅下降，开启航天新时代。"
+        },
+        {
+          "by": "ChuckMcM",
+          "text": "向工程团队致以巨大祝贺！一路看着星舰的演进很有意思。如果助推器再多带几吨推进剂和氧化剂，他们本可能两枚都回收。最终入轨质量比会是多少还不清楚，但 100% 可复用总比 60% 可复用强。[1] 猎鹰 9 号助推器加整流罩约占发射成本的 60%（按成本而非质量计）。"
+        }
+      ],
+      "cover": "https://www.spacex.com/assets/images/share.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50500963",
+      "id": "50500963",
+      "note": "星舰第 15 次试飞收官，助推器回收成功，完全可复用离现实又近一步。",
+      "score": 603,
+      "title": "SpaceX catches the Starship to end Flight 15",
+      "titleZh": "SpaceX 回收星舰，Flight 15 试飞收官",
+      "url": "https://www.spacex.com/launches/starship-flight-15"
+    },
+    {
+      "by": "armcat",
+      "comments": 253,
+      "commentsList": [
+        {
+          "by": "igorandri",
+          "text": "我是 Lovable 的安全负责人 Igor。感谢 Crissy Field 团队的工作。这些应用的根本原因是行级安全策略（Row-Level Security）不足，而这正是我们的扫描工具要抓的问题。我们会在发布前自动扫描每个应用，还提供更深的 SAST 扫描，两者对所有用户免费。发现问题后用户可以选“修复”，Lovable 会帮忙解决；也可以开启自动修复，在后台解决安全问题；有严重问题时还会直接阻止发布。应用有了终端用户，安全就是关键一环。"
+        },
+        {
+          "by": "neathack",
+          "text": "大家好，我是这篇博文的作者。两周前我把它投到 HN，没什么热度，这次被重新提交后火了，我很高兴。欢迎提问，不过情况本身已经相当清楚了。"
+        },
+        {
+          "by": "SOLAR_FIELDS",
+          "text": "大家忽略的一点是 Supabase 也有责任：https://github.com/orgs/supabase/discussions/4547 据称 10 月 30 日已经修复了，但有报告说对已有项目，默认设置仍然生效。Lovable 用了它，确实该挨骂，但这是 Supabase 多年前为了降低新用户上手门槛而做的选择——用更少的安全换更顺滑的入驻。"
+        }
+      ],
+      "cover": "https://www.crissyfield.de/images/research-lovable-opengraph.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50499017",
+      "id": "50499017",
+      "note": "AI 编程平台 Lovable 上的应用大规模泄露护照信息与 20 多万条私信，根因是行级安全策略没配好，Vibe Coding 的安全账单到了。",
+      "score": 610,
+      "title": "Lovable apps expose passport details and more than 200K private messages",
+      "titleZh": "Lovable 应用泄露护照信息与 20 多万条私信",
+      "url": "https://www.crissyfield.de/research/lovable-en/"
+    },
+    {
+      "by": "Skyfall106",
+      "comments": 22,
+      "commentsList": [
+        {
+          "by": "femto",
+          "text": "Woz 的做法是当时 8 位机玩家写汇编的默认方式：没钱买第二台机器，就在纸上写程序，再现场输入测试。大多能一次写对，因为纸上写得慢，你有机会多想想。8 位指令集很简单，常用指令最后都能背下来。有段时间我基本能凭记忆把 Z80 程序从汇编翻成机器码。"
+        },
+        {
+          "by": "mrandish",
+          "text": "我 1981 年买了第一台电脑，一台 4K 内存的 Radio Shack Color Computer，花了 500 美元（当时是笔大开销）。所以我错过了裸机手写汇编和 Altair 拨动开关的时代。不过有几年汇编工具要么没有、要么很贵，所以常用电脑自带的 BASIC 写一个汇编语言监控程序，这类程序清单在当时的业余杂志上很常见。用 BASIC 的 POKE 指令塞一段引导程序、往寄存器里写值再跳转，也是常见做法。"
+        },
+        {
+          "by": "asdefghyk",
+          "text": "我觉得是一点一点来：先写个很小的部分，再不断扩展。新硬件首先需要一个监控程序，自己写一个或移植一个都行。监控程序可以检查和修改内存数据，也能在内存里运行程序，通常放在 ROM 里方便使用。也可以用 6502 交叉汇编器，避免手写 6502 机器码，WOZMON 大概就是这么来的。然后用 WOZMON 开始写一个非常简单的 BASIC 解释器。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50501594",
+      "id": "50501594",
+      "note": "Woz 在没有电脑的情况下怎么写出 Apple 1 的 BASIC？答案是纸上手写汇编，老派黑客的基本功。",
+      "score": 63,
+      "title": "How did Woz write the Apple 1 BASIC before building the computer?",
+      "titleZh": "Woz 在造出电脑之前，是怎么写 Apple 1 BASIC 的？",
+      "url": "https://retrocomputing.stackexchange.com/questions/17957"
+    },
+    {
+      "by": "umerf",
+      "comments": 91,
+      "commentsList": [
+        {
+          "by": "probably_wrong",
+          "text": "最近有人问我该怎么称呼自己：他没正式学过软件开发，但这不妨碍他在 GitHub 上发布 AI 驱动的 Python 项目。我建议他叫 Project Manager，他有点不高兴，因为（我猜）他想听到的是 Software Engineer，好拿去投简历。我的反驳是，抛开法律规定不谈，软件工程师至少应该能分辨好代码和坏代码。我的建议不太受欢迎。重点是，我一直惊讶于大家对头衔的期待如此南辕北辙。"
+        },
+        {
+          "by": "siva7",
+          "text": "Scrum 和 Agile 似乎正在消亡。我的简历上有 Product Owner 和 Scrum Master 证书好多年了，现在已经删了。感觉就像 90 年代中期的 webmaster 头衔一样古老，是为另一个时间线准备的，现在不再 relevant。DevOps 也是个悲伤的故事，本来是个更理智的做法，让人同时掌握开发和运维技能，结果大家并没有自己宣称的那么爱学新技能。所以它的含义在不同公司、甚至同一家公司内部都不一样。"
+        },
+        {
+          "by": "stroebs",
+          "text": "到目前为止我的职业生涯：DevOps Engineer（初级、高级、Staff）、Systems Development Engineer、DevOps Team Manager、Cloud Infrastructure Engineer、Site Reliability Engineer（加 Lead）。除了 Cloud Infrastructure Engineer，其他头衔都毫无意义，描述的都是一个通才，懂得处理模糊地带，（通常）值得托付 AWS root 账号之类的事。大多数公司根本不知道真正的 DevOps 是什么，如果知道，就不会招“DevOps Engineer”了。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50499038",
+      "id": "50499038",
+      "note": "从 webmaster 到 DevOps 再到 prompt engineer，一张“软件职位家谱”看头衔如何生灭，照镜子专用。",
+      "score": 191,
+      "title": "A family tree of software job titles",
+      "titleZh": "软件职位家谱",
+      "url": "https://zwischenzugs.com/2026/11/03/a-family-tree-of-software-job-titles/"
+    },
+    {
+      "by": "mrkn1",
+      "comments": 79,
+      "commentsList": [
+        {
+          "by": "blinkingled",
+          "text": "我是 KDE 的铁粉，家里全跑 KDE。这部片子也是一次有趣的研究：用 C++ 写桌面环境和软件，让它对大多数人都好用，到底有多难。犯错、纠正、早期搭建 Qt 这样的基础模块，还要让一群文化、品味、背景和需求各不相同的人保持动力、每天把它做得更好——这是了不起的成就。感谢 KDE 的各位，我平时以报 bug 和偶尔尝试修 bug 的方式贡献，这次我要注册每月捐款，也鼓励大家这么做。"
+        },
+        {
+          "by": "mrinf1nity",
+          "text": "KDE 就是桌面该有的样子。“Linux 之年”就是现在，早几年就已经是了。Linux 和 KDE 不仅给了我对自己硬件的自由，也给了我决定如何与桌面互动的自由。一旦熟悉了快捷键，一切都变得有趣得多。非常爱 KDE 团队，Linux 生活万岁。"
+        },
+        {
+          "by": "mongol",
+          "text": "我有点自豪，自己看过最初那篇招募志愿者建设 Kool Desktop Environment 的帖子。当时我痴迷地读 Usenet 小组，记得很早就发布过测试版。起初我没跑过，但记得大家热情高涨。虽然我从没在开发上参与过，但我对项目早期很熟悉。一直到 KDE 4，我都是密切关注的用户。但 KDE 4 太不稳定、bug 太多，我在那段时间离开了。纪录片也正是在这里做了个大跳跃。"
+        }
+      ],
+      "cover": "https://tube.kockatoo.org/lazy-static/thumbnails/02935b80-28d9-4fd7-bc33-9d0cb76f2e80.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50496976",
+      "id": "50496976",
+      "note": "KDE 纪录片上线，三十年桌面开源史，情怀与工程并存，Linux 用户必看。",
+      "score": 369,
+      "title": "KDE: The documentary [video]",
+      "titleZh": "KDE 纪录片 [视频]",
+      "url": "https://tube.kockatoo.org/w/fFinNHfanLT7aBEb2B8y4c"
+    },
+    {
+      "by": "madihaa",
+      "comments": 56,
+      "commentsList": [
+        {
+          "by": "stephc_int13",
+          "text": "黄仁勋犯过错，给了敌人机会。但更大的错误是他难以置信的贪婪：他本可以满足于做一款极有价值产品的心满意足的供应商，接受竞争，接受准垄断只是暂时的。但他想要整块蛋糕。贪婪和傲慢。我认为动荡对一些人会很痛苦，尤其是那些指望英伟达股票养老的人。但从大局看，这是好消息。"
+        },
+        {
+          "by": "lizknope",
+          "text": "昨天我们已经有过一个很大的相关讨论：英伟达据称通过资助 AI 初创公司购买自家 GPU 来人为制造稀缺（techpowerup.com）https://news.ycombinator.com/item?id=50493251"
+        },
+        {
+          "by": "maximilianroos",
+          "text": "看出这说法站不住脚的一个办法是看 GPU 租赁价格：如果真有个集团买卡来维持购买价高企，租赁价格应该下跌才对，因为买卡来出租会无利可图。但实际情况正好相反。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50501631",
+      "id": "50501631",
+      "note": "曝英伟达通过循环融资人为抬高 GPU 价格，AI 繁荣背后的另一面，评论区对指控本身也有质疑。",
+      "score": 113,
+      "title": "Nvidia deliberately kept GPU prices high through circular financing deals",
+      "titleZh": "英伟达被曝通过循环融资刻意维持 GPU 高价",
+      "url": "https://www.techspot.com/news/114558-nvidia-deliberately-kept-gpu-prices-high-through-circular.html"
+    },
+    {
+      "by": "rbanffy",
+      "comments": 90,
+      "commentsList": [
+        {
+          "by": "time4tea",
+          "text": "不太喜欢这种信任叙事本质上就是中心化——要求“大云厂商”，本质上在推动锁定。我理解得对吗？这似乎有点反 Python 精神。"
+        },
+        {
+          "by": "djoldman",
+          "text": "举几个例子：dlt（无 provenance）：https://pypi.org/project/dlt/#files；datasette（有 provenance）：https://pypi.org/project/datasette/#files"
+        },
+        {
+          "by": "samhclark",
+          "text": "太好了！我希望基于 sigstore 的、或者至少是 sigstore 风格的“无密钥”短期签名越来越流行，这样支持会越来越好。特别是，如果在 CI/CD 流水线里做好安全的 OIDC 处理能成为留住用户在 GitHub Actions 或 GitLab 上的理由，我希望第三方托管的 CI/CD 服务也开始认真对待这个缺口，努力跟上。我支持无密钥签名，也希望有更多提供方加入，越多人采用，势头越大。"
+        }
+      ],
+      "cover": "https://blog.pypi.org/assets/images/social/posts/2026-11-06-ui-updates-complete.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50497892",
+      "id": "50497892",
+      "note": "PyPI 项目页改版，安全信号更醒目，装包前先看一眼 provenance，供应链安全又进一步。",
+      "score": 197,
+      "title": "PyPI's redesigned project pages with clearer security signals are now live",
+      "titleZh": "PyPI 项目页改版，安全信号更清晰，已上线",
+      "url": "https://blog.pypi.org/posts/2026-11-06-ui-updates-complete/"
+    },
+    {
+      "by": "casi",
+      "comments": 280,
+      "commentsList": [
+        {
+          "by": "deng",
+          "text": "现在我直接收坏屏的旧笔记本拆主板。它们便宜得离谱，常常自带 16GB 内存，随便装个 Linux，通常比树莓派快得多。主板当然更大，对很多人来说这是硬伤；除非大幅降频，否则也需要主动散热；功耗也更高，不过很多主板可以根据外设和速度需求调到几瓦。确实比直接买树莓派麻烦，但值。"
+        },
+        {
+          "by": "Freak_NL",
+          "text": "这是关键问题：> 开放问题是供应。找两台好用的二手手机很容易；但要找几百台型号一致、电池健康、摄像头表现可预测的手机，就要费更多功夫。我越来越确信这是可行的。树莓派这类是标准化硬件，买一台、两台、十台、二十台、一百台，都能直接扩展，基本都能开箱即用（除了个别到手即坏的，还有保修）。而二手智能手机每台的问题各不相同，规模化会很麻烦。"
+        },
+        {
+          "by": "cdetroye",
+          "text": "最近我开始收集旧手机，在上面跑 Nerves（Nerves 把 Erlang 虚拟机打包进主线内核，能跑在各种设备上）。灵感来自 Marc Lainez 在 Goatmire 的一场演讲，他在各种奇特设备上跑过 Nerves（比如 Wii）。我绝不是专家，但先从 Postmarket OS 支持列表里的设备入手，再加上 Claude，很多旧设备都能跑上主线 Linux，几乎所有驱动都能工作。新一点的设备难一些，但往回推近十年就很容易。到目前为止我已经复活了不少旧设备。"
+        }
+      ],
+      "cover": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/redmi-leds-1200.webp",
+      "hnUrl": "https://news.ycombinator.com/item?id=50440709",
+      "id": "50440709",
+      "note": "旧手机能不能替代树莓派？便宜是真便宜，但能不能规模化、供应稳不稳定是另一回事，评论区吵得最热的一条。",
+      "score": 496,
+      "title": "Why get an expensive Pi when I have an old phone?",
+      "titleZh": "有旧手机在手，何必买昂贵的树莓派？",
+      "url": "https://so.long.thanks.fish/why-pi-when-i-have-an-old-phone/"
+    },
+    {
+      "by": "VaibhaavTiwari",
+      "comments": 8,
+      "commentsList": [
+        {
+          "by": "armcat",
+          "text": "我喜欢这个，从第一性原理出发复现一个模型，没有比这更棒的了。而且这让我想重新捡起 Jax（等我花够时间玩 Zig 之后）。感谢分享！"
+        },
+        {
+          "by": "mattfrommars",
+          "text": "这类帖子总能激发人去理解推理过程、理解作者做了什么。对更熟悉这个领域的人来说，有没有一条好的路线图，能帮人建立起直觉、理解该怎么构建？我在 Java 和 Python 上没问题，做的是普通的软件工程工作。"
+        },
+        {
+          "by": "nico",
+          "text": "> 比起让语言模型给我生成一个 3D 端到端可运行模型来捕捉细节，我更喜欢…… 我喜欢这个！是的，有了系统的可视化，推理起来容易得多。我希望所有 AI 模型都附带交互式动画架构图。> 所以我想让它不一样，纯粹为了不同而用了各种书…… 这很酷，对你自己的项目很棒。同时用别人用过的数据集也有帮助，因为这样可以直接比较结果。写得非常好，非常感谢所有细节和示例输出。"
+        }
+      ],
+      "cover": "https://opengraph.githubassets.com/f15024c0c1368a0a9c5c226f067d4565ac65c2a9241b6ee6447f50047dea2e4b/Vaibhaav-Tiwari/deepseek-v3-jax",
+      "hnUrl": "https://news.ycombinator.com/item?id=50497589",
+      "id": "50497589",
+      "note": "200 行纯 JAX 从头复现 DeepSeek V3 推理，想读懂大模型架构的可以从这份代码入手。",
+      "score": 157,
+      "title": "Show HN: DeepSeek V3 in ~200 lines of pure Jax",
+      "titleZh": "Show HN：约 200 行纯 JAX 实现 DeepSeek V3",
+      "url": "https://github.com/Vaibhaav-Tiwari/deepseek-v3-jax"
+    },
+    {
+      "by": "acossta",
+      "comments": 36,
+      "commentsList": [
+        {
+          "by": "CharlieDigital",
+          "text": "相关：我发现基于团队的工作流确实越来越成功（定义为自主性更高、质量下降更少），有很多证据支持这一点。Adaptive Auto-Harness：面向开放式任务流的智能体系统部署持续自我改进（https://arxiv.org/abs/2606.01770）讲的是多智能体、基于角色的自适应框架在非同质工作流上协作；team-solve（https://github.com/guregodevo/memdoor/tree/main/examples/wor...）小模型团队在 LiveCodeBench 上击败 Fable；Agensh 论文（https://arxiv.org/html/2609.26781v1）也讨论了相关内容。"
+        },
+        {
+          "by": "mirrokni",
+          "text": "如其他人所说，我们已经在这里宣布过 /teamwork 的部分内容：https://antigravity.google/blog/teamwork-when-ai-becomes-a-r... 还有更多可视化。这篇帖子主要是想汇报数学、科学、编码和工程方面的一些进展，展示可以用它完成的任务示例。我们在持续改进 /teamwork，并把这些变化推给外部用户。之后也会在 Antigravity 博客上发布更多关于动态组建 agent 团队的改进和细节。敬请期待！我还在这里加了一份示例清单：https://x.com/mirrokni/s"
+        },
+        {
+          "by": "stbenjam",
+          "text": "我不清楚 /teamwork 和 Claude 的动态工作流相比有什么不同，或者到底有没有不同。作为一个框架，Antigravity 感觉落后很多，甚至连自动模式都没有。而且他们宣布 /goal 的时间，比我觉得需要在 CC 或 Codex 里用它晚了很久。"
+        }
+      ],
+      "cover": "https://storage.googleapis.com/gweb-research2023-media/images/HO_previewImage1.width-800.format-jpeg.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50496811",
+      "id": "50496811",
+      "note": "Google Antigravity 的多智能体协作 /teamwork 在科研与工程任务上的进展，团队式 agent 是下一个比拼点。",
+      "score": 158,
+      "title": "Advancing science and engineering with Antigravity's /teamwork",
+      "titleZh": "Antigravity /teamwork 推进科学与工程",
+      "url": "https://research.google/blog/advancing-science-engineering-with-antigravitys-teamwork-feature/"
+    },
+    {
+      "by": "PaulHoule",
+      "comments": 37,
+      "commentsList": [
+        {
+          "by": "linsomniac",
+          "text": "我一直好奇为什么（据我所知）没有 Linux 的分层存储管理器（HSM）。我知道它们通常用在大机上，以磁带作为底层存储，但尤其是在 Optane 看起来很有前景的时候，机械盘↔SSD↔Optane↔内存的分层似乎是个巨大的性能机会。不过，我猜这算是“分层违规”……说实话，现在除了 ZFS 备份服务器，我们几乎全用 SSD 了，而那种分层违规里本来就已经有 SSD 和内存缓存了……"
+        },
+        {
+          "by": "dabinat",
+          "text": "> 8TB（699 美元）或 20TB（899 美元）HDD 配置——都不包含必需的 SSD。8TB 版本性价比看起来很差。对比一下，亚马逊上 24TB 的希捷 Exos 硬盘卖 799 美元。"
+        },
+        {
+          "by": "GaryBluto",
+          "text": "挺 neat 的，但这不更像是混合介质的类 RAID 配置，而不是“混合”硬盘吗？尤其是 SSD 还不包含在内。"
+        }
+      ],
+      "cover": "https://cdn.arstechnica.net/wp-content/uploads/2015/09/harddrive3-1000x648.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50453901",
+      "id": "50453901",
+      "note": "希捷复活 SSD+HDD 混合硬盘，但 SSD 还得自备，性价比存疑，老问题一个没少。",
+      "score": 64,
+      "title": "Seagate's new hybrid drive raises some old questions",
+      "titleZh": "希捷新混合硬盘引出一些老问题",
+      "url": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/"
+    },
+    {
+      "by": "NaOH",
+      "comments": 48,
+      "commentsList": [
+        {
+          "by": "bityard",
+          "text": "与此相关，我的生活在我停止向所有人证明自己之后变得好得不可思议。我以前总想在每次会议上分享自己的想法和观点，痴迷于“读懂”别人，琢磨他们没说出口的优先级、什么能打动他们、预测他们接下来会说什么做什么，再调整自己的行为来换取认可。那真是巨大的时间浪费。后来为了保住理智，我埋头做需要做的事（不管有没有人指派），不去参加我不关心的会议……"
+        },
+        {
+          "by": "intellectronica",
+          "text": "凭经验说：它有效，在没有其他选择时是有效的策略。但长期坚持很难，也可能有点不健康——它变成了一种自我背叛，你反复压抑对难缠之人的真实负面感受。这些感受的存在是有原因的，哪怕向触发它们的人表达出来会适得其反。另外，在更极端的情况下，那些容易制造 drama 和冲突的人会察觉到这种技巧，并把它变成一场意志较量——看谁先撑不住。"
+        },
+        {
+          "by": "nye2k",
+          "text": "我喜欢“黄岩法”的想法：依然闪耀、微笑、保持积极的自我，只是不再为有毒行为付出任何东西……在我的情况里，整个部门的士气都提高了，精神折磨也结束了。灰岩法对付一场让我夜不能寐的有毒职场冲突确实有效……但……现实是，它对我们任何人都没有产生任何工作成果。"
+        }
+      ],
+      "cover": "https://hips.hearstapps.com/hmg-prod/images/gettyimages-164924203a-1639658133.png?crop=1.00xw:0.503xh;0,0.399xh&resize=1200:*",
+      "hnUrl": "https://news.ycombinator.com/item?id=50471874",
+      "id": "50471874",
+      "note": "“灰岩法”：对付难缠的人，最有效的办法是变得无聊至极，职场生存冷知识。",
+      "score": 84,
+      "title": "'Grey Rocking': The Life-Improving Power of Being Really, Really Boring (2021)",
+      "titleZh": "“灰岩法”：变得极其无聊的生活改善力量（2021）",
+      "url": "https://www.esquire.com/uk/life/a38473153/grey-rock-technique-being-boring/"
+    },
+    {
+      "by": "dverlaeckt80",
+      "comments": 5,
+      "commentsList": [
+        {
+          "by": "kens",
+          "text": "我是作者，有关于 DTL 的问题可以问我……"
+        }
+      ],
+      "cover": "https://lh3.googleusercontent.com/blogger_img_proxy/AEn0k_uN0QyaHCshfCiSd2k09aXV-ayhYo17omldRfDlTs2XS1kq66HhJ8BZ-bBVqBVaPYAUWXeN2jnb_wOIbv7p6AQNZbM9mcaFIs-8Neg8yijFnk7V6iCijxE=w1200-h630-p-k-no-nu",
+      "hnUrl": "https://news.ycombinator.com/item?id=50416011",
+      "id": "50416011",
+      "note": "逆向一颗古董二极管-晶体管逻辑芯片，Ken Shirriff 的硬核手艺，芯片考古爱好者必看。",
+      "score": 90,
+      "title": "Reverse engineering a vintage diode-transistor logic chip",
+      "titleZh": "逆向一颗古董二极管-晶体管逻辑芯片",
+      "url": "https://www.righto.com/2026/11/signetics-st680a-dtl-nand.html"
+    },
+    {
+      "by": "DeepLogin",
+      "comments": 97,
+      "commentsList": [
+        {
+          "by": "esperent",
+          "text": "要读到文章一半才提到这一点，本该放在第一段：> 研究人员通过测量三个开源 AI 模型——阿里巴巴的 Qwen 3、Google 的 Gemma 3 和 Meta 的 Llama 3.1——的能耗，发现了能源与准确率上的差异。"
+        },
+        {
+          "by": "vova_hn2",
+          "text": "我认为，从固定词表转向 H-Nets [0]（HN 上讨论过 [1]）这类方案，至少能改善这个问题，甚至完全解决。因为现在的核心问题是，有些语言的分词效率远高于其他语言，而这是一场零和游戏：词表数量有限，为一种语言增加所需词元，就不可避免地要为另一种语言减少词元，从而降低它的效率。[0] https://www.cartesia.ai/blog/from-tokens-to-bytes-part-1 [1] https://news.ycombinator.com/item?id=5027"
+        },
+        {
+          "by": "suresk",
+          "text": "有点跑题，但我一直好奇：如果一个 LLM 主要用另一种语言训练，它的推理行为会不会改变？比如数学更好、诗歌更差之类的？"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50441444",
+      "id": "50441444",
+      "note": "生成式 AI 处理非英语文本更耗能，分词效率不均是根源，非英语用户在默默多付电费。",
+      "score": 173,
+      "title": "Generative AI uses more energy on non-English text",
+      "titleZh": "生成式 AI 处理非英语文本更耗能",
+      "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/"
+    },
+    {
+      "by": "torutofu",
+      "comments": 55,
+      "commentsList": [
+        {
+          "by": "schiffern",
+          "text": "很高兴看到结果和该领域元老 Dr Arthur Bradley 的一致（不是双关）。https://www.youtube.com/watch?v=aMct99DiZak 就我而言，三层锡纸加密封袋裹起来能做到 90dB 以上的衰减，还附带防潮和机械保护。另外挑个小毛病：E1 脉冲不会烧掉大型变压器，真正让电网电压升高、烧坏变压器的是持续数秒到数分钟的长周期 E3 脉冲。"
+        },
+        {
+          "by": "jonhohle",
+          "text": "上周我和孩子做了一个保真度低得多的实验。我有一些收音机放在金属盒里，以防万一出事还能收到应急广播。为了测试屏蔽效果，我们把手机放进盒子，让人打电话看它会不会响。结果响了。于是我们又试了其他东西：微波炉（有效）、工具箱（无效）、法拉第包（有效）、各种储物箱（无效）。幸好装收音机的盒子是个旧盒子，边缘的漆磨掉了一些。我们用铝箔做了个“密封圈”再试一次，终于成功了。"
+        },
+        {
+          "by": "varjag",
+          "text": "严格来说，我测量的方向是“反的”，因为我很难想象 EMP 会在地下室的垃圾桶里爆发，但屏蔽在两个方向上效果相同，所以这不重要。其实也不重要，在 1.5GHz 下，在桶内你仍然处于近场区域。"
+        }
+      ],
+      "cover": "https://www.jefftk.com/receiver-source-no-trash-can-big.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50467278",
+      "id": "50467278",
+      "note": "拿垃圾桶当法拉第笼，实测能挡多少电磁脉冲？结果出人意料地实在，末日准备者与好奇者都值得一看。",
+      "score": 62,
+      "title": "Testing a trash can Faraday cage",
+      "titleZh": "测试垃圾桶法拉第笼",
+      "url": "https://www.jefftk.com/p/testing-a-trash-can-faraday-cage"
+    }
+  ],
+  "mood": "今天硬核与现实交织：星舰试飞收官、Lovable 大规模泄密、旧手机挑战树莓派，复古计算与开源桌面也齐上阵。"
+}
