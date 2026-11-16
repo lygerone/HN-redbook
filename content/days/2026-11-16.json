@@ -1,0 +1,366 @@
+{
+  "date": "2026-11-16",
+  "highlights": [
+    {
+      "by": "Animats",
+      "from": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "text": "地球上的智能至少独立演化了三次——哺乳动物、鸦科和章鱼，智能不止一种做法，这对 AI 很有启发。"
+    },
+    {
+      "by": "misterderpie",
+      "from": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "text": "LLM 正在把所有权还给消费者——1994 年的老吉普，AI 用 3 美元的 Arduino 就把它逆向了。"
+    },
+    {
+      "by": "xp84",
+      "from": "Old Bitly Links Are Being Hijacked",
+      "text": "外包短链对互联网的危害比自建大一个数量级：账号被封、公司倒闭，链接就永久断了，还修不好。"
+    },
+    {
+      "by": "Havoc",
+      "from": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "text": "德文原文远没有 HN 标题那么夸张：是投药系统故障加监控邮件失效的双重失误，4 人送医、1 人中度受伤。"
+    }
+  ],
+  "items": [
+    {
+      "by": "MacAnorak",
+      "comments": 229,
+      "commentsList": [
+        {
+          "by": "legitronics",
+          "text": "我去查了 240Hz 这个说法的源头，得出的结论跟测试者不太一样……双层 OLED 的两层都以 480Hz 做 PWM、相位差 180 度，叠加后等效 960Hz，这在大部分可用亮度下都成立。"
+        },
+        {
+          "by": "Velocifyer",
+          "text": "很高兴有人开始关注频闪敏感这件事。还有一些别的东西也会让人敏感：白光 LED 的显色指数（CRI）、LCD 的动态模糊（比如约一半 Switch 2 的屏幕），盯着看都会让眼睛难受。"
+        },
+        {
+          "by": "explosion-s",
+          "text": "我脑震荡过，这篇对我很有共鸣。对我来说不只是亮 OLED 屏，任何屏幕都这样……"
+        }
+      ],
+      "cover": "https://macanorak.com/content/images/2026/11/PROLED-Display-XDR-1.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50506719",
+      "id": "50506719",
+      "note": "新款 OLED 屏反而让一部分人眼睛难受，评论区有示波器实测争论，240Hz 还是 960Hz 各执一词；对频闪敏感的人必看。",
+      "score": 414,
+      "title": "The MacBook Pro's OLED PWM problem",
+      "titleZh": "MacBook Pro 的 OLED PWM 频闪问题",
+      "url": "https://macanorak.com/the-macbook-pros-oled-pwm-problem-when-a-better-display-becomes-worse-to-use/"
+    },
+    {
+      "by": "DeepLogin",
+      "comments": 175,
+      "commentsList": [
+        {
+          "by": "amluto",
+          "text": "我自己运行一套相当先进的闭环加氯系统，这事已经离谱到家了。这类系统很容易出故障，而且故障方式往往是测出的氯含量偏低或为零，于是过量投氯……商业场景下必须有人（或用完全不同的传感器设计，比如比色传感器）定期实测泳池氯含量。"
+        },
+        {
+          "by": "N19PEDL2",
+          "text": "这 100% 是酒店的错，不是微软的错。这么危险的事，沟通居然完全依赖邮件，没有任何备份或二次确认，这不可接受。"
+        },
+        {
+          "by": "Havoc",
+          "text": "评论区翻译丢了不少信息，我粗翻一下：13 名客人抱怨呼吸道刺激（后来又加 2 人），4 人送医，1 人中度受伤，其余已出院。双重故障——投药系统有缺陷（投药过量），监控邮件没发出去。德文原文听起来远没有 HN 标题那么夸张。"
+        }
+      ],
+      "cover": "https://www1.wdr.de/nrw/koeln/phantasialand-134~_v-gseagaleriexl.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50509411",
+      "id": "50509411",
+      "note": "标题很抓眼，但评论区有人翻译了德文原文：其实是投药系统本身故障加上监控邮件没发出去的双重失误，责任归属有争议。",
+      "score": 365,
+      "title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+      "titleZh": "微软 365 宕机，15 名酒店客人氯气中毒",
+      "url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html"
+    },
+    {
+      "by": "envoked",
+      "comments": 160,
+      "commentsList": [
+        {
+          "by": "libria",
+          "text": "Claude 建议它可以自己驱动油泵。我说：“行啊，你要能做到，为什么不呢？我不信你能做到。”然后它开始给油轨加压，一直加压，油泵转了大概 10 秒，我开始慌了，赶紧让它停下……这是第一次 Claude 真正在电脑之外造成了物理变化。"
+        },
+        {
+          "by": "misterderpie",
+          "text": "LLM 改变消费市场的方式，不是大公司希望的那种。能把所有权还给消费者，或让别人做到这一点，真是很棒的演示。"
+        },
+        {
+          "by": "pontifier",
+          "text": "这就是为什么 AI 热潮不是被高估的。当你有了想法，就能用 AI 快速朝着目标推进一大步，整个格局都会改变。我们真的接近奇点了。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50463399",
+      "id": "50463399",
+      "note": "AI 动手能力的年度名场面之一：让老车油泵自己启动那一刻，博主都吓到了；评论区在讨论“把所有权还给用户”。",
+      "score": 326,
+      "title": "Claude Code and Codex reverse engineered my 1994 Jeep's ECU over a $3 Arduino [video]",
+      "titleZh": "Claude Code 和 Codex 用 3 美元的 Arduino 逆向了我 1994 年吉普车的 ECU",
+      "url": "https://www.youtube.com/watch?v=WPj3aQ-xxpI"
+    },
+    {
+      "by": "ksec",
+      "comments": 99,
+      "commentsList": [
+        {
+          "by": "jbellis",
+          "text": "Anders Hejlsberg 简直是 GOAT。Turbo Pascal、Delphi、C#、TypeScript，职业生涯堪称现象级，品味比我能想到的任何语言设计师都好。"
+        },
+        {
+          "by": "hawkice",
+          "text": "既然开发速度大幅提升了，我很想看看从基本原理出发、简单高效的操作系统和编程系统会是什么样……很多低效当初是为了开发效率而容忍的，现在这个理由还成立吗，值得怀疑。"
+        },
+        {
+          "by": "jll29",
+          "text": "有些对比看起来很搞笑，但 touch 命令的二进制居然比 Turbo Pascal 大，这太离谱了：touch 基本就是创建空文件或更新文件时间，没理由超过 2K……"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50506894",
+      "id": "50506894",
+      "note": "十几年前的老文又翻红了：touch 命令的二进制居然比整个 Turbo Pascal 还大，评论区顺带吹了一波 Anders Hejlsberg 的职业生涯。",
+      "score": 194,
+      "title": "Things That Turbo Pascal Is Smaller Than (2011)",
+      "titleZh": "Turbo Pascal 比这些东西都小（2011 年老文）",
+      "url": "https://prog21.dadgum.com/116.html"
+    },
+    {
+      "by": "nharada",
+      "comments": 66,
+      "commentsList": [
+        {
+          "by": "breakyerself",
+          "text": "每次聊到这个都要明白，这次厄尔尼诺发生在全球气候比过去 125,000 年任何时候都更暖的背景下。天气和气候的风险一直在增长。"
+        },
+        {
+          "by": "rene_d",
+          "text": "Climate Reanalyzer 的图表很有启发性——一眼就能看出形势有多极端：https://climatereanalyzer.org/clim/sst_daily"
+        },
+        {
+          "by": "_ache_",
+          "text": "这里还有一个法语版，资料来源很扎实，是 Hugging Face 的一位研究者做的：https://youtu.be/DutKGuQu4a0 法国受影响不大，所以不针对任何国家。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50509308",
+      "id": "50509308",
+      "note": "一支科普短片，评论区提醒背景：这次厄尔尼诺发生在全球比过去 12.5 万年任何时候都更暖的气候里。",
+      "score": 163,
+      "title": "A short explainer on how El Niño works [video]",
+      "titleZh": "厄尔尼诺是怎么回事，简短讲解 [视频]",
+      "url": "https://www.youtube.com/watch?v=7_JF3etiAv8"
+    },
+    {
+      "by": "gumby",
+      "comments": 118,
+      "commentsList": [
+        {
+          "by": "Animats",
+          "text": "地球上的智能至少独立演化了三次——哺乳动物、鸦科和章鱼。所有哺乳动物的大脑结构大致相同，但鸦科不在同一演化分支上，神经元设计和大脑结构都不同……所以智能不止一种做法，这对 AI 很有用。章鱼的系统比哺乳动物分散得多……"
+        },
+        {
+          "by": "0xBA5ED",
+          "text": "标题说不通，因为“birdbrain”（鸟脑子）并不意味着决策慢。"
+        },
+        {
+          "by": "WalterBright",
+          "text": "它们想得快可能是因为脑子更小——连接距离更短。比如学钢琴练的是脊髓不是大脑，因为脊髓的反馈回路更短。跳舞也一样，练的时候不看脚，因为反馈回路太慢了。"
+        }
+      ],
+      "cover": "https://static01.nyt.com/images/2026/11/05/multimedia/00SCI-TB-CROWS-01-tlwk/00SCI-TB-CROWS-01-tlwk-facebookJumbo.jpg",
+      "hnUrl": "https://news.ycombinator.com/item?id=50509023",
+      "id": "50509023",
+      "note": "乌鸦没有哺乳动物那样的分层大脑皮层，却照样灵活决策；评论区点出智能在地球上至少独立演化了三次，对 AI 也有启发。",
+      "score": 156,
+      "title": "'Birdbrain' Is a Misnomer. Crows Make Decisions Faster Than We Can",
+      "titleZh": "“鸟脑子”是误称，乌鸦做决策比我们还快",
+      "url": "https://www.nytimes.com/2026/11/15/science/birdbrain-crows-birds-research-decision.html"
+    },
+    {
+      "by": "bcye",
+      "comments": 32,
+      "commentsList": [
+        {
+          "by": "boramalper",
+          "text": "类似的项目还有 OpenFreeMap：https://openfreemap.org ——公开实例完全免费：浏览量和请求数不限，无需注册、没有用户数据库、没有 API 密钥、没有 Cookie……技术栈：没有瓦片服务器在跑，只有 nginx 在 serve 一个包含 3 亿硬链接文件的 Btrfs 镜像。"
+        },
+        {
+          "by": "neomantra",
+          "text": "我们在 Cloudflare R2 后面也做了类似的事，思路一样：自己掌控地图基础设施（为了隐私和访问控制），同时减轻公共基础设施的负担……可以用“gloss”从命令行查看 PMTiles，或者拖放到它的网页界面试试。"
+        },
+        {
+          "by": "motoroco",
+          "text": "是的，底图小到可以低成本存储和托管，但高分辨率卫星图随着缩放级别升高，体积和成本会迅速爆炸。我给自己的应用做过北美卫星拼图，为了离线使用，不得不在 z17 停下……全球高清覆盖能到几百 TB，就不再是“扔到 R2 上用 Worker serve”或者“用家用宽带顺序下载上传整个数据集”的范畴了。"
+        }
+      ],
+      "cover": null,
+      "hnUrl": "https://news.ycombinator.com/item?id=50509837",
+      "id": "50509837",
+      "note": "不想再给地图大厂交钱的人可以看看：单文件瓦片加对象存储就能自己跑地图服务，评论区还补了 OpenFreeMap 等同类方案。",
+      "score": 142,
+      "title": "Protomaps: Self-hosting map tiles has gotten cheap and easy",
+      "titleZh": "Protomaps：自托管地图瓦片已经又便宜又简单了",
+      "url": "https://bruceroettgers.eu/blog/protomaps/"
+    },
+    {
+      "by": "hspeiser",
+      "comments": 66,
+      "commentsList": [
+        {
+          "by": "xp84",
+          "text": "在我看来，外包的短链服务对互联网的危害比自建要大一个数量级。它们会随着时间积累 URL，然后时间一长，什么事都可能发生（账号被停用、短链公司倒闭/遭遇灾难性数据丢失等等），结果就是永久断链，而且可能修不好。尤其要考虑到，除非它们 spam 到往页面里插恶心的插屏广告，否则如果你现在不付高级服务费，它们从你身上赚不到一分钱。"
+        },
+        {
+          "by": "silisili",
+          "text": "最让我意外的是，短链公司居然赚得到钱来养一个信任与安全团队。我还以为那就是一两个人跑的副业项目。"
+        },
+        {
+          "by": "Alive-in-2025",
+          "text": "互联网上有太多被遗弃的 URL 所有权问题。我们需要一个类似登记机构的东西来记录某个 URL 原本是干嘛的。我们有 archive.is 或 .org 来保存某个 URL 的内容快照……我经常遇到写小众话题的文章，后来却怎么也找不到了。"
+        }
+      ],
+      "cover": "https://ransomnews.com/wp-content/uploads/2026/11/burger-king-tweet-bitly-link-hijack-2026-cover-1024x576.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50511395",
+      "id": "50511395",
+      "note": "汉堡王旧推文里的短链被劫持到别处去了；评论区提醒：外包短链最大的坑是时间一长，账号被封、公司倒闭，链接就永久断了还修不好。",
+      "score": 136,
+      "title": "Old Bitly Links Are Being Hijacked",
+      "titleZh": "旧的 Bitly 短链正在被劫持",
+      "url": "https://ransomnews.com/burger-king-tweet-bitly-link-hijack-2026/"
+    },
+    {
+      "by": "coinfused",
+      "comments": 27,
+      "commentsList": [
+        {
+          "by": "varun_ch",
+          "text": "我最近试过在平板上手写 A-z 然后发给 Codex 做手写字体，效果还行。我敢打赌，如果多给一些样本，就能让它用上花哨的字体特性来做自动变体和各种连字之类的排版功能。"
+        },
+        {
+          "by": "johannes1234321",
+          "text": "这很棒。可惜它没有带重音的字符，所以我没法用它写自己的名字，而这正是我最想用“我的”字体做的事。我理解他们不想覆盖整个 Unicode，但能加自定义字母就好了。"
+        },
+        {
+          "by": "al_borland",
+          "text": "SkyMall 在 90 年代总有类似产品的广告，我一直很想要。现在技术终于让这事变得容易了，这很酷。我最近试了 iOS 上的 Fineliner 应用，入门引导会让你手绘所有 UI 图标，还可以选择创建自己的字体，挺 neat 的。"
+        }
+      ],
+      "cover": "https://ductus.sorenblank.com/opengraph-image.png?opengraph-image.3-4qkqxu0b7tg.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50509972",
+      "id": "50509972",
+      "note": "写一遍字母表就能生成自己的手写字体，小而美的工具站；评论区有人已经用 Codex 试过，还惦记着 90 年代 SkyMall 广告里的同类产品。",
+      "score": 107,
+      "title": "Handwriting, as a Font",
+      "titleZh": "把手写字做成字体",
+      "url": "https://ductus.sorenblank.com"
+    },
+    {
+      "by": "ranger_danger",
+      "comments": 10,
+      "commentsList": [
+        {
+          "by": "rossng",
+          "text": "好笑的是，我这个周末也在 vibe coding 一个折纸飞机、放飞纸飞机的模拟器，agent 选的视觉风格非常相似：https://www.rossng.eu/paper-flight/"
+        },
+        {
+          "by": "aflag",
+          "text": "我想知道的是做这个花了多少钱、用了多少提示词。整体看起来没什么我自己用 Claude Code 提示一下就做不出来的东西。"
+        },
+        {
+          "by": "dvh",
+          "text": "让旋转手机的提示可以跳过。"
+        }
+      ],
+      "cover": "https://baron.by.dai.studio/og-image.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50510296",
+      "id": "50510296",
+      "note": "浏览器里就能飞的轻量飞行模拟器，种子生成地形；评论区有人问“花了多少钱、写了多少提示词”，也有人吐槽手机旋转提示关不掉。",
+      "score": 76,
+      "title": "WebGL Flight Simulator with seed generated terrain",
+      "titleZh": "种子地形生成的 WebGL 飞行模拟器",
+      "url": "https://baron.by.dai.studio/"
+    },
+    {
+      "by": "gregsadetsky",
+      "comments": 23,
+      "commentsList": [
+        {
+          "by": "monkeyking135",
+          "text": "我不明白这篇为什么上了 HN 首页。这东西不新，也没发新版本。Mosquitto 很好，到处都在用，但不知道为什么现在被贴出来。"
+        },
+        {
+          "by": "maxpert",
+          "text": "厚脸皮安利一下，我用 AMQP 实现了 https://github.com/maxpert/strangeq，计划把 MQTT 作为支持的协议集成进来。目前我专注于优化实现本身（已经做到了），MQTT + 复制/分发是下一步。"
+        },
+        {
+          "by": "alentred",
+          "text": "既然都聊到这了，分享一下：我用 RabbitMQ + 它的 MQTT 插件很成功。据我所知，RabbitMQ 现在默认就内置了 MQTT 插件。大规模下从没出过问题，而且你的技术栈里还能顺带用上 AMQP，实际上你可以用 AMQP 来消费原本经 MQTT 发来的消息。"
+        }
+      ],
+      "cover": "https://repository-images.githubusercontent.com/53614190/b11dd480-90b3-11eb-903d-8c48f62e3172",
+      "hnUrl": "https://news.ycombinator.com/item?id=50509416",
+      "id": "50509416",
+      "note": "老牌 MQTT 代理又上首页了，评论区有人疑惑“这又不是新版本”，顺带有人安利 RabbitMQ 的 MQTT 插件和自己的 AMQP 实现。",
+      "score": 59,
+      "title": "Eclipse Mosquitto – An open source MQTT broker",
+      "titleZh": "Eclipse Mosquitto——开源 MQTT 代理",
+      "url": "https://github.com/eclipse-mosquitto/mosquitto"
+    },
+    {
+      "by": "CharlesW",
+      "comments": 9,
+      "commentsList": [
+        {
+          "by": "_hyn3",
+          "text": "我一直不喜欢 Salon，但即便如此，这正是 archive.org 了不起的地方，值得大大点赞！他们连我不喜欢的东西也保存下来 :) 现在捐款还不晚！https://archive.org/donate"
+        },
+        {
+          "by": "mellosouls",
+          "text": "前几天讨论过停刊：Goodbye from Salon（658 分，288 条评论）https://news.ycombinator.com/item?id=50383739 我自己的感想是，记得 Salon 当年漫不经心地处理掉了它出色的“国际议题”子论坛，后来又把整个 TableTalk 扔掉，完全没想过帮忙保存。"
+        },
+        {
+          "by": "vkgcr",
+          "text": "很有意思的是，我们已经进入了存档很便宜的时代。以前并非如此。往后我们可以期待拥有一份近乎精确的历史记录，因为记录东西既便宜又容易。我常常想知道过去到底是什么样。比如，70 年代的加州。"
+        }
+      ],
+      "cover": "https://blog.archive.org/wp-content/uploads/2026/11/Salon-Logos-Background-2-2048x1071-1.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50511806",
+      "id": "50511806",
+      "note": "Salon 停刊后，archive.org 接手保存 30 年的新闻档案；评论区感慨：存档越来越便宜，未来我们会拥有近乎精确的历史记录。",
+      "score": 52,
+      "title": "Preserving 30 Years of Salon Journalism",
+      "titleZh": "保存 30 年的 Salon 新闻",
+      "url": "https://blog.archive.org/2026/11/12/preserving-30-years-of-salon-journalism/"
+    },
+    {
+      "by": "tdeangelis",
+      "comments": 4,
+      "commentsList": [
+        {
+          "by": "missmewiththatl",
+          "text": "这类游戏的魔力之一是它们会给你解谜所需的资源。这款好像没做到。我完全不懂齿轮比是怎么回事，虽然可以学，但游戏里放一张速查表让我上手会是好得多的体验。"
+        },
+        {
+          "by": "tdeangelis",
+          "text": "Fable 5.2 creation"
+        },
+        {
+          "by": "archargelod",
+          "text": "干得好，Claude。"
+        }
+      ],
+      "cover": "https://lastcomplication.com/icon-512.png",
+      "hnUrl": "https://news.ycombinator.com/item?id=50511718",
+      "id": "50511718",
+      "note": "制表主题的编程解谜小游戏，Zachtronics 味很正；评论区提醒：新手需要一张齿轮比速查表，不然完全不知道从哪下手。",
+      "score": 25,
+      "title": "Show HN: The Last Complication, a Zachtronics-style watchmaking puzzle game",
+      "titleZh": "Show HN：The Last Complication，一款 Zachtronics 风格的制表解谜游戏",
+      "url": "https://lastcomplication.com/"
+    }
+  ],
+  "mood": "今天偏硬核混搭：硬件显示、AI 逆向老车、气象科普、乌鸦智商全有，AI 相关不少但不算主导。"
+}
